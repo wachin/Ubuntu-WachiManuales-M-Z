@@ -1,0 +1,5 @@
+shutter --min_at_startup
+
+visto en la ayuda de shutter
+
+shutter --help 

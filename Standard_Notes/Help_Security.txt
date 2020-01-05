@@ -1,0 +1,98 @@
+
+https://standardnotes.org/help/security
+
+Actualizaciones de seguridad
+
+Standard Notes está construido sobre Standard File, una biblioteca de cifrado que creamos para garantizar una arquitectura independiente, confiable y autohospedable. El archivo estándar es de código abierto y se basa en una especificación abierta auditada que describe cómo cifrar, descifrar y sincronizar datos para un sistema basado en el usuario.
+
+Cuando se registra, inicia sesión, lee o escribe notas, usamos Archivo estándar para autenticar su sesión, generar sus claves de cifrado y convertir sus pulsaciones de teclas en galimatías a través del cifrado.
+
+Cada cuenta de Standard Notes tiene una versión de archivo estándar asociada a su cuenta. La versión describe el conjunto de pasos necesarios para generar claves de cifrado y cifrar datos. Al igual que cualquier sistema de software, las actualizaciones se emiten con el tiempo para abordar mejoras y vulnerabilidades por igual.
+
+Una actualización de seguridad dentro de Standard Notes es un proceso que actualiza su versión de cifrado a la última versión más segura. También genera nuevas claves de cifrado y vuelve a cifrar y sincroniza todos sus artículos.
+
+La última versión del archivo estándar es 003 y se lanzó el 12 de junio de 2018. Si su cuenta se creó antes de esa fecha, verá mensajes en la aplicación web o de escritorio sobre una actualización de seguridad disponible. El proceso en la aplicación lo guiará a través de la actualización.
+En general, los pasos para actualizar su versión de seguridad son:
+
+    Cierre sesión en todos los dispositivos (excepto la sesión que está utilizando para realizar la actualización).
+    Descargue una copia de seguridad de sus datos.
+    Introduce tu contraseña actual. Esto se utiliza para generar nuevas claves.
+    Vuelva a cifrar y vuelva a cargar sus artículos.
+
+Inicio de sesión estricto
+
+El inicio de sesión estricto es una capa de seguridad adicional que se puede habilitar durante el inicio de sesión. El inicio de sesión estricto le dice a la aplicación que está utilizando "no acepte ninguna versión de Archivo estándar inferior a la última versión disponible". Le garantiza que está iniciando sesión con la versión de seguridad más actualizada.
+
+Cómo funciona el inicio de sesión estricto:
+
+Cuando intente iniciar sesión en su cuenta de Standard Notes, se realizará una solicitud a nuestros servidores para recuperar lo que se conoce como "parámetros de autenticación" para su cuenta. Los parámetros de autenticación son datos no secretos que describen los métodos utilizados para generar su contraseña. Estos parámetros contienen la "versión" del archivo estándar que describimos anteriormente.
+
+Al diseñar nuestra arquitectura para hacer que el servidor sea "tonto", queremos tratar al servidor como una entidad no confiable. Esto se debe a que los servidores no están bajo el control del usuario, mientras que la aplicación frente a ellos está más directamente bajo su control. Por lo tanto, hemos diseñado nuestro sistema para que requiera una aplicación confiable, pero no un servidor confiable.
+
+Dado que nuestro objetivo de diseño es un servidor sin confianza, surge la pregunta de: ¿qué sucede si el servidor está bajo un ataque activo y transmite de manera engañosa una versión anterior de Archivo estándar a una aplicación solicitante?
+
+Por ejemplo, si hay dos versiones para una cuenta, A y B, y A es una versión anterior que describe un cierto conjunto de pasos para generar contraseñas, y B es una nueva versión que describe un método más seguro para generar contraseñas, estaría a favor del atacante intentar falsificar la aplicación para generar contraseñas utilizando la versión A (la versión anterior) en lugar de la versión B (la nueva versión).
+
+El inicio de sesión estricto básicamente dice: ignore la versión que devuelve el servidor. En su lugar, use la última versión que está codificada en mi aplicación.
+
+La última versión de Standard File es 003. Si su cuenta se creó antes del 12 de junio de 2018 y aún no ha realizado una actualización de seguridad, es probable que esté ejecutando la versión 002. Si actualmente intenta iniciar sesión con la última versión de Notas estándar, y si habilita el inicio de sesión estricto, su inicio de sesión será rechazado. Esto se debe a que el inicio de sesión estricto solo aceptará 003. En este caso, primero debe realizar la actualización de seguridad y luego comenzar a iniciar sesión con el inicio de sesión estricto, si así lo desea.
+
+¿Se requiere un inicio de sesión estricto?
+
+El inicio de sesión estricto es opcional, pero puede ser un "buen movimiento" a largo plazo, al igual que la autenticación de dos factores.
+
+Incluso sin un inicio de sesión estricto, las versiones anteriores de Standard File están codificadas para caducar después de un tiempo establecido, generalmente alrededor de 1 año desde el lanzamiento de la versión actualizada. Una vez que una versión caduca, ya no se acepta sin el consentimiento explícito del usuario. Esto también evita que el servidor engañe a la aplicación para que use una versión de cuenta inferior. El inicio de sesión estricto puede ser otra forma de decir: "No quiero esperar 1 año para que caduque la versión de seguridad anterior. Quiero obtener el mismo beneficio de inmediato".
+
+Si tiene alguna pregunta sobre las Notas estándar, el Archivo estándar o la seguridad general, no dude en ponerse en contacto.
+
+
+
+
+
+
+
+
+Security Updates
+
+Standard Notes is built on top of Standard File, an encryption library we built to ensure an independent, trustless, and self-hostable architecture. Standard File is open-source, and based on an audited open specification that describes how to encrypt, decrypt, and sync data for a user-based system.
+
+When you register, sign in, or read or write notes, we use Standard File to authenticate your session, generate your encryption keys, and turn your keystrokes into gibberish through encryption.
+
+Each Standard Notes account has a Standard File version associated to their account. The version describes the set of steps required to generate encryption keys and encrypt data. Like any software system, upgrades are issued over time to address improvements and vulnerabilities alike.
+
+A security update inside of Standard Notes is a process that updates your encryption version to the latest, most secure version. It also generates new encryption keys and re-encrypts and syncs all your items.
+
+The latest Standard File version is 003, and was released on June 12, 2018. If your account was created before that date, you will see prompts in the web or desktop app about an available security update. The in-app process will guide you through the update.
+In general, the steps to updating your security version are:
+
+    Sign out of all devices (except for the session you're using to perform the update).
+    Download a backup of your data.
+    Enter your current password. This is used to generate new keys.
+    Re-encrypt and reupload your items.
+
+Strict Sign In
+
+Strict sign in is an additional security layer that can be enabled during sign in. Strict sign in tells the app you're using "don't accept any Standard File version less than the latest available version." It ensures you're signing in with the most up to date security version.
+
+How strict sign in works:
+
+When you attempt to sign in to your Standard Notes account, a request will be made to our servers to retrieve what are known as "authentication parameters" for your account. Authentication parameters are non-secret data that describe the methods used to generate your password. These parameters contain the Standard File "version" we described earlier.
+
+In designing our architecture to make the server "dumb", we want to treat the server as a non-trustworthy entity. This is because servers are not in the user's control, while the app in front of them is more directly in their control. So, we've designed our system to require a trustworthy application, but not a trustworthy server.
+
+Given our design goal is a trustless server, the question arises of: what if the server is under an active attack and misleadingly conveys an older Standard File version to a requesting application?
+
+For example, if there are two versions for an account, A and B, and A is an older version that describes a certain set of steps to generate passwords, and B is a new version that describes a more secure method of generating passwords, it would be in an attacker's favor to try to spoof the application into generating passwords using version A (the older version) instead of version B (the new version).
+
+Strict sign in essentially says: ignore the version that is returned from the server. Instead, use the latest version that is hardcoded into my application.
+
+The latest version of Standard File is 003. If your account was created before June 12, 2018, and you have not yet performed a security update, it's likely you're running version 002. If you presently try to sign in using the latest version of Standard Notes, and you enable strict sign in, your sign in will be refused. This is because strict sign in will only accept 003. In this case, you should perform the security update first, then begin signing in with strict sign in, if you so choose.
+
+Is strict sign in required?
+
+Strict sign in is optional, but can be a long term 'good move', just like two-factor authentication.
+
+Even without strict sign in, older versions of Standard File are hardcoded to expire after a set time, usually about 1 year from the release of the upgraded version. After a version expires, it is no longer accepted without explicit consent from the user. This also prevents the server from tricking the application into using a lower account version. Strict sign in can be another way to say: "I don't want to wait 1 year for the older security version to expire. I want to get the same benefit right away."
+
+If you have any questions about Standard Notes, Standard File, or general security, please don't hesitate to get in touch.
+

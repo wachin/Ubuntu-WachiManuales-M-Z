@@ -1,0 +1,45 @@
+
+
+INSTALACIÓN
+
+Descarga el Master de:
+
+https://github.com/gapan/xdgmenumaker
+
+instala:
+
+sudo apt-get install txt2tags
+
+descomprimir el master en home y entrar allí en la terminal y poner
+
+
+sudo su
+
+ponga su contraseña
+
+luego ponga y ejecute (uno por uno):
+
+make
+
+make install
+
+poner cd en la terminal y luego poner:
+
+xdgmenumaker -i -f icewm > ~/.icewm/appmenu
+
+y debes editar tu ~/.icewm/menu y añadir la siguiente linea en cualquier lugar:
+
+include appmenu
+
+Listo, cuando icies sesión en icewm este cogerá el menú generado por xdgmenumaker en una opción llamada "Aplicaciones" allí en el menú
+
+Extra: Tu puedes añadir el comando xdgmenumaker como otro items en tu menu si tu quieres actualizarlo sin tener que poner el comando manualmente otra vez (esto es necesario hacerlo porque cuando uno instala una nueva aplicación icewm no actualiza los iconos, uno debe de hacerlo): 
+
+prog "Update Menu" _none_ xdgmenumaker -i -f icewm > ~/.icewm/appmenu
+
+Nota: Si tu no tienes iconos en tu menu, o si no encuentras cierta aplicación, el nombre del icono en el menu para tal aplicación esta puesto como "_none_". Las entradas del menu de Icewm deberían siempre incluir un icono. Si tu quieres poner un icono cambia "_none_" por la ruta donde está el icono en el sistema "" o donde la imagen este
+
+
+
+
+ 

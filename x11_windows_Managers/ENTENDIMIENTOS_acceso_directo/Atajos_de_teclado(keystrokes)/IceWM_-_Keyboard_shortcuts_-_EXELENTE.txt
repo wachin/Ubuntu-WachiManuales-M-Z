@@ -1,0 +1,40 @@
+
+IceWM - Keyboard shortcuts
+http://hrclinux.blogspot.com/2013/05/icewm-keyboard-shortcuts_24.html
+
+You have to edit (or create) a file called keys in ~/.icewm folder.
+
+You can do that by entering in terminal:
+vim ~/.icewm/keys
+
+You have to add a line for a keyboard shortcut in that file. Press key "i" on your keyboard to insert text.
+Syntax is this: key "combination of keys" command.
+For example:
+key "Alt+F2" gmrun
+key "Alt+w" leafpad
+key "Alt+x" xterm
+key "Alt+f" iceweasel
+key "Alt+a" pcmanfm
+key "Alt+c" chromium
+key "Alt+s" skype
+key "XF86AudioLowerVolume" amixer set Master 5%-
+key "XF86AudioRaiseVolume" amixer set Master 5%+
+key "XF86AudioMute" amixer set Master 0
+key "XF86AudioPlay" mocp -G
+key "XF86AudioStop" mocp -s
+key "XF86AudioNext" mocp -f
+key "XF86AudioPrev" mocp -r
+key "Alt+Ctrl+l" xtrlock
+key "Alt+Ctrl+p" xterm -e sudo pm-suspend
+key "Alt+Ctrl+r" killall -SIGHUP icewm
+key "Print" scrot
+
+After adding all lines you want (you can, of course, change that file anytime later) press "esc" key on your keyboard and write :wq to save and exit from Vim editor.
+
+Alternatively, you can create that file with any text editor (e.g. Leafpad), or write echo 'line with above syntax' >> ~/.icewm/keys, for example:
+
+echo 'key "Alt+F2" gmrun' >>  ~/.icewm/keys
+
+
+
+

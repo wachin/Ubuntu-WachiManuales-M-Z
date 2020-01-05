@@ -1,0 +1,24 @@
+
+
+
+in 16.04 not working muse that come with the O.S.
+
+To solded this I install only the deb:
+
+32 bits:
+https://launchpad.net/~kxstudio-debian/+archive/ubuntu/gcc5/+files/muse_2.2.1-2kxstudio2v5_i386.deb
+
+or:
+
+64 bits:
+https://launchpad.net/~kxstudio-debian/+archive/ubuntu/gcc5/+files/muse_2.2.1-2kxstudio2v5_amd64.deb
+
+All dependences are ok
+
+From:
+https://linuxmusicians.com/viewtopic.php?f=47&t=14618&sid=14f5381d8a6e092dbcea7de8391433c3
+https://launchpad.net/~kxstudio-debian/+archive/ubuntu/gcc5/+packages
+
+
+-- 
+Washington Indacochea Delgado

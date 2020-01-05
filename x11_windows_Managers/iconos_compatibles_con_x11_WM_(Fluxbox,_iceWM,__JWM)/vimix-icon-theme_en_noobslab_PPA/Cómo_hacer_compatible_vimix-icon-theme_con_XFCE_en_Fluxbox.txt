@@ -1,0 +1,38 @@
+
+
+Para Xubuntu o Ubuntu Studio, instalado el tema
+
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-get update
+sudo apt-get install vimix-icon-theme
+
+poner en la terminal
+
+sudo gedit /usr/share/icons/Vimix-Paper/index.theme 
+
+allí cambiar lo que aparece en esta linea:
+
+Inherits=Adwaita,gnome,hicolor
+
+por esto:
+
+Inherits=Adwaita,elementary-xfce-dark
+
+y guardar.
+
+
+El tema se puede descargar de aquí:
+
+Vimix-icon-theme - www.gnome-look.org
+https://www.gnome-look.org/p/1273372/
+
+están dos descargas:
+
+Paper-Vimix.tar.xz			1120	2018-12-23	11.53 MB		
+Vimix.tar.xz			535	2018-12-23	0.15 MB	
+
+y allí también está el enlace a github:
+
+https://github.com/vinceliuice/vimix-icon-theme
+	
+

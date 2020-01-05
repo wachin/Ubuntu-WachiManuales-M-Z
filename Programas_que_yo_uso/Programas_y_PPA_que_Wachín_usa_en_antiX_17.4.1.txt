@@ -1,0 +1,325 @@
+
+Programas y PPA que Wachín usa en UbuntuStudio 16.04
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Para instalar desde terminal Todo-en-uno en UbuntuStudio 16.04
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Los siguientes programas se instalaran automáticamente (instalación desatendida) al poner esto en la terminal:
+
+sudo apt install dolphin kde-cli-tools speedcrunch florence gnome-disk-utility mediainfo-gui puddletag cups-pdf gprename pdfshuffler uget rar unrar goldendict vlc gdebi xfce4-notes geeqie soundconverter convertall converseen hugin playonlinux clementine calibre mkvtoolnix-gui gedit pluma phototonic boomaga nautilus
+
+
+dconf-editor  ppa-purge kylin-video
+
+gnome-font-viewer krename gnome-terminal geany rosegarden kdegraphics-thumbnailers okular arandr kruler nautilus nautilus-dropbox
+
+gwenview gnome-web-photo qt4-qtconfig
+
+sudo apt remove dolphin4 konsole jack-mixer bleachbit psensor isomaster furiusisomount dolphin4 konsole thumbnailer caja engrampa caja-open-terminal
+
+chromium-browser 
+
+El paquete playonlinux nautilus-dropbox ubuntu-restricted-extras al momento de instalarse abre una ventana para confirmar la licencia de ttf-mscorefonts, y dropbox es semejante, y si no se hace esto no sigue la instalación, esto significa que hay que estar atento, por eso los incluyo para después
+
+sudo apt install playonlinux nautilus-dropbox
+
+
+EXPLICACIÓN DE PARA QUE SIRVEN ALGUNOS DE ESTOS PROGRAMAS:
+
+dolphin.- Administrador de archivos
+kde-cli-tools.- para que funcione clic en propiedades de los archivos en Dolphin https://facilitarelsoftwarelibre.blogspot.com/2019/09/no-funcionan-en-propiedades-opciones-de.html
+Boomaga - Impresora Virtual
+gufw.- Firewall
+phototonic.- Utilidad para visualizar imágenes (solo que para ser hagil hay que copiarle la ruta que estemos explorando en algún administrador de archivos "Ctrl + L")
+gwenview.- Utilidad para visualizar imágenes
+speedcrunch.- Es una calculadora exelente, sólo configure en "Configuración/Carácter separador entero-fracción" si quiere separar con punto o coma, esto porque después no pueda ingresar rápido los valores en su teclado.
+ppa-purge.- Sirve para dejar una aplicacion instalada desde PPA a la versión original (revertir lo que se hizo)
+mkvtoolnix-gui.- Yo lo utilizo para unir videos en mp4 pues es muy rapido comparandolo con kdenlive
+Discos (gnome-disk-utility).- Sirve para ver todas las particiones y editarlas, se lanza desde la terminal con gnome-disks
+Florence.- Teclado virtual
+furiusisomount.- Para montar ISO en el nautilus (depende de este)
+dolphin4.- Un gran administrador de archivos
+konsole.- La consola para abrir aquí la terminal usando dolphin4
+mediainfo-gui.- para ver la información de los videos o audios dandoles clic derecho y abrir con este
+puddletag.- Para editar mp3 tags
+cups-pdf.- Para imprimir como PDF 
+alarm-clock-applet.- Tiene un temporizador y un despertador, para mi es el mejor
+gprename.- Para renombrar archivos
+krename.- Para renombrar archivos
+pdfshuffler.- Para extraer paginas de un pdf, u otras operaciones
+uget.- Para descargar archivos 
+goldendict.- Diccionario
+rosegarden.- Para editar midi, con QjackCtl
+gdebi.- El mejor para instalar DEB
+soundconverter.- Para convertir audios otros formatos
+compiz.- Lo uso sobre UbuntuStudio en el administrador de ventanas XFCE, es decir pongo en la terminal "compiz --replace" para reemplazarlo, este compiz es bueno para hacer tutoriales por el zoom que trae 
+gnome-exe-thumbnailer.- Para ver los iconos de los .exe de windows (pues yo uso varios programas de Windows en el Linux instalandolos con Wine los que se pueden o los mas dificilies en PlayOnLinux)
+BleachBit.- El CCleaner para Linux(pero su interfaz gráfica no tiene nada que ver, y es más complicado usarlo)
+Keymon.- Para ver las teclas que uno aplasta. Sirve cuando uno hace videotutoriales
+psensor.- Si lo abro muestra la temperatura de la PC
+Geeqie.- Visor de imagenes
+kdegraphics-thumbnailers.- Para ver vistas previas de PDF en dolphin4 (pero a esta fecha 2016-07-14 no esta funcionando)
+icewm.- El mejor administrador de ventanas para x para PC con bajos recursos(el mejor para mi, es dificil de configurar, pero la PC vuela)
+okular.- Es un buen visor de PDF
+dconf-editor.- Para algunas configuraciones importantes de los administradores de archivos caja y nautilus, y otras cosas del sistema
+nautilus-dropbox.- Es el dropbox pero para integrarlo en el Administrador de Archivos nautilus, se ven los iconos de dropbox allí
+mplayerthumbs.- para ver vistas previas de videos dolphin4
+playonlinux.- Para instalar programas de Windows difíciles de hacer funcionar (como e-Sword, Foxit Reader, otros)
+caja.- Es un fork de nautilus el administrador de archivos por defecto de ubuntu, para mi es mejor que ese (presente desde Ubuntu 16.04)
+converseen.- Para convertir imagenes en toles (por bastantes)
+hugin.- Para hacer panoramas con varias fotos tomadas para tal propósito
+photoprint.- Para imprimir fotos en albumes
+viewnior.- Visor de fotografías e imágenes, como el de Windows
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Para instalar desde la Web:
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+Curlew Multimedia Converter for Linux
+https://curlew.sourceforge.io/
+
+Foxit Reader Linux
+https://www.foxitsoftware.com/pdf-reader/
+
+Skype
+https://www.skype.com/es/get-skype/skype-for-linux/
+
+FreeFileSync 10 en Ubuntu 18.04 
+https://www.freefilesync.org/download.php
+
+Master PDF Editor for Linux
+https://code-industry.net/free-pdf-editor/
+
+PeaZip | Free archiver, free RAR TAR ZIP files utility
+http://www.peazip.org/
+
+XnView Software · XnViewMP
+http://www.xnview.com/en/xnviewmp/
+
+WPS Office for Linux
+http://wps-community.org/
+
+TeamViewer for Linux
+https://www.teamviewer.com/en/download/linux/
+
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+AppImage
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+
+FontBase.- El administrador de fuentes de la nueva generación.
+https://fontba.se/downloads/linux
+
+MuseScore
+https://musescore.org/en/download
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Para instalar desde repositorio
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+Flash 
+Instalar Flash Player en Ubuntu 16.04 para Chromium y Firefox
+https://facilitarelsoftwarelibre.blogspot.com/2016/05/instalar-flash-player-en-ubuntu-1604.html
+sudo software-properties-gtk
+En la pestaña "Otro software" marcar "Socios de Canonical", clic en el botón cerrar y luego en el boton recargar. 
+instale:
+sudo apt install adobe-flashplugin
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Para instalar desde PPA (Personal Package Archives)
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+Nota: En Ubuntu 18.04 ya no es necesario poner esta linea:
+
+sudo apt-get update
+
+por eso la he quitado de todos los comandos
+
+y tampoco es necesario poner apt-get sino sólo apt.
+
+------------------------------------------------------------------------
+
+Pulsejoin
+https://gitlab.com/mikhailnov/pulsejoin
+PulseJoin is a GUI for making a virtual PulseAudio microphone, from which sound from both microphone and audio output can be recorded.
+sudo add-apt-repository ppa:mikhailnov/pulsejoin
+sudo apt-get update
+        
+
+Audacity 2.2.2 Released! (How to Install / Upgrade) | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2018/02/audacity-2-2-2-released-how-to-install-upgrade/
+sudo add-apt-repository ppa:ubuntuhandbook1/audacity
+sudo apt-get install audacity
+
+uGet for Ubuntu 
+https://ugetdm.com/downloads/ubuntu/
+sudo add-apt-repository ppa:plushuang-tw/uget-stable 
+sudo apt update 
+sudo apt install uget aria2
+
+How to Install Scribus 1.4.7 in Ubuntu 18.04 / 16.04
+http://ubuntuhandbook.org/index.php/2018/06/install-scribus-1-4-7-ubuntu-18-04-16-04/
+sudo add-apt-repository ppa:scribus/ppa
+sudo apt-get update
+sudo apt-get install scribus
+
+PPA Estable (Solamente contiene versiones oficiales)
+https://www.openshot.org/es/ppa/
+sudo add-apt-repository ppa:openshot.developers/ppa
+sudo apt-get update
+sudo apt-get install openshot-qt
+
+How to Install DVDStyler 3.0 in Ubuntu 16.04 via PPA | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2016/07/dvdstyler-3-0-ubuntu-16-04-via-ppa/
+sudo add-apt-repository ppa:ubuntuhandbook1/dvdstyler
+sudo apt install dvdstyler
+para desinstalar(remover)
+sudo apt remove dvdstyler dvdstyler-data
+
+Is there a 32 bit Download? - support - Atom Discussion
+https://discuss.atom.io/t/is-there-a-32-bit-download/42484/4
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt install atom
+
+LightZone, procesamiento no destructivo de imágenes en Ubuntu
+https://ubunlog.com/lightzone-prosamiento-nodestructivo/
+sudo add-apt-repository ppa:lightzone-team/lightzone
+sudo apt install lightzone
+
+https://openkj.org/download
+sudo add-apt-repository ppa:openkj/release
+sudo apt-get install openkj
+
+mypaint 1.3.0
+https://blueprints.launchpad.net/~alex-p/+archive/ubuntu/mypaint/
+sudo add-apt-repository ppa:alex-p/mypaint
+sudo apt install mypaint
+
+Aegisub - Advanced subtitle editor
+https://launchpad.net/~alex-p/+archive/ubuntu/aegisub/
+sudo add-apt-repository ppa:alex-p/aegisub
+sudo apt-get install aegisub aegisub-l10n
+
+Instalar Kdenlive 18.04 para Ubuntu 18.12 ()32 y 64 bits
+sudo add-apt-repository ppa:mikhailnov/utils
+sudo apt-get update
+sudo apt-get install kdenlive
+
+https://facilitarelsoftwarelibre.blogspot.com/2018/05/instalar-kdenlive-1804-para-ubuntu-1804.html
+sudo add-apt-repository ppa:kdenlive/kdenlive-stable 
+sudo apt-get update
+
+
+GIMP 2.10
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+sudo apt install gimp gimp-data-extras gimp-gmic gmic gnome-xcf-thumbnailer
+
+Nota: El siguiente paquete no se puede instalar todavía
+gimp-plugin-registry 
+si lo has instalado y te creó problemas desinstalalo:
+sudo apt remove gimp-plugin-registry 
+
+
+Cómo instalar Avidemux 2.7 en Ubuntu 16.04, 18.04
+https://facilitarelsoftwarelibre.blogspot.com/2017/11/como-instalar-avidemux-26-en-ubuntu.html
+sudo add-apt-repository ppa:ubuntuhandbook1/avidemux
+sudo apt install avidemux2.6-qt avidemux2.6-plugins-qt
+
+How to Install f.lux in Ubuntu 16.04, Ubuntu 15.10 | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2016/03/install-f-lux-in-ubuntu-16-04/
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt install fluxgui
+Una vez instalado y abriendo fluxgui hay que ir a la página (aunque el programa también lo da)
+https://justgetflux.com/map.html
+para buscar allí la ciudad donde uno vive y obtener latitud y longitud
+para ponerlas al programa
+
+Control de Brillo (también lúz azúl) para pantallas en Ubuntu con brightness-controller
+https://facilitarelsoftwarelibre.blogspot.com/2017/06/control-de-brillo-para-pantallas-en.html
+sudo add-apt-repository ppa:apandada1/brightness-controller
+sudo apt install brightness-controller
+
+
+KDE Connect.- Sirve para integrar mi celular Android con Ubuntu, puedo copiar y pegar texto, y puedo enviar archivos o recibirlos (pero que no sean tan grandes)
+http://www.webupd8.org/2017/04/new-kde-connect-indicator-ubuntu-linux.html
+sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect
+sudo apt install indicator-kdeconnect
+
+Para emparejarlo con el celular habría que reiniciarlo para que se cargue, pero lo puede hacer allí mismo poniendo en la terminal:
+
+indicator-kdeconnect
+
+Le aparecerá una ventana, siga las instrucciones
+
+
+easymp3gain.- Normalizador de mp3
+http://www.linuxquestions.org/questions/linux-newbie-8/easymp3gain-4175588580/
+sudo add-apt-repository ppa:flexiondotorg/audio
+sudo apt install mp3gain easymp3gain-gtk
+
+LibreOffice Fresh 6.0
+https://launchpad.net/~libreoffice/+archive/ubuntu/ppa	
+sudo add-apt-repository ppa:libreoffice/ppa
+sudo apt update && sudo apt install libreoffice
+
+Inkscape Estable Actualizado
+https://inkscape.org/es/descargas/linux/
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt install inkscape
+
+HotShots: Lightweight Screenshot and Editing Tool for Ubuntu
+http://ubuntuguide.net/hotshots-lightweight-screenshot-and-editing-tool-for-ubuntu
+sudo add-apt-repository ppa:dhor/myway
+sudo apt install hotshots
+
+Brackets
+http://www.webupd8.org/2013/11/install-brackets-in-ubuntu-via-ppa-open.html
+sudo add-apt-repository ppa:webupd8team/brackets
+sudo apt install brackets
+
+Youtube dlg
+https://facilitarelsoftwarelibre.blogspot.com/2016/07/instalar-youtube-dlg-en-ubuntu-1604-en.html
+El PPA de arriba todavía no tiene la versión para 18.04 pero instala el siguiente paquete deb, sirve tanto para 32 como para 64 bits, descargalo:
+
+youtube-dlg
+http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/y/youtube-dlg/youtube-dlg_0.4-1~webupd8~zesty4_all.deb
+
+y luego instalado con gdebi, instrucciones:
+
+Instalar paquetes DEB con gdebi
+https://facilitarelsoftwarelibre.blogspot.com/2016/09/instalar-paquetes-deb-con-gdebi.html
+
+
+
+Shutter 0.94 - Feature-rich Screenshot Tool
+http://ubuntuhandbook.org/index.php/2017/09/shutter-0-94-released-install-ubuntu-16-04/
+sudo add-apt-repository ppa:ubuntuhandbook1/apps
+sudo apt install shutter
+
+Mixxx - Download the Best Free MP3 DJ Mixing Software
+http://www.mixxx.org/download/#stable
+sudo add-apt-repository ppa:mixxx/mixxx
+sudo apt install mixxx
+            
+SimpleScreenRecorder - Maarten Baert's website
+http://www.maartenbaert.be/simplescreenrecorder/#download
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt install simplescreenrecorder
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+PPA (Personal Package Archives) testeando
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+System-Wide PulseAudio Equalizer 
+http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt install pulseaudio-equalizer
+
+Que Dios les bendiga
+
+

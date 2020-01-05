@@ -1,0 +1,97 @@
+
+
+Fuentes de sonido gratis desde paquetes de Ubuntu, Debian y TuxGuitar - Listos para usar
+
+Las siguientes son fuentes de sonido (SoundFonts) listas para usar, digo esto porque hay otras que vienen comprimidas y es todo un trámite descomprimirlas para poderlas usar.
+
+
+Magic SoundFont
+Tiene 67.9 MB descargada
+https://github.com/phiresky/tuxguitar/blob/master/TuxGuitar-resources/resources/soundfont/MagicSFver2.sf2 
+
+
+
+
+musescore-general-soundfont-lossless
+Tiene 489MB instalada
+
+sudo apt-get install musescore-general-soundfont-lossless
+
+y la fuente de sonido se instala y es accesible desde:
+
+/usr/share/sounds/sf2/ 
+
+presente en los repositorios de:
+
+Ubuntu (desde disco)
+https://packages.ubuntu.com/musescore-general-soundfont-lossless
+
+Debian (stable)
+https://packages.debian.org/musescore-general-soundfont-lossless
+
+
+
+musescore-general-soundfont
+Tiene 85,9MB instalada
+
+sudo apt-get install musescore-general-soundfont
+
+y la fuente de sonido se instala y es accesible desde:
+
+/usr/share/sounds/sf2/ 
+
+presente en los repositorios de:
+
+Ubuntu (desde bionic)
+https://packages.ubuntu.com/musescore-general-soundfont
+
+Debian
+https://packages.debian.org/musescore-general-soundfont
+
+Deepin Linux
+http://packages.deepin.com/deepin/pool/main/m/musescore-general-soundfont/
+
+
+
+fluid-soundfont-gm
+Tiene 149MB instalada
+
+sudo apt-get install fluid-soundfont-gm
+
+y la fuente de sonido se instala y es accesible desde:
+
+/usr/share/sounds/sf2/ 
+
+presente en los repositorios de:
+
+Ubuntu (desde xenial)
+https://packages.ubuntu.com/fluid-soundfont-gm
+
+Debian
+https://packages.debian.org/fluid-soundfont-gm
+
+Deepin Linux
+http://packages.deepin.com/deepin/pool/main/f/fluid-soundfont/
+
+
+
+opl3-soundfont
+Tiene 135MB instalada
+
+sudo apt-get install opl3-soundfont
+
+y la fuente de sonido se instala y es accesible desde:
+
+/usr/share/sounds/sf2/ 
+
+presente en los repositorios de:
+
+Ubuntu (desde bionic)
+https://packages.ubuntu.com/opl3-soundfont
+
+Debian
+https://packages.debian.org/opl3-soundfont
+
+Deepin Linux
+http://packages.deepin.com/deepin/pool/main/o/opl3-soundfont
+

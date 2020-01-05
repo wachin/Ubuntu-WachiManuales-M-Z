@@ -1,0 +1,44 @@
+
+Combine estos
+
+http://www.webupd8.org/2009/05/linux-block-ads-in-any-browser.html
+
+Usando la siguiente configuración me salió un error grabe en UbuntuStudio 16.04
+https://giuliomac.wordpress.com/2014/02/19/how-to-block-ads/
+
+Poniendo en la terminal:
+
+sudo mv /etc/hosts /etc/hosts.orig
+sudo wget -c http://winhelp2002.mvps.org/hosts.txt -O /etc/hosts
+
+Reiniciar
+
+Sale en la terminal cuando quiero usar "sudo su" en alguna cosa, un mensaje que dice:
+
+wachin@wachin:~$ sudo su
+sudo: imposible resolver el anfitrión wachin
+[sudo] password for wachin: 
+
+
+POSIBLE SOLUCIÓN
+
+[Ubuntu]Sudo: imposible resolver el anfitrión
+http://www.iesmurgi.org:85/forosmr/viewtopic.php?t=8
+
+ENTENDIMIENTO: Esto significa que no debo de mover ese archivo sino creo que la solución sería simplemente poner esto en la terminal:
+
+sudo wget -c http://winhelp2002.mvps.org/hosts.txt -O /etc/hosts
+
+Con esto se añade simplemente a ese archivo lo demás y no se borra lo que allí hay
+
+
+PERO CREO QUE UNA MEJOR SOLUCIÍON SERÍA:
+
+
+wget -c http://winhelp2002.mvps.org/hosts.txt -O ~/.etchosts
+
+
+
+
+
+

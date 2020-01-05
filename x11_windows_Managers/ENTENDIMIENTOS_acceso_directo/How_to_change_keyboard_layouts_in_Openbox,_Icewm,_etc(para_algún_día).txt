@@ -1,0 +1,26 @@
+
+
+How to change keyboard layouts in Openbox, Icewm, Razor-qt ...
+http://linuxxcommand.blogspot.com/2014/03/how-to-change-keyboard-layouts-in.html#.V4WhA66OzgU
+
+Labels: keyboard layout, lightweight linux, linux tutorial
+How to change keyboard layouts in Openbox, Icewm, Razor-qt ...
+
+Many people suffer from a problem with switching between keyboard layouts in lightweight desktop environments or lightweight window managers like ***box family, Icewm, E17 etc...
+
+The problem does not seem to be that hard if you looked wisely, with this simple command, you can solve that problem so easily :
+
+setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:­scroll us,fr
+
+You see, I chosen French and English American to switch from, you can choose you own.
+
+And the keys we hint to change the keyboard layout are : ALT+SHIFT, of course you chose what you like.
+
+Changes are temporary, we need to perform this command in every session , so it will be painful.
+To make changes permanent, we have to put the command in .bashrc which is located in the Home directory.
+
+nano .bashrc
+
+Now, paste the command in that file, and press  CTRL+O to save, then  CTRL+X to exit.
+
+Enjoy !

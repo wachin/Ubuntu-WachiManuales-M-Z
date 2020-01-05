@@ -1,0 +1,18 @@
+
+Los siguientes componentes los oscurecí en el Gimp:
+
+file:///home/wachin/Dropbox/UbuntuManuales/temas/Bluebird(modificado por mi)/Bluebird/xfwm4/title-1-inactive.xpm
+file:///home/wachin/Dropbox/UbuntuManuales/temas/Bluebird(modificado por mi)/Bluebird/xfwm4/title-2-inactive.xpm
+file:///home/wachin/Dropbox/UbuntuManuales/temas/Bluebird(modificado por mi)/Bluebird/xfwm4/title-3-inactive.xpm
+file:///home/wachin/Dropbox/UbuntuManuales/temas/Bluebird(modificado por mi)/Bluebird/xfwm4/title-4-inactive.xpm
+file:///home/wachin/Dropbox/UbuntuManuales/temas/Bluebird(modificado por mi)/Bluebird/xfwm4/title-5-inactive.xpm
+file:///home/wachin/Dropbox/UbuntuManuales/temas/Bluebird(modificado por mi)/Bluebird/xfwm4/top-left-inactive.xpm
+file:///home/wachin/Dropbox/UbuntuManuales/temas/Bluebird(modificado por mi)/Bluebird/xfwm4/top-right-inactive.xpm
+
+esto para que cuando esté una ventana pequeña sobre las demás ésta que es la ventana activa se vez bien y la del fondo se vea oscura
+
+-Wachín
+2017-11
+
+
+ 

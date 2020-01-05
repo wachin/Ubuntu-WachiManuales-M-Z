@@ -1,0 +1,37 @@
+
+
+1
+
+WachiEjemplo:
+
+Tengo este archivo de texto en este lugar:
+
+/home/wachin/Dropbox/UbuntuManuales/Acceso-directo/Crear-un-acceso-directo-en-linux.txt
+
+y quiero crear un enlace simbólico a la siguiente carpeta:
+
+/home/wachin/Dropbox/UbuntuManuales/Terminal/
+
+Solución
+
+ln -s /home/wachin/Dropbox/UbuntuManuales/Acceso-directo/Crear-un-acceso-directo-en-linux.txt /home/wachin/Dropbox/UbuntuManuales/Terminal/
+
+ln -s (lugar donde existe fisicamente el objetivo) (Destino o NOMBRE DEL ENLACE)
+
+
+
+
+wachin@Dell-Inspiron-1750:~$ ln --help
+Modo de empleo: ln [OPCIÓN]... [-T] OBJETIVO NOMBRE_DEL_ENLACE (1ª forma)
+       o bien:  ln [OPCIÓN]... OBJETIVO                        (2ª forma)
+       o bien:  ln [OPCIÓN]... OBJETIVO... DIRECTORIO          (3ª forma)
+       o bien:  ln [OPCIÓN]... -t DIRECTORIO OBJETIVO...       (4ª forma)
+En la primera forma, crea un enlace a OBJETIVO con el nombre NOMBRE_DEL_ENLACE.
+En la segunda forma, crea un enlace a OBJETIVO en el directorio actual.
+En las formas tercera y cuarta, crea enlaces a cada OBJETIVO en DIRECTORIO.
+Por omisión, se crean enlaces duros, se crean simbólicos con --symbolic.
+Por omisión, ningún destino (nombre del nuevo enlace) debe existir todavía.
+Cuando se crean enlaces duros, todos los OBJETIVOs deben existir. Los enlaces
+simbólicos pueden tener un texto arbitrario; si entonces se resuelve, un enlace
+relativo se interpreta en relación a su directorio padre.
+

@@ -1,0 +1,9 @@
+
+
+
+
+
+
+
+settings - No "Open in new tab" option in Okular 0.22.0 - Stack Overflow
+https://stackoverflow.com/questions/34651845/no-open-in-new-tab-option-in-okular-0-22-0

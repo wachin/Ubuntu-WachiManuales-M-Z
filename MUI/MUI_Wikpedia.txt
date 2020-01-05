@@ -1,0 +1,4 @@
+
+
+
+MUI (Multilingual User Interface, Interfaz de Usuario Multilenguaje) es una solución profesional de Microsoft para entornos de trabajo Windows 2000, XP, Vista, Windows 7 y servidores Windows 2003 y Windows Server 2008 que permite a un usuario seleccionar el lenguaje en el que quiere que se muestre su escritorio. 

@@ -1,0 +1,39 @@
+
+
+$ sudo dpkg --configure -a
+Configurando libsox-fmt-base:i386 (14.4.1-5+deb9u2) ...
+Procesando disparadores para desktop-file-utils (0.23-1) ...
+Configurando gettext (0.19.8.1-2+deb9u1) ...
+Configurando libsox-fmt-alsa:i386 (14.4.1-5+deb9u2) ...
+Procesando disparadores para initramfs-tools (0.130) ...
+update-initramfs: Generating /boot/initrd.img-4.9.160-antix.2-486-smp
+I: The initramfs will attempt to resume from /dev/sda7
+I: (UUID=92e1cc00-2ea7-41b6-b70e-f6f1a0b24c32)
+I: Set the RESUME variable to override this.
+Procesando disparadores para libc-bin (2.24-11+deb9u4) ...
+Configurando grub-common (2.02~beta3-5+deb9u2) ...
+
+Fichero de configuración `/etc/grub.d/20_linux_xen'
+ ==> Borrado (por usted o por un script) desde la instalación.
+ ==> El distribuidor del paquete ha publicado una versión actualizada.
+   ¿Qué quisiera hacer al respecto?  Sus opciones son:
+    Y o I  : instalar la versión del desarrollador del paquete 
+    N o O  : conservar la versión que tiene instalada actualmente
+      D    : mostrar las diferencias entre versiones
+      Z    : ejecutar un intérprete de órdenes para examinar la situación
+ La acción por omisión es conservar la versión actual.
+*** 20_linux_xen (Y/I/N/O/D/Z) [por omisión=N] ? 
+
+
+
+luego aparecieron varias preguntas, he reemplazado dos archivos por los de xmod
+
+
+lueg apareció el siguiente mensaje y por un caso lo copio:
+
+
+grub-install: aviso: El sector 32 está actualmente en uso por el programa «FlexNet»; evitándolo.  Este programa puede causar problemas de arranque o de otro tipo en el futuro.  Por favor, pida a los autores que no almacenen datos en la pista de arranque..
+Instalación terminada. No se notificó ningún error.
+
+
+ 

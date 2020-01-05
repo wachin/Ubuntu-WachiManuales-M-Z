@@ -1,0 +1,54 @@
+[ExtHistoryComboEXTENSION_CUSTOM_TEMPLATE]
+CompletionList=txt,Carlos Fajardo.mp4,retrato 10 mandamientos Paco.jpg
+HistoryList=retrato 10 mandamientos Paco.jpg,Carlos Fajardo.mp4,txt
+
+[ExtHistoryComboEXTENSION_TEMPLATE]
+CompletionList=txt,$,Carlos Fajardo.mp4,retrato 10 mandamientos Paco.jpg
+HistoryList=$,retrato 10 mandamientos Paco.jpg,Carlos Fajardo.mp4,txt
+
+[ExtHistoryComboFILENAME_CUSTOM_TEMPLATE]
+CompletionList=
+HistoryList=
+
+[ExtHistoryComboFILENAME_TEMPLATE]
+CompletionList=$,$ haciendo caja para segrigrafia,$ Allegro,$ Palli,$ Vino,$ Cumpleaños mamá,[date]$
+HistoryList=$ Cumpleaños mamá,$ Vino,$ Palli,$,$ Allegro,$ haciendo caja para segrigrafia,[date]$
+
+[ExtHistoryComboPREVIX_CUSTOM_TEMPLATE]
+CompletionList=
+HistoryList=
+
+[ExtHistoryComboSUFFIX_CUSTOM_TEMPLATE]
+CompletionList=\shaciendo caja para segrigrafia, Allegro, Palli, Vino, Cumpleaños mamá
+HistoryList=\sCumpleaños mamá, Vino, Palli, Allegro, haciendo caja para segrigrafia
+
+[GUISettings]
+Advanced=true
+Column0=333
+Column1=1014
+ExtensionSplitDot=0
+ExtensionSplitMode=1
+FileListSorting=0
+FileListSortingCustomMode=0
+FileListSortingCustomToken=creationdate;yyyyMMddHHmm
+ImagePreview2=true
+ImagePreviewName2=true
+StartIndex=1
+Stepping=1
+firststart4=false
+
+[KFileDialog Settings]
+Height 768=540
+Width 1280=864
+
+[KRenameWindowSettings]
+Height 768=744
+State=AAAA/wAAAAD9AAAAAAAABNsAAALPAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1243
+
+[PluginSettings]
+JavaScriptDefinitions=
+JavaScriptVariableNames=
+JavaScriptVariableTypes=
+JavaScriptVariableValues=

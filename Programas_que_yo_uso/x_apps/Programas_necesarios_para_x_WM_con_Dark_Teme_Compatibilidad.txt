@@ -1,0 +1,26 @@
+
+
+Estos programas son totalmente necesarios para un Administrador de Ventanas X, para que se puedan cambiar con los temas oscuros:
+
+lxappearance
+systemsettings5
+qt5ct
+
+Estos para ver la información 
+
+ksysguard
+kDiskFree = kdf 
+
+
+utilidades:
+gedit
+gnome-terminal
+
+
+Visores de imagen
+Geeqie
+
+
+
+
+rsibreak

@@ -1,0 +1,10 @@
+Commit Log for Thu Jan 21 11:55:19 2016
+
+
+Actualizó los siguientes paquetes:
+audacious (3.5-2) to 3.7-1~webupd8~wily0
+audacious-plugins (3.5-1build5) to 3.7-1~webupd8~wily0
+audacious-plugins-data (3.5-1build5) to 3.7-1~webupd8~wily0
+
+Instaló los siguientes paquetes:
+libaudcore3 (3.7-1~webupd8~wily0)

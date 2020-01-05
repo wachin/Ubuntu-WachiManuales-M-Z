@@ -1,0 +1,37 @@
+
+Instalar:
+https://nowardev.wordpress.com/2012/04/06/how-to-share-files-with-samba-under-kde-kubuntu-timeout-error-and-ect/
+
+sudo apt-get install samba kdenetwork-filesharing libpam-winbind winbind
+
+
+
+cómo poner password a samba:
+
+ sudo smbpasswd -a 
+
+allí poner una contraseña, ejemplo:
+
+Jhon@139989
+
+Me devuelve esto:
+
+wachin@Dell-Inspiron-1750:~$  sudo smbpasswd -a 
+[sudo] contraseña para wachin: 
+New SMB password:
+Retype new SMB password:
+Added user root.
+wachin@Dell-Inspiron-1750:~$ 
+
+Sacarle respaldo a smb.conf
+
+sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.back
+
+sudo gedit /etc/samba/smb.conf
+
+
+
+
+visto en:
+Linux Mint 17 Windows network setup - Linux Mint Community
+https://community.linuxmint.com/tutorial/view/1861

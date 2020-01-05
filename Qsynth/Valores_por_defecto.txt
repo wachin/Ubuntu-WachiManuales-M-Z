@@ -1,0 +1,18 @@
+
+
+
+Reverb
+
+Room: 20
+Dramp: 0
+Width: 0 (a 10 resalta la batería)
+Level: 90
+
+Chorus
+
+N: 3
+Level: 100
+Speed: 30
+Deepth: 80
+
+

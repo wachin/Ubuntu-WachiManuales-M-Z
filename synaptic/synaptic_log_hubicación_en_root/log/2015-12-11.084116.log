@@ -1,0 +1,8 @@
+Commit Log for Fri Dec 11 08:41:16 2015
+
+
+Quitó completamente los siguientes paquetes:
+virtualbox
+virtualbox-dkms
+virtualbox-guest-additions-iso
+virtualbox-qt

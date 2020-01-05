@@ -1,0 +1,15 @@
+
+busqué en synaptic
+
+xkb layout switch 
+
+encontré:
+
+gkrellm-xkb
+gxkb
+kbdd
+y el plugin indicador de xfce que no lo pongo pues no funciona en otros entornos
+
+
+
+ 

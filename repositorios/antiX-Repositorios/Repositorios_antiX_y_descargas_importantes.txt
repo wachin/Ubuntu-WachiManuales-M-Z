@@ -1,0 +1,65 @@
+
+
+
+ 
+Repositorio principal
+http://repo.antixlinux.com
+
+
+antiX stretch el cual viene en antiX 
+http://repo.antixlinux.com/stretch/
+
+http://repo.antixlinux.com/stretch/pool/
+
+
+Index of /stretch/pool/main/f/fbxkb 32 y 64 bits
+http://repo.antixlinux.com/stretch/pool/main/f/fbxkb/
+
+
+
+
+wget -c http://repo.antixlinux.com/stretch/pool/main/f/fluxbox-themes-antix/fluxbox-themes-antix_0.1.8_all.deb
+wget -c http://ftp.es.debian.org/debian/pool/main/f/fluxbox/fluxbox_1.3.5-2+b2_i386.
+
+
+INSTALACIÓN
+wget -c http://repo.antixlinux.com/stretch/pool/main/f/fluxbox-themes-antix/fluxbox-themes-antix_0.1.8_all.deb
+sudo dpkg -i fluxbox-themes-antix_*.deb
+
+
+New antiX repositories - MX Linux Forum
+https://forum.mxlinux.org/viewtopic.php?t=41902
+
+New antiX repositories
+#1 Post  by anticapitalista » Wed Mar 22, 2017 12:49 pm
+antiX is now using these repositories.
+The existing/old ones will still work, but the new ones will be the default for antiX-17 stretch.
+
+añadí estos repositorios así:
+
+sudo gedit /etc/apt/sources.list
+
+# Use with Debian Stable/stretch repositories. Set as default for antiX-17. Note new repos
+deb http://repo.antixlinux.com/stretch stretch main nosystemd
+
+y me salió esto:
+
+Error de GPG: http://repo.antixlinux.com/stretch stretch InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY DB36CDF3452F0C20El repositorio «http://repo.antixlinux.com/stretch stretch InRelease» no está firmado
+
+PARA SOLUCIONARLO ES NECESARIO INSTALAR LA LLAVE PUBLICA
+
+http://repo.antixlinux.com/stretch/pool/main/a/antix-archive-keyring/
+
+DESCARGAR E INSTALAR:
+
+wget -c http://repo.antixlinux.com/stretch/pool/main/a/antix-archive-keyring/antix-archive-keyring_20017.3.14_all.deb
+sudo dpkg -i antix-archive-keyring*.deb
+
+
+solucion vista en:
+http://repo.antixlinux.com/ public key is not available - MX Linux Forum
+https://forum.mxlinux.org/viewtopic.php?t=46309
+
+
+
+

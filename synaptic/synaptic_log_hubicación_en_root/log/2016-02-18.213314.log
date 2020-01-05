@@ -1,0 +1,11 @@
+Commit Log for Thu Feb 18 21:33:14 2016
+
+
+Actualizó los siguientes paquetes:
+google-chrome-stable (48.0.2564.109-1) to 48.0.2564.116-1
+oxideqt-codecs-extra (1.12.5-0ubuntu0.15.10.1) to 1.12.6-0ubuntu0.15.10.1
+python3-distupgrade (1:15.10.14.3) to 1:15.10.14.4
+ubuntu-release-upgrader-core (1:15.10.14.3) to 1:15.10.14.4
+ubuntu-release-upgrader-gtk (1:15.10.14.3) to 1:15.10.14.4
+update-notifier (3.163) to 3.163.1
+update-notifier-common (3.163) to 3.163.1

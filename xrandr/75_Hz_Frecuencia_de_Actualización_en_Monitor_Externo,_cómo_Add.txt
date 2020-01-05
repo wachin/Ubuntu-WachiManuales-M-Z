@@ -1,0 +1,86 @@
+
+
+75 Hz Frecuencia de Actualización en Monitor Externo, cómo añadir en Linux
+
+
+Lo hice así:
+
+wachin@wachin-Inspiron-1750:~$ gtf 1024 768 75
+
+  # 1024x768 @ 75.00 Hz (GTF) hsync: 60.15 kHz; pclk: 81.80 MHz
+  Modeline "1024x768_75.00"  81.80  1024 1080 1192 1360  768 769 772 802  -HSync +Vsync
+
+wachin@wachin-Inspiron-1750:~$ xrandr --newmode "1024x768_75.00"  81.80  1024 1080 1192 1360  768 769 772 802  -HSync +Vsync
+wachin@wachin-Inspiron-1750:~$ xrandr --addmode VGA1 1024x768_75.00
+wachin@wachin-Inspiron-1750:~$ xrandr --output VGA1 --mode 1024x768_75.00
+wachin@wachin-Inspiron-1750:~$
+
+
+Sistema Operativo: Kbuntu 12.04.2
+
+
+Siguiendo las instrucciones de:
+
+http://www.arunviswanathan.com/node/53
+
+
+
+Nota 1: La salida que aparece para el monitor externo al conectarlo en esta Laptop es VGA1, se lo puede constalar poniendo en el terminal:
+
+xrandr
+
+Ejemplo, a mi me sale así:
+
+wachin@wachin-Inspiron-1750:~$ xrandr
+Screen 0: minimum 320 x 200, current 1024 x 768, maximum 8192 x 8192
+LVDS1 connected 800x600+0+0 (normal left inverted right x axis y axis) 382mm x 215mm
+   1600x900       60.1 +
+   1440x900       59.9  
+   1360x768       59.8     60.0  
+   1152x864       60.0  
+   1024x768       60.0  
+   800x600        60.3*    56.2  
+   640x480        59.9  
+VGA1 connected 1024x768+0+0 (normal left inverted right x axis y axis) 410mm x 230mm
+   1366x768       59.8 +
+   1280x1024      75.0     60.0  
+   1280x960       60.0  
+   1280x800       74.9     59.8  
+   1152x864       75.0  
+   1024x768       75.1*    70.1     60.0  
+   832x624        74.6  
+   800x600        72.2     75.0     60.3     56.2  
+   640x480        72.8     75.0     66.7     60.0  
+   720x400        70.1  
+DP1 disconnected (normal left inverted right x axis y axis)
+  1280x768_75.00 (0x112)  103.0MHz
+        h: width  1280 start 1360 end 1496 total 1712 skew    0 clock   60.2KHz
+        v: height  768 start  769 end  772 total  802           clock   75.0Hz
+ 
+
+Lo cual indica que el monitor de la laptop es: LVDS1
+Lo cual indica que el monitor Externo ViewSonic es: VGA1
+
+
+Nota 2: Cuidado se malinterpreta, los modos que están funcionando son los siguientes:
+
+wachin@wachin-Inspiron-1750:~$ xrandr
+Screen 0: minimum 320 x 200, current 1024 x 768, maximum 8192 x 8192
+LVDS1 connected 800x600+0+0 (normal left inverted right x axis y axis) 382mm x 215mm
+   800x600        60.3*    56.2  
+ VGA1 connected 1024x768+0+0 (normal left inverted right x axis y axis) 410mm x 230mm
+   1024x768       75.1*    70.1     60.0  
+
+Por que tienen el Asterisco "*", pero eso lo hice primero antes de añadir el nuevo modo para los 75Hz, y ahora me queda así:
+
+wachin@wachin-Inspiron-1750:~$ xrandr
+Screen 0: minimum 320 x 200, current 1280 x 768, maximum 8192 x 8192                                                          
+LVDS1 connected 800x600+0+0 (normal left inverted right x axis y axis) 382mm x 215mm                        
+   800x600        60.3*    56.2                                                                                               
+VGA1 connected 1280x768+0+0 (normal left inverted right x axis y axis) 410mm x 230mm
+   1280x768_75.00   75.0* 
+
+Esto lo escribo por un caso algún error. 
+
+
+                   

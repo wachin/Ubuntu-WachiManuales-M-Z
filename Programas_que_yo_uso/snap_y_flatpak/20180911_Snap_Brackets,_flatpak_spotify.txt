@@ -1,0 +1,11 @@
+ 
+
+Install Brackets for Linux, Linux apps in seconds | Snap Store
+https://snapcraft.io/brackets
+
+sudo snap install brackets --classic
+
+para desinstalar:
+
+sudo snap remove brackets
+

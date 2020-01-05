@@ -1,0 +1,41 @@
+
+No aparece vista previa(miniatura=thumbnails) de imagen en Nemo en Xubuntu 16.04, 18.04
+https://facilitarelsoftwarelibre.blogspot.com/2019/01/no-aparece-vista-previaminiaturathumbna.html
+
+
+
+La solución es borrar estas carpetas poniendo en una terminal:
+
+
+rm -fr ~/.thumbnails
+rm -fr ~/.cache/thumbnails
+
+luego abrir Nemo y él dirá un mensaje que hay un problema con la cache de los iconos, seguir las instrucciones
+
+También en 
+
+Editar/Preferencias/Vista Previa/
+
+en "Archivos Previsualizables" ponerle más de 1MB, yo le puse 5MB
+
+
+
+
+https://askubuntu.com/questions/395911/why-doesnt-nemo-preview-thumbnails/
+
+
+
+The solution for my in Xubuntu 18.04 x386 is to delete these folders by putting in a terminal:
+
+rm -fr ~/.thumbnails
+rm -fr ~/.cache/thumbnails
+then open Nemo and he will say a message that there is a problem with the cache of the icons. Follow the steps
+
+And see, working fine:
+
+
+Also in
+
+Edit / Preferences / Preview /
+
+in "Preview Files" put more than 1MB, I put 5MB

@@ -1,0 +1,21 @@
+
+MagicSoundFont 2.0
+Links directo de descarga:
+ftp://ftp.personalcopy.net/pub/MagicSFver2.zip
+
+este link está dentro de esta página:
+http://www.personalcopy.com/sfarkfonts1.htm
+
+Si lo descarga de esa página web debe descomprimir "MagicSFver2.zip" y dentro buscar el archivo "MagicSFver2.sfArk" en las carpetas "Soundset-Backup/upload/" el cual debe descomprimirlo instalando sfArk.exe que debe descargandolo de: http://www.soundfonts.it/sfark_sfpack.zip donde debe descomprimir la carpeta "sfark_sfpack.zip" y dentro buscar el archivo "sfArk.exe" que está dentro de las carpetas "/software/sfark" el cual debe instalarlo y allí en el menu del programa en "File/Open" búsque donde descomprimió "MagicSFver2.sfArk" y Abralo y de clic en "Start" y lo descomprimirá con el nombre "MagicSFver2.sf2"
+
+Nota 1: Si usa Linux instále el programa en Wine.
+
+Nota 2: La dirección del descompresor la encontré en: http://forum.cifraclub.com.br/forum/12/121828/
+
+Nota 3: MagicSoundFont lo usa TuxGuitar y viene instalado dentro de él. 
+TuxGuitar es multiplataforma, hay para Windows, Linux, MAC OS: https://sourceforge.net/projects/tuxguitar/files/TuxGuitar/
+Si lo instalas en Linux desde esta página de descarga, se instalará la fuente de sonidos en esta ruta:
+/opt/tuxguitar/share/soundfont/
+Allí está ya descomprimida y sólo debe copiarla y ponerla en una carpeta para que la use.
+
+

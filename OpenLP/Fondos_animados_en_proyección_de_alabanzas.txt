@@ -1,0 +1,16 @@
+
+
+Fondos animados en proyección de alabanzas
+
+Estoy desde Ubuntu pero creo que esto va a funcionar en cualquier sistema. Para lograr tener fondos animados en OpenLP tendremos que descargar los videos y reproducirlos en bucle, en un reproductor multimedia. Particularmente, utilizo VLC. Hay opciones (en su versión para Ubuntu que permite configurarlo para que se proyecte en la segunda pantalla. 
+
+Una vez que todo esto está configurado, en OpenLP tendremos que crear un tema con fondo "transparente", que se solapará con el VLC mientras reproduce el video en bucle.
+
+Una buena práctica es la de dejar la lista de reproducción en la pantalla principal, mientras el VLC se proyecta a pantalla completa, en la otra pantalla. Ésto es para tener un mayor y mejor control de lo que se está reproduciendo, además de que va a ser la única interfaz de usuario que vamos a tener.
+
+Si les interesa este hilo y quieren que profundicemos en esto, empiecen a comentar sus dudas y subo imágenes, paso-a-paso y hasta les puedo compartir packs de canciones y fondos animados de 8 min para loopear ya editados de excelente calidad y temas.
+
+Saludos desde Argentina! Bendiciones  
+
+
+http://forums.openlp.org/discussion/2936/fondos-animados-en-proyeccion-de-alabanzas

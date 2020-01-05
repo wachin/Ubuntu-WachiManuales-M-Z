@@ -1,0 +1,12 @@
+
+
+http://eltallerdelbit.com/failed-to-set-up-service-vboxadd-guest-additions-lubuntu/
+
+
+sudo apt-get install dkms 
+
+y luego instale:
+
+sudo apt-get install build-essential
+
+

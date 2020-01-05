@@ -1,0 +1,35 @@
+
+MP3Gain target normal volume? - Hydrogenaudio Forums
+https://www.hydrogenaud.io/forums/index.php?s=b5de1fa741321ff3d4e280055f994c01&showtopic=62489&st=0&p=557861&#entry557861
+
+
+Hey guys, I'm new here.
+
+I've recently discovered MP3Gain, and I'm in the process of normalizing (average album output of) my entire music collection.
+
+I have analyzed it all (with the default target normal volume of 89) and I've noticed that for the great majority this will be reducing the volume with a gain anywhere from -12 to -1. I guess there might not be anything wrong with that -- I put a normalized test album on my iPod and it sounded fine. But this is a really massive music collection (130GB) so I'd really like to get it right the first time. Any suggestions as to what target normal volume I should be using?
+
+Also what does clipping mean? Almost all of my tracks appear in red and have a "Y" for clipping. How is this different to clip(Track) -- almost no tracks have this.
+
+Any suggestions would be appreciated.
+
+Cheers,
+sportsfan
+
+**********
+RESPUESTA:
+**********
+
+
+I suggest leaving it at the default value.
+
+Clipping means that the volume of a song has been raised by a certain amount, and in doing so the peaks of the song have hit 0 dB.
+
+This will only happen very rarely on songs that are very quiet. If you increase the value above 89 dB you will increase the chance of introducing clipping to the songs. If this happens a bit it is doubtful you will notice it, but if it happens a lot the files will sound distorted.
+
+You can use the option to avoid clipping, which means if the file needs a 3 dB increase to get to 89 dB, but the file will clip, the file will only be increased by 1.5 dB to avoid clipping. The trouble is that means that file will be significantly lower volume that all your 89 dB files.
+
+So I suggest leaving the gain at the the default 89 dB level. But leaving the avoid clipping option turned off. If you get files that clip badly you will be able to hear it, and then can fix those files later by simply removing the gain and reapplying it with the no clip option selected.
+
+I recently MP3gained 15,000 MP3s, and have so far only noticed bad clipping on 2 albums which I simply fixed by removing and redoing the MP3gain. 
+

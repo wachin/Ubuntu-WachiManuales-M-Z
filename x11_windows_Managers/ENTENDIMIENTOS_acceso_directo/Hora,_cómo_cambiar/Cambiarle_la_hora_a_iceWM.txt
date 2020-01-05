@@ -1,0 +1,21 @@
+
+
+
+He puesto el archivo de configuración de /usr/share/icewm/preferences en .icewm/preferences y allí hay que buscar la linea: 
+
+TimeFormat
+
+y encontré esto:
+
+#  Clock Time format (strftime format string)
+# TimeFormat="%X"
+
+allí debajo debo ponerle:
+
+TimeFormat="%H:%M"
+        
+        
+        
+  Change time format on antiX os (Found trix)
+ http://netgator.blogspot.com/2010/12/change-time-format-on-antix-os-found.html?m=1
+ 

@@ -1,0 +1,45 @@
+
+SIN ROOT
+
+En HOME cree la carpeta:
+
+.themes
+
+y dentro ponga a Bluebird2
+
+luego elijala en:
+
+"Administrador de Configuración" en "Apariencia" en la pestaña "Estilo" escoja: "Bluebird2"
+
+y en:
+
+"Administrador de Configuración" en "Gestor de Ventanas" en la pestaña "Estilo" escoja: "Bluebird2"
+
+
+CON ROOT, PARA TODOS LOS USUARIOS
+
+En la terminal ponga:
+
+sudo thunar
+
+Y busuqe la carpeta: 
+
+Bluebird2
+
+y peguela en:
+
+/usr/share/themes/
+
+luego elijala en:
+
+"Administrador de Configuración" en "Apariencia" en la pestaña "Estilo" escoja: "Bluebird2"
+
+y en:
+
+"Administrador de Configuración" en "Gestor de Ventanas" en la pestaña "Estilo" escoja: "Bluebird2"
+
+
+-Wachín
+2018-01-12
+
+

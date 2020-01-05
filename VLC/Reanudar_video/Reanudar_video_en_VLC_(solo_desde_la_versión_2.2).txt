@@ -1,0 +1,7 @@
+
+Resume playback
+resumeplaybackvlc220
+VLC 2.2.0 lets you resume playback on the desktop.
+Another nice addition in VLC 2.2.0 is the ability to resume playback—a feature that’s been on mobile versions for some time and is now on the desktop. When you open a video file you were watching previously, you’ll see a small toolbar below the VLC menu giving you the option to resume from where you left off.
+
+http://www.pcworld.com/article/2889846/streaming-media/vlc-update-adds-in-app-extensions-resume-playback-android-tv-support-more.html 

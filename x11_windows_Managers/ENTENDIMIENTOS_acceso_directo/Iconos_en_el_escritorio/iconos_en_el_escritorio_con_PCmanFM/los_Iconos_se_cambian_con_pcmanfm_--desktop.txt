@@ -1,0 +1,12 @@
+
+Con la opción
+
+pcmanfm --desktop 
+
+se muestran los iconos que están en la carpeta "Escritorio" de su HOME
+
+Visto en 
+https://wiki.archlinux.org/index.php/IceWM#Desktop_icons
+
+
+ 

@@ -1,0 +1,14 @@
+
+
+lxpanel
+
+perlpanel
+
+tint2
+
+trayer
+
+fbpanel
+
+
+

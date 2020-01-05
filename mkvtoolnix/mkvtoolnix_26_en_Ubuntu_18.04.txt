@@ -1,0 +1,31 @@
+Cómo Instalar la ultima versión de MKVToolNix en Ubuntu 18.04
+
+Si tenía instalado el programa primero hay que desinstalarlo, sino da paquete roto:
+
+sudo apt-get remove mkvtoolnix-gui mkvtoolnix	
+
+Importar la llave publica GPG
+
+wget -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | sudo apt-key add -
+
+editar el archivo para añadir el repositorio_
+
+sudo gedit /etc/apt/sources.list.d/mkvtoolnix.download.list
+
+poner para 18.04 "Bionic Beaver"	
+
+deb https://mkvtoolnix.download/ubuntu/ bionic main
+deb-src https://mkvtoolnix.download/ubuntu/ bionic main
+
+y guardalo. Luego actualizar:
+
+sudo apt-get update
+
+e instalar
+
+sudo apt-get install mkvtoolnix mkvtoolnix-gui
+
+CONSULTA_
+MKVToolNix Downloads – Matroska tools for Linux/Unix and Windows
+https://mkvtoolnix.download/downloads.html#ubuntu
+

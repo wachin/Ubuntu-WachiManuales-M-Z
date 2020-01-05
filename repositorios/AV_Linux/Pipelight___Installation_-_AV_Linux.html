@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)http://pipelight.net/cms/install/installation-av-linux.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Pipelight | Installation - AV Linux</title>
+
+		<link href="./Pipelight _ Installation - AV Linux_files/css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="./Pipelight _ Installation - AV Linux_files/style.css">
+<link rel="stylesheet" type="text/css" href="./Pipelight _ Installation - AV Linux_files/ismobile.css">
+<link rel="stylesheet" type="text/css" href="./Pipelight _ Installation - AV Linux_files/highlight.css">
+<link rel="stylesheet" type="text/css" href="./Pipelight _ Installation - AV Linux_files/lightbox.css">
+<script type="text/javascript" src="./Pipelight _ Installation - AV Linux_files/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./Pipelight _ Installation - AV Linux_files/lightbox.js"></script>
+<script type="text/javascript" src="./Pipelight _ Installation - AV Linux_files/MathJax.js"></script>
+<link rel="alternate" type="application/rss+xml" title="Pipelight News Feed" href="http://pipelight.net/cms/feed/">
+<link rel="icon" type="image/png" href="http://pipelight.net/cms/f.png">
+
+		<meta name="keywords" content="">
+<meta name="author" content="Pipelight Team">
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="HandheldFriendly" content="True">
+	<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -5px 0 0 0; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style></head>
+	<body><div id="MathJax_Message" style="display: none;"></div>
+		<div class="blog">
+			<div class="header-container">
+				<div class="blogheader">
+					<img class="image" src="./Pipelight _ Installation - AV Linux_files/pipelight-logo.svg">
+					<span class="title">Pipelight</span>
+					<div class="subtitle">Windows plugins in Linux browsers</div>
+				</div>
+				<div class="menubar">
+					<a class="link" href="http://pipelight.net/cms/index.html"><span class="entry">News</span></a><a class="link" href="http://pipelight.net/cms/about.html"><span class="entry">About</span></a><a class="link" href="http://pipelight.net/cms/installation.html"><span class="entry">Installation</span></a><a class="link" href="http://pipelight.net/cms/page-help.html"><span class="entry">Help</span></a><a class="link" href="http://pipelight.net/cms/page-wine.html"><span class="entry">Wine</span></a>
+				</div>
+			</div>
+			<div class="content">
+				
+				<div class="articlelist">
+					<div class="article">
+						<div class="info"><span class="infospan">
+							<span class="date">21 Oct 2014 17:37 CEST</span>&nbsp;
+							<span class="author">written by Pipelight Team</span>
+						</span></div>
+						<div class="title">Installation - AV Linux</div>
+						<div class="articlecontent">
+							<img class="image" src="./Pipelight _ Installation - AV Linux_files/download.svg" alt="[article-image]" width="90">
+							<blockquote><cite>Quote by <a href="http://www.bandshed.net/AVLinux.html">AVLinux</a></cite>
+<p>AV Linux is a free custom shop modded and rodded 32bit computer Operating System designed to turn a regular old (or fairly new) PC or Intel Mac into an Audio/Graphics/Video workstation appliance. […]</p>
+</blockquote><p>We provide a repository for AVLinux, so that you will get updates automatically without any further interaction. You simply need to import our repository key and add the repository to your sources. All the following commands must be executed as root:</p>
+<p>To add the key simply execute:</p>
+<div class="highlight-default"><pre><span class="codeline" rel="1">wget http://repos.fds-team.de/Release.key
+</span><span class="codeline" rel="2">apt-key add Release.key
+</span></pre></div>
+<p>Now you can add the repository by creating a file <code class="plaincode">/etc/apt/sources.list.d/pipelight.list</code> with the following content:</p>
+<div class="highlight-default"><pre><span class="codeline" rel="1">deb http://repos.fds-team.de/stable/debian/ avlinux main
+</span></pre></div>
+<p>The next step is to install the <code class="plaincode">pipelight-multi</code> and to update your plugin database.</p>
+<div class="highlight-default"><pre><span class="codeline" rel="1">apt-get update
+</span><span class="codeline" rel="2">apt-get install pipelight-multi
+</span><span class="codeline" rel="3">pipelight-plugin --update
+</span></pre></div>
+<p>Some old versions of AVLinux and/or filesystems might not have XATTR enabled by default, which is required to view DRM protected Silverlight content. You can follow this <a class="extern" target="_blank" href="http://www.remastersys.com/forums/index.php?topic=3171.msg19202#msg19202">tutorial</a> in the AVLinux forum on how to enable XATTR, if streaming pages do not work properly. For all other non-DRM pages this is not necessary.</p>
+<p>Now you everything set up and you can continue by <a href="http://pipelight.net/cms/installation.html#section_2">enabling plugins</a>.</p>
+
+						</div>
+						
+						
+						
+					</div>
+
+				</div>
+				
+			</div>
+			<div class="blogfooter">
+				<a class="linktag" href="http://pipelight.net/cms/contact-impressum.html"><span class="impressum">Contact / Impressum</span></a>
+<a class="linktag" href="http://pipelight.net/cms/feed/" target="_blank"><span class="feed"><img class="icon" src="./Pipelight _ Installation - AV Linux_files/feed.png" alt="RSS">RSS - Feed</span></a>
+			</div>
+		</div>
+	
+<div id="lightboxOverlay" style="display: none;"></div><div id="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image"><div class="lb-nav"><a class="lb-prev"></a><a class="lb-next"></a></div><div class="lb-loader"><a class="lb-cancel"><img src="./Pipelight _ Installation - AV Linux_files/loading.gif"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"><img src="./Pipelight _ Installation - AV Linux_files/close.png"></a></div></div></div></div></body></html>

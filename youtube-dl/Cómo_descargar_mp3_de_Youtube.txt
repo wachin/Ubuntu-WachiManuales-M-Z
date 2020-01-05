@@ -1,0 +1,11 @@
+
+command line - How to download an MP3 track from a YouTube video - Ask Ubuntu
+https://askubuntu.com/questions/178481/how-to-download-an-mp3-track-from-a-youtube-video
+
+You can also download the mp3 directly from youtube without converting using ffmpeg
+
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=b816_s8rxmQ	
+
+otro ejemplo:
+
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=Sl0LMKpf0Jk

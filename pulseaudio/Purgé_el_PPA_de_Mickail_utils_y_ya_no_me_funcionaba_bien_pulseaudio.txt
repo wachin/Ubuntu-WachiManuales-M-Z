@@ -1,0 +1,15 @@
+
+
+Purgé el PPA de Mickail utils y ya no me funcionaba bien pulseaudio, me aparecía este mensaje:
+
+Establishing connection to pulseaudio please wait
+
+para resolverlo puse esto en la terminal:
+
+pulseaudio --start
+
+además lo añadí al startup
+
+
+PulseAudio - Debian Wiki
+https://wiki.debian.org/PulseAudio

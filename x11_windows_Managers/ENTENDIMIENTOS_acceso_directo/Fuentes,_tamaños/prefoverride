@@ -1,0 +1,26 @@
+# Font Specification
+# Visto en "Icewm ultra - window manager"
+#  http://www.murga-linux.com/puppy/viewtopic.php?t=9404&start=45
+# En las pruebas que yo he hecho esta es la mejor configuracion para mi, 11 las fuentes y los iconos a 13
+ 
+TitleFontNameXft      =   sans-serif:size=11:bold 
+MenuFontNameXft         =   sans-serif:size=11 
+MinimizedWindowFontNameXft   =   sans-serif:size=11 
+ActiveButtonFontNameXft      =   sans-serif:size=11 
+NormalButtonFontNameXft      =   sans-serif:size=11 
+ToolButtonFontNameXft      =   sans-serif:size=11 
+NormalWorkspaceFontNameXft   =   sans-serif:size=11 
+ActiveWorkspaceFontNameXft   =   sans-serif:size=11 
+QuickSwitchFontNameXft      =   sans-serif:size=11 
+ListBoxFontNameXft      =   sans-serif:size=11 
+StatusFontNameXft      =   sans-serif:size=11 
+ToolTipFontNameXft      =   sans-serif:size=11 
+ActiveTaskBarFontNameXft   =   sans-serif:size=11 
+NormalTaskBarFontNameXft   =   sans-serif:size=11 
+ClockFontNameXft      =   sans-serif:size=11 
+InputFontNameXft      =   sans-serif:size=11 
+
+MenuIconSize=13
+SmallIconSize=13
+LargeIconSize=13 
+HugeIconSize=13

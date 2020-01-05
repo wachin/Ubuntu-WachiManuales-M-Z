@@ -1,0 +1,8 @@
+
+
+PCmanFM automonta las unidades extraibles como los USB, DVD, así que si usted no usa este administrador de archivos debe de desabilitar esa opción, en:
+
+Editar/Preferencias/Gestión de volumenes
+
+Desmarcar las tres opciones
+ 

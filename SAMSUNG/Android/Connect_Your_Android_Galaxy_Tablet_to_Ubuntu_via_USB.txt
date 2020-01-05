@@ -1,0 +1,22 @@
+
+
+
+Connect Your Android Galaxy Tablet to Ubuntu via USB
+By oltjano terpollari
+https://www.unixmen.com/connect-your-android-galaxy-tablet-to-ubuntu-via-usb/
+
+sudo apt-get install mtp-tools mtpfs
+
+
+*******************
+Probando en UbuntuStudio 16.04 el día 2016-06-07 
+*****************
+
+Instalando mtp-tools se puede usar este comando según:
+https://www.howtoforge.com/tutorial/how-to-connect-your-android-device-on-linux/
+
+mtp-detect
+
+ese lo usé. En dolphin4 no aparecía nada, pero en nautilus si (ahí es que no se si esto no era necesario o si, pues por defecto en UbuntuStudio 16.04 ya está instalado mtpfs9 )
+
+

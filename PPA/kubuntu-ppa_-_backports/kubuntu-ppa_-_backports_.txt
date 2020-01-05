@@ -1,0 +1,11 @@
+https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports
+
+ppa:kubuntu-ppa/backports  
+
+
+kde - Have the Kubuntu backports PPA stable software? - Ask Ubuntu
+http://askubuntu.com/questions/121435/have-the-kubuntu-backports-ppa-stable-software
+
+But there is always the risk ( https://help.ubuntu.com/community/UbuntuBackports ):
+
+When using Backports, it is important to understand that there is an inherent risk in backporting software. Although backported packages are tested by the community before they are included in the repository, there are very occasionally bad interactions with the older software on your system that are overlooked...

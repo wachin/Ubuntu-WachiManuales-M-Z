@@ -1,0 +1,15 @@
+
+qt4 - Qt 4 On Ubuntu 13.04 - Stack Overflow
+http://stackoverflow.com/questions/17481721/qt-4-on-ubuntu-13-04
+
+apt-cache search libqt4
+That should give you a list of all the packages needed to get the Qt 4 libs.
+Should include:
+
+libqt4-dev
+libqt4-core
+libqt4-gui
+...etc
+
+
+Funciona. Me lo pedía muse 2.2.1

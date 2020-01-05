@@ -1,0 +1,9 @@
+Commit Log for Thu Dec 31 17:07:14 2015
+
+
+Quitó completamente los siguientes paquetes:
+kde-l10n-es
+
+Quitó los paquetes siguientes:
+kdenlive
+language-pack-kde-es

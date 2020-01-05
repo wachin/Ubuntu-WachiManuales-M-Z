@@ -1,0 +1,10 @@
+
+
+
+sudo add-apt-repository ppa:slgobinath/safeeyes
+sudo apt update && sudo apt install safeeyes
+
+
+How to Reduce Eye Strain on Linux Ubuntu Systems
+By Himanshu Arora – Posted on Dec 3, 2016 in Linux
+https://www.maketecheasier.com/reduce-eye-strain-ubuntu/

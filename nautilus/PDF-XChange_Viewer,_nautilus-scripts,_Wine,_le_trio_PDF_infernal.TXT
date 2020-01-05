@@ -1,0 +1,35 @@
+
+PDF-XChange Viewer, nautilus-scripts, Wine, le trio PDF infernal
+http://www.thierryb.net/site/PDF-XChange-nautilus-scripts-Wine.html?lang=fr
+
+
+Note: The submenu 'Scripts' only appears once you have at least one script in the scripts directory.
+
+For a script to be found by Nautilus it needs to be located in your scripts directory (~/.local/share/nautilus/scripts/, before Ubuntu 14.04 that was '~/.gnome2/nautilus-scripts'). This folder is located in your home folder but is hidden by default. To view hidden files and folders in Nautilus press Ctrl+H, or use the terminal to navigate to the folder:
+
+cd ~/.local/share/nautilus/scripts/
+https://help.ubuntu.com/community/NautilusScriptsHowto
+
+
+#!/bin/bash
+
+env WINEPREFIX="/home/<REMPLACER_PAR_VOTRE_USER>/.wine" wine "C:\PDFV_Portable\PDFXCview.exe" "$@"
+exit 0
+
+
+O sea que mi scritp debe quedar así:
+
+
+#!/bin/bash
+
+env WINEPREFIX="/home/wachin/.wine" wine "C:\Program Files\MediaInfo\mediainfo.exe" "$@"
+exit 0
+
+
+
+
+
+
+
+
+

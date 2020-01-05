@@ -1,0 +1,11 @@
+
+
+Tamaño y resolución de la imagen
+https://support.google.com/youtube/answer/72431?hl=es-419
+
+La imagen de tu miniatura personalizada debe ser lo más grande posible, ya que también se utilizará como imagen de vista previa en el reproductor incorporado. Recomendamos que tus miniaturas personalizadas:
+
+Tengan una resolución de 1280 x 720 (con un ancho mínimo de 640 píxeles).
+Se suban en formatos de imagen, como .JPG, .GIF, .BMP o .PNG.
+Respeten el límite de 2 MB.
+Tengan una proporción de 16:9, ya que es la que más se usa en los reproductores y vistas previas de YouTube (si es posible). 

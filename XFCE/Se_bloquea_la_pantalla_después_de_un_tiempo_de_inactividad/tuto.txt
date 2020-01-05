@@ -1,0 +1,8 @@
+
+
+Hacer un tutorial sobre cuando uno ve una película y luego se bloquea la pantalla
+
+SOLUCIONES
+1.- Desactivar protector de pantalla
+2.- Desactivar administración de energía de la pantalla
+2.1.- En blanco después de: "Núnca" 

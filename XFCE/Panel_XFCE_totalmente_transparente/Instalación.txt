@@ -1,0 +1,26 @@
+
+
+Aplaste Crtl + H si usa Nautilus, caja, nemo, thunar, etc, o aplaste Alt + . si usa  dolphin, y copie el archivo de la carpeta:
+
+/home/wachin/Dropbox/UbuntuManuales/XFCE/Panel XFCE totalmente transparente/Aquí dentro está oculto .gtkrc-2.0
+
+Aquí dentro está oculto .gtkrc-2.0
+
+y pegalo en 
+
+HOME 
+
+y también copie la carpeta 
+
+Panel
+
+y su HOME, y cierre sesión y vuelva a entrar
+
+Esta carpeta Panel contiene el contendido del theme Bluebird en
+
+/home/wachin/Dropbox/UbuntuManuales/temas/Bluebird(modificado por mi)/Bluebird2/gtk-2.0/Panel
+
+hay que ponerla pues después anda apareciendo un mensaje en la terminal que no se encuentran las imagenes de esos tres png
+
+
+

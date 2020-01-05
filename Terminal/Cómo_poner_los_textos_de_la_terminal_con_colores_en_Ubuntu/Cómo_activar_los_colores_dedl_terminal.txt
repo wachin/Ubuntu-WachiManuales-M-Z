@@ -1,0 +1,30 @@
+
+Cómo poner los textos de la terminal con colores en Ubuntu
+https://facilitarelsoftwarelibre.blogspot.com/2018/01/como-poner-los-textos-de-la-terminal.html
+
+Copie el archivo necesario que está en el mismo sistema operativo, copielo a su HOME con el siguiente comando:
+
+cp /etc/skel/.bashrc ~/.bashrc
+
+luego editelo (debe tener instaldo gedit):
+
+gedit ~/.bashrc
+
+ahora hay que buscar en ese archivo de texto la siguiente linea:
+
+#force_color_prompt=yes 
+
+cuando lo encuentre borre la almoadilla "#", debe quedarle así:
+
+force_color_prompt=yes
+
+para encontrar esa linea use el atajo Ctrl+f, ponga el texto “#force_color_prompt=yes” y de Enter
+
+Luego de realizar el reemplazo guarde el cambio, y para hacer efectivo el cambio ponga este comando:
+
+source ~/.bashrc
+
+
+Este tutorial está basado en (pero corregido y hecho más fácil):
+Cómo activar los colores del Terminal en donde no lo está por defecto
+https://ubunlog.com/como-activar-los-colores-de-la-terminal/#comment-19568

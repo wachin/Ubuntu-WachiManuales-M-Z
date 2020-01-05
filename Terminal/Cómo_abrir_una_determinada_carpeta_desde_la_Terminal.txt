@@ -1,0 +1,9 @@
+
+Cómo abrir una determinada carpeta desde la Terminal
+
+$ xdg-open /path/to/the/folder
+
+
+
+6 Ways to Open Folders in Ubuntu 18.04 LTS
+https://vitux.com/how-to-open-folders-in-ubuntu/

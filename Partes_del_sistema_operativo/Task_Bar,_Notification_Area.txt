@@ -1,0 +1,26 @@
+
+
+Task Bar = Barra de tareas
+
+notification area = área de notificación
+
+*******************
+Para mis tutoriales
+*******************
+
+El area de notificación que está a la derecha en la Barra de tareas
+
+
+Area de notificación
+El área de notificación, situada en el extremo derecho de la barra de tareas, incluye el reloj y un grupo de iconos, como muéstra la siguiente imagen. Estos iconos indican el estado de alguna parte del equipo o proporcionan acceso a determinados valores de configuración. El conjunto de iconos que vea dependerá de qué programas o servicios tenga instalados y de cómo el fabricante haya configurado el equipo. Al mover el puntero hacia un icono concreto, verá el 
+
+
+
+Consultas:
+
+Taskbar
+https://en.wikipedia.org/wiki/Taskbar
+
+
+Barra de tareas
+https://es.wikipedia.org/wiki/Barra_de_tareas

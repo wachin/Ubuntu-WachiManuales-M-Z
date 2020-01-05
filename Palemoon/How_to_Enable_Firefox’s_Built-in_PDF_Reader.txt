@@ -1,0 +1,10 @@
+
+How to Enable Firefox’s Built-in PDF Reader
+http://www.howtogeek.com/123617/how-to-enable-firefoxs-built-in-pdf-reader/
+
+
+about:config
+
+Next you will need enable the actual PDF Reader feature, you can do this by searching for:
+
+    pdfjs.disabled

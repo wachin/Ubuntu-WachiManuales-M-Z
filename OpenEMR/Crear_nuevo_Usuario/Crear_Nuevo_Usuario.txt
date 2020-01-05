@@ -1,0 +1,11 @@
+
+
+
+
+Instrucciones para crear nuevo Usuario (Doctor) aquí:
+
+MI2 OpenEMR42x NewClin2UsrAcctl
+https://www.youtube.com/watch?v=-s8dYXEsaVQ 
+
+Visto en:
+http://open-emr.org/wiki/index.php/OpenEMR_4.2.2_Users_Guide#OpenEMR_4.2.x_-_New_Clinic:_User_Accounts

@@ -1,0 +1,59 @@
+
+
+INSTALACIÓN
+
+Descarga el Master de:
+
+https://github.com/gapan/xdgmenumaker
+
+instala:
+
+sudo apt-get install txt2tags
+
+descomprimir el master en home y entrar allí en la terminal y poner
+
+
+sudo su
+
+ponga su contraseña
+
+luego ponga y ejecute (uno por uno):
+
+make
+
+make install
+
+y se instalará. 
+
+
+USO DEL PROGRAMA
+
+Para generar el menú en HOME debes poner:
+
+xdgmenumaker -n -i -f jwm > ~/appmenu
+
+para genrarlo en mi carpeta de mi proyecto "/RisenPC-JWM":
+
+xdgmenumaker -n -i -f jwm > $HOME/RisenPC-JWM/appmenu
+
+
+CREAR UN SCRIPT:
+
+#!/bin/bash
+xdgmenumaker -n -i -f jwm > $HOME/RisenPC-JWM/appmenu && jwm -restart
+
+
+Este script añadirlo al menú de jwm
+
+editar .jwmrc y añadir:
+
+    <!-- The root menu. -->
+    <RootMenu onroot="12">
+        <Include>$HOME/RisenPC-JWM/appmenu</Include>
+
+
+
+
+
+
+ 

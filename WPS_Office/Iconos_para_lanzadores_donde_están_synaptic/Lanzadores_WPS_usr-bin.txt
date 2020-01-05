@@ -1,0 +1,26 @@
+
+Los lanzadores están aquí, solo copiarlos y mandarlos al escritorio:
+
+Lanzadores de escritorio:
+/usr/share/applications/wps-office-et.desktop
+/usr/share/applications/wps-office-wpp.desktop
+/usr/share/applications/wps-office-wps.desktop
+
+Nombre, Lanzador ejecutable, e icono:
+
+WPS Spreadsheets
+/usr/bin/et
+/usr/share/icons/hicolor/256x256/apps/wps-office-etmain.png
+
+WPS Presentation
+/usr/bin/wpp
+/usr/share/icons/hicolor/256x256/apps/wps-office-wppmain.png
+
+WPS Writer
+/usr/bin/wps
+/usr/share/icons/hicolor/256x256/apps/wps-office-wpsmain.png
+
+
+
+
+

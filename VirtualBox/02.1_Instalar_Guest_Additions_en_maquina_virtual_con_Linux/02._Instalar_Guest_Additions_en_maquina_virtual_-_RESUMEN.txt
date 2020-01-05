@@ -1,0 +1,25 @@
+
+Instalar Guest Additions en maquina virtual con Linux
+
+
+Para evitar problemas al instalar Guest Additions, dentro de la máquina virtual ponga en la terminal uno por uno estos comandos:
+
+sudo apt-get update
+
+luego:
+
+sudo apt-get upgrade
+
+Nota: Tenga paciencia mientras se descargan los paquetes y se instalan, puede durar mucho.  Luego:
+
+sudo apt-get install dkms
+
+y luego:
+
+sudo apt-get install build-essential
+
+Ahora inserte el CD de las GuestAdditions y copie su contenido a una carpeta en HOME, entre allí desde la terminal y allí escriba este comando:
+
+sudo sh ./VBoxLinuxAdditions.run
+
+Dele enter, ponga su contraseña y a esperar.

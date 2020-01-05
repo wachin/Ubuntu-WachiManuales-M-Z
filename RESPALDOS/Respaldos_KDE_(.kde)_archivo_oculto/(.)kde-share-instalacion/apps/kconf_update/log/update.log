@@ -1,0 +1,229 @@
+2016-07-22T14:15:41 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2016-07-22T14:15:41 kded.upd: Found new update 'kde3.0'
+2016-07-22T14:15:41 kded.upd: Skipping update 'kde3.0'
+2016-07-22T14:15:41 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2016-07-22T14:15:41 Checking update-file '/usr/share/kde4/apps/kconf_update/kdeui.upd' for new updates
+2016-07-22T14:15:41 kdeui.upd: Found new update 'kde4/migrate_from_kde3_icon_theme'
+2016-07-22T14:15:41 kdeui.upd: Skipping update 'kde4/migrate_from_kde3_icon_theme'
+2016-07-22T14:15:41 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2016-07-22T14:15:41 kio_help.upd: Found new update 'kde3_2'
+2016-07-22T14:15:41 kio_help.upd: Running script 'move_kio_help_cache.sh'
+2016-07-22T14:15:42 [Script] mv: no se puede efectuar `stat' sobre '/home/wachin/.kde/share/apps/kio_help/cache': No existe el archivo o el directorio
+2016-07-22T14:15:42 [Script] rmdir: fallo al borrar '/home/wachin/.kde/share/apps/kio_help': No existe el archivo o el directorio
+2016-07-22T14:15:42 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2016-07-22T14:15:42 devicepreference.upd: Found new update 'DevicesMovedToPlatformPlugin'
+2016-07-22T14:15:42 devicepreference.upd: Running script 'phonon_devicepreference_update'
+2016-07-22T14:15:42 devicepreference.upd: Found new update 'DevicesUIDsChanged'
+2016-07-22T14:15:42 devicepreference.upd: Running script 'phonon_deviceuids_update'
+2016-07-22T14:15:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2016-07-22T14:15:42 kuriikwsfilter.upd: Found new update 'post-kde3.1/cvs'
+2016-07-22T14:15:42 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2016-07-22T14:15:42 kuriikwsfilter.upd: Found new update 'pre-kde4.9'
+2016-07-22T14:15:42 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2016-07-22T14:15:42 Checking update-file '/usr/share/kde4/apps/kconf_update/okular.upd' for new updates
+2016-07-22T14:15:42 okular.upd: Found new update 'sep_settings'
+2016-07-22T14:15:42 okular.upd: File 'okularpartrc' does not exist or empty, skipping
+2016-07-22T14:15:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kate-2.4.upd' for new updates
+2016-07-22T14:15:42 kate-2.4.upd: Found new update 'kate2.4'
+2016-07-22T14:15:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2016-07-22T14:15:42 kioslave.upd: Found new update 'kde2.2/r1'
+2016-07-22T14:15:42 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2016-07-22T14:15:42 kioslave.upd: Skipping update 'kde2.2/r1'
+2016-07-22T14:15:42 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2016-07-22T14:15:42 kioslave.upd: Found new update 'kde2.2/r2'
+2016-07-22T14:15:42 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2016-07-22T14:15:42 kioslave.upd: Found new update 'kde2.2/r3'
+2016-07-22T14:15:42 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2016-07-22T14:15:42 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2016-07-22T14:15:42 ksslcertificatemanager.upd: Found new update 'kde4.2'
+2016-07-22T14:15:42 ksslcertificatemanager.upd: Running script 'ksslcertificatemanager.upd.sh'
+2016-07-22T14:15:42 [Script] rm: no se puede borrar '/home/wachin/.kde//share/config/ksslcertificatemanager': No existe el archivo o el directorio
+2016-07-22T14:15:42 ksslcertificatemanager.upd: !! An error occurred while running 'sh /usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh'
+2016-07-22T14:15:42 Checking update-file '/usr/share/kde4/apps/kconf_update/drkonqi-rename-config-section.upd' for new updates
+2016-07-22T14:15:42 drkonqi-rename-config-section.upd: Found new update 'kde-4.11'
+2016-07-22T14:15:42 drkonqi-rename-config-section.upd: File 'drkonqirc' does not exist or empty, skipping
+2016-07-22T14:15:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kwallet-4.13.upd' for new updates
+2016-07-22T14:15:42 kwallet-4.13.upd: Found new update 'kde4.13'
+2016-07-22T14:15:42 kwallet-4.13.upd: File 'kwalletrc' does not exist or empty, skipping
+2016-07-22T14:15:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2016-07-22T14:15:42 kcookiescfg.upd: Found new update 'kde2.2/b1'
+2016-07-22T14:15:42 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2016-07-22T14:15:42 kcookiescfg.upd: Found new update 'kde3.1/cvs'
+2016-07-22T14:15:42 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2016-07-22T14:15:42 kcookiescfg.upd: Found new update 'kde4.10/git'
+2016-07-22T14:15:42 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2017-03-10T08:24:48 Checking update-file '/usr/share/kde4/apps/kconf_update/kdeui.upd' for new updates
+2017-03-10T08:24:48 kdeui.upd: Found new update 'kde4/migrate_from_kde3_icon_theme'
+2017-03-10T08:24:48 kdeui.upd: Skipping update 'kde4/migrate_from_kde3_icon_theme'
+2017-03-10T08:24:52 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2017-03-10T08:24:52 kded.upd: Found new update 'kde3.0'
+2017-03-10T08:24:52 kded.upd: Skipping update 'kde3.0'
+2017-03-10T08:24:52 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2017-03-10T08:24:52 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2017-03-10T08:24:52 kioslave.upd: Found new update 'kde2.2/r1'
+2017-03-10T08:24:52 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-03-10T08:24:52 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-03-10T08:24:52 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-03-10T08:24:55 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2017-03-10T08:24:55 kded.upd: Found new update 'kde3.0'
+2017-03-10T08:24:55 kded.upd: Skipping update 'kde3.0'
+2017-03-10T08:24:55 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2017-03-10T08:24:55 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2017-03-10T08:24:55 kioslave.upd: Found new update 'kde2.2/r1'
+2017-03-10T08:24:55 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-03-10T08:24:55 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-03-10T08:24:55 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-03-10T08:25:26 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2017-05-15T09:05:11 Checking update-file '/usr/share/kde4/apps/kconf_update/kdeui.upd' for new updates
+2017-05-15T09:05:11 kdeui.upd: Found new update 'kde4/migrate_from_kde3_icon_theme'
+2017-05-15T09:05:11 kdeui.upd: Skipping update 'kde4/migrate_from_kde3_icon_theme'
+2017-05-15T09:05:13 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2017-05-15T09:05:13 kded.upd: Found new update 'kde3.0'
+2017-05-15T09:05:13 kded.upd: Skipping update 'kde3.0'
+2017-05-15T09:05:13 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2017-05-15T09:05:13 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2017-05-15T09:05:13 kioslave.upd: Found new update 'kde2.2/r1'
+2017-05-15T09:05:13 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-05-15T09:05:13 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-05-15T09:05:13 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-05-15T09:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2017-05-15T09:05:14 kded.upd: Found new update 'kde3.0'
+2017-05-15T09:05:14 kded.upd: Skipping update 'kde3.0'
+2017-05-15T09:05:14 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2017-05-15T09:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2017-05-15T09:05:14 kioslave.upd: Found new update 'kde2.2/r1'
+2017-05-15T09:05:14 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-05-15T09:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-05-15T09:05:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-05-15T09:05:32 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2017-06-14T19:01:01 Checking update-file '/usr/share/kde4/apps/kconf_update/adjustlevelstool.upd' for new updates
+2017-06-14T19:01:02 adjustlevelstool.upd: Found new update 'adjustlevels2.6.0'
+2017-06-14T19:01:02 adjustlevelstool.upd: File 'digikamrc' does not exist or empty, skipping
+2017-07-08T14:04:16 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2017-07-08T14:04:16 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2017-07-08T14:04:16 Checking update-file '/usr/share/kde4/apps/kconf_update/drkonqi-rename-config-section.upd' for new updates
+2017-07-08T14:04:16 Checking update-file '/usr/share/kde4/apps/kconf_update/kwallet-4.13.upd' for new updates
+2017-07-08T14:04:19 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2017-07-08T14:04:19 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2017-07-08T14:04:19 Checking update-file '/usr/share/kde4/apps/kconf_update/drkonqi-rename-config-section.upd' for new updates
+2017-07-08T14:04:19 Checking update-file '/usr/share/kde4/apps/kconf_update/kwallet-4.13.upd' for new updates
+2017-07-08T14:04:25 Checking update-file '/usr/share/kde4/apps/kconf_update/kdeui.upd' for new updates
+2017-07-08T14:04:25 kdeui.upd: Found new update 'kde4/migrate_from_kde3_icon_theme'
+2017-07-08T14:04:25 kdeui.upd: Skipping update 'kde4/migrate_from_kde3_icon_theme'
+2017-07-08T14:04:44 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2017-07-08T14:04:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2017-07-08T14:04:58 kded.upd: Found new update 'kde3.0'
+2017-07-08T14:04:58 kded.upd: Skipping update 'kde3.0'
+2017-07-08T14:04:58 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2017-07-08T14:04:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2017-07-08T14:04:58 kioslave.upd: Found new update 'kde2.2/r1'
+2017-07-08T14:04:58 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-07-08T14:04:58 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-07-08T14:04:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-07-08T14:05:54 Checking update-file '/usr/share/kde4/apps/kconf_update/okular.upd' for new updates
+2017-07-08T14:28:58 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2017-07-08T14:28:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2017-07-08T14:28:58 Checking update-file '/usr/share/kde4/apps/kconf_update/drkonqi-rename-config-section.upd' for new updates
+2017-07-08T14:28:58 Checking update-file '/usr/share/kde4/apps/kconf_update/kwallet-4.13.upd' for new updates
+2017-07-08T14:28:59 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2017-07-08T14:28:59 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2017-07-08T14:28:59 Checking update-file '/usr/share/kde4/apps/kconf_update/drkonqi-rename-config-section.upd' for new updates
+2017-07-08T14:28:59 Checking update-file '/usr/share/kde4/apps/kconf_update/kwallet-4.13.upd' for new updates
+2017-07-08T14:29:27 Checking update-file '/usr/share/kde4/apps/kconf_update/okular.upd' for new updates
+2017-07-08T14:29:38 Checking update-file '/usr/share/kde4/apps/kconf_update/kdeui.upd' for new updates
+2017-07-08T14:29:38 kdeui.upd: Found new update 'kde4/migrate_from_kde3_icon_theme'
+2017-07-08T14:29:38 kdeui.upd: Skipping update 'kde4/migrate_from_kde3_icon_theme'
+2017-07-08T14:29:54 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2017-07-08T14:29:55 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2017-07-08T14:30:20 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2017-07-08T14:30:20 kded.upd: Found new update 'kde3.0'
+2017-07-08T14:30:20 kded.upd: Skipping update 'kde3.0'
+2017-07-08T14:30:20 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2017-07-08T14:30:20 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2017-07-08T14:30:20 kioslave.upd: Found new update 'kde2.2/r1'
+2017-07-08T14:30:20 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-07-08T14:30:20 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-07-08T14:30:20 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-07-08T14:30:21 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2017-07-08T14:30:21 kded.upd: Found new update 'kde3.0'
+2017-07-08T14:30:21 kded.upd: Skipping update 'kde3.0'
+2017-07-08T14:30:21 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2017-07-08T14:30:21 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2017-07-08T14:30:21 kioslave.upd: Found new update 'kde2.2/r1'
+2017-07-08T14:30:21 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-07-08T14:30:22 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-07-08T14:30:22 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-08-20T21:55:42 Checking update-file '/usr/share/kde4/apps/kconf_update/drkonqi-rename-config-section.upd' for new updates
+2017-08-20T21:55:42 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-08-20T21:55:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2017-08-20T21:55:42 kioslave.upd: Found new update 'kde2.2/r1'
+2017-08-20T21:55:42 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-08-20T21:55:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kate-2.4.upd' for new updates
+2017-08-20T21:55:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-08-20T21:55:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kdeui.upd' for new updates
+2017-08-20T21:55:42 kdeui.upd: Found new update 'kde4/migrate_from_kde3_icon_theme'
+2017-08-20T21:55:42 kdeui.upd: Skipping update 'kde4/migrate_from_kde3_icon_theme'
+2017-08-20T21:55:42 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2017-08-20T21:55:43 Checking update-file '/usr/share/kde4/apps/kconf_update/kwallet-4.13.upd' for new updates
+2017-08-20T21:55:44 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2017-08-20T21:55:44 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2017-08-20T21:55:44 kded.upd: Found new update 'kde3.0'
+2017-08-20T21:55:44 kded.upd: Skipping update 'kde3.0'
+2017-08-20T21:55:44 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2017-08-20T21:55:44 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2017-10-20T14:29:36 Checking update-file '/usr/share/kde4/apps/kconf_update/amarok.upd' for new updates
+2017-10-20T14:29:36 amarok.upd: Found new update '1'
+2017-10-20T14:29:36 amarok.upd: File 'amarokrc' does not exist or empty, skipping
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/kwallet-4.13.upd' for new updates
+2018-03-17T12:48:25 kwallet-4.13.upd: Found new update 'kde4.13'
+2018-03-17T12:48:25 kwallet-4.13.upd: File 'kwalletrc' does not exist or empty, skipping
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2018-03-17T12:48:25 kded.upd: Found new update 'kde3.0'
+2018-03-17T12:48:25 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/kdeui.upd' for new updates
+2018-03-17T12:48:25 kdeui.upd: Found new update 'kde4/migrate_from_kde3_icon_theme'
+2018-03-17T12:48:25 kdeui.upd: Running script 'migrate_from_kde3_icon_theme'
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2018-03-17T12:48:25 ksslcertificatemanager.upd: Found new update 'kde4.2'
+2018-03-17T12:48:25 ksslcertificatemanager.upd: Running script 'ksslcertificatemanager.upd.sh'
+2018-03-17T12:48:25 [Script] rm: no se puede borrar '/home/wachin/.kde//share/config/ksslcertificatemanager': No existe el archivo o el directorio
+2018-03-17T12:48:25 ksslcertificatemanager.upd: !! An error occurred while running 'sh /usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh'
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/okular.upd' for new updates
+2018-03-17T12:48:25 okular.upd: Found new update 'sep_settings'
+2018-03-17T12:48:25 okular.upd: File 'okularpartrc' does not exist or empty, skipping
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/drkonqi-rename-config-section.upd' for new updates
+2018-03-17T12:48:25 drkonqi-rename-config-section.upd: Found new update 'kde-4.11'
+2018-03-17T12:48:25 drkonqi-rename-config-section.upd: File 'drkonqirc' does not exist or empty, skipping
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2018-03-17T12:48:25 kio_help.upd: Found new update 'kde3_2'
+2018-03-17T12:48:25 kio_help.upd: Running script 'move_kio_help_cache.sh'
+2018-03-17T12:48:25 [Script] mv: no se puede efectuar `stat' sobre '/home/wachin/.kde/share/apps/kio_help/cache': No existe el archivo o el directorio
+2018-03-17T12:48:25 [Script] rmdir: fallo al borrar '/home/wachin/.kde/share/apps/kio_help': No existe el archivo o el directorio
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2018-03-17T12:48:25 devicepreference.upd: Found new update 'DevicesMovedToPlatformPlugin'
+2018-03-17T12:48:25 devicepreference.upd: Running script 'phonon_devicepreference_update'
+2018-03-17T12:48:25 devicepreference.upd: Found new update 'DevicesUIDsChanged'
+2018-03-17T12:48:25 devicepreference.upd: Running script 'phonon_deviceuids_update'
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2018-03-17T12:48:25 kioslave.upd: Found new update 'kde2.2/r1'
+2018-03-17T12:48:25 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2018-03-17T12:48:25 kioslave.upd: Skipping update 'kde2.2/r1'
+2018-03-17T12:48:25 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2018-03-17T12:48:25 kioslave.upd: Found new update 'kde2.2/r2'
+2018-03-17T12:48:25 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2018-03-17T12:48:25 kioslave.upd: Found new update 'kde2.2/r3'
+2018-03-17T12:48:25 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2018-03-17T12:48:25 kcookiescfg.upd: Found new update 'kde2.2/b1'
+2018-03-17T12:48:25 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2018-03-17T12:48:25 kcookiescfg.upd: Found new update 'kde3.1/cvs'
+2018-03-17T12:48:25 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2018-03-17T12:48:25 kcookiescfg.upd: Found new update 'kde4.10/git'
+2018-03-17T12:48:25 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2018-03-17T12:48:25 kuriikwsfilter.upd: Found new update 'post-kde3.1/cvs'
+2018-03-17T12:48:25 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2018-03-17T12:48:25 kuriikwsfilter.upd: Found new update 'pre-kde4.9'
+2018-03-17T12:48:25 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2018-03-17T12:48:25 Checking update-file '/usr/share/kde4/apps/kconf_update/kate-2.4.upd' for new updates
+2018-03-17T12:48:25 kate-2.4.upd: Found new update 'kate2.4'

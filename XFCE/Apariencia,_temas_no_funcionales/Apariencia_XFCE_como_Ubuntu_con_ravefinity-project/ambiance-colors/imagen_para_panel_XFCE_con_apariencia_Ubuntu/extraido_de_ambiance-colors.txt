@@ -1,0 +1,9 @@
+
+lo extraje de aquí:
+
+/usr/share/themes/Ambiance-XFCE-LXDE-Orange/xfwm4/ 
+
+/usr/share/themes/Ambiance-XFCE-LXDE-Orange/xfwm4/title-1-inactive.xpm
+
+este lo añadí al panel de arriba para que se parezca a Ubuntu
+

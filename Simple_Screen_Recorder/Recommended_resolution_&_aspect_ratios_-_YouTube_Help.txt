@@ -1,0 +1,18 @@
+Recommended resolution & aspect ratios - YouTube Help
+https://support.google.com/youtube/answer/6375112
+
+Recommended resolution & aspect ratios
+
+YouTube uses 16:9 aspect ratio players. The YouTube player automatically adds black bars to videos in the player so that videos are displayed correctly without cropping or stretching, regardless of the size of the video or the player.
+
+Recommended resolution & aspect ratios
+To fit the player perfectly, encode at these resolutions:
+
+2160p: 3840x2160
+1440p: 2560x1440
+1080p: 1920x1080
+720p: 1280x720
+480p: 854x480
+360p: 640x360
+240p: 426x240
+You can adjust the fit of your video in the YouTube player after uploading your video using formatting tags.

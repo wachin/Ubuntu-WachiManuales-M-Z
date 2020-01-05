@@ -1,0 +1,14 @@
+
+Cómo instalar RedShift
+
+sudo apt-get install geoclue-2.0 redshift-gtk redshift
+
+Para que Redshift se conecte al servicio Geoclue para que automáticamente everígue la hora ponga en la terminal:
+
+touch ~/.config/redshift.conf
+
+en la terminal:
+
+redshift -p; redshift-gtk
+
+Nota: Si usted quiere añadir al inicio en su sistema operativo linux

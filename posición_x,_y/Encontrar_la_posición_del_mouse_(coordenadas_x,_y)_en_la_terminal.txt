@@ -1,0 +1,13 @@
+
+
+Encontrar la posición del mouse (coordenadas x, y) en la terminal
+	
+
+
+sudo apt-get install xdotool
+
+xdotool getmouselocation
+
+Fuente:
+[Solved] Finding mouse position in bash
+https://bbs.archlinux.org/viewtopic.php?id=55495

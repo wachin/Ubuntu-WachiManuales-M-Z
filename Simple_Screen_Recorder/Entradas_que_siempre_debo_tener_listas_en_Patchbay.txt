@@ -1,0 +1,9 @@
+
+
+Entradas que deben estar activas en SimpleScreenRecorder, esto en Jack en Patchbay:
+
+- audacious jack
+- PulseAudio JACK Sink
+- qsynth
+
+y debo tener arreglada las entradas del micrófono, sólo coger capture_1 para ambras entradas de SimpleScreenRecorder 

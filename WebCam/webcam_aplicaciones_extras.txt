@@ -1,0 +1,11 @@
+
+
+
+qv4l2.- Graphical Qt v4l2 control panel
+
+w3cam.- Un CGI sencillo para obtener im[agenes de dispositivos video4linux
+
+libwebcam0.- Webcam library
+
+v4l2ucp.- Video para el panel de control universal de Linux 2
+

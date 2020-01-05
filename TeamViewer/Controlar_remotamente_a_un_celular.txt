@@ -1,0 +1,24 @@
+
+
+screencast - Is it possible to show the display of my Android phone on my PC screen in Ubuntu? - Ask Ubuntu
+https://askubuntu.com/questions/804332/is-it-possible-to-show-the-display-of-my-android-phone-on-my-pc-screen-in-ubuntu
+
+
+you can use teamviewer, download it for your computer here
+
+https://www.teamviewer.com/download/linux/
+
+and download teamviewer host for your phone here
+
+https://play.google.com/store/apps/details?id=com.teamviewer.host.market
+
+you will get a secure connection between them
+
+and are able to control the screen and phone fully
+
+shareeditflag
+answered Jul 29 '16 at 9:05
+
+patrick
+386112
+ 

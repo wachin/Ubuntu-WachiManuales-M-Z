@@ -1,0 +1,30 @@
+
+
+
+Cómo saber si alguien extraño(para robar) se conecta a mi Wi-Fi en Ubuntu, Debian, con iwconfig y netdiscover
+
+Es necesario que en el ordenador esté conectado al Wi-Fi
+
+INSTALAR:
+Para instalar poner en la terminal:
+
+sudo apt install netdiscover
+
+luego poner en la terminal:
+
+iwconfig
+
+elegir el que pertenece al Wi-Fi
+
+en mi caso es:
+
+wlan0
+
+ahora poner en la terminal:
+
+sudo netdiscover -i wlan0
+
+y aparecerán los dispositivos. 
+
+Nota: Si usted tiene un celular y está usando ese mismo Wi-Fi usted debe usarlo mirando Youtube o consultando algo en internet o usando uan app que use internet, esto porque si no lo hace no aparecerá en la lista de los dispositivos
+

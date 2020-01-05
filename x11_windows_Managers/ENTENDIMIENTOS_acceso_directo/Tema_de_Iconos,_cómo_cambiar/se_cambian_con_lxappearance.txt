@@ -1,0 +1,64 @@
+
+
+Los iconos de temas en iceWM sólo se pueden cambiar con lxappearance, debes instalarlo:
+
+sudo apt-get install lxappearance
+
+lo lanzas desde la terminal y en la pestaña "Tema de iconos" le pones el tema de iconos de acuerdo al tema de icewm que estés usando, ejemplo a mi me funciona este(recuerda que este lo tengo porque lo descargué de una pagina externa, no viene instalado por defecto):
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Breeze-Dark con domaik , para Aspecto Visual oscuros de iceWM
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Instrucciones:
+
+Enla terminal ejecute
+
+lxappearance 
+
+En la pestaña "Control" escoja "Breeze-Dark" y en la pestaña "Temas de iconos" escoja "Brisa oscura"
+
+domaik es un tema oscuro y necesita iconos claros, la barra de tareas de domaik es oscura y los iconos blancos de Breeze-Dark si deja ver bien el icono de volumen cuando se sube o se baja (pnmixer), y también el icono de internet (nm-applet). Se instala cuando instalas plasma-desktop
+
+sudo apt-get install plasma-desktop
+
+Nota: También está disponible "Breeze" que es para temas de iceWM claros pues trae iconos oscuros por lo tanto no es compatible con domaik, pero si habría que hacer la prueba con otros temas porque tiene los iconos de las aplicaciones de KDE como como kate, el Panel de Control de "Preferencias del Sistema de KDE"
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒
+domaik con human, para temas claros
+▒▒▒▒▒▒▒▒▒▒▒▒▒
+Es el segundo compatible, deja ver bien el icono de volumen cuando se sube o se baja (pnmixer), y también el icono de internet (nm-applet). Debes tener instalado este tema "human-icon-theme":
+
+sudo apt-get install human-icon-theme 
+
+Nota: Sin embargo con este tema de iconos faltaran algunos para aplicaciones de KDE como kate, el Panel de Control de "Preferencias del Sistema de KDE", y otras.
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Otros que no funcionaron con domaik
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Yo solo voy a usar domaik y probé los siguientes y no me funcionaron: domaik con Humanity-Dark necesita el paquete "humanity-icon-theme". Ubuntu-Mono-Dark necesita el paquete "ubuntu-mono". Dejan ver el icono de internet (nm-applet) pero no bien el del volumen cuando se lo sube o baja. Debes tener instalado este tema "ubuntu-mono"
+
+Nota: domaik no funciona bien con: Humanity, UbuntuStudio, elementary Xfce dark, porque no se ve bien el icono del volumen de pnmixer o el del internet nm-applet. Pero podría funcionar con otro de los temas de iceWM
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Breeze (Brisa), para temas claros
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Rerecuerda que domaik es un tema oscuro y necesita iconos claros, con domaik no deja ver el icono de volumen cuando se sube o se baja (pnmixer), el icono de internet (nm-applet) si aparece. Se instala cuando instalas plasma-desktop
+
+sudo apt-get install plasma-desktop
+
+Nota: Este es un temas de iceWM claros pues trae iconos oscuros, pero si habría que hacer la prueba con otros temas porque tiene los iconos de las aplicaciones de KDE como como kate, el Panel de Control de "Preferencias del Sistema de KDE"
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Cómo usar los temas de iceWM nuevos
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Para usar otros temas nuevos de iceWM como Windows7ice1, Erizo, Adwaita, arkanos, Dark-Ice, plastiKO (que he descargado y están disponibles aquí en este tutorial), debes usar otros tipos de temas de iconos para ver con cual se ve bien, esto significa que después de escojer un tema de iconos hay que cerrar sesión y volver a entrar porque sólo así se puden visualizar todos los cambios de estos iconos en la barra de herramientas
+
+Nota 2: Los "temas de iconos" los debes buscar con ese nombre en synaptic, esto si usted quiere probar otros con otros de los temas de icewm
+
+Att:
+Wachín
+2017-07-09
+
+

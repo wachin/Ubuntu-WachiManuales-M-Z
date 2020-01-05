@@ -1,0 +1,10 @@
+
+Plasma 5.10.1 now in Zesty backports | Kubuntu
+https://kubuntu.org/news/plasma-5-10-1-now-in-zesty-backports/
+
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+
+and packages then updated with
+
+sudo apt update
+sudo apt full-upgrade

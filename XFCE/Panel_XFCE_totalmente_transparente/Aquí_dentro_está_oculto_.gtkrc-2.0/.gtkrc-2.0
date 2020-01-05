@@ -1,0 +1,50 @@
+style "xfcepanel"
+{
+xthickness = 0 # from here until "Modd 10" is not relevant for this forum thread...
+ythickness = 0
+GtkButton::inner-border = {3,1,1,1}
+#XfcePanelWindow::autohide-size = 1
+font_name = "Modd 10" # ...but i left it here to show how these things work.
+engine "pixmap" {
+        image {
+            function    = BOX
+            recolorable    = TRUE
+            state        = NORMAL
+            }
+        image {
+            function    = BOX
+            recolorable    = TRUE
+            state        = PRELIGHT
+            file        = "Panel/panel-button-hover.png"
+            border        = { 3, 1, 1, 1 }
+            stretch        = TRUE
+            }
+        image {
+            function    = BOX
+            recolorable    = TRUE
+            state        = ACTIVE
+            file        = "Panel/panel-button-active.png"
+            border        = { 3, 1, 1, 1 }
+            stretch        = TRUE
+            }
+        image {
+            function    = BOX
+            recolorable    = TRUE
+            state        = SELECTED
+            file        = "Panel/panel-button-active.png"
+            border        = { 3, 1, 1, 1 }
+            stretch        = TRUE
+            }
+        image {
+            function    = BOX
+            recolorable    = TRUE
+            state        = INSENSITIVE
+            }
+        image {
+            function    = ARROW
+            recolorable    = TRUE
+            arrow_direction    = DOWN
+            }
+        }
+}
+widget_class "XfcePanelWindow*" style "xfcepanel"

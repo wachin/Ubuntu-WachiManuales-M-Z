@@ -1,0 +1,11 @@
+
+Change wallpaper in LXDE through terminal
+https://raspberrypi.stackexchange.com/questions/29919/change-wallpaper-in-lxde-through-terminal
+
+In a traditional set-up wallpaper can be changed by terminal launching a wallpaper GUI: 
+
+pcmanfm --desktop-pref
+
+Nota: Debe estar ejecutado 
+
+pcmanfm --desktop 

@@ -1,0 +1,10 @@
+
+
+byzanz
+/usr/bin/byzanz-playback
+/usr/bin/byzanz-record
+
+kzam.- malo malo
+vokoscreen
+deskscribe
+tvtime 

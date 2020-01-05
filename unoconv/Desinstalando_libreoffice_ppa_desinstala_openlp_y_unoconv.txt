@@ -1,0 +1,24 @@
+
+Estoy usando libreoffice desde ppa 
+
+ppa:libreoffice/ppa
+
+y cuando desinstalo todo ese libreoffice también se me desinstalan estos paquetes:
+
+openlp
+
+unoconv
+
+lo que sucede es que openlp depende de estos paquetes:
+
+fonts-opensymbol
+libreoffice-common
+libreoffice-core
+libreoffice-style-galaxy
+libreoffice-style-tango
+python3-uno
+uno-libs3
+ure
+
+
+ 

@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0092)http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/s1-navigating-cd.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Cambiar de directorios con cd</title><meta name="GENERATOR" content="Modular DocBook HTML Stylesheet Version 1.76b+
+"><link rel="HOME" title="Red Hat Linux 9" href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/index.html"><link rel="UP" title="Informaci�n general sobre el int�rprete de comandos de
+la shell" href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/ch-basics.html"><link rel="PREVIOUS" title="Determinar su directorio actual con pwd
+      pwd" href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/s1-navigating-pwd.html"><link rel="NEXT" title="Visualizaci�n  de los contenidos con ls" href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/s1-navigating-using-ls.html"><link rel="STYLESHEET" type="text/css" href="./Cambiar de directorios con cd_files/rhdocs-man.css"></head><body class="SECT1" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="NAVHEADER"><table summary="Header navigation table" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><th colspan="3" align="center">Red Hat Linux 9: Manual del principiante de Red Hat Linux</th></tr><tr><td width="10%" align="left" valign="bottom"><a href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/s1-navigating-pwd.html" accesskey="P">Anterior</a></td><td width="80%" align="center" valign="bottom">Cap�tulo 13. Informaci�n general sobre el int�rprete de comandos de
+la shell</td><td width="10%" align="right" valign="bottom"><a href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/s1-navigating-using-ls.html" accesskey="N">Siguiente</a></td></tr></tbody></table><hr align="LEFT" width="100%"></div><div class="SECT1"><h1 class="SECT1"><a name="S1-NAVIGATING-CD"></a>13.4. Cambiar de directorios con <tt class="COMMAND">cd</tt></h1><p>Cambiar de directorios es f�cil siempre que est� seguro del
+lugar donde se encuentra (su directorio actual) y la relaci�n que
+�ste tiene con el lugar donde desea ir.
+      </p><p>Para cambiar de directorios, utilice el comando <tt class="COMMAND">cd</tt>. Escribiendo 
+      este comando s�lo, lo devolver� a su directorio principal; el traslado a
+cualquier otro directorio requiere un nombre de recorrido.
+	<i class="FIRSTTERM">nombre de ruta</i>.
+      </p><p>Puede usar rutas <i class="FIRSTTERM">absolutas</i> o
+	<i class="FIRSTTERM">relativas</i>. Las rutas absolutas buscan
+desde el tope del sistema de archivos con <tt class="FILENAME">/</tt> (referido como ra�z)
+	y  luego hacia abajo para buscar el directorio solicitado; las rutas relativas 
+	buscan hacia abajo desde el directorio actual, donde sea que est�. El siguiente �rbol
+	de directorio ilustra como <tt class="COMMAND">cd</tt> funciona.
+      </p><table class="SCREEN" bgcolor="#DCDCDC" width="100%"><tbody><tr><td><pre class="SCREEN"><tt class="COMPUTEROUTPUT">/</tt>
+<tt class="COMPUTEROUTPUT">/directory1</tt>
+<tt class="COMPUTEROUTPUT">/directory1/directory2</tt>
+<tt class="COMPUTEROUTPUT">/directory1/directory2/directory3</tt></pre></td></tr></tbody></table><p>Si actualmente se encuentra en el <tt class="FILENAME">directory3</tt> y quiere cambiar al
+      <tt class="FILENAME">directory1</tt>, necesita ascender en el �rbol del directorio.
+      </p><p>Si escribe:
+      </p><table class="SCREEN" bgcolor="#DCDCDC" width="100%"><tbody><tr><td><pre class="SCREEN"><tt class="COMMAND">cd directory1</tt> </pre></td></tr></tbody></table><p>mientras que est� en <tt class="FILENAME">directory3</tt>, obtendr� un
+	mensaje de error, que le dice que dicho directorio no existe. Esto se debe a que
+	el <tt class="FILENAME">directory1</tt> no est� debajo de
+	<tt class="FILENAME">directory3</tt>.
+      </p><p>Para ir a <tt class="FILENAME">directory1</tt>, escriba:
+      </p><table class="SCREEN" bgcolor="#DCDCDC" width="100%"><tbody><tr><td><pre class="SCREEN"><tt class="COMMAND">cd /directory1</tt></pre></td></tr></tbody></table><p>�ste es un ejemplo de una ruta absoluta. Hace que Linux inicie al
+principio del �rbol de directorios (<tt class="FILENAME">/</tt>) y se cambie a <tt class="FILENAME">directory1</tt>.
+Una ruta es absoluta si el primer caracter es un <tt class="FILENAME">/</tt>, sino es relativo.
+      </p><p>Recuerde que los recorridos absolutos le conducir�n a
+cualquier directorio desde cualquier directorio y los recorridos relativos tan
+s�lo le conducir�n a los directorios debajo del suyo.
+      </p><p>El comando <tt class="COMMAND">cd ..</tt> le indica a su sistema que suba un 
+      directorio inmediatamente arriba del actual. Para subir dos niveles,
+      use el comando <tt class="COMMAND">cd ../..</tt>.
+      </p><p>Use el siguiente ejercicio para evaluar lo que ha aprendido sobre 
+      recorridos absolutos y relativos. Teclee el recorrido relativo desde 
+      un directorio principal:
+      </p><table class="SCREEN" bgcolor="#DCDCDC" width="100%"><tbody><tr><td><pre class="SCREEN"><tt class="COMMAND">cd ../../etc/X11</tt></pre></td></tr></tbody></table><p>Despu�s de usar el comando completo en el ejemplo, deber�a estar en el 
+       directorio <tt class="FILENAME">X11</tt>, que es donde encontrar� archivos de configuraci�n
+       y directorios relacionados al sistema X Window.
+      </p><p>Observe el �ltimo comando <tt class="COMMAND">cd</tt>. Le indic� a su sistema que:
+      </p><p></p><ol type="1"><li><p>Suba un nivel a su directorio principal (probablemente
+	    <tt class="FILENAME">/home</tt>)
+	  </p></li><li><p>Luego que suba al padre de su directorio (el cual es ra�z, o
+	    <tt class="FILENAME">/</tt>)
+	  </p></li><li><p>Luego que baje al directorio <tt class="FILENAME">etc</tt>
+	  </p></li><li><p>Finalmente, vaya al directorio <tt class="FILENAME">X11</tt>
+	  </p></li></ol><p>Por otro lado, usando recorridos  absoluto le llevar�a al directorio
+     <tt class="FILENAME">/etc/X11</tt> m�s r�pidamente. Teclee:
+      </p><table class="SCREEN" bgcolor="#DCDCDC" width="100%"><tbody><tr><td><pre class="SCREEN"><tt class="COMMAND">cd /etc/X11</tt></pre></td></tr></tbody></table><p>Los recorridos absolutos comienzan en el directorio raiz (/) y
+descienden al directorio que especifique. </p><div class="NOTE"><p></p><table class="NOTE" width="100%" border="0"><tbody><tr><td width="25" align="CENTER" valign="TOP"><img src="./Cambiar de directorios con cd_files/note.png" hspace="5" alt="Nota"></td><th align="LEFT" valign="CENTER"><b>Nota</b></th></tr><tr><td>&nbsp;</td><td align="LEFT" valign="TOP"><p>Aseg�rese siempre de que sabe en que directorio est� antes
+de que establezca un recorrido relativo al directorio o archivo al que quiere
+llegar. No se preocupe de la localizaci�n de su sistema de archivos, al
+establecer el recorrido absoluto a otro directorio o archivo. Si no est�
+seguro, escriba <tt class="COMMAND">pwd</tt> y se mostrar� su directorio actual, el cual le
+puede dar una gu�a para moverse hacia arriba o abajo usando recorridos relativos.
+	</p></td></tr></tbody></table></div><div class="TABLE"><a name="CD-ACTIONS"></a><table border="1" bgcolor="#DCDCDC" cellspacing="0" cellpadding="4" class="CALSTABLE"><thead><tr><th width="40%" align="LEFT" valign="TOP">Comando</th><th width="60%" align="LEFT" valign="TOP">Funci�n</th></tr></thead><tbody><tr><td width="40%" align="LEFT" valign="TOP"><tt class="COMMAND">cd</tt></td><td width="60%" align="LEFT" valign="TOP">vuelve a su directorio de login</td></tr><tr><td width="40%" align="LEFT" valign="TOP"><tt class="COMMAND">cd ~</tt></td><td width="60%" align="LEFT" valign="TOP">vuelve tambi�n a su directorio de login</td></tr><tr><td width="40%" align="LEFT" valign="TOP"><tt class="COMMAND">cd /</tt></td><td width="60%" align="LEFT" valign="TOP">le lleva al directorio ra�z del sistema completo</td></tr><tr><td width="40%" align="LEFT" valign="TOP"><tt class="COMMAND">cd /root</tt></td><td width="60%" align="LEFT" valign="TOP">le lleva al
+directorio principal del root, o superusuario, cuenta creada en la
+instalaci�n; debe ser el usuario root para accesar este directorio.
+	      </td></tr><tr><td width="40%" align="LEFT" valign="TOP"><tt class="COMMAND">cd /home</tt></td><td width="60%" align="LEFT" valign="TOP">lo lleva a su directorio principal, donde los directorios login de
+usuario son almacenados</td></tr><tr><td width="40%" align="LEFT" valign="TOP"><tt class="COMMAND">cd ..</tt></td><td width="60%" align="LEFT" valign="TOP">le traslada a un directorio superior</td></tr><tr><td width="40%" align="LEFT" valign="TOP"><tt class="COMMAND">cd
+	      ~<tt class="REPLACEABLE"><i>otheruser</i></tt></tt></td><td width="60%" align="LEFT" valign="TOP">le lleva al directorio login del usuario <i class="EMPHASIS">otheruser</i>,
+	      si <i class="EMPHASIS">otheruser</i> le ha dado permiso</td></tr><tr><td width="40%" align="LEFT" valign="TOP"><tt class="COMMAND">cd /dir1/subdirfoo</tt></td><td width="60%" align="LEFT" valign="TOP">sin tener en cuenta en que directorio est�, este recorrido
+absoluto le llevar� directamente a <tt class="FILENAME">subdirfoo</tt>, un subdirectorio de
+	      <tt class="FILENAME">dir1</tt></td></tr><tr><td width="40%" align="LEFT" valign="TOP"><tt class="FILENAME">cd ../../dir3/dir2</tt></td><td width="60%" align="LEFT" valign="TOP"> este 
+	      recorrido relativo lo llevar� dos directorios m�s arriba, luego a
+		<tt class="FILENAME">dir3</tt>, luego al directorio <tt class="FILENAME">dir2</tt>.</td></tr></tbody></table><p><b>Tabla 13-1. Opciones <tt class="COMMAND">cd</tt></b></p></div><p>Ahora que ya sabe c�mo cambiar de directorios, vea lo que sucede cuando
+cambia al directorio login de root (cuenta del superusuario). Teclee:
+      </p><table class="SCREEN" bgcolor="#DCDCDC" width="100%"><tbody><tr><td><pre class="SCREEN"><tt class="COMMAND">cd /root</tt></pre></td></tr></tbody></table><p>Si no est� registrado como root, recibir� un mensaje de <i class="WORDASWORD">denied
+	permission</i>, acceso denegado, al directorio.
+      </p><p>Su sistema Linux niega el acceso al root y a otras cuentas de usuario (o
+directorios login) para prevenir da�os accidentales o deliberados.
+Vea la <a href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/s1-navigating-ownership.html">Secci�n 13.14</a>.
+      </p><p>Para cambiar el login de root, utilice el comando
+      <tt class="COMMAND">su</tt>.
+      </p><table class="SCREEN" bgcolor="#DCDCDC" width="100%"><tbody><tr><td><pre class="SCREEN"><tt class="COMMAND">su</tt></pre></td></tr></tbody></table><div class="TIP"><p></p><table class="TIP" width="100%" border="0"><tbody><tr><td width="25" align="CENTER" valign="TOP"><img src="./Cambiar de directorios con cd_files/tip.png" hspace="5" alt="Sugerencia"></td><th align="LEFT" valign="CENTER"><b>Sugerencia</b></th></tr><tr><td>&nbsp;</td><td align="LEFT" valign="TOP"><p>El comando <tt class="COMMAND">su</tt> significa usuario
+	substituto y le permite cambiar el login temporalmente como un usuario diferente.
+	Cuando escribe <tt class="COMMAND">su</tt> solo y presiona
+	<span class="KEYCAP"><keycap>[Intro]</keycap></span>, se convierte a root (tambi�n llamado superusuario)
+	mientras que todav�a se mantienen en su login shell (el directorio principal del usuario).
+	 El comando
+	<tt class="COMMAND">su -</tt> lo convierte a root con su login shell original.
+	</p></td></tr></tbody></table></div><p>Tan pronto como d� su contrase�a de  root,
+ver� los cambios en su int�rprete de comandos de root que le
+mostrar�n su nuevo estado de superusuario: la designaci�n de la
+cuenta root delante del int�rprete de comandos y "#" al final.</p><p>Cuando haya acabado de trabajar como root, teclee <tt class="COMMAND">exit</tt>
+	en el int�rprete de comandos para volver a la cuenta de usuario.
+      </p></div><div class="NAVFOOTER"><hr align="LEFT" width="100%"><table summary="Footer navigation table" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td width="33%" align="left" valign="top"><a href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/s1-navigating-pwd.html" accesskey="P">Anterior</a></td><td width="34%" align="center" valign="top"><a href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/index.html" accesskey="H">Inicio</a></td><td width="33%" align="right" valign="top"><a href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/s1-navigating-using-ls.html" accesskey="N">Siguiente</a></td></tr><tr><td width="33%" align="left" valign="top">Determinar su directorio actual con pwd
+      <tt class="COMMAND">pwd</tt></td><td width="34%" align="center" valign="top"><a href="http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/ch-basics.html" accesskey="U">Subir</a></td><td width="33%" align="right" valign="top">Visualizaci�n  de los contenidos con ls</td></tr></tbody></table></div></body></html>

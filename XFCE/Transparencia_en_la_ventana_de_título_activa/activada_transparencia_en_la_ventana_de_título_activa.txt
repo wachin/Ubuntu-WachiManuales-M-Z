@@ -1,0 +1,6 @@
+
+unity - Ubuntu 14.10 transparent window title bar - Ask Ubuntu
+https://askubuntu.com/questions/541033/ubuntu-14-10-transparent-window-title-bar
+
+Install and then open dconf, then goto org > compiz > gwd, edit ''metacity-theme-active-opacity'' and/or ''metacity-theme-inactive-opacity'' change value 1.0 to 0.9...
+done, works for me in ubuntu 14.10.

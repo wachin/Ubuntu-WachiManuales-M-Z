@@ -1,0 +1,15 @@
+Commit Log for Thu Dec 10 21:58:48 2015
+
+
+Actualizó los siguientes paquetes:
+libnautilus-extension1a (1:3.14.2-0ubuntu12) to 1:3.14.2-0ubuntu13
+
+Instaló los siguientes paquetes:
+libexempi3 (2.2.2-2)
+libgail-3-0 (3.16.7-0ubuntu3)
+libmediaart-2.0-0 (1.9.0-2)
+libtracker-sparql-1.0-0 (1.4.1-1ubuntu2.1)
+libzeitgeist-1.0-1 (0.3.18-1ubuntu2)
+nautilus (1:3.14.2-0ubuntu13)
+nautilus-data (1:3.14.2-0ubuntu13)
+session-migration (0.2.3)

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=YouTube Downloader
+Exec=youtube-dl-gui
+Icon=youtube-dl-gui_48x48.png
+Categories=Network;Application;
+Comment=Graphical front-end for youtube-dl

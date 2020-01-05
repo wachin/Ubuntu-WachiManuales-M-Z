@@ -1,0 +1,26 @@
+Cortando Así es la vida - Annette Moreno
+https://www.youtube.com/watch?v=EoF7kzUoGA4
+
+https://mkvtoolnix.download/doc/mkvmerge.html
+--split parts:00:00:00-00:00:30,00:00:30-00:00:60
+
+
+mkvmerge -o out.mkv --split 1990M large.mkv
+https://video.stackexchange.com/questions/15395/how-to-split-a-large-mkv-file-into-parts-with-the-srt-subtitle-file-separated
+
+
+mkvmerge -o out.mkv --split parts:00:00:00-00:00:30,00:00:30-00:00:60 "/home/wachin/Así es la Vida (Annette Moreno).mp4"
+
+
+wachin@Dell-Inspiron-1750:~$ mkvmerge -o out.mkv --split parts:00:00:00-00:00:30,00:00:30-00:00:60 "/home/wachin/Así es la Vida (Annette Moreno).mp4"
+mkvmerge v9.8.0 ('Kuglblids') 32bit
+Error: Tiempo final incorrecto para '--split' en '--split parts:00:00:00-00:00:30,00:00:30-00:00:60' (parte actual: 00:00:30-00:00:60). Mensaje adicional del error: No es válido el número de segundos: 60 > 59.
+
+ERROR
+Mi error era que le había puesto 60s, sólo se puede poner 59s porque de allí pasa a 1:00s
+
+LO CORRECTO ES ASÍ:
+
+mkvmerge -o out.mkv --split parts:00:00:00-00:00:30,00:00:30-00:00:59 "/home/wachin/Así es la Vida (Annette Moreno).mp4"
+
+

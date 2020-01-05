@@ -1,0 +1,33 @@
+
+
+es necesario primero clonar el repositorio:
+
+git clone https://github.com/Whatang/DrumBurp/
+
+y en:
+
+/home/wachin/github/DrumBurp-master/src/
+
+Allí poner el siguiente script (El script contiene esto):
+
+#!/bin/bash
+
+cd /
+cd /home/wachin/github/DrumBurp-master/src/
+python DrumBurp.py
+cd /
+
+# Esta es una modificación de
+# Raspberry Pi: Launch Python Script on Startup: 8 Steps
+# http://www.instructables.com/id/Raspberry-Pi-Launch-Python-script-on-startup/
+
+
+Nota Wachín: En los comandos del script no puede ir:
+cd ./github/DrumBurp-master/src/
+en vez de :
+cd /home/wachin/github/DrumBurp-master/src/
+Como yo pensaba pues no funciona, ya intenté
+
+
+
+ 

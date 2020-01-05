@@ -1,0 +1,9 @@
+
+
+
+
+Para saber como poner la cuenta atrás en la terminal es así, ejemplo:
+
+sleep 20; nm-applet &
+
+Esto significa que en 20 segundos se activará la aplicación 

@@ -1,0 +1,26 @@
+All files in this distribution known as UnshakeC1.4r1 are copyright
+M.D. Cahill, 2000-2003. Patents have been applied for.
+
+Permission is hereby granted for copies of the distribution to be distributed,
+subject to the following conditions:
+1) The copies will be solely for personal use of individuals or academic
+research, and will not be used for financial profit.
+
+2) No financial profit shall accrue to the distributor or the receiver of the
+copies, due to the process of distribution.
+
+3) The distribution shall be copied in its entirety and without
+modification.
+
+4) The presence of this file, named "LICENCE", shall be clearly indicated to
+the receiver of any such distribution.
+
+M.D. Cahill accepts no responsibility for the consequences of the use
+of this distribution or its contents.
+
+Processes used in this distribution may be subject to patent law, and
+permission is expressly not granted for commercial use of routines and
+programs in the distribution, or for the copying or reproduction of
+all or part of files in the distribution for such a purpose.
+
+M.D. Cahill January 1st, 2003 CE. Ammended 21st July 2003 for Unshake 1.4r1.

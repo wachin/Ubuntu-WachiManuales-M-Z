@@ -1,0 +1,25 @@
+
+
+
+Pasos para tener sonido en muse en UbuntuStudio
+
+Sólo siguiendo el orden estos pasos se tiene sonido:
+
+0.- Asegúsere de no tener abierto ningun programa que esté reproduciendo audio, inclusive el navegador cierrelo
+1.- Abra QjackCtl y dele play
+2.- Abra Qsynth y cargue una soundfont
+3.- Apláste el atajo de teclado "Alt + F2" y escriba:
+
+    a2jmidid
+    
+    Si el programa no está instalado instálelo
+4.- Abra muse y vea luego en QjackCtl de clic en el botón "Conexiones" y clic en la pestaña "ALSA", allí conecte:
+
+    De la ventana izquierda "0:Midi Through Port-0" con la ventana derecha "129:FLUID Synth"
+    
+    Nota: Esos números podrían variar, ejemplo ese 129, pero siga el principio.
+    
+5.- Ahora, en muse abra un midi, y dele clic en Play, y listo sonará
+
+Nota: Si en algún momento usted reinicia Qsynth, debe repetir el paso 4 (sólo que primero cierre muse)
+    

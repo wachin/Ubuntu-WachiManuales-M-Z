@@ -1,0 +1,14 @@
+
+Cuando uno instala WPS Office por defecto las plantillas están aquí:
+
+/opt/kingsoft/wps-office/office6/mui/en_US/templates/presentationdesigns/
+
+si uno instala otro idioma el progama ya no va a poder reconocer esa plantillas, pero las que están allí se las puede copiar al lugar del mui instalado, ejemplo el mui para español España:
+
+/home/wachin/.local/share/Kingsoft/office6/mui/es_ES/templates/presentationdesigns/
+
+además se pueden copiar las plantillas del idioma Chino pues esas están muy bonitas:
+
+/opt/kingsoft/wps-office/office6/mui/zh_CN/templates/presentationdesigns/
+
+reiniciar el programa y serán visibles

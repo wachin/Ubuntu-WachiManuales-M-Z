@@ -1,0 +1,26 @@
+
+Extraer parte de un video usando la linea de comandos - Ask Ubuntu
+
+
+Si tu necesitas cortar un video sin recodificar o con recodificar, estos son los pasos:
+
+
+ENTENDIMIENTO: ffmpeg -i ["archivo de entrada.extension"] -ss [segundos de inicio] -t [segundos de fin] ["archivo de salida.extension"]
+
+
+Usar FFmpeg para cortar un video sin recodificar (en este ejemplo un mp4)
+
+Ejemplo:
+
+ffmpeg -i "el nombre de su video.mp4" -ss 00:00:00 -t 00:00:00 -c copy "el nombre de su video salida.mp4"
+
+
+Usar FFmpeg para cortar un video con recodificar
+
+Ejemplo:
+
+ffmpeg -i "el nombre de su video.mp4" -ss 00:00:00 -t 00:00:00 -async 1 -strict -2 "el nombre de su video salida.mp4"
+
+Visto en:
+Extract part of a video with a one-line command - Ask Ubuntu
+https://askubuntu.com/questions/59383/extract-part-of-a-video-with-a-one-line-command/716634#716634

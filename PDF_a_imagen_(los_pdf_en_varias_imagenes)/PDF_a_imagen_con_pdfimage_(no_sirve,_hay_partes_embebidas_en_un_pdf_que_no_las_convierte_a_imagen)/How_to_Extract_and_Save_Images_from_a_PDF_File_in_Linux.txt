@@ -1,0 +1,71 @@
+
+
+How to Extract and Save Images from a PDF File in Linux
+https://www.howtogeek.com/228796/how-to-extract-and-save-images-from-a-pdf-file-in-linux/
+leer mas alli
+
+by Lori Kaufman on September 15th, 2015
+
+
+
+entering_command_to_extract_images
+
+The default image format is PPM (portable pixmap) for non-monochrome images, or PBM (portable bitmap) for monochrome images. These formats are designed to be easily exchanged between platforms.
+
+NOTE: You may get two image files for each image in your PDF file. The second image for each image is blank, so, you’ll be able to tell which images contain the images from the file by the thumbnail on the file in the File Manager.
+
+02_ppm_images
+
+To create .jpg image files, add the “-j” option to the command, as shown below.
+
+
+pdfimages -j /home/tu-usuario/Documents/SampleWithImages.pdf /home/tu-usuario/Documents/ExtractedImages/image
+
+
+
+NOTE: You can also change the default output to PNG using the “-png” option or TIFF using the “-tiff” option.
+
+
+
+
+
+
+
+
+
+
+
+03_command_for_jpg_files
+
+The main image file for each image is saved as a .jpg file. The second blank image is still a .ppm or .pbm file.
+
+
+
+
+04_jpg_images
+
+If you only want to convert images on and after a certain page, use the “-f” option with a number to indicate the first page to convert, as shown in the example command below.
+
+pdfimages -f 2 -j /home/lori/Documents/SampleWithImages.pdf /home/lori/Documents/ExtractedImages/image
+
+NOTE: We combined the “-j” option with the “-f” option so we would get .jpg images and did the same with the “-l” option mentioned below as well.
+
+05_first_page_to_convert
+
+To convert all images before and on a certain page, use the “-l” (a lowercase “L”, not the number “1”) option with a number to indicate the last page to convert, as shown below.
+
+pdfimages -l 1 -j /home/lori/Documents/SampleWithImages.pdf /home/lori/Documents/ExtractedImages/image
+
+NOTE: You can use the “-f” and “-l” options together to convert images in a specific page range in the middle of your document.
+
+06_last_page_to_convert
+
+If there is an owner password on the PDF file, use the “-opw” option and the password in single quotes, as shown below. If the password on the PDF file is a user password, use the “-upw” option instead with the password.
+
+NOTE: Make sure there are single quotes around your password in the command.
+
+pdfimages -opw ‘password’ -j /home/lori/Documents/SampleWithImages.pdf /home/lori/Documents/ExtractedImages/image
+
+07_owner_password_pdf_file
+
+For more information about using the pdfimages command, type “pdfimages” at the prompt in a Terminal window and press “Enter”. The command usage displays with a list of options available for use in the command.

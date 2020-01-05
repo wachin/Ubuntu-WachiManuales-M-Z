@@ -1,0 +1,19 @@
+
+
+Locking Screen with LightDM
+https://www.togaware.com/linux/survivor/Locking_Screen.html
+
+contents  previous  up  next  index 
+The LightDM display manager provides dm-tool to allow us to lock the screen from the command line
+
+
+
+$ dm-tool lock
+
+On Ubuntu 13.10 (and others), running this command locks the screen and displays the display manager's login screen. If we use Ctl-Alt-F7 to get back to our desktop we will see a lock screen login prompt. Entering our password there or on the display manager's login screen will unlock our screen.
+
+Issue Lubuntu 13.10 [140103] Whist the display manager greeter is displayed, Ctl-Alt-F7 takes us back to an unlocked desktop! This can be quite a security issue until fixed. See a work-around below.
+
+A similar command will also lock the screen and switch to the display manager's login screen. 
+
+$ dm-tool switch-to-greeter 

@@ -1,0 +1,10 @@
+
+
+
+Para remover un repositorio, ejemplo:
+sudo apt-add-repository --remove 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+
+como se instaló fue así:
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+
+ 

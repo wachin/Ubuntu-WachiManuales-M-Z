@@ -1,0 +1,12 @@
+Commit Log for Mon Feb 15 15:20:15 2016
+
+
+Actualizó los siguientes paquetes:
+kdenlive (4:15.08.2.1~really15.08.1-0ubuntu2) to 4:15.12.0-0ubuntu0~sunab~wily1
+kdenlive-data (4:15.08.2.1~really15.08.1-0ubuntu2) to 4:15.12.0-0ubuntu0~sunab~wily1
+libmlt++3 (0.9.8-1build1) to 0.9.9+git20151223.a71d66ea-0ubuntu0~sunab~wily1
+libmlt-data (0.9.8-1build1) to 0.9.9+git20151223.a71d66ea-0ubuntu0~sunab~wily1
+libmlt6 (0.9.8-1build1) to 0.9.9+git20151223.a71d66ea-0ubuntu0~sunab~wily1
+
+Instaló los siguientes paquetes:
+libvidstab1.0 (2:0.98b-0ubuntu0~sunab~wily1)

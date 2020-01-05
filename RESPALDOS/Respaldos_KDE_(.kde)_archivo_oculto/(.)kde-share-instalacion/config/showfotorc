@@ -1,0 +1,40 @@
+[ImageViewer Settings]
+AutoZoom=false
+Height 768=769
+Last Opened Directory=/home/wachin/
+OverExposureIndicator=false
+PreviewMode=128
+Show Thumbbar=true
+SplitterState=AAAA/wAAAAAAAAACAAACiAAAAk0BAAAABgAAAAAB
+State=AAAA/wAAAAD9AAAAAAAABNkAAAKFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Theme=Por omisión
+ToolBarsMovable=Disabled
+UnderExposureIndicator=false
+Width 1280=1281
+
+[ImageViewer Thumbbar]
+Height 768=645
+State=AAAA/wAAAAD9AAAAAQAAAAAAAACiAAAChfwCAAAAAfsAAAAeAGUAZABpAHQAbwByAF8AdABoAHUAbQBiAGIAYQByAQAAAAAAAAKFAAAAWwD///8AAAHRAAAChQAAAAQAAAAEAAAACAAAAAj8AAAAAA==
+ToolBarsMovable=Disabled
+Width 1280=633
+
+[KFileDialog Settings]
+Height 768=600
+Recent Files[$e]=20170613_145237.jpg,/media/wachin/ToshibaHD/VIDEOS-A-EDITAR-2/2016-09-06 SAMSUNG GALAXY/Camera 16/fotillas/20170614_114720.jpg,/media/wachin/ToshibaHD/VIDEOS-A-EDITAR-2/2016-09-06 SAMSUNG GALAXY/Camera 16/fotillas/20170614_114412.jpg,/media/wachin/ToshibaHD/VIDEOS-A-EDITAR-2/2016-09-06 SAMSUNG GALAXY/Camera 16/fotillas/20170614_114354.jpg,/media/wachin/ToshibaHD/VIDEOS-A-EDITAR-2/2016-09-06 SAMSUNG GALAXY/Camera 16/fotillas/20170614_114346.jpg,/media/wachin/ToshibaHD/VIDEOS-A-EDITAR-2/2016-09-06 SAMSUNG GALAXY/Camera 16/fotillas/20170613_145237.jpg
+Recent URLs[$e]=/media/wachin/ToshibaHD/VIDEOS-A-EDITAR-2/2016-09-06 SAMSUNG GALAXY/Camera 16/fotillas/
+Width 1280=960
+
+[MetadataSelectorView Search Text Tool]
+CaseSensitive=0
+
+[Setup Dialog]
+Height 768=583
+Setup Page=0
+Width 1280=805
+
+[coloreffect Tool]
+EffectType=0
+Histogram Channel=0
+Histogram Scale=1
+IterationAdjustment=2
+LevelAdjustment=0

@@ -1,0 +1,7 @@
+
+default web browser 
+http://www.linuxquestions.org/questions/linux-software-2/can%27t-set-a-default-web-browser-885403/
+
+sudo update-alternatives --config x-www-browser
+
+and select the number of web browser

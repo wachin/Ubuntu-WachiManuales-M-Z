@@ -1,0 +1,5 @@
+
+
+
+
+audacious, PulseAudio JACK Sink, qsynth (Mic sólo de capture_1 a SimpleScreenRecorder)

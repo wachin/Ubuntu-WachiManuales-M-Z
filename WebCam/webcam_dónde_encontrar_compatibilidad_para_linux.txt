@@ -1,0 +1,28 @@
+
+
+Pacovix tengo una solicitud si todavía se podría.
+
+Acá hay una webcam que en manta en SuperPaco cuesta casi $80,00 con algo y en internet dice que cuesta $40,00, es la Logitech C270. 
+
+Vi en internet que el modelo C920 cuesta $100,00, será que la podrías conseguir allá y yo te la cancelo acá, porque para comprar acá el modelo C270 mejor me compro el modelo C920 si lo podrías conseguir allá. 
+
+aquí la dirección de la webcam, allí se la puede ver: http://www.logitech.com/es-es/product/hd-pro-webcam-c920
+
+
+Y por ultimo aquí mi consulta de cómo se que esa webcam si funciona en linux:
+
+
+Webcam setup - ArchWiki 
+https://wiki.archlinux.org/index.php/Webcam_setup
+
+
+Does/will my Logitech webcam work on Linux?
+http://web.archive.org/web/20111022013418/http://www.quickcamteam.net/documentation/faq/does-my-logitech-webcam-work-on-linux
+
+de allí me redirecciona acá:
+
+http://web.archive.org/web/20111027121437/http://www.quickcamteam.net/devices/logitech_uvc_device_list.pdf
+
+
+Five Best Webcams
+http://lifehacker.com/5961369/five-best-webcams

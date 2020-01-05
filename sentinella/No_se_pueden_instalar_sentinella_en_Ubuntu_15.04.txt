@@ -1,0 +1,42 @@
+
+Cómo instalar sentinella en Ubuntu 15.04
+
+http://packages.ubuntu.com/wily/sentinella
+
+En Ubuntu 15.04 no puedo instalar sentinella, la solucion es instalar dos paquetes mas que faltan:
+
+libprocesscore4abi1
+
+lo descargo de aquí:
+
+http://packages.ubuntu.com/utopic-updates/libprocesscore4abi1
+
+y:
+
+libprocessui4a
+
+lo instalo de aquí:
+
+http://packages.ubuntu.com/utopic-updates/libprocessui4a
+
+Nota: Puede elegir en la descarga si su PC es de 32 o 64 bits, luego lo instalan siguiendo este orden:
+
+1.- libprocesscore4abi1
+2.- libprocessui4a
+
+con clic derecho abriendolo con el "Centro de Software de Ubuntu".
+
+y:
+
+libsysactivity1
+
+este si se instala en el synaptic. Luego si instale
+
+sentinella
+
+y listo.
+
+
+Adaptado de:
+
+http://askubuntu.com/questions/595383/sentinella-cannot-be-installed-on-ubuntu-14-10-above

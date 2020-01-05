@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=qml camera
+Exec=qml app-logitech.qml
+StartupNotify=true
+Path=/home/wachin/Dropbox/UbuntuManuales/WebCam/qml-borderless-camera-master/
+Icon=camera-web.svg
+Type=Application
+Categories=AudioVideo;
+Keywords=video;

@@ -1,0 +1,11 @@
+Commit Log for Sun Jan 31 09:20:39 2016
+
+
+Quitó completamente los siguientes paquetes:
+tuxguitar
+
+Quitó los paquetes siguientes:
+tuxguitar-alsa
+tuxguitar-fluidsynth
+tuxguitar-jack
+tuxguitar-oss

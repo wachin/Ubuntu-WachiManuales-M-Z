@@ -1,0 +1,5 @@
+
+Change The IceWM GUI Fonts (In DeLi Linux)
+http://www.lindenlan.net/2007/07/24/change-the-icewm-gui-fonts-in-deli-linux/
+
+cp /usr/share/icewm/preferences ~/.icewm/prefoverride 

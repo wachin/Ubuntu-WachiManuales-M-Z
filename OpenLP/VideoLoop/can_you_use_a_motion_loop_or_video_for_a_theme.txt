@@ -1,0 +1,9 @@
+
+
+can you use a motion loop or video for a theme?
+https://www.facebook.com/openlp/posts/can-you-use-a-motion/10151247950418880/
+
+Wesley Stout In theory you can use a video for a background by choosing replace live background in the media tab, but this does not loop. In practice that does not work particularly well at this moment. For people needing to do that I have heard of people using a transparent theme using VLC to play fullscreen.
+
+the VLC/transparent theme is how I do it.
+I use dreamscene

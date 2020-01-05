@@ -1,0 +1,7 @@
+
+How can I export all the mp3s from a playlist in Banshee? - Ask Ubuntu
+https://askubuntu.com/questions/43643/how-can-i-export-all-the-mp3s-from-a-playlist-in-banshee
+
+I did this with rhythmbox, make a folder on your desktop give it a name. now find the play list you like when the music list shows click on one of the songs and hold ctrl+a high light the hole list now drag and drop it in to the folder on your desktop. this should make copy's of your music. you can also try clementine music player it has some tools to help you export.
+
+http://www.clementine-player.org/

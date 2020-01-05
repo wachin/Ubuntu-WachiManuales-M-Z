@@ -1,0 +1,23 @@
+shutter -f
+
+    -f, --full
+            Capture the entire screen.
+
+shutter -s
+    -s, --select=[X,Y,WIDTH,HEIGHT]
+            Capture an area of the screen. Providing X,Y,WIDTH,HEIGHT is
+            optional.
+
+shutter -d
+-d, --delay=SECONDS
+            Wait n seconds before taking a screenshot.
+
+
+Combinaciones:
+
+Añado a Xubuntu para la tecla Impr
+shutter -f -delay=5
+
+Añado a Xubuntu para las teclas "Ctrl+Impr" que yo le puse para evitar conflictos
+shutter -s
+

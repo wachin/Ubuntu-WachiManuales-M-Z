@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+/usr/share/themes/Dust/metacity-1/metacity-theme-1.xml
+
+Saco esto para cambiar los colores de "height - title_height"
+
+#2F2E2B casi negro
+#FFFFFF blanco
+
+le pondré a titulo de ventana el color del logo de Ubuntu Studio:
+##009AF8
+
+<!--
+    Construct titlebar from rectangles instead so we can pick up the GTK theme
+-->
+
+<!--
+   WACHIN, BARRA DE TÍTULO DESDE RECTANGULOS EN SU LUGAR PUEDES RECOGER EL TEMA GTK
+-->
+    <!--   LE PONGO AZUL CELESTE CLARO -->
+
+<draw_ops name="draw_title">
+    <!-- Background gradient -->
+    <gradient type="vertical" x="0" y="0" width="width+9" height="height">
+        <!--<color value="#80594D"/>-->
+        <color value="shade/gtk:bg[SELECTED]/0.8"/>
+        <!--Static colors to match static menubar and all-->
+        <!--WACHIN ESTOS COLORES EMPIEZAN CON EL COLOR DEL LOGO UBUNTU STUDIO #009AF8-->
+        <!-- DE MAS CLARO #009AF8 AL MAS OSCURO #0287d8-->
+        <color value="#009AF8" />
+        <color value="#0294ed" />
+        <color value="#028ce0" />
+        <color value="#0287d8" />
+    </gradient>
+
+
+
+
+   <!--WACHIN, ESTA ES LA BARRA DE TÍTULO INACTIVA -->
+    <!--   LE PONGO AZUL CELESTE OSCURO -->
+<draw_ops name="draw_title_inactive">
+    <!-- Background gradient -->
+    <gradient type="vertical" x="0" y="0" width="width+9" height="height">
+   <!--SOLO CAMBIÉ ESTOS DOS COLORES, LOS SAQUÉ DE PONER EL COLOR DEL LOGO DE 
+   UBUNTU STUDIO #009AF8 EN GOOGLE -->
+   <!--https://www.google.com.ec/search?q=%23009AF8&oq=%23009AF8&aqs=chrome..69i57.61684j0j9&client=ubuntu&sourceid=chrome&ie=UTF-8 -->
+        <color value="#005487" />
+        <color value="#014975" />
+    </gradient>
+

@@ -1,0 +1,49 @@
+
+ Change time format on antiX os (Found trix)
+ http://netgator.blogspot.com/2010/12/change-time-format-on-antix-os-found.html?m=1
+ 
+Can not change time format on antiX osChange time format on antiX operating system
+You may know that I am trying to learn antiX os. It is really funny to run this light, user friendly, feature rich operating system. I am quite surprise to see the huge collection of various kind of software. From geeky tools to necessary everyday application all are included by default.
+
+As a new user I am facing some problem when I try to customise it. I wrote them on my another post "antiX OS configuration and using". I have notice another failure of me.
+
+I tried to change time format. I like 'Second' sign on a clock. So, I tried to add it as per describe on FAQ page (Menu> Help>>>).
+
+    I have tried to change 'timeformat'. A digital clock is showing on right side of bottom panel. I have searched through the FAQ page. It seems that I have found a solution. It described on faq page.
+
+        Change to a 12- hr clock: click on Search on the menu bar, and enter 'timeformat'
+
+    I looked on menu and submenus several times. can not found any 'Search' button/ link on Main Menu and Sub Menu. I got 'Run' and tried to run that command on it. But it don't work.
+    I also found "Search for Files or Folders" and "Searchmonkey" at 'Accessories' submenu (Get more menu entry snapshots from antiX linux operating system snapshot gallery). But they didn't found 'timeformat' for me.
+
+    I Googled about it and found a solution on antiX forum. In the thread Change time format in antiX IceWM, forum user OU812 give advise to change prefference of icewm.
+    S/he sugget to go Control Center > edit icewm settings > preferences
+
+        Somewhere around line 514
+        Code:
+        # Clock Time format (strftime format string)
+        TimeFormat="%H:%M"
+        # Alternate Clock Time format (e.g. for blinking effects)
+        # TimeFormatAlt=""
+        # Clock Date format for tooltip (strftime format string)
+        # DateFormat="%c"
+        Now take at look here for some info on editing the first option.
+
+    S/he also suggest to take a look at "http://puppylinux.org/wiki/applications ... /ezpuphelp"
+    Another user impuwatsaid
+
+        Regarding the time change in icewm...in the interest of saving someone some time looking,
+        changing
+
+            # Clock Time format (strftime format string)
+            TimeFormat="%H:%M"
+
+        to
+
+            # Clock Time format (strftime format string)
+            TimeFormat="%r"
+
+        will get you (12 hr clock).... hours, minutes, seconds and AM or PM. The possible variables (man for strftime) can be found at : http://www.manpagez.com/man/3/strftime/
+
+
+    I am going to implement the codes now. If I got some good news, I will share with you shortly.

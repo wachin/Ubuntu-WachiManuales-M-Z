@@ -1,0 +1,6 @@
+
+borro el demonio de xscreensaver-data-extra
+
+sudo rm /usr/lib/xscreensaver/demon
+
+sudo rm /usr/share/applications/screensavers/demon.desktop

@@ -1,0 +1,18 @@
+
+
+Steps that I do to try install neon in UbuntuStudio 15.10
+
+wget -qO - 'http://archive.neon.kde.org/public.key' | sudo apt-key add -
+
+deb http://archive.neon.kde.org/stable wily main
+
+sudo apt update
+
+
+From
+
+Neon Gains Developer Stable-Branch Builds; Plasma Wayland Update | Jonathan Riddell's Diary
+http://jriddell.org/2016/03/15/neon-gains-developer-stable-branch-builds-plasma-wayland-update/#comment-8376
+
+KDE neon
+http://neon.kde.org/download#packageUpgrade

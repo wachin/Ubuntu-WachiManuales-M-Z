@@ -1,0 +1,21 @@
+
+
+Conversión de imágenes por lotes con mogrify incluyendo imagenes en directorios y subdirectorios
+
+Conversión de svg a png por lotes con mogrify incluyendo imagenes en directorios y subdirectorios
+
+Hubicarse en el directorio principal en una terminal y allí poner este comando
+
+para svg a png
+
+find . -name '*.svg' -exec mogrify -format jpg {} +
+
+
+COMANDO ORIGINAL:
+
+find . -name '*.NEF' -exec mogrify -format jpg {} +
+
+linux - Batch run mogrify including subdirectories - Super User
+https://superuser.com/questions/662544/batch-run-mogrify-including-subdirectories
+
+Funciona

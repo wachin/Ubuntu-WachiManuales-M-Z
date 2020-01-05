@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+  <HEAD>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+    <TITLE>Unshake Index</TITLE>
+  </HEAD>
+  <BODY>
+<pre>
+import java.io.*;
+import java.awt.image.WritableRaster;
+import java.awt.image.BufferedImage;
+import java.net.*;
+import java.security.*;
+import javax.swing.event.*;
+
+public class Unshakes extends Unshake
+    implements ListSelectionListener {
+    public String context;
+
+    public Unshakes() {
+    }
+
+    public Unshakes(String URLString, String[] fileNames) {
+        context = URLString;
+        init(fileNames);
+    }
+
+    public final void saveImage(WritableRaster wras, String fileName) {
+/* Your file-saving algorithm goes here. */
+    }
+
+
+    public static void main(String[] args) {
+
+        new Unshakes("", args);
+    }
+}
+</pre>
+
+  </BODY>
+</HTML>

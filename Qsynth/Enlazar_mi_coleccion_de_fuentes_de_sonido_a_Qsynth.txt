@@ -1,0 +1,21 @@
+
+
+
+Poner en la terminal
+
+sudo caja /usr/share/sounds/sf2/
+
+y abrir otra pestaña (Ctrl + T) y hubicarme en la carpeta anterior donde tenga mis fuentes de sonido, ejemplo:
+
+/mnt/Contenedor/PROGRAMAS-A/Karaoke/
+
+allí crear un enlace (clic derecho "Crear enlace") a la carpeta:
+
+SoundFonts/
+
+cortarlo y volver a la otra pestaña y pegarlo allí para que al abrir el 
+
+Setup/Soundfonts
+
+de Qsynth, ya aparezca ese enlace y poder elegir rapidamente una fuente de sonido de mi colección
+ 

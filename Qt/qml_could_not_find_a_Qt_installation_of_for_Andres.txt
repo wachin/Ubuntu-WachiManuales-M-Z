@@ -1,0 +1,144 @@
+
+For: Andrés Rodríguez 
+
+andres.rodriguez@lithersoft.com
+
+Hi Andres, I am try to make working: https://gitlab.com/mixedCase/qml-borderless-camera
+
+In your page said:
+
+### Dependencies
+
+- Qt 5 with QML support
+- QtQuick Controls 1.4+
+- QtMultimedia 5.6+
+
+I am using UbuntuStudio 16.04 x386, and I have this packages installed by default:
+
+Package name: libqt5qml5
+
+Description: Qt 5 QML module
+
+Package name: qml-module-qtquick-controls
+
+Description: Qt 5 Quick Controls QML module
+
+Package name: qml-module-qtmultimedia
+
+Description: Qt 5 Multimedia QML module
+
+Do you can help me. When I put in a terminal, inside the path where is the app.qml:
+
+qml app.qml
+
+Said this:
+
+"qml could not find a Qt installation of"
+
+I install:
+
+qt5-default
+
+Source:
+ubuntu - qmake: could not find a Qt installation of '' - Stack Overflow
+https://stackoverflow.com/questions/16607003/qmake-could-not-find-a-qt-installation-of
+
+But not working. 
+
+Other I put:
+
+export QT_SELECT=qt5
+
+Source:
+ubuntu - qmake could not find a Qt installation of - Stack Overflow
+https://stackoverflow.com/questions/16607003/qmake-could-not-find-a-qt-installation-of
+
+But now said:
+
+qml: could not exec '/usr/lib/i386-linux-gnu/qt5/bin/qml': No such file or directory
+
+Now in next page:
+https://askubuntu.com/questions/254800/how-can-i-update-the-ubuntu-sdk-preview-from-the-qt-5-beta-ppa-to-the-qt-5-relea
+
+Said:
+
+"You can get away by installing the Qt5.0.0 (not 5.0.1) via the (.run file http://releases.qt-project.org/qt5/5.0.0/qt-linux-opensource-5.0.0-x86-offline.run) 
+
+But at this time 2017-08-02 the link are missing:
+
+http://download.qt.io/
+
+But searching in that page I found:
+http://download.qt.io/official_releases/qt/5.9/5.9.0/
+
+But is only for 64 bits
+
+Do you can help me. I think that your program only work in 64 bits.
+
+Note: I searching into synaptic I found this:
+
+/usr/lib/i386-linux-gnu/qt5/bin/
+
+But inside that there is no
+
+qml
+
+This file are missing
+
+However, when I search in:
+
+usr/bin/qml
+
+this are only a link that go to 
+
+qtchooser
+
+
+
+
+******************************************
+
+But next I search and install:
+
+sudo apt-get install qml
+
+and put in terminal:
+
+wachin@wachin:~/Aplicaciones-Linux/webcam-sin-bordes/qml-borderless-camera-master$ qml app.qml
+QQmlApplicationEngine failed to load component
+file:///home/wachin/Aplicaciones-Linux/webcam-sin-bordes/qml-borderless-camera-master/app.qml:4 module "QtQuick" version 2.7 is not installed
+qml: Did not load any objects, exiting.
+wachin@wachin:~/Aplicaciones-Linux/webcam-sin-bordes/qml-borderless-camera-master$ 
+
+
+Alguien dice que se puede solucionar así:
+
+Arikuti 26 Jan 2013, 08:07
+In .profile set qt5 import path
+Ex:
+QML_IMPORT_PATH =/opt/qt5/imports
+
+sería esto así:
+
+ejemplo:
+
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
+reemplazo:
+
+export QML_IMPORT_PATH=/opt/qt5/imports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

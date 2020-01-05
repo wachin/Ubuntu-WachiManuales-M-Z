@@ -1,0 +1,6 @@
+
+
+
+El paquete gnome-system-tools (depende de policykit-1-gnome) tinene el programa users-admin el cual es el que tiene el nombre entre todas las aplicaciones: "Usuarios y Grupos"
+
+

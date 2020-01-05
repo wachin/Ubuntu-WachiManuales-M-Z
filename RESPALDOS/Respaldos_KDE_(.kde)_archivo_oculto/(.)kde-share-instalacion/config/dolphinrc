@@ -1,0 +1,93 @@
+Height 768=769
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADDAAACx/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAABAAAACowAAAAUA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAACxwAAAEsA////AAAAAQAAAjcAAAKQ/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAEIAAAKQAAAABQD///8AAAADAAAE2QAAALn8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAE2QAAAAUA////AAAEEAAAAscAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1280=1281
+
+[AdditionalInfoDialog]
+Height 768=296
+Width 1280=277
+
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+IconSize=32
+PreviewSize=22
+
+[DownloadDialog Settings]
+Height 768=400
+Width 1280=700
+
+[General]
+Version=200
+ViewPropsTimestamp=2017,8,23,14,7,42
+
+[IconsMode]
+FontWeight=50
+IconSize=48
+PreviewSize=96
+
+[KFileDialog Settings]
+Autoplay sounds=true
+Height 768=600
+Height 900=600
+Recent Files[$e]=$HOME/RisenPC-iceWM/.icewm,$HOME/Dropbox/Sitios-yo/addons.mozilla.org-es-ES-firefox.txt,$HOME/Dropbox/UbuntuManuales/icewm,$HOME/Dropbox/UbuntuManuales/icons/Meliae/WachoCompilación-modificada/f-spot.svg,$HOME/Dropbox/UbuntuManuales/icons/Meliae/WachoCompilación-modificada/audio-player.svg,$HOME/Dropbox/UbuntuManuales/icons/Meliae/WachoCompilación-modificada/gdu-mount.svg,$HOME/Dropbox/UbuntuManuales/icons/humanity/user-desktop.svg,$HOME/Dropbox/UbuntuManuales/icons/Meliae/WachoCompilación-modificada/raíz.svg,$HOME/Dropbox/Imagenes/Ubuntu/logo-ubuntu_cof-orange-hex.svg,$HOME/Dropbox/Imagenes/e-Sword/e-Sword(para panel de dolphin4)v1.png,$HOME/Dropbox/UbuntuManuales/icons/Meliae/WachoCompilación-modificada/gstreamer-properties.svg,$HOME/Dropbox/Imagenes/Dropbox/caja-dropbox1.png,$HOME/Dropbox/Imagenes/e-Sword/e-Sword ok.png,$HOME/Dropbox/Imagenes/e-Sword/e-Sword.svg
+Recent URLs[$e]=$HOME/Dropbox/UbuntuManuales/whatsapp/,$HOME/Dropbox/UbuntuManuales/Adds/,$HOME/Dropbox/UbuntuManuales/minuet/,$HOME/Dropbox/UbuntuManuales/lenmus/,$HOME/Dropbox/UbuntuManuales/OpenDNS/,$HOME/RisenPC-iceWM/.icewm/,$HOME/Dropbox/Sitios-yo/
+Width 1024=816
+Width 1280=960
+Width 1366=960
+Width 1600=960
+
+[KPropertiesDialog]
+Height 768=742
+Height 864=441
+Height 900=491
+Width 1024=296
+Width 1152=305
+Width 1280=1243
+Width 1360=531
+Width 1366=763
+Width 1600=762
+
+[MainWindow]
+Height 1024=1025
+Height 1080=1081
+Height 600=601
+Height 720=721
+Height 768=769
+Height 864=865
+Height 900=901
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC2AAACqfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAABAAAACowAAAAUA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAACqQAAAFsA////AAAAAQAAAjcAAAKQ/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAEIAAAKQAAAABQD///8AAAADAAAE2QAAALn8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAE2QAAAAUA////AAAERAAAAqkAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1024=1025
+Width 1152=1153
+Width 1280=1281
+Width 1360=1361
+Width 1366=1367
+Width 1368=1369
+Width 1440=1441
+Width 1600=1601
+Width 1920=1921
+Width 800=801
+
+[Open-with settings]
+CompletionMode=5
+History=libreoffice --writer %U,inkscape %F,pluma,libreoffice --calc %U,/usr/bin/vlc --started-from-file %U,xnview %U
+
+[PreviewSettings]
+Plugins=openofficeorgthumbnail,cursorthumbnail,desktopthumbnail,textthumbnail,directorythumbnail,windowsexethumbnail,imagethumbnail,jpegthumbnail,svgthumbnail,windowsimagethumbnail,kffmpegthumbnailer
+
+[Search]
+ShowFacetsWidget=true
+
+[SettingsDialog]
+Height 768=538
+Width 1280=741
+
+[ViewPropertiesDialog]
+Height 768=498
+Height 900=462
+Width 1280=503
+Width 1600=503

@@ -1,0 +1,12 @@
+
+
+https://askubuntu.com/questions/98243/how-to-customise-window-decoration-whilst-using-compiz-on-xubuntu?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+
+1
+down vote
+I'm using xubuntu 17.10 and I'm experimenting with compiz. I use the Greybird theme but out of the box compiz window decorations do not follow the xfce theme. I had unwanted opacity in the title bar, ugly and non-themed window buttons, and a title bar which was too big.
+
+After compiz is active, try this: (thanks to arch linux documentation https://wiki.archlinux.org/index.php/Compiz/Configuration#Workspaces_and_Viewports)
+
+gsettings set org.gnome.desktop.wm.preferences theme Greybird

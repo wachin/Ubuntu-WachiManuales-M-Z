@@ -1,0 +1,49 @@
+
+
+pdfsandwich
+http://www.tobias-elze.de/pdfsandwich/   (más instrucciones allí)
+
+Nota: yo traté de convertir un pdf de 70MB que se llama DeepWeb.pdf y se demoró como una hora, y le bajó el peso a 30MB, sin embargo se ve de menor calidad que el original, aunque si tiene embebido textos, pero no son del todo correctos, mejor es con Google Drive: https://www.gtricks.com/docs/convert-pdf-into-ms-word/
+
+Att: Wachín
+
+Usage
+
+pdfsandwich is a command line utility. If you have a scanned pdf file, for instance this one: 
+
+alice.pdf
+http://www.tobias-elze.de/pdfsandwich/alice.pdf
+
+(which is the first chapter of a novel you might have heard of), invoke pdfsandwich like this:
+
+pdfsandwich alice.pdf
+
+
+This will generate a file alice_ocr.pdf which looks like the orginal file, but the recognized text will be placed behind the scanned images. You can make full text searches now or select text areas.
+
+For some pdf files, pdfsandwich produces much larger files after OCR processing. In this case, it might help to call pdfsandwich again on the already OCR'ed file.
+
+
+Text size, resolution, and page size
+
+PDF is a document format optimized for printing. It specifies its page size in units of the the paper on which the file is supposed to be printed, such as A4 or letter. OCR, however, is an image processing operation which requires a digital image as a raster of pixels. Therefore, we need to rasterize each page of the PDF with a resolution which yields character sizes suitable for tesseract. For text sizes which are conveniently readable on a printed A4 or letter page, the default resolution of pdfsandwich, 300 dpi, is a reasonable choice. More specifically, it is recommended that the x-height, that is the height of the lower case letter x, should be around 20 pixels, but definitely not smaller than 10 pixels (see tesseract FAQ).
+
+Sometimes, a scanner software generates PDFs with unreasonably large page size settings, which you typically notice when you need to zoom the pages to very low percentages in your PDF reader to be able to read the page content properly. If such a huge PDF page would be rasterized with 300 dpi, very large digital images would be the result which would slow down tesseract and would require large amounts of memory to be processed. As in most cases, such huge page sizes are errors of the scanner software, the default settings of pdfsandwich cause such pages to be scaled down to around page size A3 prior to OCR and then generate the sandwich pdf. If you know for sure that the very large pages of your input file are intended, for instance in cases of scanned posters, you can increase the parameter -maxpixels to prevent pdfsandwich from scaling down the page size prior to OCR.
+
+
+Languages
+
+Specifying the language(s) of the scanned document may considerably improve text recognition, as language specific dictionaries can be applied during the OCR process. pdfsandwich allows to specify languages by the -lang option followed by the language abbreviation. Multiple languages in one document can be specified separated by plus characters. If your document contains parts in English, French, and German, for instance, call pdfsandwich like this:
+
+pdfsandwich -lang eng+fra+deu multilingual_document.pdf
+Via Tesseract, numerous language packagess available - have a look at the tesseract download page for a complete list. Here is an incomplete selection of supported languages and their abbreviations:
+
+ara (Arabic), aze (Azerbaijani), bul (Bulgarian), cat (Catalan), ces (Czech), chi_sim (Simplified Chinese), chi_tra (Traditional Chinese), chr (Cherokee), dan (Danish), deu (German), ell (Greek), eng (English), enm (Old English), epo (Esperanto), est (Estonian), fin (Finnish), fra (French), frm (Old French), glg (Galician), heb (Hebrew), hin (Hindi), hrv (Croation), hun (Hungarian), ind (Indonesian), ita (Italian), jpn (Japanese), kor (Korean), lav (Latvian), lit (Lithuanian), nld (Dutch), nor (Norwegian), pol (Polish), por (Portuguese), ron (Romanian), rus (Russian), slk (Slovakian), slv (Slovenian), sqi (Albanian), spa (Spanish), srp (Serbian), swe (Swedish), tam (Tamil), tel (Telugu), tgl (Tagalog), tha (Thai), tur (Turkish), ukr (Ukrainian), vie (Vietnamese).
+
+Note that the respective tesseract language package needs to be installed on your system to be usable by pdfsandwich. This option lists the languages which are available on your system:
+
+pdfsandwich -list_langs
+
+
+
+

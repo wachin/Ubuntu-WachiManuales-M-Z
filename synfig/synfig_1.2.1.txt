@@ -1,0 +1,8 @@
+
+
+https://howto-ubuntunew.blogspot.com/2017/11/how-to-install-synfig-studio-121.html
+
+AppImage
+https://sourceforge.net/projects/synfig/files/releases/1.2.1/linux/
+
+ 

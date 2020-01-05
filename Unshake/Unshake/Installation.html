@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+  <HEAD>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+    <TITLE>Installation</TITLE>
+  </HEAD>
+  <BODY>
+<center><H1>Installing Unshake</H1></center>
+<center><A HREF=./Installation.html><img
+src="swt3.png" alt="Small Wriggly Thing" width=169 height=60></a></center>
+<H3>Contents</H3>
+<ol>
+<li><A HREF="#java">Installing Unshake for Java</A>
+<ol>
+<li><A HREF="#system">System Requirements</A>
+<li><A HREF="#win">Installation Under Windows</A>
+<li><A HREF="#unix">Installation Under Unix (including Linux)</A>
+<li><A HREF="#mac">Installation on Mac's</A>
+</ol>
+<li><A HREF="#linuxC">Installation of the C version under Linux</A>
+<li><A HREF="#mirror">Mirroring</A>
+<li><A HREF="#ack">Disclaimers and Acknowledgements</A>
+<li><A HREF="#note">Technical note</A>
+</ol>
+<h2><A NAME="java">Installing Unshake for Java</A></h2>
+<h3><A NAME="system">System Requirements</A></h3>
+You will need Sun's Java 2 (or 5), or a Java 2 which includes Sun's JPEG routines,
+"com.sun.image.codec.jpeg". It is relatively easy to download, and instructions are
+given below. Apart from that, your system limits only the time taken
+to "Unshake" an image, and the size of image which can be processed:
+On a Gigahertz PC with 256 MByte of RAM, it should take less than 5 seconds
+for a 256 by 256 pixel image, and 4 times that for a 512 by 512 image.
+On a 300 Megahertz PC, it takes about 3 times as long, and on my little
+75 Megahertz PC it used to take nearly 15 minutes for a 512 by 512 pixel image!
+<p>
+RAM is also a consideration: My little PC only had 64 MByte of RAM, so it
+slowed down a lot if I did anything else with it while it was processing a 512
+by 512 pixel image.
+<p>
+So the conclusion is: If you can run Java 2, you can run Unshake, though if
+you have a small or slow computer, you will have to be patient.
+A newly bought PC should have no trouble at all running the code.
+
+<h3><A NAME="win"> Installation Under Windows</A></h3>
+<ol>
+<li>Download <A HREF="Download.html"> this zip file</A>, and
+unpack it in a convenient place. A folder will appear called Unshake.
+<li>
+Now you need to install Sun's Java 2 (or 5) Runtime Environment, if you
+haven't already. It should be enough simply to install the Java
+Runtime Environment (JRE), and the best way to do that is to download
+it directly from <A HREF="http://java.sun.com/getjava"> here</A>, or
+<A HREF="http://java.sun.com">somewhere else in the site if that link
+is out of date</A>. Use the SDK or JRE 1.4 or 1.5, if it is available for
+your machine, although earlier versions will be good enough.
+<p>
+Make sure you do not download "Java 1", also known as "1.0" and
+"1.1". You need "Java 2" (or 5), which is "1.2", "1.3" etc.
+<p>
+<li>
+You will now be able to run Unshake, from the launcher (see
+<A HREF="Instructions.html">Use of Unshake, Instructions.html</A>).
+</ol>
+If you want an icon on your desktop which will launch Unshake, try
+right-clicking on "Launch" in the Unshake folder, and choosing copy,
+then pointing to your desktop and choosing "Paste Shortcut". Maybe I'll try creating a nice icon later. If you tell me that it matters!
+<p>
+Any updates for the code will be posted at
+<A HREF="http://www.unshake.co.uk/Updates/index.html">
+http://www.unshake.co.uk/Updates/index.html</A>,
+ISP's permitting.
+<p>
+<h3><A NAME="unix">Installation Under Unix</A></h3>
+(Including Linux.)
+<ol>
+<li>Download <A HREF="Download.html"> this zip file</A>, and
+unpack it in a convenient place. A directory will appear called Unshake.
+<li>
+Change directory to Unshake, and make the script unlaunch.sh executable;
+
+<pre>
+mv Unshake15r1.zip convenientplace 
+cd convenientplace
+unzip Unshake15r1.zip
+cd Unshake
+chmod 755 unlaunch.sh
+</pre>
+<li>
+Now you need to install Sun's Java 2 (or 5), if you haven't already (type "java -version" to check this).
+Download it directly <A HREF="http://java.sun.com/getjava"> here</A>,
+or <A HREF="http://java.sun.com">somewhere else in the site if that
+link is out of date</A>. Use the SDK or JRE 1.4 or 1.5, if it is available
+for your machine, although earlier versions will be good
+enough. Follow Sun's instructions for installing it, bearing in mind
+that Unshake will automatically look for it in your PATH, and in a few
+other known places. So if you have root access to your computer, you
+might type
+<pre>
+# cd /usr/local/bin
+# ln -s ../../java/j2sdk1.4.2/bin/java
+</pre>
+<li>
+With java installed, you will be able to run Unshake from the launcher
+(see <A HREF="Instructions.html">Use of Unshake, Instructions.html</A>).
+</ol>
+Any updates for the code will be posted at
+<A HREF="http://www.unshake.co.uk/Updates/index.html">
+http://www.unshake.co.uk/Updates/index.html</A>,
+ISP's permitting.
+
+<h3><A NAME="mac"> Installation on Mac's</A></h3> The launcher for Mac
+OS X (sorry, this does not work for earlier versions of Mac OS) is on trial
+release, because I do not have a Mac at home. However, I have created
+an applescript which should work with Unshake 1.5, with a few minor
+irritations;
+<p>
+<ol>
+
+<li>Download <A HREF="Download.html"> this zip file</A>, and unpack it
+in a convenient place. A folder will appear called Unshake.
+
+<li>Move the Unshake folder into Applications>Utilities on your
+hard drive. Only this location will work.
+
+<li>In the Unshake folder is a file MacOSX.dmg. Open this disc image,
+and drag the applescript file Unshake from it to a convenient place,
+such as your desktop.
+
+<li>You can now run Unshake by opening the applescript file at any time.
+</ol>
+If this fails, open a terminal window
+(Applications>Utilities>Terminal), and type "cd
+Applications/Utilities" if you have already moved the Unshake folder
+there , then follow <a href="#unix">Installation under Unix, steps 2
+and 4</a> before following the rest of the instructions for generic
+UNIX, and <a href="Contact.html">please let me know</a>.
+<p>
+In either case, to run Unshake, please see <A
+HREF="Instructions.html">Use of Unshake, Instructions.html</A>.
+
+<h2><A NAME="linuxC">Installation of the C version under Linux</A></h2>
+
+First check the licence for the C version, <A
+HREF="LICENCE.txt">LICENCE.txt</A>. Download <A HREF="Download.html">
+the zip file</A> as above, and unpack it. In it you will find a
+"tarball" UnshakeC1.5r1.tar.gz. Unpack this, and read the file
+"README".
+
+<h2><A NAME="mirror">Mirroring</A></h2> You are welcome to put
+Unshake on your own web site (so long as it is in a country which
+respects copyright and patents granted in the European Union). Note
+that the distribution includes a Linux distribution, which has its own
+<A HREF="LICENCE.txt">licence file</A>.
+<ol>
+<li> Download <A HREF="Download.html"> the zip file</A>, and unpack it.
+<li> Move the zip file into the resulting Unshake directory.
+<li> Make the entire directory available on your site.
+<li> <a href="Contact.html">Email me</a>, so
+that I can let you know if I ever update Unshake.
+</ol>
+<h2><A NAME="ack">Disclaimers and Acknowledgements</A></h2>
+<ul>
+<li> This version of Unshake is dedicated to Frank di Marzio, who died
+tragically and unexpectedly in the Summer of 2005.
+<li> Unshake started out as "my first Java program", and sort of grew.
+While I have now put some effort into making it easier to use, I
+do not have a lot of free time, so please don't blame me if it isn't as easy
+to use as some other programs.
+<li> Long ago, Unshake grew out of Sun's examples of how to use Java,
+in particular their "JAI File Browser", so <A HREF=./SunDisclaim.html>
+here</A> is their disclaimer.
+<li> Unshake uses a marvellous routine called a Cooley-Tukey Fast
+Fourier Transform. Cooley and Tukey deserve a lot of thanks
+for revolutionising scientific computing. The particular version
+used here is based on one from  E. Oran Brigham,
+The Fast Fourier Transform, p164, found in Appendix 2 of
+Morgan Pickering, "An Introduction to Fast Fourier Transform
+Methods for Partial Differential Equations, with Applications",
+Pub. Research Studies Press.
+<li> Apart from the above, Unshake is "all my own work", it is
+copyright and I have started patenting it. It is distributed free,
+solely for personal use.
+<li> For myself, I am prepared to trust that Unshake will not harm
+my computer. But, just like <A HREF=./SunDisclaim.html> Sun</A>,
+I take no responsibility for what it does on your particular computer,
+or with your particular images. In jargon, I think
+that translates as: Unshake is supplied "as is", without warranty of any
+kind. I prefer it in plain English, myself.
+<li> Please do not distribute Unshake in any form other than the one
+in which I am supplying it.
+<li> Please do not distribute Unshake in any country which does not
+respect copyright and patents granted in Europe.
+<li> Note that images produced by Unshake can be clearly identified.
+Ummm, sometimes.
+<li> Thanks to DJR and UA for very helpful comments - I hope this
+release is an improvement for you.
+<li> Have fun!
+</ul>
+<h3><A NAME="note">Technical Note</A></h3>
+Unshake uses Sun's JPEG algorithms to save files. These are not
+standard Java, so I have set the file-saving routine apart in a
+special subclass, Unshakes. If there ever comes a time when these
+algorithms are not available, it is possible to write your own class
+to use a different algorithm. <A HREF=./UnshakeTemplate.html> Here is a
+template for such a class</A>.
+<p>
+12/9/06. &copy M.D. Cahill 2000-2006.
+<!-- BEGIN ADDFREESTATS EASY CODE V2 NO FRAMES -->
+<!-- CODE FOR YOUR PAGE: Installation     -->
+<!-- URL : http://www.hamangia.freeserve.co.uk/Unshake/Installation.html  -->
+<!-- PAGE NUMBER :6  -->
+<script language="javascript" src="http://www.addfreestats.com/cgi-bin/easycode.cgi?usr=00069736P006">
+</script>
+<!-- END ADDFREESTATS EASY CODE V2 -->
+  </BODY>
+</HTML>

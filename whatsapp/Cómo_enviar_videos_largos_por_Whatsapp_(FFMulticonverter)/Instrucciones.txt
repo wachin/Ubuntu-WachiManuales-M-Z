@@ -1,0 +1,97 @@
+
+Cómo compartir videos largos en whatsapp
+
+Menos de 16 MB acepta WhatsApp en un video
+
+ffmulticonverter video para WhatsApp a 800kbps, 480x360
+Nota: Estaba convirtiendo un video de 10,20min y pesa 1,4GB, pero el tamaño que dió fue 70MB y al tratar de enviarlo en WhatsApp me dejaba seleccionar 1/4 partes del video
+
+
+MEJORADO, usando los datos del testimonio de Pablo Olivares que tiene 6:51min y pesa 11MB:
+
+Dos canales
+
+video 250kbps, 512x288, fps15
+audio 128kbps, 44.1kHz, 2 chnnels, AAC
+-vf "scale=512:288" -b:v 250k -r 15 -ac 2 -b:a 128k -ar 44100
+
+
+UN CANAL - HORIZONTAL para WhatsApp en SAMSUNG GALAXY J5
+
+video 300kbps, 512x288, fps15
+audio 96kbps, 44.1kHz, 1 chnnels, AAC
+-vf "scale=512:288" -b:v 300k -r 15 -ac 1 -b:a 96k -ar 44100
+
+video 256kbps, 512x288, fps15
+audio 96kbps, 44.1kHz, 1 chnnels, AAC
+-vf "scale=512:288" -b:v 256k -r 15 -ac 1 -b:a 96k -ar 44100
+
+video 180kbps, 512x288, fps15
+audio 96kbps, 44.1kHz, 1 chnnels, AAC
+-vf "scale=512:288" -b:v 180k -r 15 -ac 1 -b:a 96k -ar 44100
+
+video 145kbps, 512x288, fps15
+audio 96kbps, 44.1kHz, 1 chnnels, AAC
+-vf "scale=512:288" -b:v 145k -r 15 -ac 1 -b:a 96k -ar 44100
+
+video 220kbps, 512x288, fps15. Audio 30k, 44.1kHz (Ejemplo: Video 1280x720 SAMSUNG J5: min  a 11,9MB)
+-vf "scale=512:288" -b:v 220k -r 15 -ac 1 -b:a 30k -ar 44100
+
+video 200kbps, 512x288, fps15. Audio 30k, 44.1kHz (Ejemplo: Video 1280x720 SAMSUNG J5: 9:17min 630,1MB a 11,9MB)
+-vf "scale=512:288" -b:v 200k -r 15 -ac 1 -b:a 30k -ar 44100
+
+video 180kbps, 512x288, fps15. Audio 30k, 44.1kHz (Ejemplo: Video 1280x720 SAMSUNG J5: 9:17min 814,3MB a 14,4MB)
+-vf "scale=512:288" -b:v 180k -r 15 -ac 1 -b:a 30k -ar 44100
+
+video 160kbps, 512x288, fps15. Audio 30k, 44.1kHz (Ej.: Video 1280x720 SAMSUNG J5:  9:34min 881,2MB a 14.1MB)
+                                                  (Ej.: Video 1280x720 SAMSUNG J5:  9:17min 814,3MB a 13.1MB)
+                                                  (Ej.: Video 1280x720 SAMSUNG J5: 10:45min 111.2MB a 12.8MB, 
+                                                   pero este video lo descargué de facebook con jDownloader)
+-vf "scale=512:288" -b:v 160k -r 15 -ac 1 -b:a 30k -ar 44100
+
+video 150k, 512x288, fps15. Audio 30k, 44.1kHz (Ejemplo: Video 1280x720 SAMSUNG J5: 7:07min 654,7MB a 9,8MB)
+-vf "scale=512:288" -b:v 150k -r 15 -ac 1 -b:a 30k -ar 44100
+
+video 145k, 512x288, fps15. Audio 30k, 44.1kHz
+-vf "scale=512:288" -b:v 145k -r 15 -ac 1 -b:a 30k -ar 44100
+
+video 140k, 512x288, fps15. Audio 30k, 44.1kHz
+-vf "scale=512:288" -b:v 140k -r 15 -ac 1 -b:a 30k -ar 44100
+
+video 130k, 512x288, fps15, Audio 30k, 44.1kHz (Convirtió un video de 11:54 min de 1280x720 a 14.13MB)
+-vf "scale=512:288" -b:v 130k -r 15 -ac 1 -b:a 30k -ar 44100
+
+
+NO USAR
+video 120k, 512x288, fps15, Audio 30k, 44100
+audio 30kbps, 44.1kHz, 1 chnnels, AAC
+-vf "scale=512:288" -b:v 120k -r 15 -ac 1 -b:a 30k -ar 44100
+
+
+Nota: la resolución correcta la encontré en kdenlive, en:
+"Proyecto/Preferencias del proyecto/Personalizado/512x288 16:9 PAL"
+
+
+UN CANAL VERTICAL
+
+video 180kbps, 288x512, fps15,  Audio 30k, 44.1kHz 
+-vf "scale=288:512" -b:v 180k -r 15 -ac 1 -b:a 30k -ar 44100
+
+
+
+
+
+320x240
+
+video 115kbps, 320x240, fps15
+audio 96kbps, 44.1kHz, 2 chnnels, AAC
+-vf "scale=320:240" -b:v 115k -r 15 -ac 2 -b:a 96k -ar 44100
+
+video 115kbps, 320x240, fps15
+audio 32kbps, 44.1kHz, 1 chnnels, AAC
+-vf "scale=320:240" -b:v 115k -r 15 -ac 1 -b:a 32k -ar 44100
+
+vídeo 95kbps, 320x240, fps15, audio 32kbps, 1 chnnel
+-vf "scale=320:240" -b:v 95k -r 15 -ac 1 -b:a 30k -ar 44100
+
+

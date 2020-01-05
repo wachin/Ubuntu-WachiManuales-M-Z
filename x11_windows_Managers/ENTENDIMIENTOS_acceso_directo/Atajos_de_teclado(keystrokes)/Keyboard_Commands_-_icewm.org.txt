@@ -1,0 +1,94 @@
+
+
+6. Keyboard Commands
+http://www.icewm.org/manual/icewm-6.html
+
+
+Alt key is assumed to be the key defined as Mod1 modifier.
+
+Alt+F1
+Raise the window.
+
+Alt+F2
+Make a window occupy all desktops.
+
+Alt+F3
+Lower the window to the bottom of the stack.
+
+Alt+F4
+Close the window.
+
+Alt+F5
+Restore the window state if maximized or minimized/hidden.
+
+Alt+F6
+Focus to next window.
+
+Alt+Shift+F6
+Focus to previous window.
+
+Alt+F7
+Move the window.
+
+Alt+F8
+Resize the window.
+
+Alt+F9
+Minimize the window to taskbar.
+
+Alt+F10
+Maximize the window.
+
+Alt+Shift+F10
+Maximize the window vertically (toggle).
+
+Alt+F11
+Hide the window (appears in window list, but not on taskbar).
+
+Alt+F12
+Rollup the window.
+
+Ctrl+Escape
+Show the start menu.
+
+Ctrl+Alt+Escape
+Show the window list.
+
+Shift+Escape
+Show the system-menu of the window.
+
+Alt+Escape
+Focus to next window (down in zorder)
+
+Alt+Shift+Escape
+Focus to previous window (up in zorder)
+
+Alt+Tab
+Switch between windows (top->bottom).
+
+Alt+Shift+Tab
+Switch between windows (bottom->top).
+
+Ctrl+Alt+LeftArrow
+Switch to the previous workspace (cycle).
+
+Ctrl+Alt+RightArrow
+Switch to the next workspace (cycle).
+
+Ctrl+Alt+DownArrow
+Switch to the previously active workspace.
+
+Ctrl+Alt+Shift+LeftArrow
+Move the focused window to the previous workspace and activate it.
+
+Ctrl+Alt+Shift+RightArrow
+Move the focused window to the next workspace and activate it.
+
+Ctrl+Alt+Shift+DownArrow
+Move the focused window to the previously active workspace and activate it.
+
+Ctrl+Alt+Delete
+displays the session dialog.
+
+Ctrl+Alt+Space
+Activate the internal taskbar command line for starting applications. (Ctrl+Enter to run in a terminal window)

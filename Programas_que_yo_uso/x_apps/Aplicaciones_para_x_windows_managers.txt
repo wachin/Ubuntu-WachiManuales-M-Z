@@ -1,0 +1,36 @@
+
+gnome-applets tiene varias sugerencias más.
+
+
+xfce4-appfinder
+mate-system-monitor
+pnmixer 
+numlockx
+viewnior
+xfce4-notes
+xfce4-terminal
+lxtask
+
+icewm lxrandr lxappearance pluma gedit  convertall soundconverter goldendict  thunar dolphin4 file-roller konsole breeze-gtk-theme nautilus nautilus-dropbox speedcrunch orage mate-power-manager xscreensaver exe-thumbnailer qt4-qtconfig qt5ct menu menu-l10n suru-icon-theme gnome-icon-theme gnome-wine-icon-theme gnome-human-icon-theme gnome-brave-icon-theme gnome-brave-icon-theme gnome-colors-common xubuntu-icon-theme xubuntu-restricted-extras kdebase-bin caja engrampa doublecmd-gtk ltpanel gnome-disk-utility 
+
+
+ 
+
+hardinfo 
+
+lxtask.- monitor de sistema ligero
+
+
+kdebase-bin.- Necesario poder activar la función cambiar colores de carpetas en dolphin4 https://facilitarelsoftwarelibre.blogspot.com/2016/08/colores-en-las-carpetas-folder-color-de.html
+xubuntu-restricted-extras.- Sirve para instalar codecs de video y otros restringidos por copyright
+menu menu-l10n.- Es para generar los menus
+qt5ct.- Es para configurar los temas de aplicaciones Qt5
+qt4-qtconfig.- Es para configurar los temas de aplicaciones Qt4
+exe-thumbnailer.- Es para ver miniaturas de los ejecutables .exe de windows
+file-roller.- Es necesario para "Extraer aquí" con clic derecho: https://facilitarelsoftwarelibre.blogspot.com/2014/11/extraer-aqui-comprimir-file-roller-para.html
+pcmanfm es una dependencia pues con el se cargan los iconos del escritorio
+ltpanel.- Es un panel para ver las aplicaciones que están abiertas, debido a que jwm tiene un bug en el que las aplicaciones de PlayOnLinux no se ven en el panel, éste ltpanel si las muestra
+gnome-icon-theme.- De aquí he tomado varios iconos para las opciones de energía: Reiniciar, Suspender, Apagado y otros (están usados en el archivo .jwmrc)
+gnome-disk-utility.- Lo necesitaras para renombrar tus pendrives
+mate-system-monitor.- Es como el Administrador de Tareas de Windows, allí se pueden ver los programas y su consumo de memoria y más cosas
+hardinfo.- Muy detallado para ver la información del sistema

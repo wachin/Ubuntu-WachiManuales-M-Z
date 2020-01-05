@@ -1,0 +1,24 @@
+ Gtk-Message: Failed to load module "atk-bridge"
+Waiting for current window manager (Compiz) on screen :0.0 to exit: Done
+
+(xfwm4:10260): xfwm4-WARNING **: Unmanaged net_wm_state (window 0x540000STATE_FOCUSED")
+
+(xfwm4:10260): xfwm4-WARNING **: Unmanaged net_wm_state (window 0x1c0000STATE_FOCUSED")
+
+
+Buscando la solución encontré:
+
+https://askubuntu.com/questions/548557/how-to-install-gail-and-atk-bridge
+
+ 6
+down vote
+accepted
+	
+
+I had the same problem with gvim in 16.04. There, the 64bit libraries helped:
+
+apt-get install libatk-adaptor libgail-common
+
+
+
+

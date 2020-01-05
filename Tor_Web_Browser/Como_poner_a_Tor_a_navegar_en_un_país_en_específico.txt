@@ -1,0 +1,44 @@
+Como poner a Tor a navegar en un país en específico, en Ubuntu
+
+
+
+/tor-browser_es-ES/Browser/TorBrowser/Data/Tor/torrc
+
+
+añadir:
+
+StrictNodes 1
+ExitNodes {ES}
+
+
+https://es.paperblog.com/navega-con-la-ip-de-un-pais-determinado-usando-tor-browser-2898258/
+
+
+Navega con la IP de un país determinado usando Tor Browser
+Publicado el 03 noviembre 2014 por Ubuntizando
+
+Tengo un amigo en Lituania. ¿Qué hace ahí? Pues lo que muchos jóvenes. Al no encontrar ofertas profesionales tras acabar sus estudios de sociología, decidió probar suerte por el voluntariado y ahí está. Lleva dos meses allí y le deseo mucha suerte. El problema surge cuando ha necesitado hacer un tramite con su banco y esté no le deja operar debido a su ip.
+
+Una faena que ha tenido solución gracias a TOR.
+
+cualesmiip Navega con la IP de un país determinado usando Tor Browser
+
+Paso 1: Descarga TOR-BROSWER
+
+No hace mucho TOR prensentó un navegador que simplificaba el proceso de su conexión a su red y por tanto tu navegación anónima. TOR es un proyecto basado en software libre donde usuarios actúan como nodos de otros usuarios, de forma que nuestra información no va de A a B, sino que pasa por tantos nodos que es muy difícil de rastrear.
+
+Selecciona la versión más acorde con tu idioma y sistema operativo y descargalo. Una vez finalizada la descarga no lo ejecutes todavía, solo inicia el proceso de instalación o desempaquetalo (Linux)
+DESGARGA TOR BROWSER
+Paso 2: Configuración.
+
+Tras instalar tienes que editar el editar el archivo torrc añadiendo la siguientes linea al final:
+StrictNodes 1
+ExitNodes {ES}
+
+Este archivo lo encontrarás en la siguiente ruta dentro del directorio de instalación que has definido; Browser/TorBroser/Data/Tor
+
+Y ya está, ejecuta TOR-Browser. Lo que hemos hecho ha sido forzar al navegador a obtener una IP del país de nuestra preferencia. En este caso España (ES), pero puede ser Argetina (AR), Perú (PE), o el que queramos. Para comprobar entramos a http://www.ip-adress.com/ y comprobamos que este funcionando bien.
+
+Con esto ya tenemos resuelto el problema de mi amigo. Como podéis ver ha sido muy sencillo, pero no es para hacer el “juacker” o por mucho que estemos tentados a sellar la tarjeta del paro por Internet desde nuestro retiro en las islas Fiji, recordar que debemos hacer un uso responsable.
+
+Dicho esto vamos a hablar de cómo instalar TOR Browser en Ubuntu usando repositorios.

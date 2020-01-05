@@ -1,0 +1,7 @@
+
+
+
+sudo apt-get purge wps-office
+
+uninstall - How can you completely remove a package? - Ask Ubuntu
+https://askubuntu.com/questions/151941/how-can-you-completely-remove-a-package/151943

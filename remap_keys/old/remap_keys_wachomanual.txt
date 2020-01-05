@@ -1,0 +1,80 @@
+
+
+
+configuration - Remap shortcut to a single key cannot be used - Ask Ubuntu
+http://askubuntu.com/questions/249760/remap-shortcut-to-a-single-key-cannot-be-used
+
+wachin@wachin-Inspiron-1750:~$ xev | grep key
+ state 0x0, keycode 51 (keysym 0x5c, backslash), same_screen YES,
+    state 0x0, keycode 51 (keysym 0x5c, backslash), same_screen YES,
+    state 0x0, keycode 48 (keysym 0x27, apostrophe), same_screen YES,
+    state 0x0, keycode 48 (keysym 0x27, apostrophe), same_screen YES,
+
+esta es la tecla que quiero usar para pagina arriba: backslash
+esta es la tecla que quiero usar para pagina abajo: apostrophe
+
+ENTONCES SEGUN ESTE MANUAL
+
+This is actually quite easy using the xbindkeys Install xbindkeys and the xdotool Install xdotool packages. xdotool lets you emulate key presses, and xbindkeys lets you add custom shortcuts.
+
+All the following steps are run in a terminal.
+
+First we will kill the process
+
+killall xbindkeys
+
+Now we put our custom shortcuts in the ~/.xbindkeysrc file
+
+gedit ~/.xbindkeysrc
+and we put in the following lines:
+
+
+"xdotool keyup Next && xdotool key ctrl+alt+Down"
+   Next
+
+"xdotool keyup Prior && xdotool key ctrl+alt+Up"
+   Prior
+   
+   
+save and close, and start xbindkeys again by running
+
+xbindkeys 
+
+It should now work like you wanted, enjoy!
+
+Explanation: Now what does it actually do? Say, you press Page Up, your computer recognizes this as the Prior key (you can check this using 
+
+xev | grep key
+
+and pressing keys). Now before we simulate other keypresses, we should emulate a key release first, that's what the xdotool keyup Prior is for. If it is released successfully then we send the Ctrl+Alt+Up combination and this is what xdotool key ctrl+alt+Up is for.
+
+YO VOY A CAMBIAR AQUÍ
+no funciona con esas teclas que yo quiero, pero si funciono una, la de interrogación(pero sólo una):
+
+
+"xdotool keyup apostrophe && xdotool key Page_Down"
+   apostrophe
+
+"xdotool keyup questiondown && xdotool key Page_Up"
+   questiondown
+   
+Pero esta de acá si funciona, pero me quedo sin las teclas derecha e izquierda   
+     
+"xdotool keyup Left && xdotool key Page_Up"
+   Left
+
+"xdotool keyup Right && xdotool key Page_Down"
+   Right
+
+   
+
+
+Tambien ver:
+linux - How to remap a key combination to a key? - Unix & Linux Stack Exchange
+http://unix.stackexchange.com/questions/80660/how-to-remap-a-key-combination-to-a-key
+
+allí se ve esto:
+
+"xdotool key Home"
+  End + Up
+

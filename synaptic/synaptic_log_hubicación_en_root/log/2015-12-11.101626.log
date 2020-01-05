@@ -1,0 +1,24 @@
+Commit Log for Fri Dec 11 10:16:26 2015
+
+
+Actualizó los siguientes paquetes:
+calf-plugins (0.0.60-1build1) to 0.0.60+r1673.1~ubuntu15.10.1
+guitarix (0.32.1-1build2) to 0.34.0-0~15.10.2
+liblilv-0-0 (0.20.0~dfsg0-1) to 0.22.0~dfsg0-1~15.10.1
+libserd-0-0 (0.20.0~dfsg1-1) to 0.22.0~dfsg0-2~15.10.1
+libsord-0-0 (0.12.2~dfsg0-1) to 0.14.0~dfsg0-1~15.10.1
+
+Instaló los siguientes paquetes:
+ardour (1:4.4.446+r14174.27~ubuntu15.10.1)
+libjavascriptcoregtk-1.0-0 (2.4.9-2ubuntu2)
+libwebkitgtk-1.0-0 (2.4.9-2ubuntu2)
+libwebkitgtk-1.0-common (2.4.9-2ubuntu2)
+python-crypto (2.6.1-5build1)
+python-twisted (15.2.1-1ubuntu2)
+python-twisted-conch (1:15.2.1-1ubuntu2)
+python-twisted-lore (15.2.1-1ubuntu2)
+python-twisted-mail (15.2.1-1ubuntu2)
+python-twisted-names (15.2.1-1ubuntu2)
+python-twisted-news (15.2.1-1ubuntu2)
+python-twisted-runner (15.2.1-1ubuntu2)
+python-twisted-words (15.2.1-1ubuntu2)

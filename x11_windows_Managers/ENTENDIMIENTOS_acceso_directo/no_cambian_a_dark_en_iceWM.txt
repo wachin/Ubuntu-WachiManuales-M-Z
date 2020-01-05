@@ -1,0 +1,35 @@
+
+
+NO CAMBIAN
+Solución: http://www.webupd8.org/2015/11/configure-qt5-application-style-icons.html
+actiona
+converseen
+gwenview
+kate
+openlp
+synaptic
+xnview
+
+MEDIO CAMBIAN
+goldendict
+aegisub
+
+SI CAMBIAN
+conversor de audio
+caja
+clementine
+convertall
+chromium
+dolphin
+ffmulticonverter
+firefox
+Geeqie
+Hugin
+k3b
+libreoffice
+nautilus
+pluma
+skype
+thunar
+youtube-dlg
+

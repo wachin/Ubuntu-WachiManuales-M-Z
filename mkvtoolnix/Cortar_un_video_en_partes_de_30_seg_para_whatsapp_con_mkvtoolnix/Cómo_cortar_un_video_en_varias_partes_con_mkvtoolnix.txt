@@ -1,0 +1,51 @@
+Cómo cortar un video en varias partes con mkvtoolnix
+
+
+EN EL GUI SE PUEDE PONER ASÍ
+
+
+En Multiplexador/Salida/Modo de corte: 
+
+│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+    En partes según los códigos de tiempo
+│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+
+Se puede usar en formato de HH:MM:SS pero ocupa mucho espacio y no se puede poner 60 sino sólo 59 pues el siguiente es el minuto:
+
+En el siguiente ejercicio ficticio (porque incluyo 30 y luego 29seg)
+
+00:00:00-00:00:30,00:00:30-00:00:59,00:00:59-00:01:29
+
+o tambien (tiene ventaja, si se puede poner 60s. Todo mejor dicho en enteros)
+
+00s-30s,30s-60s,60s-90s
+
+
+Entonces para cortar un videopara whatsapp con mkvtoolnix mejor es trabajar con segundos:
+
+NOTA, ME HE DADO CUENTA QUE A VECES ALGUNO DE LOS PEQUEÑOS PEDAZOS QUEDA CON UN TAMAÑO MÁS GRANDE POR UN SEGUNDO
+DE LO QUE DEBERÍA TENER ASÍ QUE MEJOR UTILIZARÉ 29 SEGUNDOS
+
+El cincel de Dios - 9.37.mp4
+Con el siguiente código lo partí en 20 partes de 29 segundos cada una (30 no porque da problemas en whatsapp al pasarse de 30 en el momento del corte)
+    1.      2.     3.      4.         5.       6.        7.        8.        9.        10.      11.       12.        13.      14.       15.       16.       17.       18.        19.      20.      
+00s-29s,29s-58s,58s-87s,87s-116s,116s-145s,145s-174s,174s-203s,203s-232s,232s-261s,261s-290s,290s-319s,319s-348s,348s-377s,377s-406s,406s-435s,435s-464s,464s-493s,493s-522s,522s-551s,551s-580s
+0:00:29,0:01:00,0:01:30,00:02:00, 00:02:30, 00:03:00, 00:03:30, 00:04:00, 00:04:30, 00:05:00, 00:05:30, 00:06:00, 00:06:30,00:07:00, 00:07:30, 00:08:00, 00:08:30, 00:09:00, 00:09:30, 00:10:00, 
+
+
+29 segundos
+El siguiente es para partir más partes (whatsapp hasta 30 partes permite enviar de una sola tandada)
+    1.      2.     3.      4.         5.       6.        7.        8.        9.        10.      11.       12.        13.      14.       15.       16.       17.       18.        19.      20.       21.       22.        23.       24.      25.       26.       27.
+00s-29s,29s-58s,58s-87s,87s-116s,116s-145s,145s-174s,174s-203s,203s-232s,232s-261s,261s-290s,290s-319s,319s-348s,348s-377s,377s-406s,406s-435s,435s-464s,464s-493s,493s-522s,522s-551s,551s-580s,580s-609s,609s-638s,638s-667s,667s-696s,696s-725s,725s-754s,754s-783      
+0:00:29,0:00:58,0:01:27,00:01:56, 00:02:25, 00:02:54, 00:03:30, 00:04:00, 00:04:30, 00:05:00, 00:05:30, 00:06:00, 00:06:30,00:07:00, 00:07:30, 00:08:00, 00:08:30, 00:09:00, 00:09:30, 00:10:00, 00:10:30, 00:11:00, 00:11:30, 00:12:00, 00:12:30, 00:13:00, 00:13:30
+
+
+28 seg
+    1.      2.     3.      4.         5.       6.        7.        8.        9.        10.      11.       12.        13.      14.       15.       16.       17.       18.        19.      20.       21.       22.        23.       24.      25.       26.       27.
+00s-28s,28s-56s,56s-84s,84s-112s,112s-140s,140s-168s,168s-196s,196s-224s,224s-252s,252s-280s,280s-308s,308s-336s,336s-364s,364s-392s,392s-420s,420s-448s,448s-476s,476s-504s,504s-532s,532s-560s,560s-588s,588s-616s,616s-644s,644s-672s,672s-700s,700s-728s,728s-756      
+0:00:28,0:00:56,0:01:24,00:01:52, 00:02:20, 00:02:48, 00:03:16, 00:03:44, 00:04:12, 00:04:40, 00:05:08, 00:05:36, 00:06:04,00:06:32, 00:07:00, 00:07:28, 00:07:56, 00:08:24, 00:08:52, 00:09:20, 00:09:48, 00:10:16, 00:10:44, 00:11:12, 00:11:40, 00:12:08, 00:12:36
+
+
+
+
+   

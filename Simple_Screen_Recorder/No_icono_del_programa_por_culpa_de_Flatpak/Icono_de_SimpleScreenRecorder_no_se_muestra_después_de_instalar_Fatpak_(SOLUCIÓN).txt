@@ -1,0 +1,37 @@
+
+
+Instalé Flatpak y ya no me aparece el icono de SimpleScreenRecorder
+
+La solución para mi en Xubuntu 16.04 es modificar el lanzador(debe tener instalado gedit):
+
+sudo gedit /usr/share/applications/simplescreenrecorder.desktop
+
+allí reemplazar la línea:
+
+Exec=simplescreenrecorder --logfile
+
+por:
+
+Exec=env XDG_DATA_DIRS=/usr/share simplescreenrecorder --logfile
+
+y listo
+
+
+
+
+[SOLVED] simplescreenrecorder and it's wrong icons in indicator-plugin / Desktop / Xfce Forums
+https://forum.xfce.org/viewtopic.php?id=11967
+
+Thanks to simplescreenrecorder's developer Maarten Baert, there's a workaround to resolve the issue...
+
+Look at https://github.com/MaartenBaert/ssr/issues/613
+
+
+The issue is caused by flatpak that interferes with icons standard paths.
+
+A workaround is to modify the simplescreenrecorder.desktop:
+
+Exec=env XDG_DATA_DIRS=/usr/share simplescreenrecorder --logfile
+
+This workaround obviously does not take care about ssr updates, so every time that there is and ssr update we have to remember to modify simplescreenrecorder.desktop, but anyway this solution seems to me the most immediate, avoiding the re-compilation of ssr software.
+

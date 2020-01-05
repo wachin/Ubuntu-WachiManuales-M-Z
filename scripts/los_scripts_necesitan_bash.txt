@@ -1,0 +1,3 @@
+Los scripts necesitan bash para poder ser ejecutados con clic derecho en algún administrador de archivos como thunar, nautilus, dolphin:
+
+sudo apt-get install bash

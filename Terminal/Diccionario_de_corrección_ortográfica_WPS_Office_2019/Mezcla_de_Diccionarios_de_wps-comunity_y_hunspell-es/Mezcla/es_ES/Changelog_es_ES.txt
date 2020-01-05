@@ -1,0 +1,15 @@
+
+Version 1.0
+-Reemplazado el contenido de "main.dic"(que no tenía nada, estaba vació) por el contenido de "es_ES.dic" 
+ del paquete hunspell-es el cual es el diccionario de corrección ortofráfica español para LibreOffice
+ desde los repositorios de Ubuntu
+ http://archive.ubuntu.com/ubuntu/pool/main/libr/libreoffice-dictionaries/hunspell-es_6.0.3-3_all.deb
+
+Version 0.1.1
+-rename "es_ES.dic" to "main.dic"
+-rename "es_ES.aff" to "main.aff"
+-convert main.dic main.aff from 'iso8859-1' to 'utf-8'
+
+Versión 0.1:
+- Versión inicial.
+- Incluye los localismos para esta región.

@@ -1,0 +1,15 @@
+Commit Log for Thu Dec 10 21:39:07 2015
+
+
+Instaló los siguientes paquetes:
+cdparanoia (3.10.2+debian-11)
+k3b (2.0.3-0ubuntu3)
+k3b-data (2.0.3-0ubuntu3)
+k3b-i18n (2.0.3-0ubuntu3)
+language-pack-kde-es (1:14.04+20140305.0ubuntu1)
+libk3b6 (2.0.3-0ubuntu3)
+libk3b6-extracodecs (2.0.3-0ubuntu3)
+libkcddb4 (4:15.08.2-0ubuntu1)
+libkcompactdisc4 (4:15.08.2-0ubuntu1)
+libmusicbrainz5cc2v5 (5.1.0+git20150707-5)
+vcdimager (0.7.24+dfsg-0.2)

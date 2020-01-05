@@ -1,0 +1,7 @@
+[KPropertiesDialog]
+Height 768=438
+Width 1280=498
+
+[Open-with settings]
+CompletionMode=5
+History=xnview %U,chromium-browser %U,libreoffice --writer %U,puddletag,inkscape %F,gdebi-gtk,chromium-browser,xnconvert %U,gwenview,ffmulticonverter,libreoffice --calc %U,/usr/bin/vlc --started-from-file %U,libreoffice --impress %U

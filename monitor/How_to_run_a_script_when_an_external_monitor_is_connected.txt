@@ -1,0 +1,12 @@
+
+
+https://www.google.com.ec/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=if+external+monitor+is+plugin+run+command+xubuntu
+
+ubuntu - Linux: How to run a script when an external monitor is connected? - Super User
+http://superuser.com/questions/278082/linux-how-to-run-a-script-when-an-external-monitor-is-connected
+
+How can I detect when a monitor is plugged in or unplugged? - Unix & Linux Stack Exchange
+http://unix.stackexchange.com/questions/13746/how-can-i-detect-when-a-monitor-is-plugged-in-or-unplugged#6957
+
+askubuntu.com/questions/91221/how-to-tell-xubuntu-not-to-clone-but-to-expand-the-laptop-display-to-the-externa#7152
+http://askubuntu.com/questions/91221/how-to-tell-xubuntu-not-to-clone-but-to-expand-the-laptop-display-to-the-externa#7152

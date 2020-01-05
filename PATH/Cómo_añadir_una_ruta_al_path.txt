@@ -1,0 +1,24 @@
+
+
+
+Quiero añadir la siguiente ruta:
+
+/home/wachin/easyjoin-linux-v2_0/
+
+al Path, para ejecutar solamente poniendo en la terminal:
+
+EasyJoin.exe
+
+y que con eso se ejecute. Por tanto voy a basarme en la siguiente enseñanza: 
+ 
+export PATH=$PATH:/place/with/the/file 
+
+Visto en: https://opensource.com/article/17/6/set-path-linux
+
+así que para hacerlo voy a poner en la terminal:
+
+
+export PATH=$PATH:/home/wachin/easyjoin-linux-v2_0/
+
+
+

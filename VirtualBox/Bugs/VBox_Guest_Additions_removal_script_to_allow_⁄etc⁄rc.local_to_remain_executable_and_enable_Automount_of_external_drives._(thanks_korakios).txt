@@ -1,0 +1,21 @@
+ 
+
+AV Linux 2019.4.10 Released!
+http://www.bandshed.net/2019/04/03/av-linux-2019-4-10-released/
+
+CHANGELOG:
+
+Refreshed expired Repository Keys for WineHQ and Spotify.
+Updated and Fixed Repositories for New Cinelerra-GG site.
+Updated and Synced all Debian and 3rd Party Repos (including KXStudio).
+Fixed VBox Guest Additions removal script to allow /etc/rc.local to remain executable and enable Automount of external drives. (thanks korakios)
+Fixed missing ‘linvstconverttree’ in LinVST.
+Removed some obsoleted udev rules.
+Installed and configured new Numix Circle Theme with AVL Customizations.
+Updated Mixbus Demo to 5.2.191.
+Updated LSP Plugins to 1.1.9.
+Updated LinVST to 2.4.3 (now provided and working on 32bit and 64bit ISOs).
+Removed redundant ‘ArdourVST’ build on 32bit ISO.
+Updated Dragonfly Reverb Plugins to 1.1.2.
+Added KPP-Plugins 1.0+GIT
+Added AViDemux (very handy Video tool)

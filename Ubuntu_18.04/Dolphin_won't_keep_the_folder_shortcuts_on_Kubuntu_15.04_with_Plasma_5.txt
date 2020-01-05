@@ -1,0 +1,8 @@
+
+
+Dolphin won't keep the folder shortcuts on Kubuntu 15.04 with Plasma 5.
+https://bugs.launchpad.net/hundredpapercuts/+bug/1422469
+
+kdelibs, kio and kde-baseapps,
+
+kde-baseapps kdelibs kio

@@ -1,0 +1,65 @@
+RESUMEN
+Cuando enciendo el sistema operatido linux donde tengo algunos espacios de trabajo, o también llamados Workspaces, o Escritorios, quiero que algunas aplicaciones estén en el espacio de trabajo dos.
+
+INSTRUCCIONES
+Instala unas aplicaciones:
+
+sudo apt-get install xdotool wmctrl
+
+Para saber en qué escritorio está usted en su linux ponga en la terminal
+
+xdotool get_desktop
+
+A mi debajo del comando cuando aplasté Enter me apareció un cero:
+
+
+
+pero yo estoy en el espacio de trabajo uno, esto significa que:
+
+Escritorio (desktop) 0 = Espacio de Trabajo (Workspace) 1
+
+así que se ahora que debo usar el numero uno con wmctrl para poder enviar a la aplicacion al escritorio dos
+
+wmctrl -r pluma -t 1
+
+Ahora que está comprendido esto hay que hacer el script:
+
+
+#!/bin/bash
+sleep 15
+
+wmctrl -r Alarmas -t 1
+wmctrl -r Terminal -t 1
+
+# Nota: El comando Alarmas lo pongo en vez de poner alarm-clock-applet
+# porque aunque siendo este el nombre para lanzar desde la terminal a
+# esa aplicación el programa wmctrl no lo reconoce sino al nombre 
+# que aparece en la ventana del programa,
+# lo mismo sucede con xfce4-terminal es Terminal el nombre correcto.
+# Y otro ejemplo sólo por comentarlo, si quisiera mover al 
+# espacio de trabajo 2 a Gimp debo poner en la terminal gimp
+# y en wmctrl así "Programa de manipulación de imágenes de GNU"
+
+# El siguiente comando es para hacer foco una aplicacion determinada
+# sea que esté en cualquier espacio de trabajo
+# aquí pongo el ejemplo a Terminal pero lo dejo desabilitado
+# porque luego tengo que regresar al espacio de trabajo uno
+# solo lo dejo aquí como ejemplo:
+#wmctrl -a Terminal
+
+
+El siguiente añadirlo al final añadir la ruta en el archivo startup que queda en: .icewm/startup
+allí poner así al final:
+
+bash /home/wachin/Script-mover-Apps-a-espacio-de-trabajo-2.sh &
+
+Nota: Debes saber cómo guardar (yo le puse de nombre "Script-mover-Apps-a-espacio-de-trabajo-2.sh" sin espacios) el script en tu home y cambiarle el nombre de la ruta porque para mi es una pero para usted es otra (tu-nombre-de-usuario), ejemplo:
+
+bash /home/tu-nombre-de-usuario/Script-mover-Apps-a-espacio-de-trabajo-2.sh &
+
+CONSULTAS
+Para saber cómo encontrar el escritorio donde uno está 
+https://askubuntu.com/questions/41093/is-there-a-command-to-go-a-specific-workspace
+
+Para saber como usar wmctrl, cómo crear un script para que se inicie desde el arranque
+https://unix.stackexchange.com/questions/27050/how-to-start-an-application-on-a-different-workspace

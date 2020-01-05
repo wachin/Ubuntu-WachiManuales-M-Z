@@ -1,0 +1,14 @@
+
+Están aquí:
+
+/usr/share/shutter/resources/system/plugins/perl/spshadow/ 
+
+para poder editar este lugar poner así:
+
+sudo thunar /usr/share/shutter/resources/system/plugins/perl/spshadow/
+
+
+
+/usr/share/shutter/resources/system/plugins/shell/
+
+

@@ -1,0 +1,3 @@
+
+
+sudo usb-creator-gtk 

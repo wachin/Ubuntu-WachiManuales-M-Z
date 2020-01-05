@@ -1,0 +1,24 @@
+
+
+
+I tried many approaches: creating xml in ~/.local/share/mime/packages and using assogiate app, nothing works for me, most guides are outdated and not working for the latest ubuntu build.
+
+the request is very simple, I want to change icon for *.docx files, how may I do that?
+
+$ grep docx /etc/mime.types 
+application/vnd.openxmlformats-officedocument.wordprocessingml.document         docx
+
+
+
+
+
+libreoffice - I cannot set as default program libre office instead of wps for docx files only - Ask Ubuntu
+https://askubuntu.com/questions/795116/i-cannot-set-as-default-program-libre-office-instead-of-wps-for-docx-files-only
+
+Pulled from here, use your editor of choice (and sudo/gksudo, thanks Weboide) to modify /usr/share/applications/defaults.list to have the following line:
+
+application/docx=wps-office-wps.desktop
+
+For all the other file types relating to Office programs (e.g. xls, doc), you can set a different editor e.g.
+
+application/xlsx=libreoffice-writer.desktop

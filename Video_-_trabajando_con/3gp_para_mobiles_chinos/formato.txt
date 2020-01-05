@@ -1,0 +1,16 @@
+
+convert video to 3gp
+https://ubuntuforums.org/showthread.php?t=1254647
+
+Re: convert video to 3gp
+3gp is simply a container format so you can stick any audio and video codec in. All of my mobile videos have mp3 or m4a sound and they play just fine. If you post what you want from the video we can suggest something? For me it's usually
+
+Code:
+ffmpeg -i input.flv -b 300k -s 320x240 -vcodec mpeg4 -ac 2 -ab 128k -acodec libfaac output.3gp 
+
+ffmpeg -i "Alma de Surfista (Latino).avi" -b 300k -s 320x240 -vcodec mpeg4 -ac 2 -ab 128k -acodec libfaac output.3gp 
+
+
+ffmpeg -y -i "Alma de Surfista (Latino).avi" -r 20 -s 352x288 -b 400k -acodec libfaac -ac 1 -ar 2000 -ab 24k dilenada.3gp
+
+"Alma de Surfista (Latino).avi"

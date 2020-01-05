@@ -1,0 +1,63 @@
+
+
+OneTab
+chrome-extension://chphlpgkkbolifaimnlloiipkdnihall/onetab.html
+
+Encrypt/Decrypt Files From Nautilus Context Menu Under Ubuntu 12.10/12.04
+http://www.upubuntu.com/2012/11/encryptdecrypt-files-from-nautilus.html
+
+How to enable the encrypt/decrypt menu option in the Ubuntu file manager - TechRepublic
+https://www.techrepublic.com/article/how-to-enable-encryptdecrypt-menu-option-in-the-ubuntu-file-manager/
+
+Nautilus GPG Integration | Programster's Blog
+http://blog.programster.org/nautilus-gpg-integration
+
+password manager linux android windows free - Buscar con Google
+https://www.google.com.ec/search?q=password+manager+linux+android+windows+free&oq=password+manager+linux+android+windows+free&aqs=chrome..69i57.7815j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8
+
+11 Best Linux Password Managers
+https://www.fossmint.com/linux-password-managers/
+
+Buttercup
+https://buttercup.pw/
+
+Buttercup - Chrome Web Store
+https://chrome.google.com/webstore/detail/buttercup/heflipieckodmcppbnembejjmabajjjj?hl=en
+
+You were not born to remember passwords | Enpass
+https://www.enpass.io/
+
+Pass: The Standard Unix Password Manager
+https://www.passwordstore.org/
+
+LastPass | Gestor de contraseñas, Rellenar formularios automáticamente, Generador de contraseñas aleatorias y Aplicación de monedero digital segura
+https://www.lastpass.com/es
+
+Linux Password Manager: 22 Reviewed and Compared for Linux Nerds
+https://www.ubuntupit.com/linux-password-manager-22-reviewed-and-compared-for-linux-nerds/
+
+The 8 Best Linux Password Managers to Stay Secure
+https://www.makeuseof.com/tag/best-linux-password-managers/
+
+List of password managers - Wikipedia
+https://en.wikipedia.org/wiki/List_of_password_managers
+
+The Best Password Managers
+https://lifehacker.com/the-five-best-password-managers-5529133
+
+KDE 5 Service Menu EncFS - KDE Store
+https://store.kde.org/p/998433/
+
+KDE 5 Service Menu EncFS - pling.com
+https://www.pling.com/p/1231244/
+
+StudioB Online
+https://www.egregorion.net/
+
+Apps/Seahorse - GNOME Wiki!
+https://wiki.gnome.org/Apps/Seahorse
+
+Buttercup
+https://buttercup.pw/
+
+ 

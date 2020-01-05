@@ -1,0 +1,10 @@
+
+Change permissions on all folders and files
+http://askubuntu.com/questions/280728/change-permissions-on-all-folders-and-files
+
+GUI way
+If the files are owned by you run the file manager if not press ALT+F2
+Type gksu nautilus and enter your password when requested.
+Hold down the SHIFT key or CTRL key to select the files you want: SHIFT selects all the files in a range CTRL selects one file at a time. Now right click and select properties; in the window that opens you can select the permissions tab and you can set the permissions from there.
+
+Nota: Se puede hacer esto también con Double Commander 

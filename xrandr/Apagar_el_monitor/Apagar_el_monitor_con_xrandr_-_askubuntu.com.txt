@@ -1,0 +1,15 @@
+
+ --------------------------------------------------- 
+Fecha:31-3-2013
+Hora:10-8-27
+http://askubuntu.com/questions/62858/turn-off-monitor-using-command-line
+
+PARA APAGAR
+xrandr --output CRT1 --off
+
+xrandr --output LVDS1 --off
+
+if you want switch on that monitor again then you have run this command:
+
+PARA ENCENDER
+xrandr --output CRT1 --auto

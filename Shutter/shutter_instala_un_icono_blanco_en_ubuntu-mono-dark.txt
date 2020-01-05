@@ -1,0 +1,4 @@
+
+shutter tiene un tema negro que instaló en ubuntu-mono-dark, sólo allí está disponible.
+
+Yo descargué el source de shutter y modifiqué ese icono en inkscape para usarlo bien con nuvola

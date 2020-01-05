@@ -1,0 +1,18 @@
+Commit Log for Sat Dec 12 13:03:15 2015
+
+
+Instaló los siguientes paquetes:
+compiz (1:0.9.12.2+15.10.20151015-0ubuntu1)
+compiz-core (1:0.9.12.2+15.10.20151015-0ubuntu1)
+compiz-gnome (1:0.9.12.2+15.10.20151015-0ubuntu1)
+compiz-plugins (1:0.9.12.2+15.10.20151015-0ubuntu1)
+compiz-plugins-default (1:0.9.12.2+15.10.20151015-0ubuntu1)
+compiz-plugins-extra (1:0.9.12.2+15.10.20151015-0ubuntu1)
+compizconfig-settings-manager (1:0.9.12.2+15.10.20151015-0ubuntu1)
+gnome-settings-daemon-schemas (3.16.3-0ubuntu1)
+libcompizconfig0 (1:0.9.12.2+15.10.20151015-0ubuntu1)
+libdecoration0 (1:0.9.12.2+15.10.20151015-0ubuntu1)
+libmetacity-private3 (1:3.17.2-4ubuntu1)
+libprotobuf9v5 (2.6.1-1.2)
+metacity-common (1:3.17.2-4ubuntu1)
+python-compizconfig (1:0.9.12.2+15.10.20151015-0ubuntu1)

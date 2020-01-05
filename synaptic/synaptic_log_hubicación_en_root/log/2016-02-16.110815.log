@@ -1,0 +1,8 @@
+Commit Log for Tue Feb 16 11:08:15 2016
+
+
+Quitó completamente los siguientes paquetes:
+liblxqt-data
+libqtermwidget5-0
+qterminal
+qtermwidget5-data

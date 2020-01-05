@@ -1,0 +1,15 @@
+
+
+
+pasystray volume control and other options disabled -- how to run pasystray properly
+https://github.com/christophgysin/pasystray/issues/23
+
+christophgysin commented on 30 Jan 2014
+The disabled menu items are just shortcuts to launch the graphical pulseaudio tools (paman, pavucontrol, pavumeter, paprefs). If they are not installed, they appear disabled.
+
+
+paman pavucontrol pavumeter paprefs
+
+
+pavumeter.- este hace ver el audio del mic
+

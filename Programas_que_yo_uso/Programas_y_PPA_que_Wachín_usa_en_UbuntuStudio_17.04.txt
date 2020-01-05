@@ -1,0 +1,332 @@
+
+PROGRAMAS QUE YO USO EN UBUNTU STUDIO 17.04 (Zesty) 32bits
+Por Wachín
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Para instalar desde terminal Todo-en-uno en UbuntuStudio 17.04
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+Los siguientes programas se instalaran automáticamente al poner esto en la terminal:
+
+sudo apt-get install gnome-font-viewer florence nautilus gnome-disk-utility dolphin4 qt4-qtconfig ffmpegthumbs kffmpegthumbnailer kde-thumbnailer-openoffice kde-thumbnailer-deb konsole mediainfo-gui puddletag cups-pdf alarm-clock-applet gprename pdfshuffler gnome-terminal goldendict geany rosegarden libreoffice vlc gdebi xfce4-datetime-plugin geeqie soundconverter compiz compizconfig-settings-manager compiz-plugins-extra gnome-exe-thumbnailer convertall keymon kdegraphics-thumbnailers dconf-editor caja engrampa tumbler-plugins-extra caja-open-terminal bleachbit unetbootin usb-creator-gtk converseen hugin photoprint ubuntu-restricted-extras aegisub viewnior gnome-system-monitor breeze-cursor-theme git gedit gedit-plugins pluma clementine meld okular isomaster furiusisomount playonlinux nautilus-dropbox videocut gnome-web-photo
+
+
+Nota: El paquete playonlinux y nautilus-dropbox al momento de instalarse abren una ventana para confirmar la licencia de ttf-mscorefonts, y dropbox es semejante, y si no se hace esto no sigue la instalación, esto significa que hay que estar atento, por lo cual los pongo aparte:
+
+
+EXPLICACIÓN DE PARA QUE SIRVEN ALGUNOS DE ESTOS PROGRAMAS:
+
+videocut.- para sacar partes de videos
+Discos (gnome-disk-utility).- Sirve para ver todas las particiones y editarlas, se lanza desde la terminal con gnome-disks
+Florence.- Teclado virtual
+furiusisomount.- Para montar ISO en el nautilus (depende de este)
+dolphin4.- Un gran administrador de archivos
+qt4-qtconfig.- Sirve para configurar el tamaño de las fuentes de dolphin4 y otras aplicaciones de KDE, este queda instalado en "Administrador de configuración" de Ubuntu Studio, allí abrilo, yo le pongo en la pestaña "Appearance" le pongo en GUI Style "Breeze", y en la pestaña "Fonts" le cambio la que trae por defecto "Sans Serif" por "Noto Sans", "Regular" tamaño 11, y debo de guardar al final
+konsole.- La consola para abrir aquí la terminal usando dolphin4
+mediainfo-gui.- para ver la información de los videos o audios dandoles clic derecho y abrir con este
+puddletag.- Para editar mp3 tags
+cups-pdf.- Para imprimir como PDF 
+okular.- Para mi el mejor visor de PDF de linux
+alarm-clock-applet.- Tiene un temporizador y un despertador, para mi es el mejor
+gprename.- Para renombrar archivos
+krename.- Para renombrar archivos
+pdfshuffler.- Para extraer paginas de un pdf, u otras operaciones
+uget.- Para descargar archivos 
+goldendict.- Diccionario
+rosegarden.- Para editar midi, con QjackCtl
+gdebi.- El mejor para instalar DEB
+soundconverter + ubuntu-restricted-extras.- Para convertir audios otros formatos, el ultimo paquete instala el codec mp3
+compiz.- Lo uso sobre UbuntuStudio en el administrador de ventanas XFCE, es decir pongo en la terminal "compiz --replace" para reemplazarlo, es bueno para hacer tutoriales por el zoom que trae 
+gnome-exe-thumbnailer.- Para ver los iconos de los .exe de windows (pues yo uso varios programas de Windows en el Linux instalandolos con Wine los que se pueden o los mas dificilies en PlayOnLinux)
+BleachBit.- El CCleaner para Linux(pero su interfaz gráfica no tiene nada que ver, y es más complicado usarlo)
+Keymon.- Para ver las teclas que uno aplasta. Sirve cuando uno hace videotutoriales
+Geeqie.- Visor de imagenes
+kdegraphics-thumbnailers.- Para ver vistas previas de PDF en dolphin4 (pero a esta fecha 2016-07-14 no esta funcionando)
+dconf-editor.- Para algunas configuraciones importantes de los administradores de archivos caja y nautilus, y otras cosas del sistema
+unetbootin.- Instalar una Distribución Linux a partir de un USB (le quita el spash por defecto de la distribución)
+usb-creator-gtk.- Crear un Disco de arranque usando un CD o Imagen de Disco ISO (para GNOME), es mejor queunetbootin (no le quita el spash por defecto de la distribución)
+playonlinux.- Para instalar programas de Windows difíciles de hacer funcionar (como e-Sword, Foxit Reader, otros)
+caja.- Es un fork de nautilus el administrador de archivos por defecto de ubuntu, para mi es mejor que ese (presente desde Ubuntu 16.04)
+engrampa.- Es para caja, sirve para extraer o comprimir archivos
+converseen.- Para convertir imagenes en toles (por bastantes)
+hugin.- Para hacer panoramas con varias fotos tomadas para tal propósito
+aegisub.- Para hacer subtítulos
+photoprint.- Para imprimir fotos en albumes
+viewnior.- Visor de fotografías e imágenes, como el de Windows
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Para instalar desde la Web:
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+
+PDF Split and Merge-Split and merge PDF files, free and open source
+http://www.pdfsam.org/
+
+Remarkable - Download for Linux
+https://remarkableapp.github.io/linux/download.html
+
+FreeFileSync - Open Source File Synchronization
+Open Source File Synchronization
+https://www.freefilesync.org/download.php
+Para Ubuntu sólo hay para 64 bits, pero para Debian si hay de 32 bits(este lo estoy usando). Son portables, lo descargas, lo descomprimes y se le da doble clic al archivo con el nombre
+
+Master PDF Editor for Linux
+https://code-industry.net/free-pdf-editor/
+
+PeaZip | Free archiver, free RAR TAR ZIP files utility
+http://www.peazip.org/
+
+XnView Software · XnViewMP
+http://www.xnview.com/en/xnviewmp/
+
+WPS Office for Linux
+http://wps-community.org/
+
+TeamViewer for Linux
+https://www.teamviewer.com/en/download/linux/
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Para instalar desde repositorio
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+
+Wine 2.0.2 Ubuntu 32 bits - WineHQ Wiki
+https://wiki.winehq.org/Ubuntu
+wget -nc https://dl.winehq.org/wine-builds/Release.key
+sudo apt-key add Release.key
+sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
+sudo apt-get update
+sudo apt-get install --install-recommends winehq-stable
+
+Wine 2.0.2 Ubuntu 64 bits
+Para que no se confunga, no son los mismos comandos, sólo que yo no tengo 64 bits, mire este post para 64 bits:
+Wine 2.0.1 Stable Released, Here's How To Install it on Ubuntu - OMG! Ubuntu!
+http://www.omgubuntu.co.uk/2017/04/how-to-add-wine-repository-ubuntu
+
+Flash 
+Instalar Flash Player en Ubuntu 16.04 para Chromium y Firefox
+https://facilitarelsoftwarelibre.blogspot.com/2016/05/instalar-flash-player-en-ubuntu-1604.html
+sudo software-properties-gtk
+En la pestaña "Otro software" marcar "Socios de Canonical", clic en el botón cerrar y luego en el boton recargar. 
+instale:
+sudo apt-get install adobe-flashplugin
+
+VirtualBox 5.1.20 Released with Some Bug Fixes | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2017/04/virtualbox-5-1-20-released-with-some-bug-fixes/
+sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" >> /etc/apt/sources.list.d/virtualbox.list'
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt update && sudo apt install virtualbox-5.1
+y el manual de usuario está en:
+http://download.virtualbox.org/virtualbox/5.1.20/UserManual.pdf
+
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Para instalar desde PPA (Personal Package Archives)
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+cinelerra : “Cinelerra-CV” team
+https://launchpad.net/~cinelerra-ppa/+archive/ubuntu/ppa
+sudo add-apt-repository ppa:cinelerra-ppa/ppa
+sudo apt-get update
+sudo apt-get install cinelerra-cv
+
+Fish shell - 2.x release series : “Fish shell maintainers” team
+https://launchpad.net/~fish-shell/+archive/ubuntu/release-2
+sudo apt-add-repository ppa:fish-shell/release-2
+sudo apt-get update
+sudo apt-get install fish
+
+Plank 0.11.4 “Eddy” Released! How to Install it via PPA | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2017/03/plank-0-11-4-eddy-released-how-to-install-it-via-ppa/
+sudo add-apt-repository ppa:ricotz/docky
+sudo apt-get update && sudo apt-get install plank
+
+
+Audacity 2.2.0 Released with Big Changes - OMG! Ubuntu!
+http://www.omgubuntu.co.uk/2017/11/install-audacity-2-2-0-on-ubuntu
+sudo add-apt-repository ppa:ubuntuhandbook1/audacity
+sudo apt update && sudo apt install audacity
+
+Photo Collage Easily in Ubuntu 14.04 with PhotoCollage | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2014/06/make-photo-collage-ubuntu-1404/
+sudo add-apt-repository ppa:dhor/myway
+sudo apt-get update && sudo apt-get install photocollage
+
+Free Open Source Church Worship Presentation Software | OpenLP
+https://openlp.org/
+sudo add-apt-repository ppa:openlp-core/release
+sudo apt-get update
+sudo apt install openlp
+
+Scribus 1.5.3, crea tus publicaciones desde Ubuntu
+https://ubunlog.com/scribus-diagramas-publicaciones-ubuntu/
+sudo add-apt-repository ppa:scribus/ppa  
+sudo apt update && sudo apt install scribus-ng  
+
+OpenShot 2.4 Released! How to Install it in Ubuntu | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2017/09/openshot-2-4-released-install-in-ubuntu/
+sudo add-apt-repository ppa:openshot.developers/ppa
+sudo apt-get update && sudo apt-get install openshot-qt
+
+How to install FreeType 2.7 in Ubuntu 16.04 via PPA | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2016/09/install-freetype-2-7-ubuntu-16-04/
+Nota: Leer también instrucciones del desarrollador:
+ppa-fonts/ppa at master
+https://github.com/achaphiv/ppa-fonts/tree/master/ppa
+Nota: En Ubuntu 17.04 viene la versión 2.6, esta es la actualización con mejoras
+sudo add-apt-repository ppa:no1wantdthisname/ppa
+sudo apt update && sudo apt install libfreetype6
+Además yo instalé:
+https://launchpad.net/~no1wantdthisname/+archive/ubuntu/ppa/+files/fontconfig-infinality_20130104-0ubuntu0ppa1_all.deb
+de allí mismo:
+https://launchpad.net/~no1wantdthisname/+archive/ubuntu/ppa/+packages
+pero la configué:
+sudo bash /etc/fonts/infinality/infctl.sh setstyle
+y elegí Linux
+Visto en:
+http://www.webupd8.org/2013/06/better-font-rendering-in-linux-with.html
+Si no le gusta como quedan las fuentes, para dejar como estaba:
+sudo apt install ppa-purge && sudo ppa-purge ppa:no1wantdthisname/ppa
+
+Ubuntu Downloads & Install Instructions for uGet
+http://ugetdm.com/downloads-ubuntu
+sudo add-apt-repository ppa:plushuang-tw/uget-stable
+sudo apt update && sudo apt install uget aria2
+
+Selene Media Converter 17.7 Released (How to Install) | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2017/07/selene-media-converter-17-7-released/
+sudo add-apt-repository ppa:teejee2008/ppa
+sudo apt update && sudo apt install selene
+
+Avidemux (unofficial) : Thanh Tung Nguyen
+https://launchpad.net/~rebuntu16/+archive/ubuntu/avidemux+unofficial
+sudo add-apt-repository ppa:rebuntu16/avidemux+unofficial
+sudo apt-get update
+sudo apt-get install avidemux2.6
+
+Krita 3.2.1
+https://krita.org/en/download/krita-desktop/
+sudo add-apt-repository ppa:kritalime/ppa
+sudo apt-get update
+sudo apt-get install krita krita-l10n krita-nautilus-thumbnailer
+
+Inkscape Estable Actualizado
+https://launchpad.net/%7Einkscape.dev/+archive/ubuntu/stable
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt-get update 
+sudo apt-get install inkscape
+
+How to Install/Upgrade to LibreOffice 5.4 on Ubuntu - OMG! Ubuntu!
+http://www.omgubuntu.co.uk/2017/07/how-to-install-libreoffice-5-4-on-ubuntu
+This PPA contains the latest stable release of LibreOffice for Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, and Ubuntu 17.04.
+sudo add-apt-repository ppa:libreoffice/libreoffice-5-4
+sudo apt update && sudo apt install libreoffice
+
+GIMP 2.8.22 Libertad – instalar Gimp en Ubuntu 17.04
+https://websetnet.com/es/gimp-2-8-22-released-install-gimp-ubuntu-17-04/
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+sudo apt-get update
+sudo apt-get install gimp
+
+Control de Brillo (también lúz azúl) para pantallas en Ubuntu con brightness-controller
+https://facilitarelsoftwarelibre.blogspot.com/2017/06/control-de-brillo-para-pantallas-en.html
+sudo add-apt-repository ppa:apandada1/brightness-controller
+sudo apt-get update && sudo apt-get install brightness-controller
+
+YouTube-DL GUI 0.4 Ships With New User Interface
+http://www.webupd8.org/2017/08/youtube-dl-gui-04-ships-with-new-user.html
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt update
+sudo apt install youtube-dlg
+
+Numix - Not just yet another theme suite
+https://numixproject.org/
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-folders numix-gtk-theme numix-icon-theme numix-icon-theme-circle numix-icon-theme-square
+
+INTEGRATE YOUR ANDROID DEVICE WITH UBUNTU USING KDE CONNECT INDICATOR FORK
+http://www.webupd8.org/2017/04/new-kde-connect-indicator-ubuntu-linux.html
+To add the new KDE Connect Indicator fork PPA and install the app in Ubuntu 17.04, 16.10 or 16.04 / Linux Mint 18.x, use the following commands:
+sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect
+sudo apt update
+sudo apt install indicator-kdeconnect
+
+easymp3gain.- Normalizador de mp3
+http://www.linuxquestions.org/questions/linux-newbie-8/easymp3gain-4175588580/
+sudo add-apt-repository ppa:flexiondotorg/audio
+sudo apt-get update
+sudo apt-get install mp3gain easymp3gain-gtk
+
+Kdenlive 17.04..- La nueva generacion de Video Editor para Linux
+Easy access to Kdenlive builds on *ubuntu | Kdenlive
+https://kdenlive.org/node/9460
+sudo add-apt-repository ppa:kdenlive/kdenlive-stable 
+sudo apt-get update && sudo apt-get install kdenlive
+
+HotShots: Lightweight Screenshot and Editing Tool for Ubuntu
+http://ubuntuguide.net/hotshots-lightweight-screenshot-and-editing-tool-for-ubuntu
+sudo add-apt-repository ppa:dhor/myway
+sudo apt-get update
+sudo apt-get install hotshots
+
+Brackets
+http://www.webupd8.org/2013/11/install-brackets-in-ubuntu-via-ppa-open.html
+sudo add-apt-repository ppa:webupd8team/brackets
+sudo apt-get update
+sudo apt-get install brackets
+
+Silentcast (Gif maker)
+PERO PRIMERO NECESITAS TENER AÑADIDO EL PPA DE WEBUPD8 POR EL PROGRAMA YAD
+sudo add-apt-repository ppa:nilarimogard/webupd8
+Ahora si a instalar
+sudo add-apt-repository ppa:sethj/silentcast
+sudo apt-get update
+sudo apt-get install silentcast
+visto en:
+GitHub - colinkeenan/silentcast: Create silent mkv screencast and animated gif. 
+https://github.com/colinkeenan/silentcast
+https://launchpad.net/~sethj/+archive/ubuntu/silentcast
+
+Actionaz.- Una herramienta poderosa para emular clics, teclas presionadas y mas
+http://www.webupd8.org/2014/03/automate-tasks-in-linux-using-actionaz.html
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update 
+sudo apt-get install actionaz
+
+Boomaga - Impresora Virtual
+http://www.boomaga.org/download/
+sudo add-apt-repository ppa:boomaga
+sudo apt-get update
+sudo apt-get install boomaga
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+PPA (Personal Package Archives) testeando
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+Polo Administrador de Archivos (Alfa)
+http://www.teejeetech.in/2017/07/polo-v1711-beta-9.html
+sudo apt-add-repository -y ppa:teejee2008/ppa
+sudo apt-get update
+sudo apt-get install polo-file-manager
+
+How to Install f.lux in Ubuntu 16.04, Ubuntu 15.10 | UbuntuHandbook
+http://ubuntuhandbook.org/index.php/2016/03/install-f-lux-in-ubuntu-16-04/
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install fluxgui
+Una vez instalado y abriendo fluxgui hay que ir a la página (el programa tb lo da)
+https://justgetflux.com/map.html
+para buscar allí la ciudad donde uno vive y obtener latitud y longitud
+para ponerlas al programa
+
+Configure Qt5 Application Style
+http://www.webupd8.org/2015/11/configure-qt5-application-style-icons.html
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install qt5ct
+

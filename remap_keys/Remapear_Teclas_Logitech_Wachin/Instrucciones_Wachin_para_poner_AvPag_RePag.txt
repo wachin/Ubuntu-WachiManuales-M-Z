@@ -1,0 +1,46 @@
+
+
+sudo thunar /usr/share/X11/xkb/symbols/
+
+copiar y pegar allí mismo el archivo: 
+
+latam
+
+para sacar un respaldo
+
+
+A MODIFICAR LA PRIMER TECLA <AC11>
+
+Ahora si como ya tengo una copia de respaldo puedo modificar el original para remapear las teclas que yo quiero, esto es para la primera opción "Español (latinoamericano)"
+
+Allí al archivo que tego abierto "latam" le he modificado esto:
+
+    key <AC11> { [ braceleft, bracketleft, dead_circumflex, braceleft] };
+
+por esto:
+
+    key <AC11> { [Prior] };
+
+Porque quiero que en esa tecla quede "RePág" = Prior. Mire estas imagenes
+
+
+
+LA SIGUIENTE TECLA <BKSL>
+
+He modificado esto:
+
+    key <BKSL> { [braceright, bracketright, dead_grave,   braceright ] };
+
+por esto:
+
+    key <BKSL> { [Next] };
+
+Porque quiero que en esa tecla quede "AvPág" = Next. Mire estas imagenes
+
+Ahora si guarde.
+
+Reiniciar xkb.- Ahora ya guardado pongo esto en la terminal para cargar los cambios(6):
+
+sudo dpkg-reconfigure xkb-data
+
+y luego reinicie la PC.

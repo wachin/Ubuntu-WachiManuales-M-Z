@@ -1,0 +1,24 @@
+
+Para XFCE en UbuntuStudio 
+
+En la terminal ponga:
+
+sudo thunar /usr/share/themes/
+
+allí abra otra pestaña y busque la carpeta: 
+
+Dust2
+
+la tengo en:
+
+/home/wachin/Dropbox/UbuntuManuales/Compiz/Temas en Compiz/Dust2 (dconf-editor) cambiar desde Ambiance en Compiz/
+
+y peguela en la anterior pestaña
+
+
+luego elijala en:
+
+"Administrador de Configuración" en "Apariencia" en la pestaña "Estilo" escoja: "Dust2"
+
+-Wachín
+2018-01-12

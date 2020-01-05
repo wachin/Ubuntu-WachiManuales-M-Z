@@ -1,0 +1,30 @@
+﻿
+Octave; Transpose - Yamaha PSR-E323 Owner's Manual [Page 49]
+http://www.manualslib.com/manual/340283/Yamaha-Psr-E323.html?page=49
+
+The instrument's Transpose function makes it
+possible to shift the pitch of the entire keyboard
+up or down in semitone intervals to facilitate
+playing in difﬁcult key signatures, and to let you
+easily match the pitch of the keyboard to the
+range of a singer or other instruments. For exam-
+ple, if you set the transposition amount to "5,"
+playing key C produces pitch F. In this way, you
+can play a song as though it were in C major, and
+the instrument will transpose it to the key of F.
+1
+Press the [FUNCTION] button a number of
+times until the "Transpos" appears.
+Transpos
+000
+Current transpose value
+2
+Use the number buttons [0]–[9], [+], [-] to
+set the Transpose value between -12 and +12
+as required.
+NOTE
+• The pitch of the Drum Kits Voices (Voice numbers 109–121)
+cannot be changed.
+• Press the [+] and [-] buttons simultaneously to instantly reset
+the value to its default setting (00)
+

@@ -1,0 +1,19 @@
+
+
+
+Cómo instalar setup.py en Ubuntu
+
+
+poner en la terminal
+
+python setup.py install
+
+Nota: Es posible que alguna instalación requiera Root, entonces sería así:
+
+sudo python setup.py install
+
+
+Fuente:
+
+python - What is setup.py? - Stack Overflow
+https://stackoverflow.com/questions/1471994/what-is-setup-py

@@ -1,0 +1,12 @@
+
+lxappearance
+
+abrir en pestaña "Cursor del ratón"
+
+Esposible instalar más cursores que se pueden usar en iceWM, uno de mis preferidos es el del escritorio de KDE que se llama 
+
+Brisa
+
+este se instala al instalar plasma-desktop
+
+ 

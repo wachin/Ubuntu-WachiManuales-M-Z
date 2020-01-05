@@ -1,0 +1,14 @@
+
+
+https://launchpad.net/~torios-dev/+archive/ubuntu/fltk-torios-apps
+sudo add-apt-repository ppa:torios-dev/fltk-torios-apps
+sudo apt-get update
+
+https://launchpad.net/~torios-dev/+archive/ubuntu/torios-core
+sudo add-apt-repository ppa:torios-dev/torios-core
+sudo apt-get update
+
+https://launchpad.net/~torios-dev/+archive/ubuntu/fltk-torios-apps/+packages 
+
+
+

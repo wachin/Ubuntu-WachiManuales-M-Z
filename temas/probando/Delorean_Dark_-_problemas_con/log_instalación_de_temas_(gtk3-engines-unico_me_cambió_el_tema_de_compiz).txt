@@ -1,0 +1,19 @@
+
+
+Start-Date: 2016-01-19  00:35:12
+Commandline: /usr/sbin/synaptic
+Install: delorean-dark-3.16:i386 (3.16-v13-a~wily~NoobsLab.com), gtk3-engines-unico:i386 (1.0.3+14.04.20140109-0ubuntu1, automatic), delorean-dark-unity:i386 (3.18.16-a~wily~NoobsLab.com), delorean-dark:i386 (3.14.1~wily~NoobsLab.com), royal-gtk-theme:i386 (1.5~wily~Noobslab.com)
+End-Date: 2016-01-19  00:36:01
+
+
+
+delorean-dark-3.16 gtk3-engines-unico delorean-dark-unity delorean-dark royal-gtk-theme 
+
+
+este es el culpable:
+
+gtk3-engines-unico
+
+esto significa que no puedo usar ninguno de los delorean
+
+

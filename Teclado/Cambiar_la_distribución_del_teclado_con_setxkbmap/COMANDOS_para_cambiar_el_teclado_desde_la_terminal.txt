@@ -1,0 +1,7 @@
+
+Cambiar la distribución del teclado con setxkbmap (desde terminal) en Ubuntu 
+http://facilitarelsoftwarelibre.blogspot.com/2016/07/cambiar-la-distribucion-del-teclado-con.html?m=1
+
+setxkbmap -layout latam
+
+setxkbmap -layout us

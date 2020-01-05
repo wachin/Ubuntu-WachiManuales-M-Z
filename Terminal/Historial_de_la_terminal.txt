@@ -1,0 +1,10 @@
+
+
+history
+
+history 10
+
+para ver seleccionar la línea que querremos, ejemplo quier
+history ¡60
+
+.bash_history

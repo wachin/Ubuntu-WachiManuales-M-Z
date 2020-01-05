@@ -1,0 +1,9 @@
+Commit Log for Sat Dec 19 12:46:15 2015
+
+
+Quitó los paquetes siguientes:
+doublecmd-gtk
+
+Instaló los siguientes paquetes:
+doublecmd-qt (0.6.6-1)
+libqt4pas5 (2.5-14)

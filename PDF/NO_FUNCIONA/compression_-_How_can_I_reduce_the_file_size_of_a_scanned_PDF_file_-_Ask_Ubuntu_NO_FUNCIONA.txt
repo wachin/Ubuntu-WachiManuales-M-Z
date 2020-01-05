@@ -1,0 +1,56 @@
+
+compression - How can I reduce the file size of a scanned PDF file? - Ask Ubuntu
+https://askubuntu.com/questions/113544/how-can-i-reduce-the-file-size-of-a-scanned-pdf-file
+
+
+
+Use the following ghostscript command:
+
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
+
+
+Mi ejemplo:
+
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile="DECLARACION JURAMENTADA OK comprimido.pdf" "DECLARACION JURAMENTADA OK.pdf"
+
+Where
+-dPDFSETTINGS=/screen lower quality, smaller size.
+-dPDFSETTINGS=/ebook for better quality, but slightly larger pdfs.
+-dPDFSETTINGS=/prepress output similar to Acrobat Distiller "Prepress Optimized" setting
+-dPDFSETTINGS=/printer selects output similar to the Acrobat Distiller "Print Optimized" setting
+-dPDFSETTINGS=/default selects output intended to be useful across a wide variety of uses, possibly at the expense of a larger output file
+
+
+
+up vote
+79
+down vote
+If you have a pdf with scanned images, you can use convert to create a pdf with jpeg compression (You can use this method on any pdf, but you'll loose all text informations).
+
+For example:
+
+convert -density 200x200 -quality 60 -compress jpeg input.pdf output.pdf
+Adjust density (e.g. 100x100) and quality to your needs.
+
+Depending on your input jpeg compression might not be the best choice due to compression artifacts. You have the choice between BZip, Fax, Group4, JPEG, JPEG2000, Lossless, LZW, RLE or Zip as alternate compression methods (some only allow b/w images). For details see here.
+
+I was able to achieve great compression ratios for scanned/photographed documents (depending on the settings). Depending on the document source, you might want to reduce the color depth (-depth argument).
+
+Mi ejemplo de uso:
+
+
+convert -density 200x200 -quality 100 -compress jpeg "Archivo de salida" "archivo de entrada.pdf"
+
+
+
+
+Uno del tío Hego
+
+convert -density 200x200 -quality 100 -compress jpeg "DECLARACION JURAMENTADA OK comprimido.pdf" "DECLARACION JURAMENTADA OK.pdf"
+
+
+
+
+
+
+

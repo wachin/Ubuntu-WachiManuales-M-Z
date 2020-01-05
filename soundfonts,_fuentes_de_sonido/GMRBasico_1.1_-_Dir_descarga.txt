@@ -1,0 +1,16 @@
+The GMR Basico V1.1 Gratis
+
+Link directo de descarga:
+http://www.synthfont.com/SoundFonts/GMRBasico1.1.zip
+
+este link está dentro de esta página:
+http://www.synthfont.com/soundfonts.html
+
+Debe descomprimir "GMRBasico1.1.zip" y dentro está el archivo "GMR Basico1.1.sfpack" el cual debe descomprimirlo instalando un programa que debe descargandolo de: http://www.soundfonts.it/sfark_sfpack.zip donde debe descomprimir la carpeta "sfark_sfpack.zip" y luego descomprimir la carpeta "SFPack.zip" e instalar "SFPACK.EXE" el cual esta dentro; y debe abrir el programa instalado y en el menú "File/Add Files..." en la ventana que se abre en la opción "Tipo de archivo" debes seleccionar "SFPack Files (*.SFPack)" y allí si buscar la fuente de sonido y seleccionarla y clic en el botón "Abrir" (por que si no no aparece) y allí dar clic en el programa en el botón "Go!" y lo descomprimirá con el nombre "GMR Basico1.1.sf2"
+
+Nota 1: Si usa Linux instále el programa en Wine.
+
+Nota 2: La dirección del descompresor la encontré en: http://forum.cifraclub.com.br/forum/12/121828/
+
+Nota 3: Opcionalemente si desdea puede comprar la versión GMR Basico 2.0 de pago:
+http://gmrsf2.blogspot.com/2016/06/nuevo-gmr-latino-20.html

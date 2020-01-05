@@ -1,0 +1,35 @@
+
+Estos son los respaldos que debo de sacar antes de formatear mi Linux o si lo quiero dejar como estaba de fabrica
+
+/home/wachin/.config/chromium
+/home/wachin/.config/doublecmd
+/home/wachin/.config/compiz-1
+/home/wachin/.config/geany
+/home/wachin/.config/geeqie
+/home/wachin/.config/libreoffice/4/user/wordbook/
+/home/wachin/.config/hexchat
+/home/wachin/.config/teamviewer
+/home/wachin/.config/spotify
+/home/wachin/.config/mimeapps.list
+/home/wachin/.fonts
+/home/wachin/.kde
+/home/wachin/.local/share/applications/mimeapps.list
+/home/wachin/.local/share/notes
+/home/wachin/.local/share/openlp
+/home/wachin/.local/share/teamviewer
+/home/wachin/.mozilla
+/home/wachin/.shutter
+/home/wachin/.Skype
+/home/wachin/.TelegramDesktop
+/home/wachin/.thunderbird
+/home/wachin/.zotero
+
+Revisar por un caso
+/home/wachin/Dropbox/UbuntuManuales/RESPALDOS/Respaldos KDE (.kde)/.kde
+
+Nota: Dropbox no se puede sacar respaldos porque no se pueden copiar unos archivos
+
+
+
+PARA DEJAR COMO ESTABA DE FABRICA A UBUNTU
+Para esto borra todos los archivos de configuración que están ocultos con el punto (.) menos estos indicados

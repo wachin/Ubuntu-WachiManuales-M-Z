@@ -1,0 +1,18 @@
+
+
+
+Cómo instalar GuestAdditions
+
+cuando vayas a instalar un linux en virtualbox, debes instalar en synaptic(ojo, no te olvides de actualizar primero los repositorios) este paquete: 
+
+sudo apt-get install dkms 
+
+Install the Guest Additions
+https://wiki.archlinux.org/index.php/VirtualBox#Install_the_core_packages
+ AdditionsAdditionsAdditions
+
+luego montar el CD de GuestAdditions en el sistema operativo invitado, debes copiar su contenido a alguna carpeta (que-no-tenga-espacios) y de allí entrar en esa ruta y poner este comando:
+
+sudo sh ./VBoxLinuxAdditions.run
+
+

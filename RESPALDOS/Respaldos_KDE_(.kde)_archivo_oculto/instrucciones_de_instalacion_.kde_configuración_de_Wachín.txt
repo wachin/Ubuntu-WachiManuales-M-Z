@@ -1,0 +1,17 @@
+
+las 4 carpertas que están dentro de:
+
+(.)kde-share-instalacion 
+
+copiarlas y pegarlas en:
+
+.kde/share
+
+
+
+
+Nota: He borrado el contenido de la carpeta:
+
+.kde/share/apps/dolphin/view_properties
+
+porque allí se crean fragmentos de todos los lugares en los que uno ha navegado en el sistema operativo, y con el paso del tiempo son miles, y si uno las deja al momento de querer sacar un respaldo de las 4 carpetas, al copiarlas se demora demasiado no solo por el numero de archivos sino por el tamaño que añade, con como 100MB

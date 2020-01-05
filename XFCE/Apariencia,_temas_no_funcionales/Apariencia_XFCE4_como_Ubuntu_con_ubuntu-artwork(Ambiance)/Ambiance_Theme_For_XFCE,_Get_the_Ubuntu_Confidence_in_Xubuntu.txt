@@ -1,0 +1,12 @@
+
+
+Ambiance Theme For XFCE, Get the Ubuntu "Confidence" in Xubuntu!
+http://mygeekopinions.blogspot.com/2011/04/ambiance-theme-for-xfce-get-ubuntu.html
+
+sudo apt-get install ubuntu-artwork
+
+ubuntu-artwork instaló:
+
+adium-theme-ubuntu light-themes ubuntu-mono ubuntu-wallpapers
+
+Nota: el paquete light-themes tiene el tema Ambiance

@@ -1,0 +1,8 @@
+
+How to create & execute a script file - Ask Ubuntu
+https://askubuntu.com/questions/471285/how-to-create-execute-a-script-file
+
+ after saving you must make it executeable.
+
+sudo chmod +x <path>
+sudo chmod 755 <filename>

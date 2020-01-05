@@ -1,0 +1,19 @@
+wachin@wachin-Inspiron-1750:~$ sudo apt-get install youtube-dlg
+[sudo] password for wachin: 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes extras:
+  autoconf automake autotools-dev intltool libwxbase2.8-0 libwxgtk-media2.8-0
+  libwxgtk2.8-0 python-distutils-extra python-wxgtk2.8
+Paquetes sugeridos:
+  autoconf-archive gnu-standards autoconf-doc libtool devscripts wx2.8-doc
+  wx2.8-examples editra
+Se instalarán los siguientes paquetes NUEVOS:
+  autoconf automake autotools-dev intltool libwxbase2.8-0 libwxgtk-media2.8-0
+  libwxgtk2.8-0 python-distutils-extra python-wxgtk2.8 youtube-dlg
+0 actualizados, 10 nuevos se instalarán, 0 para eliminar y 3 no actualizados.
+Se necesita descargar 7.884 kB de archivos.
+Se utilizarán 38,6 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] 
+ 

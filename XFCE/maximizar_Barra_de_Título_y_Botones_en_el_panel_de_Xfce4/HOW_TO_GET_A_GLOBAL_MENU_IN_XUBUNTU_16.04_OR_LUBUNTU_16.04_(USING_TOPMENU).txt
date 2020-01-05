@@ -1,0 +1,11 @@
+
+http://www.webupd8.org/2016/05/how-to-get-global-menu-in-xubuntu-1604.html
+
+sudo apt install xfce4-topmenu-plugin topmenu-gtk2 topmenu-gtk3
+
+
+install maximus
+
+http://www.ubuntumaniac.com/2014/09/install-plugins-windowck-in-xubuntu.html
+
+

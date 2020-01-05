@@ -1,0 +1,10 @@
+Commit Log for Mon Dec 14 19:01:02 2015
+
+
+Quitó completamente los siguientes paquetes:
+kde-config-gtk-style
+kde-config-qt-graphicssystem
+kde-style-oxygen-qt4
+
+Quitó los paquetes siguientes:
+kde-style-oxygen-qt5

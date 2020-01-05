@@ -1,0 +1,10 @@
+
+
+
+Si su documento PDF tiene texto insertado con Okular le da clic en 
+
+Archivo/Exportar como/Texto plano
+
+y le pone nombre y al final del le pole la extension .txt
+ 
+Listo

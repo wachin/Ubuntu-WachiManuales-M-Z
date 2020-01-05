@@ -1,0 +1,49 @@
+
+
+Fix apt-get update “the following signatures couldn’t be verified because the public key is not available”
+https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/
+
+By
+Chris Jean
+There are times when running apt-get update in Ubuntu will result in error messages such as the following:
+
+[chris@server ~]$ sudo apt-get update
+Ign http://security.ubuntu.com trusty-security InRelease
+Get:1 http://security.ubuntu.com trusty-security Release.gpg [933 B]
+...
+Fetched 21.9 MB in 14s (1,537 kB/s)
+Reading package lists... Done
+W: GPG error: http://security.ubuntu.com trusty-security Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 40976EAF437D05B5 NO_PUBKEY 3B4FE6ACC0B21F32
+W: GPG error: http://archive.canonical.com trusty Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 40976EAF437D05B5 NO_PUBKEY 3B4FE6ACC0B21F32
+W: GPG error: http://archive.ubuntu.com trusty Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 40976EAF437D05B5 NO_PUBKEY 3B4FE6ACC0B21F32
+W: GPG error: http://archive.ubuntu.com trusty-updates Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 40976EAF437D05B5 NO_PUBKEY 3B4FE6ACC0B21F32
+[chris@server ~]$ 
+If these errors aren’t fixed, apt will have problems when installing or upgrading packages. For example:
+
+[chris@server ~]$ sudo apt-get upgrade
+Reading package lists... Done
+Building dependency tree... Done
+Calculating upgrade... Done
+...
+E: Some packages could not be authenticated
+[chris@server ~]$ 
+The apt packaging system has a set of trusted keys that determine whether a package can be authenticated and therefore trusted to be installed on the system. Sometimes the system does not have all the keys it needs and runs into this issue. Fortunately, there is a quick fix. Each key that is listed as missing needs to be added to the apt key manager so that it can authenticate the packages.
+
+Looking at the error above, apt is telling us that the following keys are missing: 40976EAF437D05B5 and 3B4FE6ACC0B21F32. Notice that these are listed multiple times. Each unique key will only need to be added once.
+
+To add these keys, run the following commands:
+
+[chris@server ~]$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
+Executing: gpg --ignore-time-conflict --no-options --no-default-keyring --homedir /tmp/tmp.QTeppiINUh --no-auto-check-trustdb --trust-model always --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
+gpg: requesting key 437D05B5 from hkp server keyserver.ubuntu.com
+gpg: key 437D05B5: public key "Ubuntu Archive Automatic Signing Key " imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+[chris@server ~]$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+Executing: gpg --ignore-time-conflict --no-options --no-default-keyring --homedir /tmp/tmp.77TqYGKU7b --no-auto-check-trustdb --trust-model always --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+gpg: requesting key C0B21F32 from hkp server keyserver.ubuntu.com
+gpg: key C0B21F32: public key "Ubuntu Archive Automatic Signing Key (2012) " imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+[chris@server ~]$ 
+If the keys that your system is missing differs, simply replace the key at the end of the above command with your key and run it.

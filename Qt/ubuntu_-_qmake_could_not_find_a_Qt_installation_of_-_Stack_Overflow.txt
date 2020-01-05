@@ -1,0 +1,14 @@
+
+
+ubuntu - qmake could not find a Qt installation of - Stack Overflow
+https://stackoverflow.com/questions/16607003/qmake-could-not-find-a-qt-installation-of
+
+I had this problem building jasmine-headless-webkit Ruby gem. Despite having qt4 installed, qmake (a symlink to qtchooser) insisted it didn't know about a QT installation. OTOH, it was able to list qt4 when asked directly.
+
+This made everything better:
+
+export QT_SELECT=qt4
+
+para mi es 
+
+export QT_SELECT=qt5

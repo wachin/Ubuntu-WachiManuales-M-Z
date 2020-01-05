@@ -1,0 +1,12 @@
+
+It's Easy Trying Out Intel's OpenGL 4.2 Mesa Driver On Ubuntu 16.04
+https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-16.04-OI-Intel-GL-4.2
+sudo add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt-get update
+sudo apt-get upgrade   
+
+=== Revert to original drivers ===
+https://launchpad.net/~oibaf/+archive/ubuntu/graphics-drivers
+To revert to standard Ubuntu drivers type the following in a prompt shell:
+$ sudo apt-get install ppa-purge
+$ sudo ppa-purge ppa:oibaf/graphics-drivers

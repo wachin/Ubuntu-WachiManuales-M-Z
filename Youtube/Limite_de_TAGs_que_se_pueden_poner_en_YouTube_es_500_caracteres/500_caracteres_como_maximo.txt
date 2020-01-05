@@ -1,0 +1,8 @@
+
+
+Is there a limit to the amount of tags that you can add to a video? por TheUltimateRyu  27/5/10 
+https://productforums.google.com/forum/#!topic/youtube/hN7S6p_oSyE
+
+
+YTAdmin dijo:
+Hi All. I'm a Google employee and work on YouTube. There's no specific tag count limit; you can use max 30 characters per tag, and the text field accepts up to 500 characters (including separators).

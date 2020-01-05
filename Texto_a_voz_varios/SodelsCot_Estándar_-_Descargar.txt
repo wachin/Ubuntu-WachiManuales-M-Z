@@ -1,0 +1,18 @@
+
+
+SodelsCot Estándar - Descargar
+https://sodelscot-estandar.softonic.com/
+
+SodelsCot Estándar es un programa capaz de convertir a voz cualquier texto que sea copiado al portapapeles o tecleado por el usuario.
+
+SodelsCot Estándar es capaz de leer textos desde cualquier lugar imaginable, ya sea tu correo electrónico, Word, un editor de texto, una página Web o incluso hasta de cualquier programa de mensajería instantánea (ICQ, MSN, etc.).
+
+SodelsCot Estándar dispone de cinco voces distintas, en todas ellas puedes configurar el volumen y la velocidad a la que desees que lean. También puede utilizar otras voces de alta calidad compatibles con SAPI5 (Loquendo, AT&T, Cepstral). Cuenta con prácticas combinaciones de teclas para pausar, activar, desactivar, detener o repetir la última lectura.
+
+Una función interesante de SodelsCot Estándar es que si copias un texto y mientras aún se está reproduciendo copias otro, el segundo no empezará a reproducirse hasta la finalización del primero. También podrás exportar la voz resultante a archivo WAV o MP3.
+
+
+
+
+Descargar SodelsCot
+http://www.sodels.com/descarga.htm

@@ -1,0 +1,67 @@
+Download Any Flash Video in Linux
+https://www.kirsle.net/blog/entry/download-any-flash-video-in-linuxsudo
+
+[ < Siikir CMS Update | Kirsle CMS Upgrade > ]
+Noah Petherbridge
+kirsle
+Posted by Noah Petherbridge on Tuesday, April 05 2011 @ 11:22:07 PM
+Reason #65,535 that I love Linux: the flash plugin makes it relatively easy to download any embedded flash video from any site (ex. YouTube and all sites like it).
+The old (but still the current) version of the Adobe Flash plugin (10.2) would simply save all Flash videos (.flv files) in /tmp with names like "/tmp/Flash########" where the #'s are random numbers and letters. You could simply buffer a video on YouTube or any other video hosting site, then go to /tmp in your file browser and copy these files somewhere else. They typically get deleted when Flash exits.
+
+The new version of the flash plugin (10.3) tries to be a little more clever. It still creates the files under /tmp, but then it deletes them immediately while still keeping them open. In Linux, if an opened file is deleted, the OS postpones deletion of the file until the process using it lets it go. So the file can't be seen when you look in /tmp, but the flash plugin can still use it until it's done with it.
+
+So how do you get the FLV files from it now?
+
+1) Get the process ID of the flash plugin
+
+$ ps aux | grep flash
+kirsle    3324  3.3  1.5 281488 44716 ?        Sl   12:01  10:41 /usr/lib/xulrunner-2/plugin-container /home/kirsle/.mozilla/plugins/libflashplayer.so -grebase /usr/lib/xulrunner-2 -appbase /usr/lib/firefox-4 3164 true plugin
+
+2) Look at the process's open file descriptors in /proc
+
+$ cd /proc/3324/fd
+
+3) List the files to find the FLV file (it will be a symbolic link to a "deleted" /tmp/Flash* file)
+
+$ ls -hal | grep Flash
+lr-x------ 1 kirsle kirsle 64 Apr  5 12:01 17 -> /tmp/FlashXX9ew4CF (deleted)
+
+4) Copy it (by ID) somewhere else
+
+$ cp 17 ~/videoname.flv
+
+Easy. One could trivially write a shell script that does this automatically too.
+This method should work for the foreseeable future, unless Adobe finds some really clever way to stop this, like encrypting video files somehow, or holding them completely in RAM (not likely because some video files can be pretty large). Processes can't hide anything under /proc. :)
+
+More info about /proc.
+
+UPDATE (May 17 2011): I've written a quick Perl script that copies all active Flash videos to your home directory. It doesn't care about the process name; it just loops through all PIDs in /proc, looking for any that owns a "/tmp/Flash*" name, and copies them to $HOME. It works even when you have multiple videos buffered at the same time.
+
+Download it from: sh.kirsle.net/flashget.
+
+Update - Google Chrome
+(Jan 11, 2015)
+This method can also work for Google Chrome (the above was for Firefox/other browsers that use the old Flash plugin system). In Chrome, the Pepper API is used for the Flash plugin instead.
+
+1) Get the PID of the Pepper plugin for Flash
+
+$ ps aux | grep ppapi
+noah     14152 25.1  1.4 980444 87828 ?        Sl   15:37   0:05 /opt/google/chrome/chrome --type=ppapi --channel=13618.24.1890984534 --ppapi-flash-args --lang=en-US
+2) Get into this PID's file descriptors
+*NOTE:* This one requires root access, unlike for the Firefox instructions above.
+
+$ sudo -i
+# cd /proc/14152/fd
+# ls -hal
+[...cut...]
+24 -> /home/noah/.config/google-chrome/Default/Pepper Data/Shockwave Flash/.com.google.Chrome.p9GBU8 (deleted)
+Look for the file descriptor that points to a "deleted" Flash file (in this example, it's file descriptor #24).
+3) Copy it somewhere else
+
+# cp 24 ~your_user/24.flv
+# chown your_user:your_user ~your_user/24.flv
+So, the process is similar for doing it for Firefox, except:
+Look for the ppapi process instead of the plugin-container or libflashplayer.so
+Use root privileges to get into that process's file descriptors (it seems Chrome locks down the folder so only root can read it).
+The "deleted" file isn't under /tmp anymore, but in a user's home folder with a URI that mentions Flash.
+I have updated my Perl script, flashget, so that it works with both Firefox and Chrome style Flash plugins. You need to run it as root if you want to pluck videos from Chrome, however. Usage has been updated so that you can specify an output directory (otherwise, running it as root would output the Chrome videos into /root instead of your main user's home folder).

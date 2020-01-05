@@ -1,0 +1,78 @@
+
+
+UbuntuStudio, Xubuntu como Ubuntu 16.04 Unity (Maximizar Barra de Título y Botones) - Parte 2
+
+RESUMEN:
+Maximizar Barra de Título y Botones en panel de XFCE (UbuntuStudio, Xubuntu) para que se parezca al Unity de Ubuntu
+
+PREVIO:
+Para este tutorial es necesario primero haber configurado UbuntuStudio, Xubuntu u otro Linux que use XFCE de la siguiente manera (este es mi punto de vista, mi configuración, pero si usted cree que la puede mejorar de otra manera puede codificarlo a su gusto):
+
+
+TUTORIAL HECHO EN
+UbuntuStudio 16.04 de 32 bits
+
+1.- INSTALAR XFCE4-WINDOWCK-PLUGIN (1)
+
+Descargar:
+
+http://ppa.launchpad.net/oiteam/xfce4/ubuntu/pool/main/x/xfce4-windowck-plugin/
+
+allí descarge para 32 o 64 bits
+
+
+
+Nota: Esta captura de pantalla fue tomada en 2016-05-26, luego ellos sacarán la nueva versión y ya no será ese numero 0.3.1 sino uno superior
+
+CONFIGURAR EN EL PANEL
+
+
+2.- INSTALAR MAXIMUS
+
+Ponga este comando en la terminal:
+sudo apt-get install maximus
+
+Luego es absolutamente necesario poner el siguiente comando en la terminal, es para esconder la barra de título cuando uno maximiza dos veces una ventana y se esconda la barra de título:
+
+gconftool-2 --set /apps/maximus/no_maximize --type=bool true
+
+Ese comando "no_maximize" significa que no se maximizará por defecto la "Barra de título" de toda ventana que usted abra, sino sólo cuando usted la maximize dos veces. Yo las maximizo dandole clic una vece en el botón "maximizar" cuando uno recién las abre, pero no en algunas aplicaciones hay que darles clic dos veces en el botón "maximizar" para que funcione.
+
+Ahora si, lance maximus para que funcione (esto sólo hay que hacerlo una vez, luego al iniciar el sistema solito funcionará)
+
+maximus
+
+Sobre maximus.- Maximus es una herramienta de linea de comando (no tiene interfaz de usuario gráfica "GUI" grapical user interfaz) que maximiza las ventanas de las aplicaciones de escritorio que están corriendo. Esta herramienta es útil si por ejemplo tu tienes instalado una distribución de linux en una Netbook (laptops muy pequeñas con una pantalla muy chiquita) con 10 pulgadas (25.4 cm) o menos de tamaño de pantalla, y tu quieres utilizar la pantalla para tener una vista maximizada (por así decirlo, donde puedas ver mejor) (2)
+
+
+3.- APLICACIONES EN QUE ES ÚTIL MAXIMUS
+Yo uso maximus (aquí en este tutorial está configurado para funcionar a lo que uno maximiza la ventana dando clic en el botón maximizar de la misma) en las siguientes aplicaciones, porque en ellas necesito bastante espacio para trabajar:
+
+Kdenlive (me funciona con doble clic en el botón maximizar)
+Libreoffice (me funciona con doble clic en el botón maximizar)
+Chromium (me funciona con doble clic en el botón maximizar) (Nota: Uso Chromium porque uso UbuntuStudio de 32 y Google Chrome ya no hay de 32 bits sino sólo de 64 bits, y este está hecho con Chromium)
+Firefox (me funciona con un clic en el botón maximizar)
+Inkscape (se maximiza por defecto)
+
+Aplicaciones en que no funciona:
+
+Gimp
+
+4.- PARA DEJARLO COMO ESTABA
+Usted puede que encuentre algo que no le guste, si no se puede adaptar haga lo siguiente:
+
+Desinstale todo lo que fue instalado, ponga uno por uno estos comandos en la terminal, siga las instrucciones y reinicie
+
+sudo apt-get remove maximus
+sudo apt-get remove xfce4-windowck-plugin
+
+
+Bibliografía:
+
+(1) Get Maximized Window Titlebar & Buttons on Panel in Xfce4
+http://ubuntuhandbook.org/index.php/2014/09/window-titlebar-buttons-on-panel-xfce4/#comment-3521007
+
+(2) Maximus – A Tool to Reclaim Desktop Space in Linux
+http://linuxandfriends.com/maximus-a-tool-to-reclaim-desktop-space-in-linux/
+
+ 

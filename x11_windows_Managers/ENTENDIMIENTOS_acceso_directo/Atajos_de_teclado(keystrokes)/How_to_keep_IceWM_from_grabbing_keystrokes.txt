@@ -1,0 +1,38 @@
+
+
+9.3 How to keep IceWM from grabbing keystrokes
+http://www.icewm.org/FAQ/IceWM-FAQ-9.html
+
+What if you are running an application and need to use a keystroke that is grabbed by IceWM?
+
+Marko suggests the following workaround:
+
+    Activate scroll lock
+    Do problematic key stroke
+    Deactivate scroll lock
+
+He advises that this will only work if "ScrollLock" is set up as a modifier.
+
+Here is how to use the X11 xmodmap utility to setup ScrollLock as a modifier (from Marco Molteni):
+
+    check which modifiers are free:
+
+            $ xmodmap -pm
+
+            xmodmap:  up to 2 keys per modifier, (keycodes in parentheses):
+
+            shift       Shift_L (0x32),  Shift_R (0x3e)
+            lock        Caps_Lock (0x42)
+            control     Control_L (0x25),  Control_R (0x6d)
+            mod1        Alt_L (0x40),  Alt_R (0x71)
+            mod2        Num_Lock (0x4d)
+            mod3
+            mod4        Super_L (0x73),  Super_R (0x74)
+            mod5      
+
+    in this example mod3 is free, so we bind the ScrollLock key to it:
+
+           $ xmodmap -e "add mod3 = Scroll_Lock"
+
+    this invocation of xmodmap should be put in the script that starts the window manager, for example $HOME/.xinit or $HOME/.xsession, see Howto make IceWM default WM for more detailed info about startup of WM or use IceWM's startup.
+

@@ -1,0 +1,6 @@
+
+Ted's Linux MIDI Guide
+http://tedfelix.com/linux/linux-midi.html
+
+
+You'll need to configure JACK through qjackctl before using it. Press the "Setup..." button to get the Setup dialog. Many of the settings will be set to "(default)" and that should be ok. Just make sure "Frames/Period" is set to 128, and "Sample Rate" is set to 44100. Also, if you need to use an ALSA device name other than hw:0, check the "Output Device" field. See the ALSA Device Names section above for details. 

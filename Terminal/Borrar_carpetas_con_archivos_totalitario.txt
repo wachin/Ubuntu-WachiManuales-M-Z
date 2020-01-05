@@ -1,0 +1,4 @@
+
+
+
+rm -fr $HOME/.local/share/icons/????_*.xpm

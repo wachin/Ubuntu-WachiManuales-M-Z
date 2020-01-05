@@ -1,0 +1,98 @@
+
+Encontré información de este bug en:
+
+Bug #1682193 “Mouse acceleration significantly reduced after upg...” : Bugs : xorg package : Ubuntu
+https://bugs.launchpad.net/ubuntu/+source/xorg/+bug/1682193
+
+How to disable mouse acceleration in Ubuntu 16.04 - Ask Ubuntu
+https://askubuntu.com/questions/794185/how-to-disable-mouse-acceleration-in-ubuntu-16-04
+
+Debo poner en la terminal:
+
+xinput --list 
+
+Obtengo:
+
+wachin@Dell-Inspiron-1750:~$ xinput --list 
+⎡ Virtual core pointer                          id=2    [master pointer  (3)]
+⎜   ↳ Virtual core XTEST pointer                id=4    [slave  pointer  (2)]
+⎜   ↳ Logitech K400                             id=10   [slave  pointer  (2)]
+⎜   ↳ SynPS/2 Synaptics TouchPad                id=12   [slave  pointer  (2)]
+⎣ Virtual core keyboard                         id=3    [master keyboard (2)]
+    ↳ Virtual core XTEST keyboard               id=5    [slave  keyboard (3)]
+    ↳ Video Bus                                 id=6    [slave  keyboard (3)]
+    ↳ Power Button                              id=7    [slave  keyboard (3)]
+    ↳ Sleep Button                              id=8    [slave  keyboard (3)]
+    ↳ Integrated_Webcam_1.3M                    id=9    [slave  keyboard (3)]
+    ↳ AT Translated Set 2 keyboard              id=11   [slave  keyboard (3)]
+    ↳ Dell WMI hotkeys                          id=13   [slave  keyboard (3)]
+    ↳ Logitech K400                             id=14   [slave  keyboard (3)]
+
+
+Luego como he obtenido el id=14 debo poner:
+
+xinput list-props 14
+
+me sale:
+
+evice 'Logitech K400':
+        Device Enabled (137):   1
+        Coordinate Transformation Matrix (139): 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000
+        libinput Accel Speed (274):     0.000000
+        libinput Accel Speed Default (275):     0.000000
+        libinput Accel Profiles Available (276):        1, 1
+        libinput Accel Profile Enabled (277):   1, 0
+        libinput Accel Profile Enabled Default (278):   1, 0
+        libinput Natural Scrolling Enabled (279):       0
+        libinput Natural Scrolling Enabled Default (280):       0
+        libinput Send Events Modes Available (259):     1, 0
+        libinput Send Events Mode Enabled (260):        0, 0
+        libinput Send Events Mode Enabled Default (261):        0, 0
+        libinput Left Handed Enabled (281):     0
+        libinput Left Handed Enabled Default (282):     0
+        libinput Scroll Methods Available (283):        0, 0, 1
+        libinput Scroll Method Enabled (284):   0, 0, 0
+        libinput Scroll Method Enabled Default (285):   0, 0, 0
+        libinput Button Scrolling Button (286): 2
+        libinput Button Scrolling Button Default (287): 2
+        libinput Middle Emulation Enabled (288):        0
+        libinput Middle Emulation Enabled Default (289):        0
+        Device Node (262):      "/dev/input/event5"
+        Device Product ID (263):        1133, 16420
+
+
+Para aumentar la velocidad debo poner así:
+
+xinput --set-prop "pointer:Logitech K400" "libinput Accel Speed" 1
+
+o también sería con puro numero (los equivalentes en vez de las "") así:
+
+xinput --set-prop 14 274 1
+
+Nota: 1 es lo maximo que se puede poner.
+
+Eso según la ayuda:
+
+xinput --help
+
+        xinput set-prop <device> [--type=atom|float|int] [--format=8|16|32] <property> <val> [<val> ...]
+
+
+
+pero también estoy viendo en:
+
+
+
+
+xinput --set-prop 14 171 4.000000, 0.000000, 0.000000, 0.000000, 4.000000, 0.000000, 0.000000, 0.000000, 1.000000
+
+
+
+
+
+
+
+
+
+
+

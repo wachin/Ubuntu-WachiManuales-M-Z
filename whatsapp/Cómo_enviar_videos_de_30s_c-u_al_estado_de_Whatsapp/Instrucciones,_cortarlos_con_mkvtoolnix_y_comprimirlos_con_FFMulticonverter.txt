@@ -1,0 +1,48 @@
+
+Instrucciones, cortarlos con mkvtoolnix y comprimirlos con FFMulticonverter.txt
+
+Cómo cortar un video en varias partes con mkvtoolnix
+
+EN EL GUI PONER ASÍ
+
+En Multiplexador/Salida/Modo de corte: 
+
+│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+       En partes según los códigos
+│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+
+
+
+00s-30s,30s-60s,60s-90s,90s-120s,120s-150s,150s-180s,180s-210s,210s-240s,240s-270s,270s-300s,300s-330s,
+0:00:30,0:01:00,0:01:30,00:02:00, 00:02:30, 00:03:00, 00:03:30, 00:04:00, 00:04:30, 00:05:00, 00:05:30
+
+330s-360s,360s-390s,390s-420s,420s-450s,450s-480s,480s-510s,510s-540s,540s-570s,570s-600s,600s-630s,630s-660s
+ 00:06:00, 00:06:30, 00:07:00, 00:07:30, 00:08:00, 00:08:30, 00:09:00, 00:09:30, 00:10:00, 00:10:30, 00:11:00
+
+
+El cincel de Dios - 9.37.mp4
+00s-30s,30s-60s,60s-90s,90s-120s,120s-150s,150s-180s,180s-210s,210s-240s,240s-270s,270s-300s,300s-330s,330s-360s,360s-390s,390s-420s,420s-450s,450s-480s,480s-510s,510s-540s,540s-570s,570s-600s
+
+
+   
+
+
+Cómo compartir videos largos en whatsapp
+
+Menos de 16 MB acepta WhatsApp en un video
+
+ffmulticonverter video para WhatsApp a 800kbps, 480x360
+Nota: Estaba convirtiendo un video de 10,20min y pesa 1,4GB, pero el tamaño que dió fue 70MB y al tratar de enviarlo en WhatsApp me dejaba seleccionar 1/4 partes del video
+
+
+wachin mejora:
+FF Multiconverter 
+video 115kbps, 320x240, fps15
+audio 96kbps, 44.1kHz, 1 chnnels, AAC
+salida del video mp4
+Comando:
+-vf "scale=320:240" -b:v 115k -r 15 -ac 1 -b:a 96k -ar 44100
+
+
+
+

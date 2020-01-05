@@ -1,0 +1,26 @@
+Bloquear la actualización de un paquete en Ubuntu
+https://facilitarelsoftwarelibre.blogspot.com/2018/06/bloquear-la-actualizacion-de-un-paquete.html
+
+Necesito evitar la actualización del paquete openlp, voy a seguir las siguientes instrucciones de:
+
+Bloquear la actualización de paquetes en Debian y Ubuntu | rm-rf.es
+http://rm-rf.es/bloquear-la-actualizacion-de-paquetes-en-debian-y-ubuntu/
+
+1.- Pongo en la terminal:
+
+dpkg --get-selections openlp
+
+2- me devuelve esto
+
+dpkg --get-selections openlp
+openlp                          install
+
+3.- significa que se va a actualizar. Para evitar que se actualice debo poner lo siguiente:
+
+echo "openlp hold" | sudo dpkg --set-selections
+
+Ahora al repetir el paso 1.-, me devolverá "hold" que significa que no se puede actualizar. Para comprobar eso pongo en la terminal:
+sudo apt upgrade
+y como tengo actualizaciones aparecen, pero ya no aparece openlp
+
+Nota: Deben de revisar el tutorial mencionado 

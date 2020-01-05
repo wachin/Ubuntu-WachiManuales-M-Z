@@ -1,0 +1,102 @@
+
+
+How to create a wallpaper slideshow in LXDE
+http://www.pclinuxos.com/forum/index.php?topic=87784.0
+
+« on: March 01, 2011, 08:57:42 AM »
+Some of you might remember this thread:
+
+http://www.pclinuxos.com/forum/index.php/topic,74092.0.html
+
+No?  You don't?  I do ….  ;D
+
+Truth be told I never got it right to have a wallpaper slideshow running on Lxde.
+
+Since Phoenix runs perfectly right now I went back to my Lxde install to fiddle and see what else I can break.  In a moment of weakness I went back to the wallpaper slideshow problem.
+
+I googled again and struck gold in the Mint forum.
+
+So here is how you get a wallpaper slideshow going in PCLinuxLXDE (Mini):
+
+1. You need to create a location where you have all your wallpapers which you want to use.  
+    In my setup it is /home/longtom/Wallpapers .
+2. Open Leafpad in Menu > Editors
+3. In leafpad enter the following:
+
+   
+Code: [Select]
+
+
+
+#!/bin/bash
+
+DIR=/home/longtom/Wallpapers/
+FLOOR=1
+RANGE=`ls -1 "$DIR"/*.jpg | wc | awk '// {print $1}'`
+
+number=0
+
+while [ 1 -eq 1 ]; do
+  
+   number=$RANDOM
+   while [ "$number" -le $FLOOR ]; do
+        number=$RANDOM
+   done
+   let "number %= $RANGE"  # Scales $number down within $RANGE.
+   COUNTER=1
+   for X in "$DIR"/*.jpg
+   do
+      if [ $number -eq $COUNTER ]; then
+         pcmanfm --set-wallpaper "$X"
+      fi
+   COUNTER=$(($COUNTER+1))
+   done
+   COUNTER=1
+   sleep 10m
+done
+
+
+
+
+You can change the time interval by changing the number in the line:
+Code: [Select]
+
+  sleep 10m
+
+
+As you can see, mine is set to 10 minutes.
+
+This script works only for jpg files as it stands but you can add other formats at will.
+
+Also make sure that you replace longtom in
+Code: [Select]
+
+DIR=/home/longtom/Wallpapers
+
+
+with your home folder's name.
+
+Save your file in your "/home/user" folder.  I chose the name rotator.
+
+In PCmanFM find your file, right click on it, choose "Properties > Permissions" and tick next to "Make the file executable".
+
+Left click on your file and choose "Execute"
+
+There she runs.
+
+You can add this script to your LXDE autostart script.
+
+One more thing.  If you only log out and back in you might suddenly have 2 sessions of this script running.  We don't want that.
+In order to make sure our script stops when we log out we add the following line to our ".bashrc" in the /home/user directory:
+
+Code: [Select]
+
+alias lxlogout='killall -9 rotator | exit 0 && lxsession-logout'
+
+
+That is it.  Test it and enjoy a new scenery on your desktop every so often to make life more colourful.
+
+   
+« Last Edit: March 01, 2011, 09:12:49 AM by longtom »
+Logged
+Regards 

@@ -1,0 +1,34 @@
+
+python-gst-1.0
+GStreamer GObject Introspection overrides for Python
+
+
+sudo apt-get install libgtk2.0-dev libgtk2.0-doc libglib2.0-doc
+wachin@Dell-Inspiron-1750:~$ sudo apt-get install libgtk2.0-dev libgtk2.0-doc libglib2.0-doc
+[sudo] password for wachin: 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  autoconf automake autopoint autotools-dev debhelper dh-autoreconf
+  dh-strip-nondeterminism gir1.2-gtk-2.0 icu-devtools libatk1.0-dev
+  libatk1.0-doc libcairo-script-interpreter2 libcairo2-dev libexpat1-dev
+  libfile-stripnondeterminism-perl libfontconfig1-dev libfreetype6-dev
+  libgdk-pixbuf2.0-dev libglib2.0-dev libglib2.0-dev-bin libgraphite2-dev
+  libharfbuzz-dev libharfbuzz-gobject0 libice-dev libicu-dev libltdl-dev
+  libmail-sendmail-perl libpango1.0-dev libpango1.0-doc libpcre3-dev
+  libpcre32-3 libpcrecpp0v5 libpixman-1-dev libpng-dev libpng-tools
+  libpthread-stubs0-dev libsm-dev libsys-hostname-long-perl libtool
+  libx11-dev libx11-doc libxau-dev libxcb-render0-dev libxcb-shm0-dev
+  libxcb1-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxdmcp-dev
+  libxext-dev libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxrandr-dev libxrender-dev m4 po-debconf x11proto-composite-dev
+  x11proto-core-dev x11proto-damage-dev x11proto-fixes-dev x11proto-input-dev
+  x11proto-kb-dev x11proto-randr-dev x11proto-render-dev x11proto-xext-dev
+  x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
+0 actualizados, 73 nuevos se instalarán, 0 para eliminar y 3 no actualizados.
+Se necesita descargar 40,1 MB de archivos.
+Se utilizarán 195 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] 
+
+ 

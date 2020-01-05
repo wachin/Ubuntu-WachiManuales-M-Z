@@ -1,0 +1,58 @@
+[ChannelsWindow]
+Height 768=643
+State=AAAA/wAAAAD9AAAAAAAAAtoAAAKDAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1280=730
+Width 1366=730
+
+[KFileDialog Settings]
+Height 768=600
+Height 900=600
+Recent Files[$e]=A quién iré - Luis Enrrique Espinosa (MIDI Christian Matamoros).MID,$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Fur_Elise_full_version.mid,$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_4th_Symphony_In_B_Major.mid,$HOME/Dropbox/MIDI/Inglés/hamienet.com/Our God - Chris Tomlin (MIDI KH_fan).mid,$HOME/Dropbox/MIDI/varios/Scorpions/freemidi.org/WindOfChange.mid,$HOME/Dropbox/MIDI/midisaya.com/Te pertenezco - Abel Zabala (MIDI Edgar Franco).MID,$HOME/Dropbox/MIDI/midisaya.com/Al taller del maestro(X) - Alex Campos (MIDI Edgar Sanchez).MID,$HOME/Dropbox/MIDI/midisaya.com/Al taller del maestro - Alex Campos (MIDI Alvaro Ochoa).MID,$HOME/Dropbox/MIDI/midisaya.com/Al Rey - Marcos Witt (MIDI Edgar Sanchez).MID,$HOME/Dropbox/MIDI/midisaya.com/Al Rey - Marcos Witt (MIDI Cesar Forero).MID,$HOME/Dropbox/MIDI/midisaya.com/Al que está sentado en el trono - Lucas Conslie (MIDI Edgar Franco)SM.MID,$HOME/Dropbox/MIDI/midisaya.com/Al que está sentado en el trono - Lucas Conslie (MIDI Edgar Franco)CM.MID,$HOME/Dropbox/MIDI/midisaya.com/Aguas Profundas - David Quinlan(MIDI D. R. A.).MID,$HOME/Dropbox/MIDI/midisaya.com/Abre mis ojos Oh Cristo - Danilo Montero (MIDI Edgar Franco).MID,$HOME/Dropbox/MIDI/midisaya.com/Abre mis ojos Oh Cristo - D.R.A. (MIDI Edgar Franco).MID,$HOME/Dropbox/MIDI/midisaya.com/Abre los cielos - Jesús A. Romero (MIDI Edgar Sanchez).MID
+Recent URLs[$e]=$HOME/Dropbox/MIDI/midisaya.com/,$HOME/Dropbox/MIDI/varios/Scorpions/,$HOME/Dropbox/MIDI/varios/Scorpions/freemidi.org/,$HOME/Dropbox/MIDI/Inglés/hamienet.com/,$HOME/Dropbox/MIDI/varios/Beethoven/
+Width 1280=960
+Width 1366=816
+Width 1600=960
+
+[MainWindow]
+Height 768=744
+Height 900=852
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAB3AAABwfwCAAAAAfsAAAAkAHYAbwBsAHUAbQBlAEEAbgBkAFAAaQB0AGMAaABEAG8AYwBrAQAAAKIAAAHBAAAATwD///8AAAACAAAE3gAAAFn8AQAAAAL7AAAAEAB0AGkAbQBlAEQAbwBjAGsBAAAAAAAAAVAAAABPAP////sAAAAUAGMAbwBkAGUAYwBzAEQAbwBjAGsBAAABVgAAA4gAAAEYAP///wAAAAMAAATeAAAAZ/wBAAAAAfsAAAAUAHIAaAB5AHQAaABtAEQAbwBjAGsBAAAAAAAABN4AAAEmAP///wAABGEAAAHBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1246
+Width 1600=1600
+
+[PlayerPianoWindow]
+Height 768=100
+State=AAAA/wAAAAD9AAAAAAAAAMgAAABLAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1280=200
+
+[Recent Dirs]
+KMid2Song[$e]=file://$HOME/Dropbox/MIDI/varios/Beethoven/,file://$HOME/Dropbox/MIDI/Ingl%C3%A9s/hamienet.com/,file://$HOME/Dropbox/MIDI/varios/Scorpions/freemidi.org/
+
+[RecentFiles]
+File1[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Sinfonia_9_(Rock-Ballad).mid
+File10[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Fur_Elise_full_version.mid
+File2[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Sonata_0p27.mid
+File3[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Sonata_N._6_En_Fa_Maggiore_-_Presto.mid
+File4[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Sonata_Pathetique.mid
+File5[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Sonata_Pathetique_2nd_Move.mid
+File6[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Symphony_No.5_in_Cm,_1st_movement.mid
+File7[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Symphony_No7_allegretto.mid
+File8[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_Violin_Concerto__1st_Movement.mid
+File9[$e]=$HOME/Dropbox/MIDI/varios/Beethoven/Beethoven_-_4th_Symphony_In_B_Major.mid
+Name1[$e]=Beethoven_-_Sinfonia_9_(Rock-Ballad).mid
+Name10[$e]=Beethoven_-_Fur_Elise_full_version.mid
+Name2[$e]=Beethoven_-_Sonata_0p27.mid
+Name3[$e]=Beethoven_-_Sonata_N._6_En_Fa_Maggiore_-_Presto.mid
+Name4[$e]=Beethoven_-_Sonata_Pathetique.mid
+Name5[$e]=Beethoven_-_Sonata_Pathetique_2nd_Move.mid
+Name6[$e]=Beethoven_-_Symphony_No.5_in_Cm,_1st_movement.mid
+Name7[$e]=Beethoven_-_Symphony_No7_allegretto.mid
+Name8[$e]=Beethoven_-_Violin_Concerto__1st_Movement.mid
+Name9[$e]=Beethoven_-_4th_Symphony_In_B_Major.mid
+
+[Settings]
+encoding=Unicode ( UTF-8 )
+output_connection=FLUID Synth (2308):0

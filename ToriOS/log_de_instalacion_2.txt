@@ -1,0 +1,205 @@
+(Leyendo la base de datos ... 653070 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../torios-desktop_0.98.0ubuntu1-432~ubuntu16.04.1_all.deb ...
+Desempaquetando torios-desktop (0.98.0ubuntu1-432~ubuntu16.04.1) sobre (0.98.0ubuntu1-432~ubuntu16.04.1) ...
+Procesando disparadores para gconf2 (3.2.6-3ubuntu6) ...
+Procesando disparadores para desktop-file-utils (0.22-1ubuntu5.1) ...
+Procesando disparadores para gnome-menus (3.13.3-6ubuntu3.1) ...
+Procesando disparadores para mime-support (3.59ubuntu1) ...
+Procesando disparadores para man-db (2.7.5-1) ...
+Procesando disparadores para hicolor-icon-theme (0.15-0ubuntu1) ...
+Configurando torios-desktop (0.98.0ubuntu1-432~ubuntu16.04.1) ...
+User logged in on tty7 is wachin.  This will be used to chown files
+Removed default origins.
+Setup ToriOS as default dpkg vendor
+Using /home/wachin as the HOME directory for wachin
+overwrote /etc/skel/.bashrc
+/home/wachin/.jwmrc does not exist
+copied user gtk settings to root
+/usr/bin/amixer-down is executable
+/usr/bin/amixer-toggle is executable
+/usr/bin/amixer-up is executable
+/usr/bin/amixer-mic-mute is executable
+/usr/bin/debian-ppa-handler is executable
+/usr/bin/dialog-chooser is executable
+/usr/bin/firstrun is executable
+/usr/bin/hdmi-switch is executable
+/usr/bin/jwmIconFinder is executable
+/usr/bin/nice-start is executable
+/usr/bin/screenie is executable
+/usr/bin/starttorios is executable
+/usr/bin/torios-about is executable
+/usr/bin/torios-askpass is executable
+/usr/bin/torios-autostart is executable
+/usr/bin/torios-autostart-mod is executable
+/usr/bin/torios-battery is executable
+/usr/bin/torios-calendar is executable
+/usr/bin/torios-config is executable
+/usr/bin/torios-exit is executable
+/usr/bin/torios-gamma is executable
+/usr/bin/torios-hibernate is executable
+/usr/bin/torios-info is executable
+/usr/bin/torios-installer is executable
+/usr/bin/torios-packagetool is executable
+/usr/bin/torios-printer is executable
+/usr/bin/torios-reboot is executable
+/usr/bin/torios-runchecker is executable
+/usr/bin/torios-shortcut is executable
+/usr/bin/torios-shutdown is executable
+/usr/bin/torios-suspend is executable
+/usr/bin/torios-volume is executable
+/usr/bin/xedit-text-mime is executable
+/usr/bin/zlocate is executable
+/usr/bin/zrun is executable
+nautilus-folder-handler handles the default inode/directory opening for xdg-open
+User logged in on tty7 is wachin.  This will be used to chown files
+chown: cambiando el propietario de '/home/wachin/.jwm/logs': Operación no permitida
+xedit-text-mime Beginning
+lun, 24 jul  4:58 
+__________________________
+
+xedit is already default for text/cache-manifest
+evolution is already default for text/calendar
+bluefish is already default for text/css
+libreoffice-calc is already default for text/csv
+xedit is already default for text/csv-schema
+xedit is already default for text/enriched
+wine-extension-htm is already default for text/html
+xedit is already default for text/htmlh
+xedit is already default for text/markdown
+pluma is already default for text/plain
+xedit is already default for text/rfc822-headers
+abiword is already default for text/richtext
+xedit is already default for text/rust
+xedit is already default for text/sgml
+libreoffice-calc is already default for text/spreadsheet
+libreoffice-calc is already default for text/tab-separated-values
+xedit is already default for text/troff
+xedit is already default for text/turtle
+xedit is already default for text/vcard
+xedit is already default for text/vnd.abc
+xedit is already default for text/vnd.graphviz
+xedit is already default for text/vnd.rn-realtext
+xedit is already default for text/vnd.sun.j2me.app-descriptor
+xedit is already default for text/vnd.trolltech.linguist
+abiword is already default for text/vnd.wap.wml
+xedit is already default for text/vnd.wap.wmlscript
+xedit is already default for text/vtt
+xedit is already default for text/wiki
+xedit is already default for text/x-adasrc
+software-properties-kde is already default for text/x-apt-sources-list
+xedit is already default for text/x-authors
+xedit is already default for text/x-bibtex
+ubuntusdk is already default for text/x-c++hdr
+ubuntusdk is already default for text/x-c++src
+xedit is already default for text/x-changelog
+gedit is already default for text/x-chdr
+xedit is already default for text/x-cmake
+xedit is already default for text/x-cobol
+xedit is already default for text/x-copying
+xedit is already default for text/x-credits
+xedit is already default for text/x-csharp
+gedit is already default for text/x-csrc
+xedit is already default for text/x-dcl
+xedit is already default for text/x-dsl
+geany is already default for text/x-dsrc
+xedit is already default for text/x-eiffel
+xedit is already default for text/x-emacs-lisp
+xedit is already default for text/x-erlang
+xedit is already default for text/x-fortran
+xedit is already default for text/x-genie
+xedit is already default for text/x-gettext-translation
+xedit is already default for text/x-gettext-translation-template
+xedit is already default for text/x-go
+parole is already default for text/x-google-video-pointer
+xedit is already default for text/x-haskell
+xedit is already default for text/x-hex
+xedit is already default for text/x-iMelody
+xedit is already default for text/x-idl
+xedit is already default for text/x-install
+xedit is already default for text/x-iptables
+gedit is already default for text/x-java
+xedit is already default for text/x-katefilelist
+xedit is already default for text/x-ldif
+xedit is already default for text/x-lilypond
+xedit is already default for text/x-literate-haskell
+xedit is already default for text/x-log
+xedit is already default for text/x-lua
+vim is already default for text/x-makefile
+xedit is already default for text/x-matlab
+puredata is already default for text/x-maxmsp
+xedit is already default for text/x-meson
+aegisub is already default for text/x-microdvd
+vim is already default for text/x-moc
+xedit is already default for text/x-modelica
+xedit is already default for text/x-mof
+mausgrapher is already default for text/x-mouse-log
+subtitleeditor is already default for text/x-mpsub
+xedit is already default for text/x-mrml
+xedit is already default for text/x-ms-regedit
+xedit is already default for text/x-mup
+xedit is already default for text/x-nfo
+xedit is already default for text/x-objchdr
+xedit is already default for text/x-objcsrc
+xedit is already default for text/x-ocaml
+xedit is already default for text/x-ocl
+xedit is already default for text/x-ooc
+xedit is already default for text/x-opml+xml
+vim is already default for text/x-pascal
+org.kde.kompare is already default for text/x-patch
+puredata is already default for text/x-puredata
+xedit is already default for text/x-puredata-help
+xedit is already default for text/x-puredata-meta
+gedit is already default for text/x-python
+xedit is already default for text/x-qml
+xedit is already default for text/x-readme
+xedit is already default for text/x-reject
+xedit is already default for text/x-rpm-spec
+xedit is already default for text/x-rst
+xedit is already default for text/x-scala
+xedit is already default for text/x-scheme
+xedit is already default for text/x-scons
+xedit is already default for text/x-setext
+aegisub is already default for text/x-ssa
+xedit is already default for text/x-subviewer
+xedit is already default for text/x-svhdr
+xedit is already default for text/x-svsrc
+vim is already default for text/x-tcl
+vim is already default for text/x-tex
+xedit is already default for text/x-texinfo
+xedit is already default for text/x-troff-me
+xedit is already default for text/x-troff-mm
+xedit is already default for text/x-troff-ms
+xedit is already default for text/x-txt2tags
+xedit is already default for text/x-uil
+xedit is already default for text/x-uri
+xedit is already default for text/x-uuencode
+xedit is already default for text/x-vala
+xedit is already default for text/x-verilog
+xedit is already default for text/x-vhdl
+pitivi is already default for text/x-xges
+xedit is already default for text/x-xmi
+pitivi is already default for text/x-xptv
+xedit is already default for text/x-xslfo
+xedit is already default for text/xmcd
+xedit mime setting program executed
+User logged in on tty7 is wachin.  This will be used to chown files
+Using /home/wachin as the HOME directory for wachin
+cp: no se puede efectuar `stat' sobre 'mimeapps.list': No existe el archivo o el directorio
+Copied jwmrc to backup skel file
+setting up autoconnect for HDMI audio
+User logged in on tty7 is wachin.  This will be used to chown files
+<!--found elementary-xfce-dark set as GTK 2 icon theme with /usr/bin/gconftool-2-->
+<!--found Brisa-claro-para-iceWM-volumen-blanco set as GTK 2 icon theme with /home/wachin/.gtkrc-2.0-->
+<!--found elementary-xfce-darker set as GTK 2 icon theme with /usr/bin/gsettings-->
+<!--Default theme is: Brisa-claro-para-iceWM-volumen-blanco-->
+No icons found... must abort, check the log file /home/wachin/.jwm/jsm-logs/jwmIconFinder.log
+gksu is set to use sudo mode already in /usr/bin/gconftool-2
+gksu is set to use sudo mode already in /usr/bin/gconftool
+updated user directories
+updated user GTK directories
+changed /etc/systemd/journald.conf to use SystemMaxUse=50 to prevent slowdown
+Vacuuming done, freed 0B of archived journals on disk.
+ran journalctl --vacuum-size 50M
+Recursively chowned hidden things in /home/wachin
+
+

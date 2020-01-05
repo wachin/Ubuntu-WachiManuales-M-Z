@@ -1,0 +1,14 @@
+
+
+Descargar un archivo con wget y renombrarlo
+
+
+
+wget -c https://github.com/Genymobile/scrcpy/releases/download/v1.10/scrcpy-server-v1.10.jar -O scrcpy-server.jar
+
+
+
+Basado en:
+
+¿Cómo puedo hacer wget cambiar el nombre de los | http
+https://www.enmimaquinafunciona.com/pregunta/36731/como-puedo-hacer-wget-cambiar-el-nombre-de-los-archivos-descargados-para-no-incluir-la-cadena-de-consulta

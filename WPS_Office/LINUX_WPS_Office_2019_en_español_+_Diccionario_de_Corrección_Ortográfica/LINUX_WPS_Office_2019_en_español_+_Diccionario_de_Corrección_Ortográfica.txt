@@ -1,0 +1,19 @@
+
+
+
+A esta fecha 15 de Mayo del 2019 está disponible la versión de WPS Offce 2019 pero si uno la instala está sólo en Chino y en Inglés:
+
+DESCARGA:
+http://wps-community.org/download.html
+
+La buena noticia es que los desarrolladores de ArchLinux han empaquetado el idioma en español y funciona bien en Ubuntu:
+
+https://facilitarelsoftwarelibre.blogspot.com/2019/10/instalar-wps-office-2019-32-y-64-bits.html
+
+#WPSOffice
+#Diccionario
+#Español
+
+
+
+WPS Office,WPS Office 2019,Interfaz en Español,MUI,es_ES,Corrección ortográfica,español_España,Ubuntu,Linux,Debian,Fedora,RPM,DEB,OpenSUSE,Red Hat,Ofimática

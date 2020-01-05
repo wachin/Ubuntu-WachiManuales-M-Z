@@ -1,0 +1,9 @@
+
+
+
+format conversion - How to convert pdf file to an odt file? - Ask Ubuntu
+https://askubuntu.com/questions/240011/how-to-convert-pdf-file-to-an-odt-file
+
+Try Calibre. It converts to html and then into other formats. It did a pretty good job on a large (183 pages) file I would have otherwise had to print.
+
+In my case I converted it to an epub, but for fun just converted it to a .docx which turned out very well. 

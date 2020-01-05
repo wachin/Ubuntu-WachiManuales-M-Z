@@ -1,0 +1,23 @@
+
+Copy the target from a symlink?
+https://www.linuxquestions.org/questions/linux-newbie-8/copy-the-target-from-a-symlink-522664/
+
+
+
+cd /dir/with/all/your/symlinks
+for f in *; do
+    orig=$(readlink "$f")
+    orig_basename="${orig##*/}"
+    cp "$f" "/path/to/put/files/$orig_basename"
+done
+
+
+WachiEjemplo:
+
+cd /home/wachin/Dropbox/Musica/Ensayos-Iglesia/
+for f in *; do
+    orig=$(readlink "$f")
+    orig_basename="${orig##*/}"
+    cp "$f" "/home/wachin/PDF/$orig_basename"
+done
+

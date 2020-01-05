@@ -1,0 +1,31 @@
+
+
+Instalar Diccionario de Corrección Ortográfica Español en WPS Office 2019 en Linux
+Ha sido liberado WPS Office 2019 pero sólo está en Inglés la interfaz en:
+
+http://wps-community.org/downloads
+
+Nota: Si usted desea la interfaz en español si está disponible pero en WPS Office 2019 Flatpak.
+
+Si quiere usar la versión sólo en inglés de wps-community.org e instalar el diccionario de corrección ortográfico en español esta es la solución y le quedará así:
+
+
+
+INSTRUCCIONES:
+1.) Poner en la terminal:
+
+sudo apt-get install git
+
+2.) Poner una por una las cinco lineas siguientes en la terminal ejecutándolas:
+
+mkdir -p ~/.local/share/Kingsoft/office6/dicts/es_ES/
+cd /tmp
+git clone https://github.com/wachin/Diccionario-de-correccion-ortografica-Spanish-WPS-Office
+cd Diccionario-de-correccion-ortografica-Spanish-WPS-Office
+cp -r es_ES ~/.local/share/Kingsoft/office6/dicts/
+
+Cierre WPS Office y vuelvalo a abrir.
+
+Nota: Este tutorial ha sido probado en Xubuntu 18.04 por lo cual debería funcionar en cualquier sabor de Ubuntu. Si usted lo prueba en otro Linux y no le funciona escríbame en los comentarios y escriba cual es el sistema operativo que ha utilizado
+
+Dios le bendiga

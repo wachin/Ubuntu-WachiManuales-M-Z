@@ -1,0 +1,55 @@
+
+Descargué este programa:
+
+Andrés Rodríguez / qml-borderless-camera · GitLab
+https://gitlab.com/mixedCase/qml-borderless-camera
+
+y al ejecutarl
+
+qml app.qml
+
+me sale en la terminal:
+
+qml could not find a Qt installation of
+
+
+Buscando una solución me dicen que instale:
+
+qt5-default
+
+ubuntu - qmake: could not find a Qt installation of '' - Stack Overflow
+https://stackoverflow.com/questions/16607003/qmake-could-not-find-a-qt-installation-of
+
+pero nada. 
+
+La solución para eso fue poner en la terminal:
+
+export QT_SELECT=qt5
+
+Esto según:
+ubuntu - qmake could not find a Qt installation of - Stack Overflow
+https://stackoverflow.com/questions/16607003/qmake-could-not-find-a-qt-installation-of
+
+pero ahora me sale:
+
+qml: could not exec '/usr/lib/i386-linux-gnu/qt5/bin/qml': No such file or directory
+
+La solución dicen está aquí: https://askubuntu.com/questions/254800/how-can-i-update-the-ubuntu-sdk-preview-from-the-qt-5-beta-ppa-to-the-qt-5-relea
+
+You can get away by installing the Qt5.0.0 (not 5.0.1) via the (.run file http://releases.qt-project.org/qt5/5.0.0/qt-linux-opensource-5.0.0-x86-offline.run) and then copying the contents of /usr/lib/i386-linux-gnu/qt5/qml/
+
+Pero sin embargo ese link a esta fecha: 2017-08-02 ya no está disponible, pero me redirige a:
+
+http://download.qt.io/
+
+donde navego hasta:
+http://download.qt.io/official_releases/qt/5.9/5.9.0/
+
+pero sólo hay disponible las versiones para linux de 64 bits
+
+
+
+
+
+
+

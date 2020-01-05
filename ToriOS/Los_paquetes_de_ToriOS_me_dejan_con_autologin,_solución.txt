@@ -1,0 +1,19 @@
+
+How do I get Ubuntu to ask me for a password at login again?
+https://askubuntu.com/questions/211084/how-do-i-get-ubuntu-to-ask-me-for-a-password-at-login-again
+
+Poner en la terminal
+
+gksu gedit /etc/lightdm/lightdm.conf
+
+a mi me aparece así:
+
+[SeatDefaults]
+greeter-session=lightdm-gtk-greeter
+autologin-user=wachin 
+
+según lo que dice en el post que debo poner # en cada lugar donde diga "autologin" entonces, poner así:
+
+[SeatDefaults]
+greeter-session=lightdm-gtk-greeter
+#autologin-user=wachin 

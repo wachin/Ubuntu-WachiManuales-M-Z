@@ -1,0 +1,13 @@
+
+Cómo crear un directorio y subdirectorios desde la terminal
+
+How to create directory and sub directory from command line
+https://linuxconfig.org/how-to-create-a-new-subdirectory-with-a-single-command-on-linux
+
+command example will create a new TEMPdirectory as a subdirectory of /tmp/test even if test does not exists.
+
+mkdir -p /tmp/test/TEMP
+
+ejemplo usado en:
+
+mkdir -p ~/.local/share/Kingsoft/office6/dicts/es_ES/

@@ -1,0 +1,51 @@
+
+
+
+Linux 32 bits 2019
+
+
+Blogger: Proyecto Facilitar el Software Libre en el Ecuador - Todas las entradas
+https://draft.blogger.com/blogger.g?blogID=8761056917308551623#allposts/postNum=0
+
+Genymobile/scrcpy: Display and control your Android device
+https://github.com/Genymobile/scrcpy
+
+Cambiar de directorios con cd
+http://www.fis.unipr.it/pub/linux/redhat/9/en/doc/RH-DOCS/rhl-gsg-es-9/s1-navigating-cd.html
+
+chernobyl español latino - YouTube
+https://www.youtube.com/results?search_query=chernobyl+espa%C3%B1ol+latino+
+
+Download Samsung Galaxy J5 SM-J500M PET Peru J500MUBS1BSB8 firmware
+https://www.sammobile.com/samsung/galaxy-j5/firmware/SM-J500M/PET/download/J500MUBS1BSB8/263835/
+
+Descargas
+chrome://downloads/
+
+Blogger: Proyecto Facilitar el Software Libre en el Ecuador - Todas las entradas
+https://draft.blogger.com/blogger.g?blogID=8761056917308551623#allposts
+
+openSUSE:Instalación de Tumbleweed - openSUSE Wiki
+https://es.opensuse.org/openSUSE:Instalaci%C3%B3n_de_Tumbleweed
+
+openSUSE Wiki
+https://es.opensuse.org/Bienvenidos_a_openSUSE.org
+
+Linux - EasyJoin
+https://easyjoin.net/linux.html
+
+Download - Stable | Mono
+https://www.mono-project.com/download/stable/
+
+CentOS 7 disponible para arquitecturas de 32 bits
+https://www.linuxadictos.com/centos-7-disponible-para-arquitecturas-de-32-bits.html
+
+mirror.cedia.org.ec : /centos-altarch/7.7.1908/isos/i386/
+http://mirror.cedia.org.ec/centos-altarch/7.7.1908/isos/i386/
+
+CentOS Mirror
+http://isoredirect.centos.org/centos/6/isos/i386/
+
+Download - CentOS Wiki
+https://wiki.centos.org/Download
+

@@ -1,0 +1,39 @@
+
+
+Las aplicaciones KDE5 como Dolphin tienen su configuración mimeapps.list en:
+
+/home/wachin/.config/mimeapps.list
+
+Esto lo se porque borrando 
+
+~/.config/mimeapps.list
+~/.local/share/applications/mimeapps.list
+
+cuando eligo en Dolphin una aplicación a abrir los archivos de texto y pongo pluma el creado es el que está en .config
+
+
+
+XDG MIME Applications - ArchWiki
+https://wiki.archlinux.org/index.php/XDG_MIME_Applications
+
+mimeapps.list
+The XDG standard is the most common for configuring desktop environments. Default applications for each MIME type are stored in mimeapps.list files, which can be stored in several locations. They are searched in the following order, with earlier associations taking precedence over later ones:
+
+Path	Usage
+~/.config/mimeapps.list	user overrides
+/etc/xdg/mimeapps.list	system-wide overrides
+~/.local/share/applications/mimeapps.list	(deprecated) user overrides
+/usr/local/share/applications/mimeapps.list
+/usr/share/applications/mimeapps.list	distribution-provided defaults
+
+Additionally, it is possible to define desktop environment-specific default applications in a file named desktop-mimeapps.list where desktop is the name of the desktop environment (from the XDG_CURRENT_DESKTOP environment variable). For example, /etc/xdg/xfce-mimeapps.list defines system-wide default application overrides for Xfce. These desktop-specific overrides take precedence over the corresponding non-desktop-specific file. For example, /etc/xdg/xfce-mimeapps.list takes precedence over /etc/xdg/mimeapps.list but is still overridden by ~/.config/mimeapps.list.
+
+Tip: Although deprecated, several applications still read/write to ~/.local/share/applications/mimeapps.list. To simplify maintenance, simply symlink it
+
+$ ln -s ~/.config/mimeapps.list ~/.local/share/applications/mimeapps.list
+
+. Note that the symlink must be in this direction because xdg-utils deletes and recreates ~/.config/mimeapps.list when it writes to it, which will break any symbolic/hard links
+Note: You might also find files in these locations named defaults.list. This file is similar to mimeapps.list except it only lists default applications (not added/removed associations). It is now deprecated and should be manually merged with mimeapps.list.
+
+
+

@@ -1,0 +1,18 @@
+
+cpu load - tracker-store and tracker-miner-fs eating up my CPU on every startup - Ask Ubuntu
+https://askubuntu.com/questions/346211/tracker-store-and-tracker-miner-fs-eating-up-my-cpu-on-every-startup
+	
+@TomKat: Why not? I just did apt-get uninstall tracker on gnome-ubuntu and it worked fine.. it also removed gnome-documents, but whatever, didn't even know I had that program :) – benjaoming Nov 21 '13 at 23:49
+
+
+wachin@Dell-Inspiron-1750:~$ sudo apt-get remove tracker
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+(Leyendo la base de datos ... 652622 ficheros o directorios instalados actualmente.)
+Desinstalando tracker-miner-fs (1.12.0-0ubuntu1) ...
+Desinstalando tracker-extract (1.12.0-0ubuntu1) ...
+Desinstalando tracker (1.12.0-0ubuntu1) ...
+Procesando disparadores para libglib2.0-0:i386 (2.52.0-1) ...
+Procesando disparadores para man-db (2.7.6.1-2) ...
+wachin@Dell-Inspiron-1750:~$ 
+

@@ -1,0 +1,12 @@
+
+
+
+https://www.ochobitshacenunbyte.com/2016/05/25/las-herramientas-de-kali-linux-en-nuestra-distro-con-katoolin/ 
+
+
+sudo apt update
+sudo apt install git
+sudo su
+git clone https://github.com/LionSec/katoolin.git && cp katoolin/katoolin.py /usr/bin/katoolin
+chmod +x /usr/bin/katoolin
+sudo katoolin

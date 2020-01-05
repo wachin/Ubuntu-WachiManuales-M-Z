@@ -1,0 +1,16 @@
+
+
+
+
+
+ubuntu - How to extract images from video file? - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/185877/how-to-extract-images-from-video-file
+
+
+ffmpeg -i "Reposa muñecas ergonómico para Laptop.mp4" -r 1 -f image2 image-%3d.jpeg
+
+
+
+-r 1 is for the number of images per sec. So for 60ips, or 24, it's -r 24. And to limit the extract, it's -ss [start] -t [duration]
+
+

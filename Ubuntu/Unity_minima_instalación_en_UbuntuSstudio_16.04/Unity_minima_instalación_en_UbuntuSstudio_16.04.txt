@@ -1,0 +1,33 @@
+
+
+sudo apt-get install --no-install-recommends unity
+
+wachin@wachin:~$ sudo apt-get install --no-install-recommends unity
+[sudo] password for wachin: 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  fonts-horai-umefont fonts-unfonts-core gir1.2-ibus-1.0 ibus iio-sensor-proxy kate5-data ktexteditor-data libgdome2-0 libgeocode-glib0
+  libgit2-24 libgweather-3-6 libgweather-common libhttp-parser2.1 libkf5itemmodels5 libpanel-applet0 menu-xdg wine-gecko2.21
+  wine-mono0.0.8
+Utilice «sudo apt autoremove» para eliminarlos.
+Se instalarán los siguientes paquetes adicionales:
+  bamfdaemon libbamf3-2 libframe6 libgeis1 libglewmx1.13 libgrail6 libnux-4.0-0 libnux-4.0-common libunity-core-6.0-9 libunity-misc4
+  nux-tools unity-asset-pool unity-greeter unity-schemas unity-scope-home unity-scopes-master-default unity-services
+Paquetes sugeridos:
+  lightdm-remote-session-freerdp lightdm-remote-session-uccsconfigure remote-login-service
+Paquetes recomendados:
+  unity-control-center unity-scope-manpages unity-scope-openclipart unity-scope-zotero unity-scope-gdrive unity-scope-chromiumbookmarks
+  unity-scope-virtualbox unity-scope-calculator unity-lens-applications unity-scope-colourlovers unity-lens-video unity-scope-yelp
+  unity-scope-video-remote unity-lens-photos unity-lens-files unity-scope-texdoc unity-scope-firefoxbookmarks unity-scope-devhelp
+  unity-scope-tomboy unity-lens-music indicator-appmenu indicator-bluetooth indicator-datetime indicator-keyboard indicator-printers
+  indicator-power indicator-session hud session-shortcuts unity-settings-daemon
+Se instalarán los siguientes paquetes NUEVOS:
+  bamfdaemon libbamf3-2 libframe6 libgeis1 libglewmx1.13 libgrail6 libnux-4.0-0 libnux-4.0-common libunity-core-6.0-9 libunity-misc4
+  nux-tools unity unity-asset-pool unity-greeter unity-schemas unity-scope-home unity-scopes-master-default unity-services
+0 actualizados, 18 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 3.729 kB de archivos.
+Se utilizarán 16,4 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] ^C
+wachin@wachin:~$ 

@@ -1,0 +1,36 @@
+
+Cómo borrar archivos y carpetas y su contenido desde la terminal de Ubuntu
+
+Rm
+
+Ejemplos:
+
+Para borrar un archivo:
+
+rm /home/tuusuario/texto.txt
+
+Para borrar una carpeta y archivos y directorios que estén dentro:
+
+rm -r /home/tuusuario/fotos
+
+(Soy Wachín, este estoy usando)
+Para borrar una carpeta y archivos y directorios que estén dentro sin pedir permiso, ejemplos:
+
+rm -fr /home/tuusuario/fotos
+rm -fr ~/.wine
+rm -fr ~/.local/share/applications/wine/
+
+borrar varios archivos parecidos:
+
+rm -fr ~/.local/share/applications/ChordSmith*.desktop
+
+Nota: El programa ChordSmith creó dos lanzadores. desktop que no funcionan, así que lo mejor es borrarlos
+
+
+
+Nota: Tenga cuidado con estos comandos pues le borraran sus archivos y ya no los podrá recuperar
+
+Otro ejemplo:
+
+rm -fr .cache/chromium
+

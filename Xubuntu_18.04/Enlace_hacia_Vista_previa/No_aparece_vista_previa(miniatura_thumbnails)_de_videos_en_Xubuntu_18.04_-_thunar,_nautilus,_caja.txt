@@ -1,0 +1,14 @@
+
+
+No aparece vista previa(miniatura=thumbnails) de videos en Xubuntu 18.04: thunar, nautilus, caja
+RESUMEN:
+No aparece vista previa(miniatura=thumbnails) de videos en Xubuntu 18.04 en los administradores de archivos: thunar, nautilus, caja
+
+Esto se soluciona instalando:
+sudo apt install ffmpegthumbnailer
+
+
+
+
+Fuente: 
+https://delightlylinux.wordpress.com/2018/01/04/thunar-not-showing-thumbnails/

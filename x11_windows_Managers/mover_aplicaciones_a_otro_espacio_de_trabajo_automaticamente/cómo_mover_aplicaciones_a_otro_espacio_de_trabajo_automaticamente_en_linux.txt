@@ -1,0 +1,94 @@
+cómo mover aplicaciones a otro espacio de trabajo automáticamente en linux
+https://facilitarelsoftwarelibre.blogspot.com/2017/06/como-mover-aplicaciones-otro-espacio-de.html
+
+ Publicado por Washington Indacochea Delgado
+
+Mover aplicaciones a otro espacio de trabajo automáticamente en linux
+ Publicado por Washington Indacochea Delgado
+RESUMEN: 
+Cuando enciendo el sistema operatido linux utilizando el administrador de ventanas iceWM donde tengo algunos espacios de trabajo, o también llamados Workspaces, o Escritorios, quiero que algunas aplicaciones estén en el espacio de trabajo dos. Esto es util para mi para no tener tantas aplicaciones en el espacio de trabajo uno donde estoy
+
+APLICABLE A: 
+Cualquier distribución linux que use espacios de trabajo, o también llamados Workspaces, o Escritorios
+
+NO APLICABLE A: 
+Ubuntu con Unity, pues usa Compiz y ese tiene sus propias herramientas para eso
+Nota: No se si haya alguna otra que no sea compatible
+
+INSTRUCCIONES: 
+Instala unas aplicaciones:
+
+sudo apt-get install xdotool wmctrl
+
+Para saber en qué escritorio está usted en su linux ponga en la terminal
+
+xdotool get_desktop
+
+
+A mi debajo del comando cuando aplasté Enter me apareció un cero:
+
+
+
+pero yo estoy en el espacio de trabajo uno, esto significa que:
+
+Escritorio (desktop) 0 = Espacio de Trabajo (Workspace) 1
+
+así que se ahora que debo usar el numero uno con wmctrl para poder enviar a la aplicacion al escritorio dos:
+
+wmctrl -r pluma -t 1
+
+Ahora que está comprendido esto hay que hacer el script:
+
+#!/bin/bash
+alarm-clock-applet &
+dolphin4 &
+chromium &
+gimp &
+xfce4-terminal &
+sleep 15
+
+wmctrl -r Alarmas -t 1
+wmctrl -r "Programa de manipulación de imágenes de GNU" -t 1
+wmctrl -r Terminal -t 1
+
+#foco en la aplicación Dolphin
+wmctrl -a Dolphin 
+
+Ayuda de uso, en este ejemplo
+Sólo quiero enviar tres aplicaciones al escritorio dos
+El comando Alarmas lo pongo en vez de poner alarm-clock-applet
+porque aunque siendo este el nombre para lanzar desde la terminal a
+esa aplicación el programa wmctrl no lo reconoce sino al nombre
+que aparece en la ventana del programa, también para mover al
+espacio de trabajo 2 a Gimp debo poner en la terminal gimp
+para que se cargue al inicio del sistema operativo pero
+en wmctrl así "Programa de manipulación de imágenes de GNU"
+porque ese es el nombre que aparece en la ventana
+Lo mismo sucede con xfce4-terminal, es Terminal el nombre correcto
+Nota: Estoy usando Gimp desde un PPA y aparece con el nombre
+así de largo, creo que recuerdo que el Gimp que viene por defecto
+tiene el nombre más pequeño.
+
+Y por ultimo para hacer foco en una aplicación determinada
+ese comando -a de wmctrl es para que uno quede en esa aplicación
+y poder trabajar allí, ustedes pueden cambiar de aplicación
+yo puse Dolphin, ustedes si desean pueden borrarla y poner
+a Chromium, y si no quieren que aparezca ninguna ponganle
+el signo # al inicio para desactivarla, así:
+#wmctrl -a Dolphin
+
+Por ultimo diferencien bien que en los primeros comandos que
+son para lanzar las aplicaciones va al final este simbolo &
+pero wmctrl no lo utiliza
+
+
+Nota 1: El programa wmctrl sólo detecta a una ventana, si tienes dos instancias de la misma aplicación en dos diferentes espacios de trabajo el programa no funcionará 
+
+Nota 2: Debes saber cómo guardar el script en tu home y añadirlo a los programas que se cargan al inicio, depende de tu distribución encontrarás opciones diferentes
+
+CONSULTAS
+Para saber cómo encontrar el escritorio donde uno está
+https://askubuntu.com/questions/41093/is-there-a-command-to-go-a-specific-workspace
+
+Para saber como usar wmctrl, cómo crear un script para que se inicie desde el arranque
+https://unix.stackexchange.com/questions/27050/how-to-start-an-application-on-a-different-workspace

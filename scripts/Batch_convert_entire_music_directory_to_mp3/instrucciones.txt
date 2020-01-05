@@ -1,0 +1,16 @@
+
+ Batch convert entire music directory to 320kbps MP3
+
+http://ubuntuforums.org/showthread.php?t=1658680
+
+ Re: Batch convert entire music directory to 320kbps MP3
+
+I was trying to upgrade my music a while back, and needed to find low bitrate files, compare bitrates of an album recorded in ogg vs mp3, etc.
+
+I ended up writing a script that adds the bitrate to the filename so you know by just looking at the filename if you have a better quality recording or if you want to keep it.
+
+Here is my thread as I figured it out: here.
+
+I never really finished it for all of my goals, but it handled 98% of my mp3 and ogg collection.
+
+Here it the latest version if anyone is interested. 

@@ -1,0 +1,61 @@
+ 
+
+
+
+Explicación.- En realidad en los repositorios de las distribuciones Linux si esta, ejemplo:
+
+
+
+https://packages.ubuntu.com/mono-complete
+https://packages.debian.org/buster/mono-complete
+http://packages.deepin.com/deepin/pool/main/m/mono/
+https://apps.fedoraproject.org/packages/mono-complete
+https://software.opensuse.org/package/mono-complete
+
+
+Ejemplo, pongo en 
+
+packages.ubuntu.com
+
+la palabra: "ffmpegthumbs" y me aparece así:
+
+https://packages.ubuntu.com/search?keywords=ffmpegthumbs&searchon=names&suite=all&section=all
+
+y como veo que si están esos paquetes la pongo así:
+
+https://packages.ubuntu.com/ffmpegthumbs
+https://packages.debian.org/ffmpegthumbs
+
+Esos paquetes están con esos nombres a esta fecha 20191102 en los repositorios de Ubuntu:
+
+https://packages.ubuntu.com/kde-baseapps
+https://packages.ubuntu.com/kde-l10n-es  (solo hasta disco)
+https://packages.ubuntu.com/konsole
+https://packages.ubuntu.com/kde-cli-tools
+https://packages.ubuntu.com/kio-extras
+https://packages.ubuntu.com/kde-runtime (solo hasta disco)
+https://packages.ubuntu.com/ffmpegthumbs
+
+Nota: Para Ubuntu los paquetes que sólo estan en disco habrá luego que buscar cual es su respectivo reemplazo para que funcione bien Dolphin.
+
+Esos paquetes están con esos nombres a esta fecha 20191102 en los repositorios de Debian en la rama estable e inestable
+
+https://packages.debian.org/kde-baseapps
+https://packages.debian.org/kde-l10n-es
+https://packages.debian.org/konsole
+https://packages.debian.org/kde-cli-tools
+https://packages.debian.org/kio-extras
+https://packages.debian.org/kde-runtime
+https://packages.debian.org/ffmpegthumbs
+
+
+
+https://packages.ubuntu.com/ffmpegthumbnailer
+https://packages.debian.org/ffmpegthumbnailer
+https://software.opensuse.org/package/ffmpegthumbnailer
+
+En fedora no está:
+https://apps.fedoraproject.org/packages/ffmpegthumbnailer
+
+https://facilitarelsoftwarelibre.blogspot.com/2018/05/no-aparece-vista-previaminiaturathumbna.html
+

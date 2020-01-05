@@ -1,0 +1,26 @@
+Descarga de WPS Office para Linux
+http://wps-community.org/download.html
+
+WPS es un por decirlo así Clon de Microsoft Office que los Chinos hicieron, lo estoy usando para algunas cosas acá en el Linux Ubuntu. Este es el tutorial de cómo ponerlo en español. Este programa es más compatible que LibreOffice con los archivos de Microsoft Office, además permite el insertar varias imágenes o archivos al mismo tiempo, y otras cosas. Pero igual en LibreOffice hay cosas que este no puede hacer, por eso uso los dos. Si quieres sacar el máximo probecho de edición de documentos en Linux deberías usar ambos.
+
+
+Información de la grabación:
+
+Sistema Operativo:
+UbuntuStudio 17.04 de 32 bits customizado (XFCE por defecto como gestor de escritorio, añadido un panel extra a la izquierda y el de arriba reducido)
+
+Grabador de Escritorio:
+Vokoscreen
+
+Zoom:
+Compiz como gestor de ventanas de composición
+https://facilitarelsoftwarelibre.blogspot.com/2017/02/zoom-sincronizacion-del-raton-en-compiz.html
+
+
+
+tags
+
+WPS Office, language, idioma, cambiar, seleccionar, español, interfaz, seguir configuración regional del sistema, paquetes del idioma en linea, Ubuntu, Xubuntu, Edubuntu, Kubuntu, Linux Mint, Mageia, Red Hat, Centos, Debian, oneSUSE, Deepin Linux, Fedora, Zorin, elementary, Solus, PCLinuxOS, Arch, Kali, 
+
+
+

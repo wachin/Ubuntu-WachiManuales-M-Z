@@ -1,0 +1,34 @@
+Commit Log for Sat Dec 19 15:40:15 2015
+
+
+Actualizó los siguientes paquetes:
+ardour (1:4.4.446+r14245.27~ubuntu15.10.1) to 1:4.4.446+r14248.27~ubuntu15.10.1
+breeze (4:5.4.2-0ubuntu2) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+breeze-cursor-theme (4:5.4.2-0ubuntu2) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+breeze-icon-theme (4:5.4.2-0ubuntu2) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+calf-plugins (0.0.60+r1673.2~ubuntu15.10.1) to 0.0.60+r1674.2~ubuntu15.10.1
+fonts-oxygen (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+kde-config-gtk-style (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+kde-config-gtk-style-preview (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+kde-style-breeze (4:5.4.2-0ubuntu2) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+kde-style-breeze-qt4 (4:5.4.2-0ubuntu2) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+kde-style-oxygen-qt4 (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+khelpcenter (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+kwayland-data (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+kwayland-integration (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+kwin-style-breeze (4:5.4.2-0ubuntu2) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+libkdecorations2-5v5 (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+libkdecorations2private5v5 (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+libkf5waylandclient5 (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+linux-headers-lowlatency (4.2.0.21.23) to 4.2.0.22.24
+linux-image-lowlatency (4.2.0.21.23) to 4.2.0.22.24
+linux-libc-dev (4.2.0-21.25) to 4.2.0-22.27
+linux-lowlatency (4.2.0.21.23) to 4.2.0.22.24
+qml-module-qtquick-controls-styles-breeze (4:5.4.2-0ubuntu2) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+systemsettings (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+ttf-oxygen-font-family (4:5.4.2-0ubuntu1) to 4:5.4.3-0ubuntu1~ubuntu15.10~ppa1
+
+Instaló los siguientes paquetes:
+linux-headers-4.2.0-22 (4.2.0-22.27)
+linux-headers-4.2.0-22-lowlatency (4.2.0-22.27)
+linux-image-4.2.0-22-lowlatency (4.2.0-22.27)

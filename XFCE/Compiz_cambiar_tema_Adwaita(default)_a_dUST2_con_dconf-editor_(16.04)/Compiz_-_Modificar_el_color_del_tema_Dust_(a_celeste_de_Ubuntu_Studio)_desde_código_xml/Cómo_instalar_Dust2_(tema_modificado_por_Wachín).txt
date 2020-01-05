@@ -1,0 +1,44 @@
+
+
+SIN ROOT
+
+En HOME cree la carpeta:
+
+.themes
+
+y dentro ponga a Dust2
+
+luego elijala en:
+
+"Administrador de Configuración" en "Apariencia" en la pestaña "Estilo" escoja: "Dust2"
+
+y en:
+
+"Administrador de Configuración" en "Gestor de Ventanas" en la pestaña "Estilo" escoja: "Dust2"
+
+
+CON ROOT
+
+En la terminal ponga:
+
+sudo thunar
+
+Y busuqe la carpeta: 
+
+Dust2
+
+y peguela en:
+
+/usr/share/themes/
+
+luego elijala en:
+
+"Administrador de Configuración" en "Apariencia" en la pestaña "Estilo" escoja: "Dust2"
+
+y en:
+
+"Administrador de Configuración" en "Gestor de Ventanas" en la pestaña "Estilo" escoja: "Dust2"
+
+
+-Wachín
+2018-01-12

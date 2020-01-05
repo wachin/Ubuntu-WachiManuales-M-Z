@@ -1,0 +1,13 @@
+
+E: /var/cache/apt/archives/jwm-menu-all_2.0.0ubuntu2-34~ubuntu16.04.1_all.deb: intentando sobreescribir `/usr/share/man/man1/jwm-menu.1.gz', que está también en el paquete jwm-menu 3.0.1ubuntu1+99~ubuntu14.04.1 
+
+
+solucion es no instalar los paquetes
+
+jwm-menu-all
+
+y 
+
+jwm-menu
+
+al mismo tiempo

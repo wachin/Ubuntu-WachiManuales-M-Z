@@ -1,0 +1,61 @@
+
+configuration - Remap shortcut to a single key cannot be used - Ask Ubuntu
+http://askubuntu.com/questions/249760/remap-shortcut-to-a-single-key-cannot-be-used
+
+Explanation: Now what does it actually do? Say, you press Page Up, your computer recognizes this as the Prior key (you can check this using 
+
+xev | grep key
+
+wachin@wachin-Inspiron-1750:~$ xev | grep key
+state 0x0, keycode 51 (keysym 0x7d, braceright), same_screen YES,
+state 0x0, keycode 48 (keysym 0x7b, braceleft), same_screen YES,
+
+Estas son las teclas que yo quiero remapear:
+keycode 51 (keysym 0x7d, braceright)
+keycode 48 (keysym 0x7b, braceleft)
+
+la falla no se cómo reemplazarlas. Ahora intentaré con F12 e Insert que son:
+
+    state 0x0, keycode 112 (keysym 0xff55, Prior), same_screen YES,
+    state 0x0, keycode 117 (keysym 0xff56, Next), same_screen YES,
+
+
+Remap keyboard keys for Ubuntu | Fascinating Captain
+http://www.fascinatingcaptain.com/howto/remap-keyboard-keys-for-ubuntu/
+
+Nota; La ruta verdadera es: /usr/share/X11/xkb/symbols/
+       
+Bueno aquí tengo las teclas pagina arriba pagina abajo, que son Prior y Next (esto lo encontré con xev)       
+       
+keycode 112 = Prior NoSymbol Prior
+keycode 117 = Next NoSymbol Next
+
+Ahora busco en el manual de fascinatigcaptain lo que yo quiero reemplazar con pagina arriba abajo
+
+key <FK09> { [XF86AudioLowerVolume] };
+key <FK10> { [XF86AudioRaiseVolume] };
+
+
+Yo he ingresado según el manual de fascinatigcaptain a /usr/share/X11/xkb/symbols/
+
+sudo gedit /usr/share/X11/xkb/symbols/latam
+
+con sudo thunar al archivo latam y le añadí solo esas dos lineas, esto lo vi y entendí aquí 
+
+XKB Configuration Files http://www.charvolant.org/~doug/xkb/html/node5.html#SECTION00053530000000000000) 
+
+
+    key <AC11> { [Prior] };
+    key <BKSL>	{ [Next ]	};
+
+Nota: Mi teclado es raro, este logitech K400r porque no tiene la tecla AC12 sino que está la que sigue y se llama así mismo BKSL y yo creía que esa era ENTER pero a prueba y error me dí cuenta que era esa y así fué
+    
+How to load changes
+https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions?action=show&redirect=Howto:+Custom+keyboard+layout+definitions    
+ 
+To load changes to the layouts menu simply close out of gnome-keyboard-preferences and reload, relaunching the windows manager should not be necessary.
+
+There is a change in Ubuntu version (13.10) and later versions which causes the keyboard settings cache to not refresh after files in "/usr/share/X11/xkb/symbols" directory are modified. It looks like changes just don't get applied. To force the cache refreshing a one should delete *.xkm files from "/var/lib/xkb", or enter into the console:
+
+sudo dpkg-reconfigure xkb-data
+

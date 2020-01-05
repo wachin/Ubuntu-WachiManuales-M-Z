@@ -1,0 +1,24 @@
+
+
+Cómo instalar los temas de antiX para Fluxbox Ubuntu
+
+
+sudo cp /usr/share/fluxbox/styles/ubuntu-light /usr/share/fluxbox/
+sudo rm -fr /usr/share/fluxbox/styles/*
+cd /tmp
+wget -c http://repo.antixlinux.com/stretch/pool/main/f/fluxbox-themes-antix/fluxbox-themes-antix_0.1.8_all.deb
+sudo dpkg -i fluxbox-themes-antix_*.deb
+cd
+sudo cp /usr/share/fluxbox/ubuntu-light /usr/share/fluxbox/styles/
+exit
+
+Ahora si seleccionar los temas en Fluxbox con clic derecho en el escritorio
+
+CONSULTAS:
+
+
+
+
+
+
+

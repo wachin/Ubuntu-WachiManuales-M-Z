@@ -1,0 +1,18 @@
+
+Integrate PeaZip into Nautilus Context Menu in Ubuntu 13.10/13.04
+http://ubuntuhandbook.org/index.php/2013/10/integrate-peazip-into-nautilus-ubuntu/
+
+Want to use ‘Extract Here’, ‘Add to Archive’, and so forth with PeaZip in Nautilus’ context menu? Well, here’s how to well integrate PeaZip into Ubuntu 13.10 Saucy & Ubuntu 13.04 Raring via Nautilus scripts.
+
+integrate peazip into nautilus
+integrate peazip into nautilus
+Because PeaZip for Linux comes default with the scripts, all you need to do is move them into the correct location.
+
+To get started, press Ctrl+Alt+T on your keyboard to open terminal. When it opens, follow the steps below:
+
+1. For installed version, the PeaZip should be installed under /usr/local/share/PeaZip. Run command to move the scripts:
+
+cd /usr/local/share/PeaZip/FreeDesktop_integration/nautilus-scripts/Archiving/PeaZip/
+
+sudo mv * ~/.local/share/nautilus/scripts
+2. For portable version, just go to the PeaZip directory “FreeDesktop_integration/nautilus-scripts/Archiving/PeaZip/”, copy and paste all scripts to “user HOME/.local/share/nautilus/scripts”. 

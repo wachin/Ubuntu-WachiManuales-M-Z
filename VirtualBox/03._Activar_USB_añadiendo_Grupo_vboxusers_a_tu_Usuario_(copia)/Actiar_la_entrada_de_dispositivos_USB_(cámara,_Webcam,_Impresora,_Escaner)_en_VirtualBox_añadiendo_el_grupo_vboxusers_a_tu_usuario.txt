@@ -1,0 +1,21 @@
+ 
+
+ Actiar la entrada de dispositivos USB (cámara, Webcam, Impresora, Escaner, celular/mobil) en VirtualBox añadiendo el grupo vboxusers a tu usuario
+ 
+ Si usted instala un  sistema operativo Windows o Linux en VirtualVox (Guest/Invitado) en un ordenador que tiene un sistema operativo Linux (Host/Anfitrión)  no podrá acceder a ningún dispositivo USB conectado con el cable USB al ordenador, como puede ser una cámara, Webcam, Impresora, Escaner, celular/mobil, etc. Esto es debido a que Linux es más seguro que Windows y por defecto es dificil que los atacantes cibernéticos puedan acceder a el incluso desde VirtualBox hay que darle permisos especiales para poder hacerlo
+ 
+ INSTRUCCIONES
+ Hay que poner el siguiente comando en una terminal, pero antes de acerlo observelo:: 
+ 
+ sudo usermod -a -G vboxusers usuario
+ 
+ donde "usuario" es donde debe poner el nombre del usuario suyo,  en mi caso es:
+ 
+ sudo usermod -a -G vboxusers wachin
+ 
+ y allí si ejecutarlo, ponga su contraseña.
+ 
+ Reiniciar el ordenador y cuando entre en la máquina virtual allí si ya podrá acceder a los dispositivos USB
+ 
+ 
+ 

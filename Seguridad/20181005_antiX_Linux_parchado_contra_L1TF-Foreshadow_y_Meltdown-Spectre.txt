@@ -1,0 +1,12 @@
+
+
+
+Blog – antiX Linux
+https://antixlinux.com/blog/
+
+So what has changed since antiX-17.1 release?
+
+* new 4.9.126 kernel patched for L1TF/Foreshadow and Meltdown/Spectre exploits
+* all packages upgraded to Debian 9.5
+* eudev updated to 3.6
+* firefox-esr upgraded to 60.2.2 (Quantum)

@@ -1,0 +1,20 @@
+
+POSIBLE SOLUCIÓN 1
+
+(Deepin) .docx shown as .zip (icon) - Support for Community Editions - Manjaro Linux Forum
+https://forum.manjaro.org/t/deepin-docx-shown-as-zip-icon/43129
+
+leledumbo
+Mar '18
+Do you have wps-office installed? If yes, you can move or delete these:
+
+/usr/share/mime/packages/wps-office-et.xml
+/usr/share/mime/packages/wps-office-wpp.xml
+/usr/share/mime/packages/wps-office-wps.xml
+they seem to have invalid content to identify a doc(x) document.
+
+/usr/share/mime/packages/wps-fallidos/
+
+ 
+POSIBLE SOLUCIÓN 2
+

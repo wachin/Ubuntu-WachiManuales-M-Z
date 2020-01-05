@@ -1,0 +1,69 @@
+
+**************************************
+Primero hay que detener los servicios:
+**************************************
+
+SNAPD
+sudo systemctl stop snapd.autoimport.service                   
+sudo systemctl stop snapd.core-fixup.service                    
+sudo systemctl stop snapd.seeded.service                        
+sudo systemctl stop snapd.service  
+sudo systemctl stop snapd.system-shutdown.service     
+sudo systemctl stop snapd.failure.service   
+sudo systemctl stop snapd.snap-repair.service   
+
+BRAILE
+sudo systemctl stop brltty.service
+sudo systemctl stop brltty-udev.service
+
+VIRTUALBOX
+sudo systemctl stop vboxweb.service            
+sudo systemctl stop virtualbox.service   
+
+PPPD-DNS.SERVICE.- Es una reliquia del pasado oscuro. Si usa Internet de acceso telefónico, guárdelo. De lo contrario, no lo necesitas.
+sudo systemctl stop pppd-dns.service 
+
+BLUETOOTH
+sudo systemctl stop bluetooth.service
+
+
+***************************
+Luego hay que desabilitar:
+***************************
+
+SNAPD
+sudo systemctl disable snapd.autoimport.service                   
+sudo systemctl disable snapd.core-fixup.service                    
+sudo systemctl disable snapd.seeded.service                        
+sudo systemctl disable snapd.service  
+sudo systemctl disable snapd.system-shutdown.service  
+sudo systemctl disable snapd.failure.service
+sudo systemctl disable snapd.snap-repair.service 
+
+BRAILE
+sudo systemctl disable brltty.service
+sudo systemctl disable brltty-udev.service
+
+VIRTUALBOX
+sudo systemctl disable vboxweb.service            
+sudo systemctl disable virtualbox.service   
+
+PPPD-DNS.SERVICE.- Es una reliquia del pasado oscuro. Si usa Internet de acceso telefónico, guárdelo. De lo contrario, no lo necesitas.
+sudo systemctl disable pppd-dns.service 
+
+BLUETOOTH
+sudo systemctl disable bluetooth.service
+
+*************************
+Para volverlos a activar
+*************************
+
+VIRTUALBOX
+sudo systemctl enable vboxweb.service   
+sudo systemctl start vboxweb.service   
+sudo systemctl enable virtualbox.service  
+sudo systemctl start virtualbox.service  
+
+
+Proyecto Facilitar el Software Libre en el Ecuador: Cómo desactivar(deshabilitar) o activar(habilitar) servicios al inicio de sesión en Ubuntu 16.04, 18.04
+https://facilitarelsoftwarelibre.blogspot.com/2018/09/como-desactivar-servicios-que-no.html

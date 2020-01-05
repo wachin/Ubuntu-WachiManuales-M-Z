@@ -1,0 +1,17 @@
+
+
+
+Михаил Новоселов
+Archivos adjuntos
+jue., 4 abr. 19:04 (hace 7 días)
+para mí
+
+   
+Traducir mensaje
+Desactivar para: inglés
+I have translated PulseJoin into English: https://gitlab.com/mikhailnov/pulsejoin/tree/master/po
+
+I have started a spanish localization by copying ru.po and editing it based on what you have sent to me, but right now I will go to sleep because it is too late. The file is attached. I would appreciate if you either edit it and send back to me or make a merge request on Gitlab.
+
+Thanks.
+04.04.2019 21:16, Михаил Новоселов пишет:

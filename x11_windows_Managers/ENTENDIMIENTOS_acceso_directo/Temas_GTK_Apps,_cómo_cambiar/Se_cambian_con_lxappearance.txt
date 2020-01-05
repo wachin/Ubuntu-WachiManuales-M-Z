@@ -1,0 +1,24 @@
+
+
+Se pone en la terminal
+
+lxappearance
+
+allí en la primer pestaña que por defecto aparece se puede elegir entre los temas instalados
+
+Un tema importante para mi es 
+
+Do You Like Dark Themes
+http://www.noobslab.com/2015/06/do-you-like-dark-themes-if-yes-then-use.html
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+
+En synaptic instalar todos. 
+
+En  Ubuntu 16.04 el mejor tema oscuro es:
+
+arc-theme
+
+con sus temas Arc-Dark (varios estilos)
+
+ 

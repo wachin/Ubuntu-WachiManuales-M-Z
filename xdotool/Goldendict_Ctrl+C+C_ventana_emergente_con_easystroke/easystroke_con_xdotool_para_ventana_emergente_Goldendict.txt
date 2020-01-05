@@ -1,0 +1,18 @@
+
+easystroke con xdotool para ventana emergente Goldendict
+
+Añadir esta secuencia como comando
+
+xdotool key ctrl+c ctrl+c
+
+How to simulate key press and mouse movement in Linux - Xmodulo
+http://xmodulo.com/simulate-key-press-mouse-movement-linux.html
+
+un análisis de:
+http://askubuntu.com/questions/232363/series-of-task-to-be-done-after-a-single-stroke-in-easystroke-gesture-recognit
+
+y aquí vi que se pueden poner dos atajos a xdotool en la linea de comandos
+https://www.semicomplete.com/projects/xdotool/xdotool.xhtml
+
+
+

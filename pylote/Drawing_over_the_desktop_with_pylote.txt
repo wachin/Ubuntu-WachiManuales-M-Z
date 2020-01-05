@@ -1,0 +1,23 @@
+
+Drawing over the desktop with pylote
+
+To run Pylote you need first python (greater than or equal to 2.6) installed by default in Ubuntu, and python-qt4.
+
+1) Open a Terminal window and type:
+
+sudo apt-get install python-qt4
+2) Download the pylote.tar.gz file. (Pylote install GNU / Linux)
+
+3) uncompress the tar.gz file
+
+tar xvzf /path/to/pylote.tar.gz
+
+4) Enter in the pylote folder and make sure the file pylote.pyw has execute perms.
+
+cd /path/to/folder/pylote
+chmod 755 pylote.pyw
+5) Run the pylote app with double click in the pylote.pyw file
+
+
+xorg - Drawing over the desktop - Ask Ubuntu
+https://askubuntu.com/questions/328543/drawing-over-the-desktop

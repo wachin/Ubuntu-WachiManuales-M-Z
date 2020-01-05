@@ -1,0 +1,16 @@
+
+
+
+
+
+
+ubuntustudio-default-settings ubuntustudio-controls ubuntustudio-desktop
+
+elimino:
+
+xubuntu-default-settings
+
+
+elimino:
+
+.config/menus

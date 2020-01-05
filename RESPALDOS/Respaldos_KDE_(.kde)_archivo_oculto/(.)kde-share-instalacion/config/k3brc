@@ -1,0 +1,194 @@
+[Devices]
+HL-DT-ST DVD+-RW GT30N=4234,4234
+
+[External Programs]
+cdrdao default=/usr/bin/cdrdao
+cdrdao last seen newest version=1.2.3
+cdrdao user parameters=
+cdrecord default=/usr/bin/wodim
+cdrecord last seen newest version=1.1.11
+cdrecord user parameters=
+dvd+rw-format default=/usr/bin/dvd+rw-format
+dvd+rw-format last seen newest version=7.1
+dvd+rw-format user parameters=
+eMovix user parameters=
+growisofs default=/usr/bin/growisofs
+growisofs last seen newest version=7.1
+growisofs user parameters=
+mkisofs default=/usr/bin/genisoimage
+mkisofs last seen newest version=1.1.11
+mkisofs user parameters=
+normalize-audio default=/usr/bin/normalize-audio
+normalize-audio last seen newest version=0.7.7
+normalize-audio user parameters=
+readcd default=/usr/bin/readom
+readcd last seen newest version=1.1.11
+readcd user parameters=
+search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/opt/schily/bin/,/sbin
+sox default=/usr/bin/sox
+sox last seen newest version=14.4.1
+sox user parameters=
+transcode default=/usr/bin/transcode
+transcode last seen newest version=1.1.7
+transcode user parameters=
+vcdxbuild default=/usr/bin/vcdxbuild
+vcdxbuild last seen newest version=0.7.24
+vcdxbuild user parameters=
+vcdxminfo default=/usr/bin/vcdxminfo
+vcdxminfo last seen newest version=0.7.24
+vcdxminfo user parameters=
+vcdxrip default=/usr/bin/vcdxrip
+vcdxrip last seen newest version=0.7.24
+vcdxrip user parameters=
+
+[General Options]
+Allow overburning=false
+Fifo buffer=4
+Force unsafe operations=false
+Last system check version=2.0.3
+Lock Panels=true
+Manual buffer size=false
+Navigator breadcrumb mode=true
+No cd eject=false
+Show Document Header=true
+Temp Dir=/tmp/kde-wachin/
+action dialog startup settings=1
+burnfree=true
+check system config=true
+config version=2.0.3
+current theme=quant
+current_writer=/dev/sr0
+
+[KFileDialog Settings]
+Height 768=600
+Height 900=600
+Recent Files[$e]=Hiren's.BootCD.15.2.iso,$HOME/Descargas/Win 7 Pro Es SP1 Dic 2015/Win7ProSp1x64_09-12-2015.iso,$HOME/Descargas/ubuntustudio-16.04.2-dvd-amd64.iso
+Recent URLs[$e]=$HOME/Descargas/,$HOME/Descargas/Win 7 Pro Es SP1 Dic 2015/
+Width 1280=960
+Width 1600=960
+
+[OSD Position]
+Position=1406,455
+Screen=0
+
+[TipOfDay]
+RunOnStart=false
+
+[Welcome Widget]
+welcome_actions=file_new_data,file_new_audio,tools_copy_medium
+
+[file view]
+Decoration position=0
+Previews=false
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+View Style=Simple
+last url[$e]=/media/wachin/
+listViewIconSize=0
+show bookmarks=false
+
+[image writing]
+last written image[$e]=$HOME/Descargas/ubuntustudio-16.04.2-dvd-amd64.iso
+recent images[$e]=$HOME/Descargas/Win 7 Pro Es SP1 Dic 2015/Win7ProSp1x64_09-12-2015.iso,$HOME/Descargas/ubuntustudio-16.04.2-dvd-amd64.iso,/media/wachin/ToshibaHD/backup jc/kali-linux-2016.2-i386.iso,$HOME/Descargas/Hirens.BootCD.15.2/Hiren's.BootCD.15.2.iso
+
+[last used Formatting and Erasing]
+force=true
+quick format=false
+writer_device=/dev/sr0
+writing_app=Auto
+writing_mode=auto
+writing_speed=0
+
+[last used default audio settings]
+cd_text=false
+copies=2
+hide_first_track=false
+ignore read errors=true
+image path[$e]=/tmp/kde-wachin/
+normalize-audio=false
+on_the_fly=true
+only_create_image=false
+paranoia mode=0
+read retries=5
+remove_image=true
+simulate=false
+writer_device=/dev/sr0
+writing_app=Auto
+writing_mode=auto
+writing_speed=0
+
+[last used default data settings]
+abstract file=
+allow 31 character filenames=true
+allow beginning period=false
+allow lowercase filenames=false
+allow multiple dots=false
+application id=K3B THE CD KREATOR (C) 1998-2010 SEBASTIAN TRUEG AND MICHAL MALEK
+bibliograph file=
+copies=1
+copyright file=
+create TRANS_TBL=false
+data_track_mode=auto
+discard broken symlinks=false
+discard symlinks=false
+do not cache inodes=true
+do not import last session=false
+follow symbolic links=false
+hide TRANS_TBL=false
+image path[$e]=/tmp/kde-wachin/Eucar de Magnesio.iso
+iso_level=3
+joliet=true
+joliet long=true
+max ISO filenames=false
+multisession mode=auto
+no iSO translation=false
+omit trailing period=false
+omit version numbers=false
+on_the_fly=true
+only_create_image=false
+preparer=
+preserve file permissions=false
+publisher=
+relaxed filenames=false
+remove_image=true
+rock_ridge=true
+simulate=false
+system id=LINUX
+udf=false
+untranslated filenames=false
+verify data=false
+volume id=Eucar Magnesio
+volume set id=
+volume set number=1
+volume set size=1
+white_space_treatment=noChange
+whitespace replace string=_
+writer_device=/dev/sr0
+writing_app=Auto
+writing_mode=auto
+writing_speed=0
+
+[last used image writing]
+copies=1
+data_track_mode=auto
+image path[$e]=$HOME/Descargas/ubuntustudio-16.04.2-dvd-amd64.iso
+image type=auto
+multisession=false
+on_the_fly=true
+simulate=false
+verify_data=false
+writer_device=/dev/sr0
+writing_app=Auto
+writing_mode=auto
+writing_speed=0
+
+[main_window_settings]
+Height 768=769
+Height 900=901
+State=AAAA/wAAAAD9AAAAAgAAAAIAAAZAAAABfvwBAAAAAvsAAAAWAGQAaQByAHQAcgBlAGUAZABvAGMAawEAAAAAAAAA7AAAAE4BAAAD+wAAABgAYwBvAG4AdABlAG4AdABzAGQAbwBjAGsBAAAA7QAABVMAAAEgAQAAAwAAAAMAAAZAAAABf/wBAAAAAfsAAAAYAGQAbwBjAHUAbQBlAG4AdABkAG8AYwBrAQAAAAAAAAZAAAACegEAAAMAAAZAAAAAAAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1280=1281
+Width 1600=1601

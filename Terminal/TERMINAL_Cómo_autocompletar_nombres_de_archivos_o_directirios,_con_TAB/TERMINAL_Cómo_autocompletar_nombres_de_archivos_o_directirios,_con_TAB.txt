@@ -1,0 +1,27 @@
+
+
+
+
+Cuando esté usted en la terminal ponga TAB
+
+hola cómo estás 
+
+
+
+
+
+
+
+
+
+
+CONSULTAS:
+
+Autocompletado en Bash: encontrar y ejecutar comandos rápidamente - Blog Carrera Linux
+https://blog.carreralinux.com.ar/2016/12/autocompletado-en-bash/
+
+The Best Keyboard Shortcuts for Bash (aka the Linux and macOS Terminal)
+https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/
+
+Command-line completion (tab completion) - YouTube
+https://www.youtube.com/watch?v=k5A12buZ8To 

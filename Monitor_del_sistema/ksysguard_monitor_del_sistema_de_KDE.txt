@@ -1,0 +1,8 @@
+
+KDE - KSysGuard - System Monitor
+https://www.kde.org/applications/system/ksysguard/
+
+
+KSysGuard is the Plasma Task and Performance Monitor.
+
+It features a client/server architecture that allows monitoring of local as well as remote hosts. The graphical front end uses so-called sensors to retrieve the information it displays. A sensor can return simple values or more complex information like tables. For each type of information, one or more displays are provided. Displays are organized in worksheets that can be saved and loaded independently from each other. So, KSysGuard is not only a simple task manager but also a very powerful tool to control large server farms. 

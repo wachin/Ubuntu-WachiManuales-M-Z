@@ -1,0 +1,27 @@
+Agregar llaves de repositorios apt en Ubuntu
+https://blog.pcollaog.cl/2009/04/26/agregar-llaves-de-repositorios-apt-en-ubuntu/
+
+Según la entrada aprendí que si me salía así:
+
+W: Error de GPG: http://ppa.launchpad.net/torios-dev/torios-core/ubuntu xenial InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 9F26B5EFBDA9DA1A
+
+debo arreglarlo así y ponerlo en la terminal
+
+sudo gpg --keyserver keyserver.ubuntu.com --recv 9F26B5EFBDA9DA1A
+sudo gpg --export --armor 9F26B5EFBDA9DA1A | sudo apt-key add -
+
+
+Eso me pasó porque había conseguido de torios esto:
+
+deb http://ppa.launchpad.net/torios-dev/torios-core/ubuntu xenial main
+# deb-src http://ppa.launchpad.net/torios-dev/torios-core/ubuntu xenial main
+
+el cual lo había puesto en un archivo:
+
+torios-dev-torios-core-jessie.list
+
+en:
+
+/etc/apt/sources.list.d/
+
+

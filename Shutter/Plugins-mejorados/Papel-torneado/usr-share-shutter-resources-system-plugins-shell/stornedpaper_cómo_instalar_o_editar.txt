@@ -1,0 +1,9 @@
+
+
+Para instalar:
+
+sudo cp /home/wachin/Dropbox/UbuntuManuales/Shutter/Plugins-mejorados/Papel-torneado/usr-share-shutter-resources-system-plugins-shell/sptornedpaper/sptornedpaper /usr/share/shutter/resources/system/plugins/shell/sptornedpaper/sptornedpaper
+
+Para editar:
+
+gedit /home/wachin/Dropbox/UbuntuManuales/Shutter/Plugins-mejorados/Papel-torneado/usr-share-shutter-resources-system-plugins-shell/sptornedpaper/sptornedpaper

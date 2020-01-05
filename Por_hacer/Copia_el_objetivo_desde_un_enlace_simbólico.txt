@@ -1,0 +1,27 @@
+
+Esto sirve para copiar todos los archivos que tengan enlaces simbólicos a un lugar específico
+
+Ejemplo: Tengo una lista de accesos directos a canciones en mp3, esa lista de enlaces simbólicos la puedo pasar con estos comandos a un lugar por ejemplo un pendrive
+
+Copy the target from a symlink?
+https://www.linuxquestions.org/questions/linux-newbie-8/copy-the-target-from-a-symlink-522664/
+
+
+
+cd /dir/with/all/your/symlinks
+for f in *; do
+    orig=$(readlink "$f")
+    orig_basename="${orig##*/}"
+    cp "$f" "/path/to/put/files/$orig_basename"
+done
+
+
+WachiEjemplo:
+
+cd /home/wachin/Dropbox/Musica/Ensayos-Iglesia/
+for f in *; do
+    orig=$(readlink "$f")
+    orig_basename="${orig##*/}"
+    cp "$f" "/home/wachin/PDF/$orig_basename"
+done
+

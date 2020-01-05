@@ -1,0 +1,7 @@
+
+
+al instalar en synaptic encfs aparece esta ventana que dice:
+
+Según la auditoría de seguridad de Taylor Hornby (Defuse Security), la implementación actual de EncFS es vulnerable o potencialmente vulnerable a varios tipos de ataque. Por ejemplo, un atacante con acceso de lectura/escritura a los datos cifrados podría reducir la complejidad del descifrado de los datos cifrados posteriormente sin que el usuario legítimo se dé cuenta o podría utilizar un análisis temporal para deducir la información.
+
+Hasta que estos problemas no se resuelvan, no se debería considerar a EncFS como una opción segura para almacenar datos sensibles en situaciones donde este tipo de ataques sean posibles. 

@@ -1,0 +1,12 @@
+
+
+
+ahora si descargue de:
+
+https://www.peazip.org/peazip-linux.html
+
+Una vez instalado en su sistema operativo (si no sabe instalar deb puede ver este tutorial: https://facilitarelsoftwarelibre.blogspot.com/2016/09/instalar-paquetes-deb-con-gdebi.html) usted debe abrir el programa buscandolo entre los programas de su sistema operativo y de allí clic en:
+
+File/Open archive
+
+busquen el ejecutable: "TEU - Voces Ivona Español.exe" y abranlon y allí en el programa den clic en el botón "Extract" y en "output" den clic en el botón de los tres puntitos y busquen la carpeta que creamos anteriormente y clic en ella y clic en el botón "Abrir" y allí si clic en "OK"  

@@ -1,0 +1,15 @@
+Commit Log for Sat Dec 19 16:13:10 2015
+
+
+Quitó completamente los siguientes paquetes:
+cinnamon-desktop-data
+cinnamon-translations
+folder-color-switcher
+gir1.2-nemo-3.0
+libcinnamon-desktop4
+libnemo-extension1
+nemo
+nemo-data
+nemo-fileroller
+nemo-folder-color-switcher
+python-nemo

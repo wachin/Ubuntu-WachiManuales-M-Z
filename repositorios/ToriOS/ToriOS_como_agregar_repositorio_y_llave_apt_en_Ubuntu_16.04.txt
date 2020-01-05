@@ -1,0 +1,22 @@
+
+
+Poner en la terminal
+
+sudo gedit /etc/apt/sources.list
+
+allí al final añadir:
+
+
+deb http://ppa.launchpad.net/torios-dev/torios-core/ubuntu xenial main
+# deb-src http://ppa.launchpad.net/torios-dev/torios-core/ubuntu xenial main
+
+guardar, y luego cerrar gedit
+
+Ahora abra una terminal y ponga esto uno por uno:
+
+sudo gpg --keyserver keyserver.ubuntu.com --recv 9F26B5EFBDA9DA1A
+sudo gpg --export --armor 9F26B5EFBDA9DA1A | sudo apt-key add -
+
+listo
+
+

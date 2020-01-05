@@ -1,0 +1,6 @@
+
+
+
+cp -r /opt/kingsoft/wps-office/office6/mui/en_US/templates/presentationdesigns/ ~/.kingsoft/office6/mui/es_ES/templates/presentationdesigns/
+
+

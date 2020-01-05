@@ -1,0 +1,39 @@
+
+
+
+Cómo crear Script para añadir 75Hz en Monitor Externo en Linux
+
+Primero, según esta página:
+
+http://www.arunviswanathan.com/node/53
+
+Ingresé los datos a la terminal:
+
+wachin@wachin-Inspiron-1750:~$ gtf 1024 768 75
+
+  # 1024x768 @ 75.00 Hz (GTF) hsync: 60.15 kHz; pclk: 81.80 MHz
+  Modeline "1024x768_75.00"  81.80  1024 1080 1192 1360  768 769 772 802  -HSync +Vsync
+
+ (wachín, como se observa en el siguiente script ya hecho, he añadido ese 81.00 y más al script según la página de arriba)
+wachin@wachin-Inspiron-1750:~$ xrandr --newmode "1024x768_75.00"  81.80  1024 1080 1192 1360  768 769 772 802  -HSync +Vsync
+wachin@wachin-Inspiron-1750:~$ xrandr --addmode VGA1 1024x768_75.00
+wachin@wachin-Inspiron-1750:~$ xrandr --output VGA1 --mode 1024x768_75.00
+wachin@wachin-Inspiron-1750:~$
+
+Luego de darme cuenta de los valores necesarios para añadir el nuevo modo, esto es lo que pondré en el script:
+
+
+---------------------------------------------------------
+xrandr --newmode "1024x768_75.00"  81.80  1024 1080 1192 1360  768 769 772 802  -HSync +Vsync
+xrandr --addmode VGA1 1024x768_75.00
+xrandr --output VGA1 --mode 1024x768_75.00
+-------------------------------------------------------------
+
+Sistema Operativo: Kbuntu 12.04.2
+
+
+Siguiendo las instrucciones de:
+
+
+
+                   

@@ -1,0 +1,38 @@
+Mejorando la apariencia de e-Sword en iceWM
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+EN PLAYONLINUX 
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+
+en Configuracion de Wine dentro de PlayOnLinux:
+
+En Pestaña integración de escritorio, en "Elemento":
+
+
+Texto de barra de título activa
+Fuente: Roboto BK: 8
+
+Texto del cuadro de dialogo
+Fuente: Roboto BK: 8 
+
+Texto del consejo
+Fuente: Roboto BK: 8
+
+Texto del menú
+Fuente: Roboto BK: 8
+
+Y también allí en la pestaña "Graficos" ponerle en resolución: 140 
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+EN E-SWORD
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+
+En:
+
+Opciones/Fuentes/Fuente Predeterminada: Roboto BK
+Opciones/Fuentes/Tamaño Predeterminado: 11
+Opciones/Fuentes/Editor Font: Roboto BK
+Opciones/Fuentes/Editor Font size: 11
+
+
+Por: Washington Indacochea Delgado 

@@ -1,0 +1,18 @@
+
+
+Establishing connection to pulseaudio please wait
+
+para resolverlo puse esto en la terminal:
+
+pulseaudio --start
+
+para cerrarlo:
+
+pulseaudio --kill
+
+para saber si esta funcionado:
+
+ps -e | grep pulse
+
+PulseAudio
+https://wiki.debian.org/PulseAudio 

@@ -1,0 +1,10 @@
+Create a bootable Windows USB from Ubuntu through WinUSB software.
+https://askubuntu.com/questions/289559/how-can-i-create-a-windows-bootable-usb-stick-with-ubuntu/381560#381560
+
+Ubuntu 12.04 through 15.04
+
+Run the below commands on terminal to install WinUSB from a PPA,
+
+sudo add-apt-repository ppa:colingille/freshlight
+sudo apt-get update
+sudo apt-get install winusb 

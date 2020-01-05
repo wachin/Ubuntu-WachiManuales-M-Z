@@ -1,0 +1,11 @@
+
+14.04 - Is there a Magnifier app for Ubuntu? I want to use a bounding box with the mouse on a part of the screen and magnify it for our eyes to Zoom - Ask Ubuntu
+https://askubuntu.com/questions/609398/is-there-a-magnifier-app-for-ubuntu-i-want-to-use-a-bounding-box-with-the-mouse
+
+kmag
+
+gnome-mag
+
+xzoom 
+sudo apt-get install xzoom
+

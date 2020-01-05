@@ -1,0 +1,78 @@
+Mover, copiar y renombrar directorios en Linux - EDteam blog
+https://ed.team/blog/mover-copiar-y-renombrar-directorios-en-linux
+
+En el desarrollo web es frecuente administrar el servidor usando ssh. Ahora bien, copiar, mover y renombrar directorios (carpetas) desde la linea de comandos es un proceso de rutina pero que puede ser confuso cuando estamos iniciándonos. Así que aquí veremos cómo hacerlo:
+
+Copiar directorios
+Para copiar directorios completos (con todos sus archivos y subcarpetas internas):
+
+cp -r directorio/ ruta_de_destino/nombre_copia
+
+Lo explico:
+
+El comando cp en Linux crea una copia.
+Al escribir cp -r indicamos recursividad, es decir, que haga lo mismo con todos los elementos internos (archivos y subcarpetas)
+El nombre del directorio debe terminar con una barra (/), asi indicamos que se trata de una carpeta. Sin la barra, Linux considera que estamos manejando un archivo y nos dará error.
+Luego de un espacio se escribe el nombre del directorio de destino y su ruta (puede ser relativa al directorio origen o a la raiz)
+Las rutas del directorio de origen y el de destino pueden ser relativas a la raiz o al directorio de trabajo actual.
+Recomendado: Curso Linux desde cero
+
+
+
+Wachiejemplo:
+Esto me funcinó mal:
+
+sudo cp -r /usr/lib/jvm/jre1.8.0_171/lib/desktop/icons/ /usr/share/icons/
+
+me creó una carpeta icons dentro de /usr/share/icons/ es decir así:
+
+/usr/share/icons/icons
+
+lo correcto es así:
+
+sudo cp -r /usr/lib/jvm/jre1.8.0_171/lib/desktop/icons/ /usr/share/
+
+allí si mesclará todo su contendido dentro de la carpeta icons pues ya existe
+
+
+
+
+
+
+
+
+
+
+
+Ejemplos:
+
+Para copiar el directorio fonts al directorio fonts2 en una carpeta por encima de la actual:
+
+cp -r fonts/ ../fonts2
+
+Para copiar el directorio fonts al directorio fonts2 en la misma carpeta
+
+cp -r fonts/ fonts2
+
+Mover directorios
+Para mover directorios la sintaxis es casi la misma, con la diferencia que no se necesita indicar recursividad.
+
+mv directorio ruta_de_destino/nombre_directorio
+Lo explico:
+
+El comando mv mueve un directorio o un archivo (lo elimina de su ubicación original y lo "coloca" en una nueva ubicacion).
+Ejemplo 1 (mover el directorio img a un nivel por encima sin cambiarle el nombre)
+
+mv img ../img
+Ejemplo 2 (mover el directorio img a la carpeta interna files cambiandole el nombre a images)
+
+mv img files/images
+Renombrar directorios
+Para renombrar directorios usamos el mismo comando mv, pero no es necesario indicar una nueva ruta para el directorio, solo un nuevo nombre.
+
+Recomendado: Curso programación desde cero
+
+mv directorio directorio_renombrado
+Como vemos basta escribir el nombre del directorio (sin barra al final) y dejando un espacio, el nuevo nombre. Así, si queremos renombrar el directorio img a images lo haríamos así:
+
+mv img images

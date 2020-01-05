@@ -1,0 +1,10 @@
+
+Icewm ultra - window manager 
+http://www.murga-linux.com/puppy/viewtopic.php?t=9404&start=45
+
+you might want to set the dpi in /root/.Xresources (a hidden file) ... maybe set it to something like 108, then restart X or reboot, something like this: 
+
+Xft.dpi: 108  
+
+
+yo le puse 100 y que quedó muy bien

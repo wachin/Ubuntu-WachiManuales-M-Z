@@ -1,0 +1,5 @@
+
+
+
+Comando para desinstalar las dependencias que no tenía instaladas (quito varios paquetes pues esos yo los había instalado antes y no quiero que se me desinstalen)
+sudo apt-get install qtbase5-dev qttools5-dev xutils-dev pkg-config libasound2-dev libjack-jackd2-dev ladspa-sdk dssi-dev liblo-dev liblircclient-dev liblrdf0-dev libfftw3-dev libsamplerate0-dev libsndfile1-dev libsm-dev qttools5-dev-tools 

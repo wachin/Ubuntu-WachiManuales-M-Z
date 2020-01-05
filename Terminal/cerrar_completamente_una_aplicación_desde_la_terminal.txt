@@ -1,0 +1,11 @@
+
+
+cerrar completamente una aplicación desde la terminal
+
+ejemplo quiero cerrar firefox que está abierto, poner en la terminal
+
+killall firefox
+
+Aprendido de:
+How to Kill a Desktop Application or Background Process on Linux
+https://www.howtogeek.com/211153/how-to-kill-a-desktop-application-or-background-process-on-linux/

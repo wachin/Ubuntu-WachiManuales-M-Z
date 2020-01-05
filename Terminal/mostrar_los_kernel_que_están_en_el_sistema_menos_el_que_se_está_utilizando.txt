@@ -1,0 +1,14 @@
+
+mostrar los kernel que están en el sistema menos el que se está utilizando
+
+
+dpkg -l | tail -n +6 | grep -E 'linux-image-[0-9]+' | grep -Fv $(uname -r)
+
+
+How to Delete Old Unused Kernels in Debian and Ubuntu
+https://www.tecmint.com/remove-old-kernel-in-debian-and-ubuntu/
+
+
+
+
+

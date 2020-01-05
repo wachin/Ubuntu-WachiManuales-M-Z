@@ -1,0 +1,25 @@
+
+Proyecto Facilitar el Software Libre en el Ecuador: Revisión ortográfica en español(Diccionario) para WPS Office
+https://facilitarelsoftwarelibre.blogspot.com/2016/01/revision-ortografica-en-espanol-para.html
+
+Para español:
+
+cd /tmp && wget -c http://wps-community.org/download/dicts/es_ES.zip
+unzip es_ES.zip
+cp -r es_ES ~/.kingsoft/office6/dicts/
+
+
+
+Para Frances:
+
+
+cd /tmp && wget -c http://wps-community.org/download/dicts/fr_FR.zip
+unzip fr_FR.zip
+cp -r fr_FR ~/.kingsoft/office6/dicts/
+
+
+
+CONSULTA:
+
+Descargar Diccionarios
+http://wps-community.org/download/dicts/

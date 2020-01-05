@@ -1,0 +1,18 @@
+
+PPSSPP 1.6.3 Available to Install via its Official PPA
+http://ubuntuhandbook.org/index.php/2018/09/ppsspp-1-6-3-available-install-official-ppa/
+
+sudo add-apt-repository ppa:ppsspp/stable
+sudo apt-get update && sudo apt-get install ppsspp
+
+
+Replace ppsspp with ppsspp-sdl in the code for the SDL version.
+Uninstall:
+
+To remove the PPA, either go to Software & Updates -> Other Software or run command:
+
+sudo add-apt-repository --remove ppa:ppsspp/stable
+
+To remove PPSSPP, either use your system package manager or run command:
+
+sudo apt-get remove --autoremove ppsspp ppsspp-sdl ppsspp-common

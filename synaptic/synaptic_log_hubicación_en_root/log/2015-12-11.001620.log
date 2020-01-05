@@ -1,0 +1,17 @@
+Commit Log for Fri Dec 11 00:16:20 2015
+
+
+Actualizó los siguientes paquetes:
+libnm-glib-vpn1 (1.0.4-0ubuntu5) to 1.0.4-0ubuntu5.2
+libnm-glib4 (1.0.4-0ubuntu5) to 1.0.4-0ubuntu5.2
+libnm-util2 (1.0.4-0ubuntu5) to 1.0.4-0ubuntu5.2
+libnm0 (1.0.4-0ubuntu5) to 1.0.4-0ubuntu5.2
+network-manager (1.0.4-0ubuntu5) to 1.0.4-0ubuntu5.2
+python-apt (1.0.1build1) to 1.0.1ubuntu0.1
+python-apt-common (1.0.1build1) to 1.0.1ubuntu0.1
+python3-apt (1.0.1build1) to 1.0.1ubuntu0.1
+
+Instaló los siguientes paquetes:
+skype (4.3.0.37-0ubuntu0.12.04.1)
+skype-bin (4.3.0.37-0ubuntu0.12.04.1)
+sni-qt (0.2.7+15.10.20150729-0ubuntu1)

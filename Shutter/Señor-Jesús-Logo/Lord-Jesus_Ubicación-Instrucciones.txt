@@ -1,0 +1,20 @@
+
+Estos los hice con el inkscape, abrir una terminal y poner esto:
+
+sudo thunar /usr/share/shutter/resources/icons/drawing_tool/objects/ /home/wachin/Dropbox/UbuntuManuales/Shutter/Señor-Jesús-Logo/
+
+Allí copiar los 3 bonotes png
+
+Lord-Jesus48x48.png
+Lord-Jesus70x70.png
+Lord-Jesus100x100.png
+
+y pegarlos en la otra pestaña, y eso quedará así:
+
+/usr/share/shutter/resources/icons/drawing_tool/objects/Lord-Jesus48x48.png
+/usr/share/shutter/resources/icons/drawing_tool/objects/Lord-Jesus70x70.png
+/usr/share/shutter/resources/icons/drawing_tool/objects/Lord-Jesus100x100.png
+
+Cerrar thunar, reinicie shutter(cierrelo y vuelvalo a abrir), listo
+
+por: Washington Indacochea D.

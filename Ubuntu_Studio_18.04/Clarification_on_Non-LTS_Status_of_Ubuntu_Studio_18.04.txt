@@ -1,0 +1,26 @@
+
+Clarification on Non-LTS Status of Ubuntu Studio 18.04
+http://ubuntustudio.org/2018/05/clarification-on-non-lts-status-of-ubuntu-studio-18-04/
+
+For everyone who is asking why 18.04 is not an LTS, let me be clear: we are very much in need of volunteers to help with development. We especially need help with packaging and documentation.
+
+This entire project is run by volunteers. Nobody on the Ubuntu Studio team is employed by Canonical. We do this out of passion for the project.
+
+That said, we simply do not currently have the manpower that it takes to support a Long-Term Support version. If you would like to change that for future releases, please help!
+
+What this means: There will be no further versions of the Ubuntu Studio 18.04 ISO image file. There will be no backports other than those items backported in the official Ubuntu repositories. That said, the Ubuntu stack (including lowlatency kernel) will be supported for 5 years. So, for those (especially 16.04 users) fearing they can’t upgrade to 18.04 because it’s not LTS, fear not. Your packages will continue to update.
+
+For the team, this means that our focus is on 18.10 going forward. We want to put a lot of energy into making it great and even looking to making some changes. We did not want to do this for 18.04 because with big changes comes bugs, and we don’t have the manpower to be chasing those bugs. 18.04 is a solid release that is evolutionary from 17.10. Evolutionary, not revolutionary.
+
+
+
+
+Para todos los que preguntan por qué 18.04 no es un LTS, permítanme ser claro: estamos muy necesitados de voluntarios para ayudar con el desarrollo. Especialmente necesitamos ayuda con el empaquetado y la documentación.
+
+Todo este proyecto está dirigido por voluntarios. Nadie en el equipo de Ubuntu Studio es empleado por Canonical. Hacemos esto por pasión para el proyecto.
+
+Dicho esto, simplemente actualmente no tenemos la mano de obra necesaria para admitir una versión de soporte a largo plazo. Si desea cambiar eso para futuras versiones, ¡por favor ayuda!
+
+Qué significa esto: no habrá más versiones del archivo de imagen ISO Ubuntu Studio 18.04. No habrá backports que no sean aquellos artículos transferidos a los repositorios oficiales de Ubuntu. Dicho esto, la pila de Ubuntu (incluido kernel de baja latencia) se admitirá durante 5 años. Entonces, para aquellos (especialmente 16.04 usuarios) que temen no poder actualizar a 18.04 porque no es LTS, no temas. Sus paquetes continuarán actualizándose.
+
+Para el equipo, esto significa que nuestro enfoque está en 18.10 en el futuro. Queremos poner mucha energía en hacerlo genial e incluso en busca de hacer algunos cambios. No queríamos hacer esto para el 18.04 porque con los grandes cambios vienen los errores, y no tenemos la mano de obra para perseguir esos errores. 18.04 es un lanzamiento sólido que es evolutivo desde 17.10. Evolucionario, no revolucionario.

@@ -1,0 +1,19 @@
+
+
+
+Remap keyboard keys for Ubuntu | Fascinating Captain
+http://www.fascinatingcaptain.com/howto/remap-keyboard-keys-for-ubuntu/
+
+
+sudo thunar /usr/share/X11/xkb/symbols/
+
+clic derecho y abrir latam con gedit y modificar solo esas dos lineas, deben quedar así(borrarle lo que tenían en los parentesis):
+
+    key <AC11> { [Prior] };
+    key <BKSL>	{ [Next ]	};
+
+Nota: Mi teclado es raro, este logitech K400r porque no tiene la tecla AC12 sino que está la que sigue y se llama así mismo BKSL y yo creía que esa era ENTER pero a prueba y error me dí cuenta que era esa y así fué
+    
+    
+    
+    

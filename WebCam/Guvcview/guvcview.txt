@@ -1,0 +1,10 @@
+
+
+11.10 - How to install a Logitech c310 webcam? - Ask Ubuntu
+https://askubuntu.com/questions/82897/how-to-install-a-logitech-c310-webcam
+
+What you want is to use software that comes with webcam, that can't be done since that software is made for windows (by Logitech decision), not Linux. However there is good software for Linux, for example guvcview:
+
+sudo apt-get install guvcview
+
+

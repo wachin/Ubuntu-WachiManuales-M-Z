@@ -1,0 +1,43 @@
+
+How to purge a PPA
+http://m.webupd8.org/2012/02/how-to-use-launchpad-ppa-add-remove.html?m=1
+
+Purging a PPA means not only to disable the PPA, but also to downgrade any packages you've upgraded from that PPA, to the version available in the official Ubuntu repositories.
+
+To be able to purge a PPA, you need to install "ppa-purge":
+
+sudo apt-get install ppa-purge
+
+
+To purge a PPA, you must use the following command:
+
+sudo ppa-purge ppa:kdenlive/kdenlive-stable
+
+sudo ppa-purge ppa:videolan/master-daily
+
+sudo ppa-purge ppa:sunab/kdenlive-release
+
+sudo ppa-purge ppa:libreoffice/ppa
+
+sudo ppa-purge ppa:ubuntuhandbook1/audacity
+
+sudo ppa-purge ppa:mikhailnov/utils
+
+sudo ppa-purge ppa:linuxuprising/shutter
+
+
+
+NOTA EN ALGUNOS CASOS PUEDE FALLAR ASÍ
+Tal vez usted tenía abierto a synaptic y le salió un mensaje de que estaba bloqueado al poner usted ejemplo este comando:
+
+sudo ppa-purge ppa:ubuntu-mate-dev/xenial-mate
+
+Si este fue el caso ya no podrá poner otra vez el comando para que funcione porque le dirá que no existe ese PPA. La solución es añadirlo otra vez:
+
+sudo add-apt-repository ppa:ubuntu-mate-dev/xenial-mate
+
+y luego volverlo a poner
+
+sudo ppa-purge ppa:ubuntu-mate-dev/xenial-mate
+
+

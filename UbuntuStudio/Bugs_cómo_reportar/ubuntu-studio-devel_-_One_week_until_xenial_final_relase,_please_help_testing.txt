@@ -1,0 +1,71 @@
+
+Re: [ubuntu-studio-devel] One week until xenial final relase, please help testing
+
+On Wed, Apr 13, 2016, at 05:39 PM, Thomas Pfundt wrote:
+> Hello Kaj,
+>
+> I just read your mail on the 16.04 release testing. I started fully
+> using Ubuntu Studio at the end of last year (been a vanilla Ubuntu user
+> next to Windows for around two years before).
+>
+> First of all, I would like to personally thank you and the others for
+> your work on this great system. I'm so happy with how well it works,
+> audio performance is much better than with Windows and everything is so
+> configurable and responsive, it's really cool!
+>
+> Anyway, I thought I'd join the development channel and see if I was able
+> to help out in some way, since 16.04 is kind of an important release for
+> me and I plan on using this system for a while now. Unfortunately, I've
+> been rather busy with the job and also at home lately, so I haven't had
+> very much time.
+>
+> I want to download and test the new release right now, but I have got
+> two main questions about that:
+>
+> Will it be fine to test the live system (or: fully installed on a USB
+> drive)? I'm asking because I can't reinstall my current system at the
+> moment and I don't have a spare hard drive at hand, or would that not be
+> sufficient for testing?
+>
+
+Like Jimmy said, doing a virtual installation is fine (something like
+Virtualbox). But, for live processing (both audio and video), you will
+need to use actual hardware. And for that, booting the live ISO works,
+all though there's an extra dimension to everything once you install and
+have user settings for stuff.
+So, I guess you have those two options 1) use something like Virtualbox
+for an actual installation 2) boot the live ISO on a real machine to
+test applications that require more processing power.
+
+> And: How do I report bugs, should I encounter any? Is it enough to
+> submit an automatic report as soon as an error window shows up or do I
+> have to manually file some kind of bug report (I have never done this
+> before).
+>
+<snip>
+
+In short, get yourself a launchpad account at http://launchpad.net, and
+when you find a bug, use a terminal. Input the command(replace
+<packagename> with the name of the package you want to report against):
+
+ubuntu-bug <packagename>
+
+Knowing which package to report against can be difficult. This section
+deals a bit with that -
+https://wiki.ubuntu.com/UbuntuStudio/Testing/ISOTesting#If_you_find_bugs.
+But,  that page is mainly purposed for how to do the final smoke test of
+the ISO for each milestone -  when we report our results at
+http://iso.qa.ubunty.com. So, just skip any notions about that, for now,
+and focus on the bug reporting part - if you find any.
+
+Thanks for showing interest, and hope to see you around more in the
+future. Testing is a good way to get involved in the development
+process, which is something that anyone can participate in.
+
+/Kaj
+
+-- 
+ubuntu-studio-devel mailing list
+ubuntu-studio-devel@lists.ubuntu.com
+Modify settings or unsubscribe at: https://lists.ubuntu.com/mailman/listinfo/ubuntu-studio-devel
+

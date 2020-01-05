@@ -1,0 +1,24 @@
+
+Using uname Command
+uname (stands for unix name) is an utility that prints the system information like name, version and other details about the system and the operating system running on it.
+
+uname -a
+
+-r, --kernel-release     print the kernel release
+
+uname -r
+
+
+Usando "/boot folder"
+"/boot folder" contiene todos los archivos y carpetas relacionados al boot (cargador del sistema) tales como grub.conf, vmlinuz image aka kenel, etc
+
+$ ls /boot/ | grep vmlinuz
+
+
+Determinar la versión del Kernel instalado
+https://www.2daygeek.com/check-find-determine-running-installed-linux-kernel-version/#
+
+How To Check the Kernel Version in Linux / Ubuntu / CentOS
+https://www.liquidweb.com/kb/how-to-check-the-kernel-version-in-linux-ubuntu-centos/
+
+

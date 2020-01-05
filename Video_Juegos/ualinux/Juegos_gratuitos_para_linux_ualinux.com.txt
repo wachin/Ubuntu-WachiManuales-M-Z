@@ -1,0 +1,20 @@
+
+
+Nota Final: Como explicaba que encontré esto mientras buscaba juegos gratuitos para Linux, ellos están aquí:
+
+https://ualinux.com/en/download/category/25-ubuntu-gamepack
+
+Aquí como Sistema operativo Ubuntu tipo Gnome, y hay que descargar varios de los juegos desde Ubuntu Sofware Center:
+http://sourceforge.net/projects/ualinux/files/Ubuntu%20Pack/Ubuntu%20GamePack/
+
+y aquí como paquete para usar en Ubuntu 14.04, es decir segun lo que leia, ejemplo yo tengo instalado UbuntuStudio 14.04 y ya lo descargué, lo que tengo que hacer es montar el DVD y ejecutar el archivo autorun.sh que está allí y podré ver cual instalar y cual no (no lo he hecho todavía pero estoy descargando el primer DVD):
+
+http://sourceforge.net/projects/ualinux/files/Linux%20Pack/
+
+Y acá repositorio (algo parecido a PPA):
+
+https://ualinux.com/en/how-to-connect
+
+
+
+

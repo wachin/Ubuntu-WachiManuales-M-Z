@@ -1,0 +1,22 @@
+Commit Log for Sun Dec 13 18:00:50 2015
+
+
+Actualizó los siguientes paquetes:
+ardour (1:4.4.446+r14175.27~ubuntu15.10.1) to 1:4.4.446+r14194.27~ubuntu15.10.1
+
+Instaló los siguientes paquetes:
+libbcmail-java (1.49+dfsg-3ubuntu1)
+libbcpkix-java (1.49+dfsg-3ubuntu1)
+libbcprov-java (1.49+dfsg-3ubuntu1)
+libgnuinet-java (1.1.2-2build1)
+libgnumail-java (1.1.2-9ubuntu3)
+libitext-java (2.1.7-9)
+libswt-cairo-gtk-3-jni (3.8.2-3)
+libswt-gtk-3-java (3.8.2-3)
+libswt-gtk-3-jni (3.8.2-3)
+libswt-webkit-gtk-3-jni (3.8.2-3)
+tuxguitar (1.2-20build1)
+tuxguitar-alsa (1.2-20build1)
+tuxguitar-fluidsynth (1.2-20build1)
+tuxguitar-jack (1.2-20build1)
+tuxguitar-oss (1.2-20build1)

@@ -1,0 +1,13 @@
+
+Keys
+https://help.ubuntu.com/community/IceWM
+
+You can setup shortcut keys in the ~./icewm/keys file to launch some quickly needed programs while using IceWM. Here is an example of setting up Xscreensaver to lock the screen when pressing Super+L:
+
+$ nano .icewm/keys
+
+You will find alot of different shortcut keys in here. Now anywhere in this file, add this:
+
+key "Super+L" xscreensaver-command -lock
+
+Alternately, the key can be changed to suit your needs, and multiple different keys can be added to this file to allow you to make different shortcut keys for launching programs. Save and quit nano. You will need to restart IceWM for the changes to take effect.  

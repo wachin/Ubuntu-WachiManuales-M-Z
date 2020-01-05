@@ -1,0 +1,15 @@
+Commit Log for Fri Dec 18 11:15:12 2015
+
+
+Quitó los paquetes siguientes:
+cinnamon-l10n
+
+Actualizó los siguientes paquetes:
+cinnamon-desktop-data (2.6.5-1) to 2.8.0-20151213000728-wily
+libcinnamon-desktop4 (2.6.5-1) to 2.8.0-20151213000728-wily
+libnemo-extension1 (2.6.7-1) to 2.8.6-20151213010126-wily
+nemo (2.6.7-1) to 2.8.6-20151213010126-wily
+nemo-data (2.6.7-1) to 2.8.6-20151213010126-wily
+
+Instaló los siguientes paquetes:
+cinnamon-translations (2.8.3-20151213040549-wily)

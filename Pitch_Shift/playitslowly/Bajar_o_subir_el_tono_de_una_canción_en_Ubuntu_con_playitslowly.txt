@@ -1,0 +1,22 @@
+
+
+Alguna vez has ensayado una canción y estaba muy alta y no podías llegar a la nota?, ¿por qué tener que ensayar una canción a la cual hay que hacer tanto pero tanto esfuerzo en la garganta? 
+
+Meditación: Las voces son como la talla de la ropa, ejemplo: Yo no me puedo poner una camiseta de talla más chica a la fuerza, y si lo haría puede que la dañe con el tiempo, se le haría hueco. Algo así pasa con las voces, ejemplo: Yo no me puedo poner a cantar una canción de Christian Castro siguiendo un audio en mp3 que la tenga y querer llegar a las notas que él llega, porque mi voz es más grabe por naturaleza que la de él, así, y si yo quisiera seguir es posible me lastime la garganta, la voz.
+
+Solución: Hay programas que le pueden bajar o subir de tono a una canción para así ajustarla a nuestra voz, para el sistema operativo Ubuntu hay uno que se llama playitslowly, y he hecho un tutorial de cómo instalarlo y usarlo:
+
+https://facilitarelsoftwarelibre.blogspot.com/2017/12/bajar-o-subir-el-tonocambiar-pitch.html
+
+también los desarrolladores hicieron una versión que funciona en Windows, pero online, sólo hay que entrar en la página:
+
+https://29a.ch/timestretch/
+
+Dios les bendiga
+
+- Wachín
+
+
+
+
+

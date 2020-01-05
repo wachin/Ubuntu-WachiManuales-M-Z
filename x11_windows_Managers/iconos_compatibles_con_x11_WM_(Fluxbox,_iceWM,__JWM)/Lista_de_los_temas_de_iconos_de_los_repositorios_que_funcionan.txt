@@ -1,0 +1,9 @@
+
+
+gnome-icon-theme
+oxygen
+nuvola
+ 
+esto se elige con 
+
+lxappearance

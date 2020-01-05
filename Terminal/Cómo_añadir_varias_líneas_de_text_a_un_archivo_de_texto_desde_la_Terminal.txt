@@ -1,0 +1,35 @@
+
+
+Cómo añadir varias líneas de text a un archivo de texto desde la Terminal
+
+A un archvio que se llama "dict.conf" quiero añadir lo siguiente:
+
+
+[Dictionary]
+DisplayName=Español (España)
+DisplayName[en_US]=Spanish (Spain)
+
+La solución es esta:
+
+printf '%s\n%s\n' '[Dictionary]' 'DisplayName=Español (España)' 'DisplayName[en_US]=Spanish (Spain)' >> ~/.local/share/Kingsoft/office6/dicts/es_ES/dict.conf
+
+
+
+Adaptado de:
+
+shell - How to append multiple lines to a file - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/77277/how-to-append-multiple-lines-to-a-file
+
+
+printf '%s\n    %s\n' 'Host localhost' 'ForwardAgent yes' >> file.txt
+
+Esto añade al archivo file.txt lo siguiente:
+
+Host localhost
+    ForwardAgent yes
+
+Explciación.- Como se ve allí en la segunda linea se añaden 4 espacios esto porque hay 4 espacios entre '%s\n    %s\n'
+
+
+
+

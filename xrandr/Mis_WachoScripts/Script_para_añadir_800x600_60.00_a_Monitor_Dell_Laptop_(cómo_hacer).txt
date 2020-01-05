@@ -1,0 +1,25 @@
+
+Script para añadir 800x600_60.00 a Monitor Dell Laptop
+
+
+Primero he obtenido estos valores
+
+wachin@wachin-Inspiron-1750:~$ gtf 800 600 60
+
+  # 800x600 @ 60.00 Hz (GTF) hsync: 37.32 kHz; pclk: 38.22 MHz
+  Modeline "800x600_60.00"  38.22  800 832 912 1024  600 601 604 622  -HSync +Vsync
+
+
+wachin@wachin-Inspiron-1750:~$ xrandr --newmode "800x600_60.00" 38.22  800 832 912 1024  600 601 604 622  -HSync +Vsync
+wachin@wachin-Inspiron-1750:~$ xrandr --addmode LVDS1 800x600_60.00
+wachin@wachin-Inspiron-1750:~$ xrandr --output LVDS1 --mode 800x600_60.00
+
+
+Luego deberé poner esto en un archivo creado con kate o gedit, para crear el script(ponerle permisos de ejecución):
+
+#! /bin/bash
+
+gtf 800 600 60
+xrandr --newmode "800x600_60.00"  38.22  800 832 912 1024  600 601 604 622  -HSync +Vsync
+xrandr --addmode LVDS1 800x600_60.00
+xrandr --output LVDS1 --mode 800x600_60.00

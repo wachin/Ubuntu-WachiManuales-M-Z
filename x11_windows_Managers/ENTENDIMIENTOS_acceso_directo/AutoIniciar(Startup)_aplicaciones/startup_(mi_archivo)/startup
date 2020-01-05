@@ -1,0 +1,39 @@
+#!/bin/bash
+
+sleep 2 &
+# Requerido para dar algo de tiempo a la barra de tareas de icewm para iniciar antes que el resto
+
+caja &
+# Es el administrador de archivos que uso ultimamente, muy bueno, debe estar abierto de ley
+
+shutter &
+# Para tomar captura de pantallas (en comportamiento se lo puede configurar para que cargue iconizado)
+
+geany &
+# Editor de Textos, siempre lo uso, que mejor ya esté abierto
+
+xfce4-notes &
+# Para tomar notas rapidas, imprescindible
+
+xfce4-terminal &
+# La terminal, como siempre la uso ya que mejor esté abierta (aquí en icewm, synaptic hay que abrirlo con sudo synaptic)
+
+chromium-browser &
+# Navegador Web
+
+goldendict &
+# El Diccionario, todos los días lo uso en algún momento (se lo puede configurar para que se cargue iconizado)
+
+nm-applet &
+# Para administrar las redes disponibles de internet (se carga iconizado)
+
+# alarm-clock-applet &
+# (opcional) Tiene un temporizador y un despertador, para mi es el mejor
+
+orage &
+# Para ver la fecha, es un calendario también (se carga iconizado y abierto, no se como hacer para que solo se cargue iconizado)
+
+setxkbmap -layout latam &
+# Para que siempre se cargue al inicio mi distribución de teclado
+
+

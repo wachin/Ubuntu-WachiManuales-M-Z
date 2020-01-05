@@ -1,0 +1,29 @@
+
+En Ubuntu 17.04 ya viene el paquete pulseaudio-equalizer así que sólo hay que instalarlo:
+
+sudo apt-get install pulseaudio-equalizer
+
+para hacerlo funcionar poner en la terminal:
+
+pactl load-module module-dbus-protocol
+
+y luego
+
+qpaeq
+
+
+Para que automáticamente se cargue ese modulo:
+
+sudo gedit /etc/pulse/default.pa
+
+y añadir estas dos lineas:
+
+### cargar automaticament el modulo necesario para qpaeq
+load-module module-dbus-protocol  
+
+guardar y cerrar
+
+
+Unable to launch Pulse Equalizer. [Solved]
+http://www.pclinuxos.com/forum/index.php?topic=130158.0
+

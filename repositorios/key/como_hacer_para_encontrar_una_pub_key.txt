@@ -1,0 +1,27 @@
+
+
+Cuando haya añadido un respositorio como este:
+
+sudo gedit  /etc/apt/sources.list
+
+Add this to the end
+
+deb [by-hash=force] http://packages.deepin.com/deepin unstable main contrib non-free
+#deb-src http://packages.deepin.com/deepin unstable main contrib non-free
+
+
+y en synaptic me salga esto:
+
+NO_PUBKEY 425956BB3E31DF51El
+
+coger ese valor y ponerlo en Google, allí encontré la solución en:
+
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=40739
+
+donde dice que hay que poner así:
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 425956BB3E31DF51
+
+y funcionó
+
+

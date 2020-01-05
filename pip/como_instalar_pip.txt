@@ -1,0 +1,24 @@
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04
+
+
+sudo apt-get install -y python3-pip
+sudo -H pip3 install --upgrade wxpython
+sudo -H pip3 install --upgrade pip
+sudo -H pip3 install package_name
+
+
+sudo -H pip3 install --upgrade wxversion
+
+
+Para desinstalar
+sudo apt-get purge python-pip
+sudo apt-get purge python3-pip
+
+
+https://ftp.mozilla.org/pub/firefox/releases/52.0esr/
+
+pip won't run. throws errors instead
+https://askubuntu.com/questions/561377/pip-wont-run-throws-errors-instead
+

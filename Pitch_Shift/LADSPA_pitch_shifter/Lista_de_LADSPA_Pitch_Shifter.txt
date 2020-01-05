@@ -1,0 +1,15 @@
+
+
+
+Rubberband.- LADSPA plugin for audio pitch-shifting
+sudo apt-get install rubberband-ladspa rubberband-cli
+
+
+autotalent.- pitch correction LADSPA plugin
+sudo apt-get install autotalent
+
+
+Am Pitch Shifter 
+
+vocproc.- Vocoder
+sudo apt-get install vocproc

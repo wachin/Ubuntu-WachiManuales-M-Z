@@ -1,0 +1,29 @@
+
+
+
+Package muse for Ubuntu 15.10 Wily Werewolf - LinuxMusicians
+https://linuxmusicians.com/viewtopic.php?t=14476
+
+GCC 5 : KXStudio Debian team
+https://launchpad.net/~kxstudio-debian/+archive/ubuntu/gcc5
+sudo add-apt-repository ppa:kxstudio-debian/gcc5
+sudo apt-get update
+sudo apt-get install muse
+Advertencia: No instale los demas paquetes de aquí pues si usa Jack le rompe el sistema
+
+
+************************************************************
+
+
+También se puede instalar directamente el paquete deb (esta es la mejor manera):
+
+Packages in “GCC 5” : GCC 5 : “KXStudio Debian” team
+https://launchpad.net/~kxstudio-debian/+archive/ubuntu/gcc5/+packages
+
+32 bits:
+https://launchpad.net/~kxstudio-debian/+archive/ubuntu/gcc5/+files/muse_2.2.1-2kxstudio2v5_i386.deb
+
+64 bits:
+https://launchpad.net/~kxstudio-debian/+archive/ubuntu/gcc5/+files/muse_2.2.1-2kxstudio2v5_amd64.deb
+
+

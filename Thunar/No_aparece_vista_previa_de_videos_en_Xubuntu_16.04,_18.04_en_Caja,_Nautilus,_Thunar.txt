@@ -1,0 +1,11 @@
+
+
+http://facilitarelsoftwarelibre.blogspot.com/2018/09/como-instalar-kdenlive-18081-en-ubuntu.html
+
+No aparece vista previa(miniatura=thumbnails) de videos en Xubuntu 16.04, 18.04 en los administradores de archivos: nautilus, caja, thunar
+
+
+
+Eso se soluciona instalando:
+
+sudo apt install ffmpegthumbnailer

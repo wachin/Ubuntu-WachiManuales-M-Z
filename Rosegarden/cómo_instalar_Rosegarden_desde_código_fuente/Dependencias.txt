@@ -1,0 +1,61 @@
+
+Cómo instalar Rosegarden 18.06 en Ubuntu 16.04 desde código fuente
+
+En los repositorios de Ubuntu 16.04 no está disponible la versión 18 de Rosegarden por lo cual he investigado la manera de instalarlo desde código fuente
+
+1.- Usted necesita estar usando Jack Audio connection Kit, puede ser de estas dos opciones:
+
+a) Usar Ubuntu Studio 
+   https://ubuntustudio.org/
+
+o:
+
+b) Instalar y Configurar JACK Audio Connection Kit en Linux (Ubuntu, Linux Mint, Debian, etc)
+   https://facilitarelsoftwarelibre.blogspot.com/2018/05/instalar-y-configurar-jack-audio.html
+
+Entonces:
+
+2.- Descargar Rosegarden:
+
+https://www.rosegardenmusic.com/getting/source/
+
+link directo encontrado allí:
+
+https://sourceforge.net/projects/rosegarden/files/rosegarden/18.06/rosegarden-18.06.tar.bz2/download
+
+pongalo en una carpeta y con clic derecho lo descomprime
+
+3.- Instalar dependencias para Rosegarden
+Ponga en la terminal esta línea y ejecútela:
+
+sudo apt-get install qtbase5-dev qttools5-dev automake make cmake xutils-dev pkg-config libasound2-dev libjack-jackd2-dev ladspa-sdk dssi-dev liblo-dev liblircclient-dev liblrdf0-dev libfftw3-dev lilypond libsamplerate0-dev libsndfile1-dev perl bash tar gzip libsm-dev qttools5-dev-tools
+
+luego pongase en una terminal dentro de la carpeta donde está descomprimido (la instalación puede demorar bastante):
+
+mkdir build
+cd build
+cmake .. 
+make
+sudo su
+make install
+exit
+
+LANZAR EL PROGRAMA
+El programa quedará instalado, busquelo en sus aplicaciones y lancelo.
+
+
+EXPLICACIONES:
+
+Cómo encontré todas las dependencias para Rosegarden en Ubuntu 16.04
+Esto es útil si usted quiere instalar Rosegarden desde código fuente para otra distribución como puede ser Ubuntu 18.04 u otro Linux pues la siguiente lista es para muchos linux sino que cada quien debe ver las dependencias para su distribución:
+
+dev:contributing | Rosegarden Wiki
+https://www.rosegardenmusic.com/wiki/dev:contributing
+
+de allí para Ubuntu 16.04 verificando en Synaptic y en https://packages.ubuntu.com/ y en https://pkgs.org/download/libsamplerate-dev y en: https://pkgs.org/download/liblo0-dev y en: https://pkgs.org/download/liblrdf-dev para encontrar los nombres de unas que no coincidian, pero al final pude encontrar todas y aquí están las dependencias:
+
+
+Nota 1: el paquete cmake no estaba en la lista pero y me pidió instalar por eso lo añadí arriba.
+Nota 2: el paquete: qttools5-dev-tools no estaba en la lista pero apareciá un error y encontré la solución en: https://github.com/c-koi/gmic-qt/issues/12
+Nota 3: la dependencia libjack-dev que está en la página no la usé porque yo tengo instaldo Jack Audio Connection Kit y me desinstala los paquetes de la nueva versión, por eso busqué los paquetes actuales y es: libjack-jackd2-dev.
+

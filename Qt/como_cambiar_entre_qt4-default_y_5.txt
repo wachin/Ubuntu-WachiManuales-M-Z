@@ -1,0 +1,8 @@
+
+instalar:
+
+qt4-default 
+
+o
+
+qt5-default

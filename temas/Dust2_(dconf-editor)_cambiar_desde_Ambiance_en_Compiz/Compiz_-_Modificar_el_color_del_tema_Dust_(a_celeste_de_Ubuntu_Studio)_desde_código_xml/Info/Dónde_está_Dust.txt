@@ -1,0 +1,19 @@
+
+
+Está en el paquete
+
+gnome-themes-ubuntu
+
+instalar:
+
+sudo apt install gnome-themes-ubuntu
+
+rutas:
+
+/usr/share/themes/Dust/metacity-1/metacity-theme-1.xml
+
+para editar el archivo:
+
+sudo gedit /usr/share/themes/Dust/metacity-1/metacity-theme-1.xml
+
+ 

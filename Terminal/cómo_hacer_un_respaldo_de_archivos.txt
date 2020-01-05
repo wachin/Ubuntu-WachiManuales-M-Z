@@ -1,0 +1,9 @@
+
+
+
+...and the file will be copied. Here, picture.jpg is the source of the copy operation, and picture-02.jpg is the destination. Both files now exist in your working directory.
+
+The source and destination files may also reside in different directories. For instance,
+
+cp /home/chuck/pictures/picture.jpg /home/chuck/backup/picture.jpg
+...will make a copy of the file /home/chuck/pictures/picture.jpg in the directory /home/chuck/backup. The destination file will also be named picture.jpg.

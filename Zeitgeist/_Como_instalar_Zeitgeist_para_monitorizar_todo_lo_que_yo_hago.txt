@@ -1,0 +1,17 @@
+
+
+How to Use Zeitgeist in Ubuntu | Chron.com
+https://smallbusiness.chron.com/use-zeitgeist-ubuntu-48292.html
+
+sudo apt-get install zeitgeist activity-log-manager
+
+
+o:
+
+Zeitgeist: Controla tus actividades en el ordenador
+https://blog.desdelinux.net/zeitgeist-controla-tus-actividades-en-el-ordenador/
+
+gnome-activity-journal
+
+este es mejor
+

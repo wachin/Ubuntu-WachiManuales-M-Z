@@ -1,0 +1,23 @@
+
+Screenshot keybinding for IceWM
+https://bbs.archlinux.org/viewtopic.php?id=135172
+
+Hello guys!
+This is the script /all/script-screenshot.sh:
+
+#!/bin/bash
+
+DATE=`date +%s`
+scrot "$HOME/downloads/scr-$DATE.png"
+And this is from ~/.icewm/keys:
+key "Print"   /all/script-screenshot.sh
+
+
+When no IceWM menus are open - it works. But if I want to make a screenshot with some IceWM menu, keybinding won't work. Is there anything I can do to make it capture screen with menus?
+
+
+2012-02-08 21:03:53
+Just to say it also happens to me.
+Not much of a help, I know, but the mailing lists really don't help also.
+I think we should forget ~/.icewm/keys, and use an alternative, f.e. xbindkeys.
+Mektub

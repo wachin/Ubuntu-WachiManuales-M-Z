@@ -1,0 +1,7 @@
+
+
+Se deben descomprimir las fuentes de sonido que están en sfArk instalando sfArk.exe que debe descargandolo de: http://www.soundfonts.it/sfark_sfpack.zip donde debe descomprimir la carpeta "sfark_sfpack.zip" y dentro buscar el archivo "sfArk.exe" que está dentro de las carpetas "/software/sfark" el cual debe instalarlo y allí en el menu del programa en "File/Open" búsque donde tiene la fuente de sonido comprimirda y Abrala y de clic en "Start" y la descomprimirá terminando con la extensión "sf2"
+
+Nota 1: Si usa Linux instále el programa en Wine.
+
+Nota 2: La dirección del descompresor la encontré en: http://forum.cifraclub.com.br/forum/12/121828/

@@ -1,0 +1,18 @@
+
+apt - Where can I look up my update history? - Ask Ubuntu
+http://askubuntu.com/questions/14328/where-can-i-look-up-my-update-history
+
+You can read the history.log file in /var/log/apt.
+
+Eg. less /var/log/apt/history.log
+
+
+
+As an alternative to lgarzo's answer, you can grep what you are interested in from /var/log/dpkg.log. E.g., if you want to see everything you installed or upgraded yesterday, you could run:
+
+cat /var/log/dpkg.log | grep "^2012-03-25.*\ installed\ "
+One thing to note: this will also list manually installed packages (sudo dpkg -i ...), which won't show up in apt's history.
+
+Even better use zgrep if it's installed so you can find lines in gzipped files as well
+
+zgrep "^2012-03-25.*\ installed\ " /var/log/dpkg.log*

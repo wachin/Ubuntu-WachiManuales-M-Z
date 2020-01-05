@@ -1,0 +1,15 @@
+
+
+https://wiki.archlinux.org/index.php/Webcam_setup
+
+
+Does/will my Logitech webcam work on Linux?
+http://web.archive.org/web/20111022013418/http://www.quickcamteam.net/documentation/faq/does-my-logitech-webcam-work-on-linux
+
+de allí me redirecciona acá:
+
+http://web.archive.org/web/20111027121437/http://www.quickcamteam.net/devices/logitech_uvc_device_list.pdf
+
+
+Five Best Webcams
+http://lifehacker.com/5961369/five-best-webcams

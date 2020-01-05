@@ -1,0 +1,11 @@
+
+Aptik – Backup Your PPAs, Themes, Icons, And Application Settings In Ubuntu | Unixmen
+http://www.unixmen.com/aptik-backup-ppas-themes-icons-application-settings-ubuntu/
+
+Installation
+
+Add the Aptik PPA, and install it as shown.
+
+sudo apt-add-repository -y ppa:teejee2008/ppa
+sudo apt-get update
+sudo apt-get install aptik

@@ -1,0 +1,29 @@
+
+DB Browser for SQLite
+http://sqlitebrowser.org/
+
+En los repositorios de  18.04
+
+ sudo apt-get install sqlitebrowser 
+
+o sino la ultima versión
+
+
+
+Ubuntu and Derivatives
+Stable release
+
+For Ubuntu and derivaties, @deepsidhu1313 provides a PPA with our latest release here:
+
+https://launchpad.net/~linuxgndu/+archive/ubuntu/sqlitebrowser
+To add this ppa just type in these commands in terminal:
+
+   sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
+
+Then update the cache using:
+
+   sudo apt-get update
+
+Install the package using:
+
+   sudo apt-get install sqlitebrowser 

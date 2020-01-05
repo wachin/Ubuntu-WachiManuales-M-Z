@@ -1,0 +1,116 @@
+# PulseJoin Spanish translation
+# This file is distributed under the same license as the PulseJoin package.
+# Washington Indacochea Delgado <wachin.id@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Last-Translator: Mikhail Novosyolov <mikhailnov@dumalogiya.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"1) create a virtual microphone, which will combine sound from the default "
+"input device (microphone) and default output device (speakers) (sound which "
+"is sent to speakers/headphones)"
+msgstr ""
+"1) Cree un micrófono virtual que combine el sonido del dispositivo de entrada"
+"predeterminado (micrófono) y el dispositivo de salida predeterminado"
+"(sonido que se envía a los altavoces/auriculares)"
+
+msgid ""
+"2) open Audacity or another application to record sound from this newely "
+"created virtual device"
+msgstr ""
+"2) Abra Audacity u otra aplicación para grabar sonido desde el nuevo"
+"dispositivo virtual"
+
+msgid "3) remove this virtual device after closing the application"
+msgstr "3) Eliminar este dispositivo virtual después de cerrar la aplicación"
+
+msgid ""
+"All input and output devices may be reset by restarting the PulseAudio audio"
+"server"
+msgstr ""
+"Todos los dispositivos de entrada y salida serán reiniciados al reiniciar"
+"el servidor PulseAudio"
+
+msgid ""
+"An error occured while restarting PulseAudio audio server. It is not working "
+"at the moment. Try restarting it again."
+msgstr ""
+"Se produjo un error al reiniciar el servidor de audio PulseAudio."
+"No está funcionando en este momento. Intenta reiniciarlo de nuevo"
+
+msgid "Do everything automatically with running Audacity"
+msgstr "Hacer todo automáticamente con Audacity en ejecución"
+
+msgid "Do everything automatically with running SimpleScreenRecorder"
+msgstr "Hacer todo automáticamente con SimpleScreenRecorder en ejecución"
+
+msgid "Do everything automatically with running another application"
+msgstr "Hacer todo automáticamente ejecutando otra aplicación"
+
+msgid "Enter command to run"
+msgstr "Ponga el comando a ejecutar"
+
+msgid ""
+"Error creating virtual devices in PulseAudio. Try restarting PulseJoin or "
+"choose \"Restart PulseAduio\" in the PulseJoin window."
+msgstr ""
+"Error al crear dispositivos virtuales en PulseAudio. Intente reiniciar PulseJoin o"
+"elija \"Reiniciar PulseAudio\" en la ventana de PulseJoin."
+
+msgid "It is possible <i>do everything automatically</i>"
+msgstr "Es posible <i>hacer todo automáticamente</i>"
+
+msgid "Make a virtual microphone"
+msgstr "Crear un microfono virtual"
+
+msgid "Please choose what to do."
+msgstr "Por favor escoja qué hacer."
+
+msgid ""
+"PulseAudio server has been restarted successfully. You may need to restart "
+"applications that input or output sound."
+msgstr ""
+"El servidor PulseAudio se ha reiniciado correctamente. Es posible que deba reiniciar"
+"aplicaciones que ingresan o emiten sonido"
+
+msgid "Remove the virtual microphone"
+msgstr "Remover el micrófono virtual"
+
+msgid "Restart PulseAudio"
+msgstr "Reiniciar PulseAudio"
+
+msgid "Sound_from_microphone+speakers"
+msgstr "Sonido_desde_micrófono+parlantes"
+
+msgid "Temporary directory"
+msgstr "Directorio temporal"
+
+msgid ""
+"The <b>PulseJoin</b> script allows to <b>record sound from microphone and "
+"speakers at the same time in programs which cannot record from multiple "
+"sources at the same time</b>."
+msgstr ""
+"El script <b>PulseJoin</b> permite <b>grabar sonido desde el micrófono y"
+"parlantes al mismo tiempo en programas que no pueden grabar desde múltiples"
+"fuentes al mismo tiempo</b>."
+
+msgid "You may perform each action seperately using buttons bellow"
+msgstr "Puedes realizar cada acción por separado usando los botones de abajo"
+
+msgid ""
+"is not available for writing. The function \"Remove the virtual microphone\" "
+"will not work."
+msgstr ""
+"no está disponible para escritura. La función \"Eliminar el micrófono virtual\" "
+"no trabajará."
+
+msgid ""
+"pactl utily has not been found. Please install package pulseaudio / "
+"pulseaudio-utils / pulseaudio-daemon. Cannot continue working!"
+msgstr ""
+"pactl utily no se ha encontrado. Por favor, instale el paquete pulseaudio /"
+"pulseaudio-utils / pulseaudio-daemon. ¡No puedo seguir trabajando!"

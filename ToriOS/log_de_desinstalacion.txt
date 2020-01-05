@@ -1,0 +1,190 @@
+
+wachin@wachin:~$ sudo synaptic
+[sudo] password for wachin: 
+
+(synaptic:6064): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Breeze/gtk-3.0/assets/scrollbar-slider-overlay-horizontal.png': Error al abrir el archivo: No existe el archivo o el directorio
+wachin@wachin:~$ sudo thunar
+wachin@wachin:~$ sudo apt-get update
+Obj:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Ign:2 http://dl.google.com/linux/earth/deb stable InRelease                    
+Obj:3 http://dl.google.com/linux/earth/deb stable Release                      
+Des:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]     
+Obj:5 http://ppa.launchpad.net/apandada1/brightness-controller/ubuntu xenial InRelease
+Obj:6 http://archive.canonical.com/ubuntu xenial InRelease                     
+Obj:7 http://ec.archive.ubuntu.com/ubuntu xenial InRelease                     
+Ign:8 http://download.opensuse.org/repositories/home:/entropytuner/xUbuntu_16.04  InRelease
+Ign:9 http://mkvtoolnix.download/ubuntu/xenial ./ InRelease                    
+Obj:10 http://ppa.launchpad.net/boomaga/ppa/ubuntu xenial InRelease            
+Obj:11 http://repository.spotify.com stable InRelease                          
+Des:12 http://ec.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]   
+Obj:13 http://mkvtoolnix.download/ubuntu/xenial ./ Release                     
+Obj:14 http://download.opensuse.org/repositories/home:/entropytuner/xUbuntu_16.04  Release
+Des:16 http://ppa.launchpad.net/dhor/myway/ubuntu xenial InRelease [17,5 kB]   
+Obj:17 http://ppa.launchpad.net/dobey/audiotools/ubuntu xenial InRelease       
+Obj:18 http://ppa.launchpad.net/flexiondotorg/audio/ubuntu xenial InRelease    
+Des:19 http://ec.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB] 
+Obj:20 http://ppa.launchpad.net/inkscape.dev/stable/ubuntu xenial InRelease    
+Des:21 http://ppa.launchpad.net/kdenlive/kdenlive-stable/ubuntu xenial InRelease [18,1 kB]
+Obj:24 http://ppa.launchpad.net/kritalime/ppa/ubuntu xenial InRelease
+Obj:25 http://ppa.launchpad.net/libreoffice/ppa/ubuntu xenial InRelease        
+Des:26 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages [290 kB]
+Obj:27 http://ppa.launchpad.net/maarten-baert/simplescreenrecorder/ubuntu xenial InRelease
+Obj:28 http://ppa.launchpad.net/mixxx/mixxx/ubuntu xenial InRelease            
+Obj:29 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease   
+Des:30 http://ec.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [563 kB]
+Obj:31 http://ppa.launchpad.net/noobslab/icons/ubuntu xenial InRelease         
+Obj:32 http://ppa.launchpad.net/noobslab/themes/ubuntu xenial InRelease        
+Obj:33 http://ppa.launchpad.net/openlp-core/release/ubuntu xenial InRelease    
+Des:34 http://security.ubuntu.com/ubuntu xenial-security/main i386 DEP-11 Metadata [59,2 kB]
+Des:35 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [49,6 kB]
+Obj:36 http://ppa.launchpad.net/openshot.developers/ppa/ubuntu xenial InRelease
+Des:37 http://security.ubuntu.com/ubuntu xenial-security/universe i386 DEP-11 Metadata [40,7 kB]
+Obj:38 http://ppa.launchpad.net/otto-kesselgulasch/gimp/ubuntu xenial InRelease
+Des:39 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [56,2 kB]
+Obj:40 http://ppa.launchpad.net/ozmartian/apps/ubuntu xenial InRelease         
+Obj:41 http://ppa.launchpad.net/plushuang-tw/uget-stable/ubuntu xenial InRelease
+Obj:42 http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu xenial InRelease 
+Obj:43 http://ppa.launchpad.net/rebuntu16/avidemux+unofficial/ubuntu xenial InRelease
+Obj:44 http://ppa.launchpad.net/sethj/silentcast/ubuntu xenial InRelease       
+Obj:45 http://ppa.launchpad.net/shutter/ppa/ubuntu xenial InRelease            
+Des:46 http://ec.archive.ubuntu.com/ubuntu xenial-updates/main i386 DEP-11 Metadata [304 kB]
+Obj:47 http://ppa.launchpad.net/teejee2008/ppa/ubuntu xenial InRelease         
+Obj:48 http://ppa.launchpad.net/ubuntuhandbook1/audacity/ubuntu xenial InRelease
+Obj:49 http://ppa.launchpad.net/webupd8team/brackets/ubuntu xenial InRelease   
+Des:50 http://ec.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [209 kB]
+Obj:51 http://ppa.launchpad.net/webupd8team/indicator-kdeconnect/ubuntu xenial InRelease
+Des:52 http://ec.archive.ubuntu.com/ubuntu xenial-updates/universe i386 DEP-11 Metadata [163 kB]
+Obj:53 http://ppa.launchpad.net/webupd8team/y-ppa-manager/ubuntu xenial InRelease
+Des:54 http://ppa.launchpad.net/kdenlive/kdenlive-stable/ubuntu xenial/main i386 Packages [4.640 B]
+Des:55 http://ec.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [212 kB]
+Des:56 http://ec.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 DEP-11 Metadata [7.056 B]
+Des:57 http://ec.archive.ubuntu.com/ubuntu xenial-backports/main i386 DEP-11 Metadata [3.324 B]
+Des:58 http://ec.archive.ubuntu.com/ubuntu xenial-backports/universe i386 DEP-11 Metadata [4.684 B]
+Descargados 2.308 kB en 10s (213 kB/s)                                         
+Leyendo lista de paquetes... Hecho
+wachin@wachin:~$ sudo apt-get upgrade
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  grub2 gxmessage hfsprogs htop libtorrent19 libxdg-basedir1 libxmlrpc-core-c3
+  linux-headers-4.4.0-81 linux-headers-4.4.0-81-lowlatency
+  linux-image-4.4.0-81-lowlatency menu-xdg nilfs-tools partclone pppconfig
+  pppoeconf pv rtorrent xtrlock zsync
+Utilice «sudo apt autoremove» para eliminarlos.
+Se actualizarán los siguientes paquetes:
+  gnome-system-monitor kdenlive kdenlive-data
+3 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 7.927 kB/8.079 kB de archivos.
+Se utilizarán 2.048 B de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://ppa.launchpad.net/kdenlive/kdenlive-stable/ubuntu xenial/main i386 kdenlive i386 4:17.04.3+git201707101839~ubuntu16.04.1 [2.047 kB]
+Des:2 http://ppa.launchpad.net/kdenlive/kdenlive-stable/ubuntu xenial/main i386 kdenlive-data all 4:17.04.3+git201707101839~ubuntu16.04.1 [5.881 kB]
+Descargados 7.927 kB en 30s (259 kB/s)                                         
+(Leyendo la base de datos ... 652467 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../gnome-system-monitor_3.18.2-1ubuntu1_i386.deb ...
+Desempaquetando gnome-system-monitor (3.18.2-1ubuntu1) sobre (3.18.2-1) ...
+Preparando para desempaquetar .../kdenlive_4%3a17.04.3+git201707101839~ubuntu16.04.1_i386.deb ...
+Desempaquetando kdenlive (4:17.04.3+git201707101839~ubuntu16.04.1) sobre (4:17.04.1+git201705191233~ubuntu16.04.1) ...
+Preparando para desempaquetar .../kdenlive-data_4%3a17.04.3+git201707101839~ubuntu16.04.1_all.deb ...
+Desempaquetando kdenlive-data (4:17.04.3+git201707101839~ubuntu16.04.1) sobre (4:17.04.1+git201705191233~ubuntu16.04.1) ...
+Procesando disparadores para man-db (2.7.5-1) ...
+Procesando disparadores para libglib2.0-0:i386 (2.48.2-0ubuntu1) ...
+Procesando disparadores para desktop-file-utils (0.22-1ubuntu5.1) ...
+Procesando disparadores para gnome-menus (3.13.3-6ubuntu3.1) ...
+Procesando disparadores para mime-support (3.59ubuntu1) ...
+Procesando disparadores para shared-mime-info (1.5-2ubuntu0.1) ...
+Unknown media type in type 'all/all'
+Unknown media type in type 'all/allfiles'
+Procesando disparadores para hicolor-icon-theme (0.15-0ubuntu1) ...
+Configurando gnome-system-monitor (3.18.2-1ubuntu1) ...
+Configurando kdenlive-data (4:17.04.3+git201707101839~ubuntu16.04.1) ...
+Instalando una nueva versión del fichero de configuración /etc/xdg/kdenlive_renderprofiles.knsrc ...
+Instalando una nueva versión del fichero de configuración /etc/xdg/kdenlive_titles.knsrc ...
+Instalando una nueva versión del fichero de configuración /etc/xdg/kdenlive_wipes.knsrc ...
+Configurando kdenlive (4:17.04.3+git201707101839~ubuntu16.04.1) ...
+wachin@wachin:~$ sudo apt-get autoremove
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Los siguientes paquetes se ELIMINARÁN:
+  grub2 gxmessage hfsprogs htop libtorrent19 libxdg-basedir1 libxmlrpc-core-c3
+  linux-headers-4.4.0-81 linux-headers-4.4.0-81-lowlatency
+  linux-image-4.4.0-81-lowlatency menu-xdg nilfs-tools partclone pppconfig
+  pppoeconf pv rtorrent xtrlock zsync
+0 actualizados, 0 nuevos se instalarán, 19 para eliminar y 0 no actualizados.
+Se liberarán 246 MB después de esta operación.
+¿Desea continuar? [S/n] s
+(Leyendo la base de datos ... 652466 ficheros o directorios instalados actualmente.)
+Desinstalando grub2 (2.02~beta2-36ubuntu3.11) ...
+Desinstalando gxmessage (2.20.0-1.1) ...
+Desinstalando hfsprogs (332.25-11) ...
+Desinstalando htop (2.0.1-1ubuntu1) ...
+Desinstalando rtorrent (0.9.6-2build1) ...
+Desinstalando libtorrent19:i386 (0.13.6-1) ...
+Desinstalando libxdg-basedir1 (1.2.0-1) ...
+Desinstalando libxmlrpc-core-c3 (1.33.14-1ubuntu1) ...
+Desinstalando linux-headers-4.4.0-81-lowlatency (4.4.0-81.104) ...
+Desinstalando linux-headers-4.4.0-81 (4.4.0-81.104) ...
+Desinstalando linux-image-4.4.0-81-lowlatency (4.4.0-81.104) ...
+Examining /etc/kernel/prerm.d.
+run-parts: executing /etc/kernel/prerm.d/dkms 4.4.0-81-lowlatency /boot/vmlinuz-4.4.0-81-lowlatency
+dkms: removing: bcmwl 6.30.223.271+bdcom (4.4.0-81-lowlatency) (i686)
+
+-------- Uninstall Beginning --------
+Module:  bcmwl
+Version: 6.30.223.271+bdcom
+Kernel:  4.4.0-81-lowlatency (i686)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+wl.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.4.0-81-lowlatency/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod.........
+
+DKMS: uninstall completed.
+Examining /etc/kernel/postrm.d .
+run-parts: executing /etc/kernel/postrm.d/initramfs-tools 4.4.0-81-lowlatency /boot/vmlinuz-4.4.0-81-lowlatency
+update-initramfs: Deleting /boot/initrd.img-4.4.0-81-lowlatency
+run-parts: executing /etc/kernel/postrm.d/zz-update-grub 4.4.0-81-lowlatency /boot/vmlinuz-4.4.0-81-lowlatency
+Generando archivo de configuración grub...
+Se encontró una imagen linux: /boot/vmlinuz-4.4.0-87-lowlatency
+Se encontró una imagen initrd: /boot/initrd.img-4.4.0-87-lowlatency
+Se encontró una imagen linux: /boot/vmlinuz-4.4.0-87-lowlatency
+Se encontró una imagen initrd: /boot/initrd.img-4.4.0-87-lowlatency
+Se encontró una imagen linux: /boot/vmlinuz-4.4.0-83-lowlatency
+Se encontró una imagen initrd: /boot/initrd.img-4.4.0-83-lowlatency
+Se encontró una imagen linux: /boot/vmlinuz-4.4.0-36-lowlatency
+Se encontró una imagen initrd: /boot/initrd.img-4.4.0-36-lowlatency
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+Encontrado en Windows 7 (loader) en /dev/sda1
+hecho
+Desinstalando menu-xdg (0.5) ...
+Desinstalando partclone (0.2.86-1) ...
+Desinstalando nilfs-tools (2.2.3-2) ...
+Desinstalando pppconfig (2.3.22) ...
+Desinstalando pppoeconf (1.21ubuntu1) ...
+Desinstalando pv (1.6.0-1) ...
+Desinstalando xtrlock (2.7) ...
+Desinstalando zsync (0.6.2-1ubuntu1) ...
+Procesando disparadores para man-db (2.7.5-1) ...
+Procesando disparadores para install-info (6.1.0.dfsg.1-5) ...
+install-info: warning: no info dir entry in `/usr/share/info/mmaker.info.gz'
+Procesando disparadores para hicolor-icon-theme (0.15-0ubuntu1) ...
+Procesando disparadores para desktop-file-utils (0.22-1ubuntu5.1) ...
+Procesando disparadores para gnome-menus (3.13.3-6ubuntu3.1) ...
+Procesando disparadores para mime-support (3.59ubuntu1) ...
+Procesando disparadores para libc-bin (2.23-0ubuntu9) ...
+Procesando disparadores para menu (2.1.47ubuntu1) ...
+/etc/menu-methods/jwm-menu: 10: /etc/menu-methods/jwm-menu: jwm-menu: not found
+/etc/menu-methods/jwm-menu: 26: /etc/menu-methods/jwm-menu: jwm: not found
+wachin@wachin:~$ 
+ 

@@ -1,0 +1,21 @@
+
+command line - I deleted MIME directories and update-mime-database doesn't work anymore! Help! - Ask Ubuntu
+https://askubuntu.com/questions/906597/i-deleted-mime-directories-and-update-mime-database-doesnt-work-anymore-help 
+
+The /usr/share/mime directory and its /usr/share/mime/packages subdirectory are provided by package shared-mime-info so to fix the error it should be sufficient to re-install the package - either from your favorite GUI package manager or from the command line using
+
+sudo apt-get install --reinstall shared-mime-info
+
+
+If you want to restore /usr/share/mime-info and /usr/share/mimelnk as well, then they appear to belong to libreoffice-common
+
+Other packages may have installed their own files underneath /usr/share/mime - to identify these, you can use
+
+dpkg -S /usr/share/mime
+
+o:
+
+Create new Mime type and assign an icon to it in Ubuntu (Example)
+https://coderwall.com/p/qjda2q/create-new-mime-type-and-assign-an-icon-to-it-in-ubuntu
+
+$ sudo update-mime-database /usr/share/mime

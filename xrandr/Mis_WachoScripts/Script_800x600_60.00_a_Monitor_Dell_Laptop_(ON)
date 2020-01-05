@@ -1,0 +1,5 @@
+#! /bin/bash
+
+xrandr --newmode "800x600_60.00" 38.22  800 832 912 1024  600 601 604 622  -HSync +Vsync
+xrandr --addmode LVDS1 800x600_60.00
+xrandr --output LVDS1 --mode 800x600_60.00

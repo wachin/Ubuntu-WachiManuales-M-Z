@@ -1,0 +1,17 @@
+
+http://openemr.com.ar/demo/
+
+Demo
+Se encuentra un demo plenamente funcional, en español o inglés, en openemr.com.ar
+
+Utilice el
+
+ usuario clinician
+ 
+  y el 
+  
+  password clinician
+  
+ para un nivel de acceso intermedio. Solicite por email mayores privilegios.
+
+ 

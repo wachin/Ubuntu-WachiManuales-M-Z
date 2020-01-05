@@ -1,0 +1,76 @@
+
+
+Como editar y agregar texto en nano
+https://www.comoinstalarlinux.com/como-usar-el-editor-nano-linux/2/
+
+Editar el archivo en nano es  muy sencillo, solo tienes que ubicarte en la posición adecuada con las teclas de flechas y comenzar a escribir o pegar texto que copies de alguna fuente (otro archivo, una página web, etc). Para pegar un texto en la termina usa la combinación de teclas:
+
+Ctrl+Shift+V
+
+
+******************************
+Como grabar un archivo en nano
+
+Una vez que agregas el texto necesario o que has hecho esa modificación al archivo, lo siguiente sería grabar el archivo en nano linux. Para hacer esto puedes usar la combinación de teclas:
+
+Ctrl+o Grabar el Archivo
+
+Es importante hacer notar que es la letra o, no es cero. Una vez que presionas esta combinación puedes indicar el nombre del archivo, si no tienes mayor necesitas mas que grabar el archivo con el mismo nombre, entonces presiona Enter, y listo.
+
+ 
+
+tutotial linux manual linux principiantes editor nano trucos 02
+
+Sin embargo con nano puedes usar otras opciones para grabar el archivo y las puedes indicar precisamente cuando te pide que confirmes el nombre del archivo. Estas opciones son:
+
+Alt+d Grabar en Formato DOS
+Alt+m  Grabar en Formato Mac
+
+Alt+a Agregar al final del archivo
+Alt+p Agregar al principio del Archivo
+Alt+b Hacer un respaldo del archivo antes de grabar.
+
+tutotial linux manual linux principiantes editor nano trucos 02
+
+ 
+
+Al presionar la primera vez cada combinación de teclas se activa cada opciones y al hacerla una vez mas se desactiva.
+
+Si no quieres grabar el archivo en ese momento puedes cancelar esta acción con Ctrl+c
+Como cortar y pegar en nano
+
+Para realizar la acción de cortar puedes hacerlo con una linea de texto completa con la secuencia de comandos:
+
+Ctrl+k Cortar línea de texto completa
+
+Si lo que deseas es solo cortar una parte primero debes indicar el inicio del texto  y luego usa la misma secuencia anterior para indicar el final del texto a cortar y cortarlo.
+
+Ctrl+6 Marcar inicio de texto a Cortar
+Ctrl+k Marcar el final del texto y Cortarlo.
+
+Ahora para pegar el texto mueve el cursos a la posición indicada y luego presiona la combinación de teclas:
+
+Ctrl+u Pegar el texto cortado.
+Como copiar y texto con nano en linux
+
+El truco para copiar texto en nano linux es muy similar, mira las combinaciones de teclas:
+
+Alt+6 Copiar la linea completa
+
+Para marcar solo un texto en particular puedes usar las siguientes combinaciones:
+
+Alt+a Para marcar el inicio del texto a copiar
+Alt+6 para copiar el texto marcado
+
+De igual forma para pegar el texto copiado con los métodos anteriores es la misma combinación:
+
+Ctrl+u Pegar el texto copiado.
+
+***************************
+Como salir de nano en linux (HAY QUE DAR ENTER)
+
+Cuando has realizado los cambios necesarios y has guardado el archivo solo tienes que salir del editor para continuar tus actividades, esto lo puedes hacer con la siguiente combinación de teclas:
+
+Ctrl+x Salir de nano (y grabar el archivo si tiene alguna modificación)
+
+

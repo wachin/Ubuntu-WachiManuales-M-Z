@@ -1,0 +1,17 @@
+
+
+Cómo desinstalar kernel viejos
+
+Con el paso del tiempo le enviarán actualizaciones del kernel, y si uno ha instalado algún otro tipo de kernel como por ejemplo uno anterior y luego uno desinstaló el primero, para evitar que se le acumulen los kernel instale este paquete:
+
+sudo apt install byobu
+
+luego ponga en la terminal:
+
+sudo purge-old-kernels --keep 4
+
+y se habrán limpiado, sólo le quedarán dos. Ah, si usted se pregunta por qué dejar dos, bueno, si falla el uno uno podrá entrar al sistema con el otro (Eso se hace cuando usted la enciende y aparecen las opciones del Grub, allí en "Opciones avanzadas para Ubuntu", en Linux Mint debe ser semejante).
+
+
+How to Easily Remove Old Kernels in Ubuntu 16.04
+http://ubuntuhandbook.org/index.php/2016/05/remove-old-kernels-ubuntu-16-04/

@@ -1,0 +1,8 @@
+
+Nombre del tema y nombre del paquete que lo contiene dentro:
+
+Dust
+gnome-themes-ubuntu
+
+Ambiance
+light-themes 

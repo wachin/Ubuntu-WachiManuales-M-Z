@@ -1,0 +1,157 @@
+Xubuntu como Windows XP - Transformar
+https://www.youtube.com/watch?v=p7faEhVom74&feature=gp-n-y&google_comment_id=z12gwlkwnlz5e5s4i04cj5orikmpf3lqabg
+
+
+
+Transformar Xubuntu en Windows XP
+Por Washington Indacochea Delgado
+
+Version de Ubuntu que he utilizado para este tutorial UbuntuStudio 14.04(el cual es contruido XFCE lo mismo que Xubuntu)
+
+1.- Instala los siguientes repositorios y paquetes:
+
+sudo add-apt-repository ppa:noobslab/icons
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install win-icons
+sudo apt-get install win-xp-themes
+sudo apt-get install win-themes
+
+Nota: He sacado un respaldo de estos tres por un caso. Los saqué desde el Synaptic creando un script de descarga, y los almacené los tres debs que descargué en mi Dropbox, allí estan por un caso.
+
+Nota 2: Solo hay Win-XP.theme para Trusty (Ubuntu 14.04, no hay para Xenial 16.04, pero puede que luego lo hagan. Es que como Windows XP ya no tiene soporte de Microsoft porco a poco va a desaparecer)
+
+RESPALDO-temas-Noobslab.com
+https://drive.google.com/open?id=0B7dT-0960K49U2JoTjc0QlAyMlk
+
+Ahora en la configuración para personalizar el escritorio, en Apariencia, escoja el tema de iconos de "Win2-7 6.0" (todavía no escoger el tema de Windows XP)
+
+
+Fuente:
+http://news.softpedia.com/news/Windows-XP-Is-Dead-Transform-Ubuntu-and-Linux-Mint-in-Windows-XP-420169.shtml
+
+original:
+Win XP themes are available for Ubuntu/Linux Mint/other Ubuntu derivatives (2 New Variants) - Ubuntu/Linux News, Reviews, Tutorials, Apps
+http://www.noobslab.com/2014/01/windows-xp-theme-is-available-for.html
+
+Consulta extra:
+Make your Ubuntu/Linux Mint look like Windows 7 or 8 (Because You Can)
+http://www.noobslab.com/2014/04/make-your-ubuntulinux-mint-look-like.html
+
+
+*******************************************************************
+2.- Elegir el "Bordes de ventanas" de Windows XP y Controles "Win7"
+*******************************************************************
+Lo siguiente es para activar los items para que se parezca a Windows XP, el programa "xfce-theme-manage" es necesario pues en mis consultas realizadas todo era para Ubuntu, donde dicen que se debe utilizar "GNOME Tweak", pero como es Xubuntu encontré este programa
+
+Fuente:
+http://www.webupd8.org/2013/06/xfce-theme-manager-single-gui-to-change.html
+
+sudo add-apt-repository ppa:rebuntu16/other-stuff 
+sudo apt-get update
+sudo apt-get install xfce-theme-manager
+
+Después de instalado, lanzar:
+
+xfce-theme-manager
+
+Allí en la pestaña del programa: "Bordes de ventanas" elegir "Windows XP" y en "Controles" "Win7" (esto se puede hacer porque están instalados de los repositorios de NoobsLab
+
+Nota: Si no habre el programa a la primera vez, intentelo otra vez.
+
+
+***********************
+3.- Panel de Windows XP
+***********************
+Descargar el archivo:
+
+XpGnome.tar.gz
+
+desde:
+
+http://linux.softpedia.com/get/Desktop-Environment/Themes/XpGnome-52808.shtml
+
+Fuente:
+http://zuzeme.wordpress.com/2010/04/13/making-xubuntu-look-like-windows-xp/
+
+
+extraer el contenido, y buscar el archivo panel-bg.png, ejemplo:
+
+/home/wachin/Descargas/XpGnome/files/XPLuna/gtk-2.0/panel/panel-bg.png
+
+Y también el archivo:
+
+/home/wachin/Descargas/XpGnome/files/XPLuna/start.png
+
+Ahora bien, según esto, aprendí que el tema:
+
+win-themes
+
+de Noobslab también tiene dentro un archivo para el panel, pero para el de Windows 7, el cual es este:
+
+/usr/share/themes/Win7/gtk-2.0/Panel/Panel_Win2-7Basic800.png
+
+Tabmién en toda esa carpeta hay más paneles, se pueden probar todos(si se lo quiere hacer que parezca Windows 7):
+
+/usr/share/themes/Win7/gtk-2.0/Panel/
+
+**********
+Acitvación
+**********
+Dele clic derecho al panel, y en "Panel/Panel de Preferencias" en la pestaña "Apariencia" en "Estilo" ponga "Imágen de fondo" y en "Archivo" busque el archivo mencionado para Windows XP.
+Por cierto, UbuntuStudio y Xubuntu vienen con dos paneles, el "Panel 0" y el "Panel 1", este panel 1 debemos eliminarlo pues es el que está abajo que se esconde automaticamente, y, el panel cero debemos ponerlo abajo, ésto se logra ahí "en la pestaña "Mostrar" desmarcando "Anclar Panel" y allí si se lo puede coger al panel que viene arriba y jalar hacia abajo.
+
+Not: Los paneles deben ser elegidos después de activar los "Bordes de ventanas" y "Controles" en el programa "xfce-theme-manager"
+
+
+***********************
+4. Usar el menú Whisker
+***********************
+En UbuntuStudio 14.04 viene en los repositorios, así solo se lo instala y ya. Me imagino qeu debe estar también en los repositorios de Xubuntu 14.04. Para las versiones anteriores creo que no está instalado, instalarlo así:
+
+sudo add-apt-repository ppa:gottcode/gcppa
+sudo apt-get update
+sudo apt-get install xfce4-whiskermenu-plugin
+
+Fuente:
+Whisker Menu: Fast Application Launcher Featuring Search Function For Xfce ~ Web Upd8: Ubuntu / Linux blog
+http://www.webupd8.org/2013/07/whisker-menu-fast-application-launcher.html
+
+Luego de instalado, añadirlo al panel y borrar el que viene por defecto.
+
+
+
+*************************************
+5.- Ponga su foto al inicio de sesión
+*************************************
+Mugshot, una utilidad simple para configurar nuestro usuario ahora está incluida por defecto.(sirve ejem para poner nuestra foto y que esta se vea cuando encendemos nuestra PC)
+
+Fuente:
+14 novedades que encontraremos en Xubuntu 14.04 - Desde Linux
+http://blog.desdelinux.net/14-novedades-en-xubuntu-14-04/
+
+
+*************************************
+6. DockBarX para parecido a Windows 7
+*************************************
+DockBarX Available As An Xfce Panel Plugin ~ Web Upd8: Ubuntu / Linux blog
+http://www.webupd8.org/2013/03/dockbarx-available-as-xfce-panel-plugin.html
+
+Hacerto esto mas el punto 3 donde se explica dónde están los paneles para Windows 7.
+
+
+*********************
+Zoom en Xubuntu 14.04
+*********************
+El Compositor de XFCE ahora es compatible con el Zoom. Sólo tienes que pulsar Alt y desplazar la rueda del ratón hacia arriba o hacia abajo.
+Nota: Para usar solo el touchpad, en mi laptop uso Alt y los dos dedos que los muevo juntos hacia arriba o hacia abajo.
+Fuente:
+http://blog.desdelinux.net/14-novedades-en-xubuntu-14-04/
+
+
+Consulta extra:
+************************************
+Xubuntu 14.04 estilo Windows XP - VISUAL LOOK - YouTube
+https://www.youtube.com/watch?v=WhKONfIp-hQ
+
+

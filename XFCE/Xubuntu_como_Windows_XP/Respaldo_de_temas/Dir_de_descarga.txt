@@ -1,0 +1,41 @@
+
+
+TEMAS (THEMES)
+
+win-xp-theme 
+para trysty  (14.04)
+https://launchpad.net/~noobslab/+archive/ubuntu/themes/+files/win-xp-theme_1.3.1~trusty~Noobslab.com_all.deb
+
+win-themes 
+para trusty (14.04)
+https://launchpad.net/~noobslab/+archive/ubuntu/themes/+files/win-themes_8.0~trusty~NoobsLab.com_all.deb
+
+Fuente:
+Paquetes encontrados
+https://launchpad.net/~noobslab/+archive/ubuntu/themes/
+source de los paquetes encontrados (incluido deb)
+https://launchpad.net/~noobslab/+archive/ubuntu/themes/+packages?batch=75&direction=backwards&memo=675&start=600
+
+
+ICONOS (ICONS)
+
+win-icons
+para trusty (14.04)
+https://launchpad.net/~noobslab/+archive/ubuntu/icons/+files/win-icons_8.0~trusty~Noobslab.com_all.deb
+
+win-icons
+para xenial (16.04)
+https://launchpad.net/~noobslab/+archive/ubuntu/icons/+files/win-icons_8.0~xenial~NoobsLab.com_all.deb
+
+Fuente:
+paquetes encontrados 
+https://launchpad.net/~noobslab/+archive/ubuntu/icons/
+source de los paquetes encontrados (incluido deb)
+https://launchpad.net/~noobslab/+archive/ubuntu/icons/+packages?batch=75&direction=backwards&memo=450&start=375
+
+Compilación hecha para Matias Cabona
+por: Wachín
+2016-11-29
+
+
+Nota: Windows XP ya no tiene soporte por Microsoft. A esta fecha no han actualizado los paquetes de los temas para Xenial y puede que no lo hagan

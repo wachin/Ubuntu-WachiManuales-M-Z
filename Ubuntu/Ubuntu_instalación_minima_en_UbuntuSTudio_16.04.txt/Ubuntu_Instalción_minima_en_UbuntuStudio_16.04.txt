@@ -1,0 +1,95 @@
+
+installation - Commands for Installing Unity on Ubuntu Minimal Desktop - Ask Ubuntu
+http://askubuntu.com/questions/109430/commands-for-installing-unity-on-ubuntu-minimal-desktop
+
+This will give you a more "minimal" install. apt-get default behaviour is to install all recommended packages.
+
+sudo apt-get install --no-install-recommends ubuntu-desktop 
+
+
+Se instalarán los siguientes paquetes adicionales:
+  adium-theme-ubuntu apg bamfdaemon checkbox-converged checkbox-gui
+  gkbd-capplet gnome-bluetooth gnome-session-bin gnome-session-common
+  gstreamer1.0-clutter-3.0 gstreamer1.0-plugins-base-apps gstreamer1.0-tools
+  indicator-bluetooth indicator-datetime indicator-keyboard indicator-power
+  libatk-adaptor libbamf3-2 libcheese-gtk25 libecal-1.2-19 libfcitx-config4
+  libfcitx-gclient0 libfcitx-utils0 libframe6 libgail-common libgeis1
+  libgeonames0 libglewmx1.13 libgnome-bluetooth13 libgnomekbd-common
+  libgnomekbd8 libgrail6 libhud2 libnux-4.0-0 libnux-4.0-common
+  libqt5feedback5 libqt5organizer5 libqt5quicktest5 libtimezonemap-data
+  libtimezonemap1 libubuntugestures5 libubuntutoolkit5 libunity-action-qt1
+  libunity-control-center1 libunity-core-6.0-9 libunity-misc4
+  libunity-settings-daemon1 light-themes notify-osd nux-tools
+  plainbox-provider-checkbox plainbox-provider-resource-generic
+  plainbox-secure-policy pyotherside python3-checkbox-support
+  python3-guacamole python3-jinja2 python3-padme python3-plainbox
+  python3-xlsxwriter qml-module-io-thp-pyotherside qml-module-qtfeedback
+  qml-module-qtgraphicaleffects qml-module-qttest qml-module-ubuntu-components
+  qml-module-ubuntu-layouts qml-module-ubuntu-performancemetrics
+  qml-module-ubuntu-test qmlscene qtdeclarative5-dev-tools
+  qtdeclarative5-test-plugin qtdeclarative5-ubuntu-ui-toolkit-plugin
+  qtdeclarative5-unity-action-plugin suru-icon-theme ubuntu-artwork
+  ubuntu-mobile-icons ubuntu-session ubuntu-settings ubuntu-sounds
+  ubuntu-ui-toolkit-theme ubuntu-wallpapers ubuntu-wallpapers-xenial unity
+  unity-asset-pool unity-control-center unity-greeter unity-schemas
+  unity-scope-home unity-scopes-master-default unity-services
+  unity-settings-daemon xdiagnose
+Paquetes sugeridos:
+  click powerd unity-system-compositor fcitx bonnie++ bootchart fwts glmark2
+  glmark2-es2 nmap obexftp render-bench smartmontools stress sysstat
+  x11-server-utils python-jinja2-doc ubuntu-wallpapers-karmic
+  ubuntu-wallpapers-lucid ubuntu-wallpapers-maverick ubuntu-wallpapers-natty
+  ubuntu-wallpapers-oneiric ubuntu-wallpapers-precise
+  ubuntu-wallpapers-quantal ubuntu-wallpapers-raring ubuntu-wallpapers-saucy
+  ubuntu-wallpapers-trusty ubuntu-wallpapers-utopic ubuntu-wallpapers-vivid
+  ubuntu-wallpapers-wily lightdm-remote-session-freerdp
+  lightdm-remote-session-uccsconfigure remote-login-service gnome-screensaver
+Paquetes recomendados:
+  gnome-user-share evolution-data-server geoclue-ubuntu-geoip
+  | geoclue-provider ubuntu-touch-sounds hud notify-osd-icons
+  a11y-profile-manager-indicator activity-log-manager aisleriot baobab
+  branding-ubuntu cheese deja-dup eog example-content gnome-calendar
+  gnome-mahjongg gnome-orca gnome-power-manager gnome-screensaver
+  gnome-screenshot gnome-system-log ibus-gtk ibus-gtk3 ibus-table
+  libproxy1-plugin-gsettings libproxy1-plugin-networkmanager
+  libreoffice-ogltrans libreoffice-style-breeze libwmf0.2-7-gtk mousetweaks
+  nautilus-sendto nautilus-share overlay-scrollbar-gtk2
+  plymouth-theme-ubuntu-logo pppconfig pppoeconf pulseaudio-module-bluetooth
+  remmina rhythmbox seahorse shotwell thunderbird-gnome-support totem
+  ubuntu-docs ubuntu-software unity-accessibility-profiles
+  unity-webapps-common vino zeitgeist-datahub unity-scope-manpages
+  unity-scope-openclipart unity-scope-zotero unity-scope-gdrive
+  unity-scope-chromiumbookmarks unity-scope-virtualbox unity-scope-calculator
+  unity-lens-applications unity-scope-colourlovers unity-lens-video
+  unity-scope-yelp unity-scope-video-remote unity-lens-photos unity-lens-files
+  unity-scope-texdoc unity-scope-firefoxbookmarks unity-scope-devhelp
+  unity-scope-tomboy unity-lens-music indicator-appmenu indicator-printers
+  indicator-session session-shortcuts cups-pk-helper ubuntu-system-service
+  unity-control-center-faces intel-gpu-tools
+Se instalarán los siguientes paquetes NUEVOS:
+  adium-theme-ubuntu apg bamfdaemon checkbox-converged checkbox-gui
+  gkbd-capplet gnome-bluetooth gnome-session-bin gnome-session-common
+  gstreamer1.0-clutter-3.0 gstreamer1.0-plugins-base-apps gstreamer1.0-tools
+  indicator-bluetooth indicator-datetime indicator-keyboard indicator-power
+  libatk-adaptor libbamf3-2 libcheese-gtk25 libecal-1.2-19 libfcitx-config4
+  libfcitx-gclient0 libfcitx-utils0 libframe6 libgail-common libgeis1
+  libgeonames0 libglewmx1.13 libgnome-bluetooth13 libgnomekbd-common
+  libgnomekbd8 libgrail6 libhud2 libnux-4.0-0 libnux-4.0-common
+  libqt5feedback5 libqt5organizer5 libqt5quicktest5 libtimezonemap-data
+  libtimezonemap1 libubuntugestures5 libubuntutoolkit5 libunity-action-qt1
+  libunity-control-center1 libunity-core-6.0-9 libunity-misc4
+  libunity-settings-daemon1 light-themes notify-osd nux-tools
+  plainbox-provider-checkbox plainbox-provider-resource-generic
+  plainbox-secure-policy pyotherside python3-checkbox-support
+  python3-guacamole python3-jinja2 python3-padme python3-plainbox
+  python3-xlsxwriter qml-module-io-thp-pyotherside qml-module-qtfeedback
+  qml-module-qtgraphicaleffects qml-module-qttest qml-module-ubuntu-components
+  qml-module-ubuntu-layouts qml-module-ubuntu-performancemetrics
+  qml-module-ubuntu-test qmlscene qtdeclarative5-dev-tools
+  qtdeclarative5-test-plugin qtdeclarative5-ubuntu-ui-toolkit-plugin
+  qtdeclarative5-unity-action-plugin suru-icon-theme ubuntu-artwork
+  ubuntu-desktop ubuntu-mobile-icons ubuntu-session ubuntu-settings
+  ubuntu-sounds ubuntu-ui-toolkit-theme ubuntu-wallpapers
+  ubuntu-wallpapers-xenial unity unity-asset-pool unity-control-center
+  unity-greeter unity-schemas unity-scope-home unity-scopes-master-default
+  unity-services unity-settings-daemon xdiagnose

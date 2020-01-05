@@ -1,0 +1,82 @@
+
+
+https://launchpad.net/~alex-p/+ppa-packages
+
+
+tesseract	tesseract-ocr - Tesseract command line OCR tool - Ubuntu Bionic	4.00~git2521-3aa9b37c-1ppa1~bionic1	16 hours ago	None
+tesseract	tesseract-ocr - Tesseract command line OCR tool - Ubuntu Artful	4.00~git2521-3aa9b37c-1ppa1~artful1	16 hours ago	None
+tesseract	tesseract-ocr - Tesseract command line OCR tool - Ubuntu Xenial	4.00~git2521-3aa9b37c-1ppa1~xenial1	16 hours ago	None
+tesseract	tesseract-ocr - Tesseract command line OCR tool - Ubuntu Trusty	4.00~git2521-3aa9b37c-1ppa1~trusty1	16 hours ago	None
+kvirc	KVIrc - The ultimate IRC client - Ubuntu Bionic	4:5.0.0~git-7326-85ef2059c-1ppa1~bionic1	2018-06-01	None
+kvirc	KVIrc - The ultimate IRC client - Ubuntu Artful	4:5.0.0~git-7326-85ef2059c-1ppa1~artful1	2018-06-01	None
+kvirc	KVIrc - The ultimate IRC client - Ubuntu Xenial	4:5.0.0~git-7326-85ef2059c-1ppa1~xenial1	2018-06-01	None
+kvirc	KVIrc - KDE-based next generation IRC client - Ubuntu Bionic	4:5.0.0~git-7326-85ef2059c-1ppa1~bionic1	2018-05-29	None
+kvirc	KVIrc - KDE-based next generation IRC client - Ubuntu Artful	4:5.0.0~git-7326-85ef2059c-1ppa1~artful1	2018-05-29	None
+kvirc	KVIrc - KDE-based next generation IRC client - Ubuntu Xenial	4:5.0.0~git-7326-85ef2059c-1ppa1~xenial1	2018-05-29	None
+kvirc	KVIrc - KDE-based next generation IRC client - Ubuntu Trusty	4:5.0.0~git-7326-85ef2059c-1ppa1~trusty1	2018-05-29	None
+smplayer	notesalexp-bionic - Ubuntu Bionic	18.4.0+svn9035-1ppa1~bionic1	2018-05-29	None
+smplayer	notesalexp-artful - Ubuntu Artful	18.4.0+svn9035-1ppa1~artful1	2018-05-29	None
+smplayer	notesalexp-xenial - Ubuntu Xenial	18.4.0+svn9035-1ppa1~xenial1	2018-05-29	None
+smplayer	notesalexp-trusty - Ubuntu Trusty	18.4.0+svn9035-1ppa1~trusty1	2018-05-29	None
+smplayer	notesalexp-precise - Ubuntu Precise	18.4.0+svn9035-1ppa1~precise1	2018-05-29	None
+scantailor-universal	notesalexp-artful - Ubuntu Artful	0.2.0+git1397-b6bb4c95-1ppa1~artful1	2018-05-29	None
+scantailor-universal	notesalexp-xenial - Ubuntu Xenial	0.2.0+git1397-b6bb4c95-1ppa1~xenial1	2018-05-29	None
+rubyripper	notesalexp-bionic - Ubuntu Bionic	0.6.2+git790-e03991c-1ppa1~bionic1	2018-05-29	None
+rubyripper	notesalexp-artful - Ubuntu Artful	0.6.2+git790-e03991c-1ppa1~artful1	2018-05-29	None
+qcad	notesalexp-bionic - Ubuntu Bionic	3.20.0+git5562-dca21bcd3-1ppa1~bionic1	2018-05-29	None
+qcad	notesalexp-artful - Ubuntu Artful	3.20.0+git5562-dca21bcd3-1ppa1~artful1	2018-05-29	None
+qcad	notesalexp-xenial - Ubuntu Xenial	3.20.0+git5562-dca21bcd3-1ppa1~xenial1	2018-05-29	None
+qcad	notesalexp-trusty - Ubuntu Trusty	3.20.0+git5562-dca21bcd3-1ppa1~trusty1	2018-05-29	None
+psi-plus	notesalexp-bionic - Ubuntu Bionic	1.3.355+git20180514-1ppa1~bionic1	2018-05-29	None
+psi-plus	notesalexp-artful - Ubuntu Artful	1.3.355+git20180514-1ppa1~artful1	2018-05-29	None
+psi-plus	notesalexp-xenial - Ubuntu Xenial	1.3.355+git20180514-1ppa1~xenial1	2018-05-29	None
+ocrodjvu	notesalexp-bionic - Ubuntu Bionic	0.10.4+git1157-4fb8a52-1ppa1~bionic1	2018-05-29	None
+ocrodjvu	notesalexp-artful - Ubuntu Artful	0.10.4+git1157-4fb8a52-1ppa1~artful1	2018-05-29	None
+ocrodjvu	notesalexp-xenial - Ubuntu Xenial	0.10.4+git1157-4fb8a52-1ppa1~xenial1	2018-05-29	None
+ocrodjvu	notesalexp-trusty - Ubuntu Trusty	0.10.4+git1157-4fb8a52-1ppa1~trusty1	2018-05-29	None
+mypaint	notesalexp-bionic - Ubuntu Bionic	1.3.0~git4979-791da343-1ppa1~bionic1	2018-05-29	None
+mypaint	notesalexp-artful - Ubuntu Artful	1.3.0~git4979-791da343-1ppa1~artful1	2018-05-29	None
+mypaint	notesalexp-xenial - Ubuntu Xenial	1.3.0~git4979-791da343-1ppa1~xenial1	2018-05-29	None
+kvirc	notesalexp-bionic - Ubuntu Bionic	4:5.0.0~git-7324-1e9d73c06-1ppa1~bionic1	2018-05-29	None
+kvirc	notesalexp-artful - Ubuntu Artful	4:5.0.0~git-7324-1e9d73c06-1ppa1~artful1	2018-05-29	None
+kvirc	notesalexp-xenial - Ubuntu Xenial	4:5.0.0~git-7324-1e9d73c06-1ppa1~xenial1	2018-05-29	None
+gscan2pdf	notesalexp-bionic - Ubuntu Bionic	2.1.2+git2833-fe6b3bbb-1ppa1~bionic1	2018-05-29	None
+goaccess	notesalexp-bionic - Ubuntu Bionic	1:1.2.0+git2726-5ccc700-1ppa1~bionic1	2018-05-29	None
+goaccess	notesalexp-artful - Ubuntu Artful	1:1.2.0+git2726-5ccc700-1ppa1~artful1	2018-05-29	None
+goaccess	notesalexp-xenial - Ubuntu Xenial	1:1.2.0+git2726-5ccc700-1ppa1~xenial1	2018-05-29	None
+goaccess	notesalexp-trusty - Ubuntu Trusty	1:1.2.0+git2726-5ccc700-1ppa1~trusty1	2018-05-29	None
+goaccess	notesalexp-precise - Ubuntu Precise	1:1.2.0+git2726-5ccc700-1ppa1~precise1	2018-05-29	None
+gimp-devel	notesalexp gimp-devel - Ubuntu Bionic	2.10.2+git40921-ce5821639e-1ppa1~bionic1	2018-05-29	None
+gimp-devel	notesalexp gimp-devel - Ubuntu Artful	2.10.2+git40921-ce5821639e-1ppa1~artful1	2018-05-29	None
+gimp-devel	notesalexp gimp-devel - Ubuntu Xenial	2.10.2+git40921-ce5821639e-1ppa1~xenial1	2018-05-29	None
+deadbeef-mpris2-plugin	notesalexp-bionic - Ubuntu Bionic	1.10+git138-bf93eb3-1ppa1~bionic1	2018-05-29	None
+deadbeef-mpris2-plugin	notesalexp-artful - Ubuntu Artful	1.10+git138-bf93eb3-1ppa1~artful1	2018-05-29	None
+deadbeef-mpris2-plugin	notesalexp-xenial - Ubuntu Xenial	1.10+git138-bf93eb3-1ppa1~xenial1	2018-05-29	None
+deadbeef-mpris2-plugin	notesalexp-trusty - Ubuntu Trusty	1.10+git138-bf93eb3-1ppa1~trusty1	2018-05-29	None
+deadbeef	notesalexp-bionic - Ubuntu Bionic	0.7.2+git7717-ad2c5e09-1ppa1~bionic1	2018-05-29	None
+deadbeef	notesalexp-artful - Ubuntu Artful	0.7.2+git7717-ad2c5e09-1ppa1~artful1	2018-05-29	None
+deadbeef	notesalexp-xenial - Ubuntu Xenial	0.7.2+git7717-ad2c5e09-1ppa1~xenial1	2018-05-29	None
+deadbeef	notesalexp-trusty - Ubuntu Trusty	0.7.2+git7717-ad2c5e09-1ppa1~trusty1	2018-05-29	None
+clementine-qt4	notesalexp-bionic - Ubuntu Bionic	1.3.1+git1958-gc01b7bc43-1ppa1~bionic1	2018-05-29	None
+clementine-qt4	notesalexp-artful - Ubuntu Artful	1.3.1+git1958-gc01b7bc43-1ppa1~artful1	2018-05-29	None
+clementine-qt4	notesalexp-xenial - Ubuntu Xenial	1.3.1+git1958-gc01b7bc43-1ppa1~xenial1	2018-05-29	None
+clementine-qt4	notesalexp-trusty - Ubuntu Trusty	1.3.1+git1958-gc01b7bc43-1ppa1~trusty1	2018-05-29	None
+balsa	notesalexp-bionic - Ubuntu Bionic	2.5.5+git8826-910f3b1f-1ppa1~bionic1	2018-05-29	None
+balsa	notesalexp-artful - Ubuntu Artful	2.5.5+git8826-910f3b1f-1ppa1~artful1	2018-05-29	None
+balsa	notesalexp-xenial - Ubuntu Xenial	2.5.5+git8826-910f3b1f-1ppa1~xenial1	2018-05-29	None
+audacity	notesalexp-bionic - Ubuntu Bionic	1:2.2.2+git8678-a3abacd55-1ppa1~bionic1	2018-05-29	None
+audacity	notesalexp-artful - Ubuntu Artful	1:2.2.2+git8678-a3abacd55-1ppa1~artful1	2018-05-29	None
+audacity	notesalexp-xenial - Ubuntu Xenial	1:2.2.2+git8678-a3abacd55-1ppa1~xenial1	2018-05-29	None
+aegisub	notesalexp-bionic - Ubuntu Bionic	1:3.2.3~git7826-a32bf7acd-1ppa1~bionic1	2018-05-29	None
+aegisub	notesalexp-artful - Ubuntu Artful	1:3.2.3~git7826-a32bf7acd-1ppa1~artful1	2018-05-29	None
+aegisub	notesalexp-xenial - Ubuntu Xenial	1:3.2.3~git7826-a32bf7acd-1ppa1~xenial1	2018-05-29	None
+aegisub	Aegisub - Advanced subtitle editor - Ubuntu Bionic	1:3.2.3~git7826-a32bf7acd-1ppa1~bionic1	2018-05-26	None
+aegisub	Aegisub - Advanced subtitle editor - Ubuntu Artful	1:3.2.3~git7826-a32bf7acd-1ppa1~artful1	2018-05-26	None
+aegisub	Aegisub - Advanced subtitle editor - Ubuntu Xenial	1:3.2.3~git7826-a32bf7acd-1ppa1~xenial1	2018-05-26	None
+goaccess	goaccess - log analyzer for the Apache - Ubuntu Bionic	1:1.2.0+git2726-5ccc700-1ppa1~bionic1	2018-05-24	None
+goaccess	goaccess - log analyzer for the Apache - Ubuntu Artful	1:1.2.0+git2726-5ccc700-1ppa1~artful1	2018-05-24	None
+goaccess	goaccess - log analyzer for the Apache - Ubuntu Xenial	1:1.2.0+git2726-5ccc700-1ppa1~xenial1	2018-05-24	None
+goaccess	goaccess - log analyzer for the Apache - Ubuntu Trusty	1:1.2.0+git2726-5ccc700-1ppa1~trusty1	2018-05-24	None
+goaccess	goaccess - log analyzer for the Apache - Ubuntu Precise	1:1.2.0+git2726-5ccc700-1ppa1~precise1	2018-05-24	None
+1 → 75 of 1799 results	First • Previous • Next • Last
+

@@ -1,0 +1,9 @@
+Commit Log for Tue Jan 19 10:58:23 2016
+
+
+Quitó completamente los siguientes paquetes:
+gtk3-engines-unico
+
+Quitó los paquetes siguientes:
+delorean-dark
+delorean-dark-3.16

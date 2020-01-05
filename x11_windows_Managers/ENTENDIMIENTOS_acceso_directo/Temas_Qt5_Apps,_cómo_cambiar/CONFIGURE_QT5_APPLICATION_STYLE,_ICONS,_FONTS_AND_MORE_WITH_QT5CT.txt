@@ -1,0 +1,25 @@
+
+
+CONFIGURE QT5 APPLICATION STYLE, ICONS, FONTS AND MORE WITH QT5CT
+http://www.webupd8.org/2015/11/configure-qt5-application-style-icons.html
+
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install qt5ct
+
+Once installed, there's one more step you need to follow or else the settings you apply using Qt5ct won't be applied - you need to open ~/.profile with a text editor (".profile" is a hidden file in your home directory so use CTRL + H to show hidden files) and at the bottom of this file, add the following line:
+
+
+export QT_QPA_PLATFORMTHEME="qt5ct" 
+
+
+Then, save the file, log out and after you login you can use Qt5 Configuration Tool to change the Qt5 style, icon theme and so on. Launch
+
+qt5ct
+
+You'll need to restart any Qt5 applications that were running to see the changes.
+
+If later on you want to revert the changes, simply remove the "export QT_QPA_PLATFORMTHEME=qt5ct" line from your ~/.profile file and restart your session (logout).
+
+
+Important: in some desktop environments / Linux distributions, the QT_QPA_PLATFORMTHEME (or QT_STYLE_OVERRIDE) environment variable might already be set. For instance, Xubuntu sets QT_STYLE_OVERRIDE in /etc/X11/Xsession.d/56xubuntu-session (so you'll need to comment it out to be able to use Qt5ct). LXDE hardcodes this so the only way around it is to compile the code yourself - see HERE.

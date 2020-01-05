@@ -1,0 +1,9 @@
+Building a Custom Linux Environment With Openbox
+Mar 28, 2016
+Ram logo JOHN RAMSDEN
+
+https://ramsdenj.com/2016/03/28/building-a-custom-linux-environment-with-openbox.html
+
+lxinput - Can be used to configure mouse and keyboard, allows mouse speed and acceleration to be adjusted.
+
+ 

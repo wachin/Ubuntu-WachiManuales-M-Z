@@ -1,0 +1,231 @@
+
+
+
+Cómo crear archivo de texto con comando en Linux
+https://www.solvetic.com/tutoriales/article/4980-como-crear-archivo-de-texto-con-comando-linux/
+
+Tutorial para crear un nuevo archivo de texto con comandos, renombrarlo o cambiarle la extensión desde la terminal en Linux.
+
+Escrito por Solvetic Sistemas may 23 2019 16:40
+
+
+
+TE INTERESA!
+Mejores tutoriales distribuciones Linux
+
+Como sabemos, las distribuciones de Linux han sido pensadas inicialmente para ser administradas a través de consola o línea de comandos por lo que es práctico y necesario conocer algunas formas de administrar tareas elementales a través de ésta. Linux es un sistema que básicamente se sustenta en la línea de comandos y son muchos los usuarios que prefieren un entorno de terminal a uno gráfico.
+
+ 
+
+Gracias a las múltiples posibilidades que encontramos dentro del mundo de los comandos podemos gestionar prácticamente cualquier elemento de nuestro equipo a través de la terminal siendo los archivos y directorios parte fundamental de ellos. Imagina crear una raíz entera de directorios y archivos con la extensión y nombre que quieras con dos comandos ¿interesante verdad? Pues esto es lo que vamos a ver a continuación.
+
+ 
+
+Cómo poner contraseña en archivo texto con VIM Linux o Mac
+Pasos para poder encriptar tus archivos con comandos VIM en Linux o macOS poniendo password y así protegerlos.
+LEER MÁS
+
+ 
+
+Una de etas tareas consiste en crear archivos de texto con algún tipo de información útil y una de las mejores opciones para lograrlo es a través del comando cat y Solvetic hoy analizará cómo lograrlo de forma simple. Además de crear un archivo como tal, también podrás ver como crear uno con información de un comando o cómo renombrarlos y cambiar la extensión rápidamente.
+
+ 
+
+ 
+
+
+1. Crear un archivo usando el comando cat en Linux
+
+Este método nos da la posibilidad de crear archivos de texto con el comando cat y es practico si deseamos agregar de forma inmediata texto al nuevo archivo a crear.
+
+ 
+
+Paso 1
+
+Para esto, vamos a ingresar el siguiente comando en la terminal:
+
+    cat > archivo.txt
+
+Paso 2
+
+Después de pulsar Enter, no regresará al indicador de la terminal de la distribución seleccionada, sino que el cursor se ubicará en la siguiente línea y allí podremos comenzar a ingresar texto directamente en este archivo.
+
+ 
+
+ 
+
+ 
+
+ 
+
+1-Crear-un-archivo-usando-el-comando-cat.png
+AMPLIAR
+
+ 
+
+Paso 3
+
+Alli ingresaremos las líneas de texto que deseamos ingresar, pulsando Enter después de cada línea. Cuando terminemos, pulsamos la combinación de teclas Ctrl + D para salir del archivo y regresar al mensaje creado.
+
+ 
+
+Ctrl + D
+
+ 
+
+ 
+
+ 
+
+ 
+
+2-CREAR-ARCHIVO-DE-TEXTO.png
+AMPLIAR
+
+ 
+
+Paso 4
+
+Para verificar que el archivo fue creado, podremos usar el comando ls para desplegar una lista de directorio para el archivo actual:
+
+    ls -l archivo.txt
+
+3-ls-para-desplegar-una-lista-de-directorio.png
+AMPLIAR
+
+ 
+
+Paso 5
+
+Allí veremos detalles como:
+
+    Fecha y hora de creación del archivo
+
+    Permisos asignados
+
+ 
+
+Paso 6
+
+El comando cat también será útil para ver el contenido del archivo creado, basta con ejecutar el siguiente comando.
+
+    cat archivo.txt
+
+4-crear-archivo-texto-comandos.png
+AMPLIAR
+
+ 
+
+ 
+
+
+2. Crear un archivo de texto usando el comando Touch en Linux
+
+Otra de las opciones que nos ofrece Linux para crear archivos de texto es usando el comando touch, y una de las diferencias entre usar el comando touch y el comando cat es que cuando usamos el comando cat será posible ingresar el texto en el nuevo archivo de forma inmediata mientras que con el comando touch esto no será posible.
+
+ 
+
+Una de las ventajas del comando touch es que este nos permite crear múltiples archivos nuevos con un solo comando de forma simultánea.
+
+ 
+
+Paso 1
+
+Para crear un nuevo archivo usando touch vamos a ejecutar lo siguiente:
+
+    touch archivo.txt
+
+5-Crear-un-archivo-de-texto-usando-el-comando-Touch.png
+AMPLIAR
+
+ 
+
+Paso 2
+
+Para confirmar que nuestro archivo ha sido creado de forma correcta, vamos a ejecutar lo siguiente:
+
+    ls -l archivo.txt
+
+6-archivo-texto-comandos-linux.png
+AMPLIAR
+
+ 
+
+ 
+
+Paso 3
+
+Como hemos indicado, el comando touch nos da la oportunidad de crear múltiples archivos nuevos de una sola vez, para esto basta con agregar todos los nombres de archivos adicionales (separados por espacios) según sea necesario:
+
+    touch Archivo.txt Archivo.txt Archivo.txt
+
+7-el-comando-touch.png
+AMPLIAR
+
+ 
+
+ 
+
+Paso 4
+
+Para agregar contenido a este archivo, podremos usar algún editor de texto como nano o vi:
+
+    nano Solvetic.txt
+
+8-usar-algún-editor-de-texto.png
+AMPLIAR
+
+ 
+
+ 
+
+
+3. Crear un archivo de texto usando el símbolo de redirección en Linux
+
+Otra alternativa para crear un archivo de texto en Linux es usando el símbolo de redirección estándar el cual se usa por lo general para redirigir la salida de un comando a un nuevo archivo.
+
+ 
+
+Paso 1
+
+Para crear un nuevo archivo vamos a ejecutar lo siguiente:
+
+    > archivo.txt
+
+9-Crear-un-archivo-de-texto-usando-el-símbolo.png
+AMPLIAR
+
+ 
+
+Paso 2
+
+Para ver que se ha creado nuestro archivo ejecutaremos lo siguiente:
+
+    ls -l archivo.txt
+
+10-ls--l-archivo-txt.png
+AMPLIAR
+
+ 
+
+ 
+
+
+4. Crear un archivo de texto con resultados de comando en Linux
+
+Como estamos viendo el uso de comandos también es aplicable a la creación y gestión de archivos en entornos Linux. Poder gestionar nuestra información desde la terminal permite tener flexibilidad a la hora de elegir desde dónde queremos realizar las tareas y es que desde la misma consola podremos realizar multitud de acciones. Un archivo de texto es una pieza básica en la construcción de nuestra base de datos y poderlo crear a base de comandos nos agiliza mucho las cosas.
+
+ 
+
+Una de las opciones que tenemos a la hora de crear un archivo de texto, es que se cree uno que contenga información de un comando directamente, es decir, la información que arroja. Con este método podremos crear un archivo de texto que guarde información de errores, que no despliegue nada y hasta que la muestre y también la guarde. Cuando usamos comandos que, por ejemplo, nos despliegue la información de un listado de directorios es óptimo saber que podremos guardar toda es información de una vez en un archivo de texto.
+
+ 
+
+Cómo guardar resultado de comando en archivo texto Linux
+Con este tutorial aprenderás cómo poder guardar el resultado que arroja un comando en un archivo de texto en Ubuntu de Linux.
+LEER MÁS
+
+ 
+
+ 
+

@@ -1,0 +1,8 @@
+
+
+Themes and Icons - NoobsLab | Ubuntu/Linux News, Reviews, Tutorials, Apps
+http://www.noobslab.com/p/themes-icons.html
+
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install albatross-theme 

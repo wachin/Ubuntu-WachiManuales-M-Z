@@ -1,0 +1,26 @@
+
+
+
+wmix (feo)
+volti (sencillo un regulador)
+mate-media (sencillo un regulador)
+kmix (feo)
+pnmixer.- el mejor, abre pulseaudio http://forums.fedoraforum.org/showthread.php?t=282433
+
+
+lanzador de escritorio ligero y rapido
+kupfer.- increible y de bajos recursos
+synapse.- increible y de muchos recursos
+apwal.- malo
+gmrun.- malo
+xfce4-appfinder
+xfce4-appfinder --collapsed
+/usr/lib/i386-linux-gnu/xfce4/notifyd/xfce4-notifyd
+http://forums.fedoraforum.org/showthread.php?t=282433
+xfce4-clipman 
+
+
+
+
+
+

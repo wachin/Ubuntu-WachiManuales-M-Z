@@ -1,0 +1,27 @@
+
+
+
+Software_source - deepin Wiki 2018
+https://wiki.deepin.org/index.php?title=Software_source&language=en
+
+
+To view current configurations of source, execute in terminal:
+
+sudo gedit  /etc/apt/sources.list
+
+Add this to the end
+
+deb [by-hash=force] http://packages.deepin.com/deepin unstable main contrib non-free
+#deb-src http://packages.deepin.com/deepin unstable main contrib non-free
+
+next:
+
+wget http://packages.deepin.com/deepin/project/deepin-keyring.gpg
+gpg --import deepin-keyring.gpg
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 425956BB3E31DF51
+
+
+有意把 /etc/apt/trust* 给删了，如何恢复？-deepin provides a powerful computing environment for users all over the world!
+https://bbs.deepin.org/forum.php?mod=viewthread&tid=40739
+

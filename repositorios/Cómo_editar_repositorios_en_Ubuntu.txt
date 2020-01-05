@@ -1,0 +1,12 @@
+
+Can i install Deepin Desktop Environment 2 in Ubuntu 14.04 LTS?
+http://askubuntu.com/questions/515302/can-i-install-deepin-desktop-environment-2-in-ubuntu-14-04-lts
+
+First, open the /etc/apt/sources.list file in an open terminal with the following command:
+
+sudo gedit /etc/apt/sources.list
+Add the following lines:
+
+deb http://packages.linuxdeepin.com/deepin trusty main non-free universe
+deb-src http://packages.linuxdeepin.com/deepin trusty main non-free universe
+

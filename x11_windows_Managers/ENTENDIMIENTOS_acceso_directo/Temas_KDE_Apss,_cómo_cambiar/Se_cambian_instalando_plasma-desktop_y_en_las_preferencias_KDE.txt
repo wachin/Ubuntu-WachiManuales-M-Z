@@ -1,0 +1,34 @@
+
+La aplicación para mi más importante para que se vean los iconos blancos en todo el fondo oscuro es el administrador de archivos: dolphin4
+
+Instalar plasma-desktop 
+
+sudo apt-get install plasma-desktop
+
+Luego cerrar sesión y entrar en la sesión de Plasma, allí buscar las opciones del sistema y siga las instrucciones de las imágenes (vea estas imágenes):
+
+02 Preferencias del sistema (KDE) - Tema del espacio de trabajo.png
+03 Aplicaciones escojiendo - Aspecto Visual - Brisa Oscuro.png
+
+Luego cierre sesión y vuelva a entrar. Si no ha cambiado en el buscador xfce4-appfinder que yo le he puesto a la sesión de iceWM, búsque:
+
+kde
+
+allí le aparecerá:
+
+04 Buscando kde en el buscador xfce4-appfinder y aparece Preferencias del Sistema KDE.png
+
+abra a:
+
+Preferencias del Sistema KDE
+
+y allí entre a:
+
+Iconos/Tema/Brisa Oscura
+
+y Aplique
+
+Vea ahora dolphin4 y verá que si funciona
+
+
+

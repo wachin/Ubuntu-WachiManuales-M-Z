@@ -1,0 +1,160 @@
+Instrucciones para Instalar 
+
+Texto a voz con Balabolka y Microsoft Speech Plataform 11 en Linux
+
+************************
+1.- Instalar PlayOnLinux
+************************
+Ponga en la terminal esta línea y ejecutela:
+
+sudo apt-get install playonlinux mousepad
+
+***********************************
+2.- INSTALAR UNA VERSION DE WINE 3
+***********************************
+Nota: Wine a tenido un gran cambio de tal manera que versiones modernas de Sistemas Operativos Linux después del 2018 ya no pueden ejecutar versiones de Wine 1.7, 1.8, 1.9, 2.0. Estas versiones modernas de Linux sólo pueden ejecutar las versiones de Wine que traen en sus repositorios, desde la 3.0 en adelante.
+
+En PlayOnLinux:
+
+Herramientas/Gestiona versiones de Wine
+
+instale la versión de wine:
+
+3.3
+
+Si tiene un sistema operativo de 32 bits sólo aparecerá una pestaña que dice:
+
+"Versiones de Wine (x86)"
+
+pero si tuviera usted un sistema operativo de 64 bits le aparecerán dos pestañas, al lado derecho una que dice:
+
+"Versiones de Wine (x64)"
+
+Elija la pestaña de acuerdo a su sistema operativo.
+
+Nota: Le pido que instale esta versión pues el programa funciona bien aquí, pero asegurese de que no esté siendo usada esa versión por otro programa que usted haya instalado (pues cuando uno ha instalado algunos programas en PlayOnLinux las versiones que hemos usado no deben ser usadas otra vez)
+
+*********************
+01 INSTALE BALABOLKA 
+*********************
+
+Descargue Balabolka desde:
+
+http://www.cross-plus-a.com/es/balabolka.htm
+
+una vez descargado descomprima el zip.
+
+En PlayOnLinux de clic en el + y clic en: "Instalar un programa no listado", Siguiente, Siguiente, Siguiente y en "Instalar un programa en una nueva unidad virtual"  y pongale nombre ejemplo:
+
+balabolka2wine3
+
+elegir:
+
+-Use otra versión de wine
+-Configurar wine
+
+En version de wine escoja 3.0 o una que no esté siendo usada.
+
+en la ventana de "Configuración de Wine" de clic en la pestaña "Graficos" y ponga en "Resolución 120 (o la mejor para su monitor), y clic en Aplicar y Aceptar
+
+de clic en el botón "Expĺorar" y busque el instalador setup.exe clic en "Siguiente" e instálelo y al final cierre la ventana de fin de instalación
+
+En Balabolka Cuando se acabe de instalar desmarque la opcion para ejecutar despues de instalar
+
+A lo que aparece la siguiente ventana, cree el atajo para:
+
+balabolka.exe
+
+Pongale nombre:
+
+Balabolka 2 (wine 3)
+
+luego que aparece la ventana otra vez, digale que ya 
+
+"No quiero crear otro atajo"
+
+y siguiente
+
+*******************************
+03 INSTALE Microsoft Runtime 11
+*******************************
+Descargue desde:
+
+Microsoft Speech Platform - Runtime 11
+https://www.microsoft.com/en-us/download/details.aspx?id=27225
+
+descargue para 32 
+
+x86_SpeechPlatformRuntime\SpeechPlatformRuntime.msi  2.2 MB
+
+o para 64 bits:
+
+x64_SpeechPlatformRuntime\SpeechPlatformRuntime.msi  2.6 MB
+
+descarguelo, y para instalarlo de clic en el programa que hemos instalado en PlayOnLinux y luego clic en la tuerca de PlayOnLinux y clic en la pestaña "Miscelaneo" y clic en "Ejecutar un archivo .exe en esta unidad" y busque el archivo e instalelo
+
+Nota: Cuando descargue estos instaladores .msi no los guarde dentro de carpetas que tengan el nombre muy largo pues es posible no los pueda instalar. Además trate de que los nombres de las carpetas no tengan espacios. Con todo lo mejor es que los instale desde la carpeta Descargas.
+
+
+**********************************************
+04 INSTALÉ LAS VOCES ALTA CALIDAD DE MICROSOFT
+**********************************************
+
+descarguelas de aquí:
+
+Microsoft Speech Platform - Runtime Languages (Version 11) 
+https://www.microsoft.com/en-us/download/details.aspx?id=27224
+
+instale el lenguage que usted necesite, le recomiendo estas (yo uso estas, pero si ustedes quieren otros idiomas bien pueden):
+
+    MSSpeech_TTS_en-US_Helen.msi
+    MSSpeech_TTS_en-US_ZiraPro.msi
+    MSSpeech_TTS_es-ES_Helena.msi
+    MSSpeech_TTS_es-MX_Hilda.msi
+    MSSpeech_TTS_en-GB_Hazel.msi
+
+Nota: De la lista de descargas sólo funcionan los TTS.
+
+Nota 2: Estas instalaciones no muestran ventana de instalación.
+
+Instalelas allí mismo en "Miscelaneo" y clic en:
+
+"Ejecutar un archivo .exe en esta unidad"
+
+y busque el ejecutable de la voz que quiere e instalelo.
+
+*********************************
+05 INSTALAR EL COMPONENTES MSXML3
+*********************************
+
+En la pestaña "Instalar Componentes" buscar msxml3 e instalarlo
+
+*******************
+06 INSTALE HUNSPELL
+*******************
+
+Búsque hunspell en:
+
+http://www.cross-plus-a.com/es/balabolka.htm
+
+Esto es necesario para poder corregir la ortografía, está al final de la página, allí debe buscar el idioma que necesita, darle clic para que se pueda descargar el archivo .zip, luego descomprímalo para que pueda tener el ejecutable
+
+Instale allí mismo en "Miscelaneo" y clic en:
+
+"Ejecutar un archivo .exe en esta unidad"
+
+y busque el ejecutable que necesita e instálelo.
+
+Nota de Agradecimiento: 
+Gracias indirectas al que respondió al mensaje de error OLE que aunque no era para Balabolka funcionó (allí dice que hay que instalar msxml3):
+
+wine - OLE error 80004001 - running keynote app
+https://ubuntuforums.org/showthread.php?t=1727499
+
+Dios les bendiga
+
+Atentamente: Washington Indacochea Delgado
+wachin.id@gmail.com
+2019
+
+

@@ -1,0 +1,109 @@
+
+Instalar
+
+sudo apt install gromit-mpx
+
+
+How to use it
+You can operate Gromit-MPX using its tray icon (if your desktop environment provides a sys tray), but since you typically want to use the program you are demonstrating and highlighting something is a short interruption of your workflow, Gromit-MPX can be toggled on and off on the fly via a hotkey:
+
+Per default, it grabs the F9 and F10 keys, so that no other application can use them and they are available to Gromit-MPX only. The available commands are:
+
+F9:        toggle painting
+SHIFT-F9:  clear screen
+CTRL-F9:   toggle visibility
+ALT-F9:    Quit Gromit-MPX.
+F10:       undo last stroke
+SHIFT-F10: redo last undone stroke
+
+Esto significa que:
+
+--key = F9
+--undo-key = F10
+
+
+You can specify the keys to grab via:
+
+
+
+gromit-mpx --key <keysym> --undo-key <keysym>
+Specifying an empty string or none for the keysym will prevent gromit from grabbing a key.
+
+https://github.com/bk138/gromit-mpx
+
+
+AYUDA DE LA TERMINAL:
+
+man gromit-mpx
+
+       -k <keysym>, --key <keysym>
+              will change the key used to grab the mouse. <keysym> can e.g. be
+              "F9", "F12", "Control_R" or "Print". To determine the keysym for
+              different keys you can use the xev(1) command. You  can  specify
+              "none" to prevent Gromit-MPX from grabbing a key.
+
+     -u <keysym>, --undo-key <keysym>
+              will change the key used to undo/redo strokes. <keysym> can e.g.
+              be  "F9", "F12", "Control_R" or "Print". To determine the keysym
+              for different keys you can use the xev(1) command. You can spec‐
+              ify "none" to prevent Gromit-MPX from grabbing a key.
+
+
+
+
+
+Soy Wachín. A fin usarlo mejor con mi teclado y debido a que yo no quiero estar mirando a cada rato la tecla, es mejor para mi usar la tecla Impr pues está más accesible para mi teclado Logitech k400, así que voy a averiguar con 
+
+xev
+
+cual es esa tecla en la terminal
+
+al pulsar la tecla Impr en la terminal me dice que se llama: "Insert", por lo cual lo voy a reemplazar y queda así:
+
+gromit-mpx --key F11 --undo-key F12
+
+Esto significa que:
+
+--key = F11
+--undo-key = F12
+
+Nota: Al iniciar Gromit-mpx con este comando que para mi teclado logitech k400 donde para activar las teclas "F" tengo que presionar la tecla "Fn" yo he puesto así, a mi ahora serán los atajos de teclado así:
+
+Fn + F11         : Activar pintar
+SHIFT Fn + F11   : Limpiar pantalla
+CTRL + Fn + F11  : Cambiar la visivilidad
+ALT + Fn + F11   : Cerrar Gromit-MPX.
+Fn + F12         : undo last stroke
+SHIFT + Fn + F12 : redo last undone stroke
+
+
+Para hacer el cambio permanete, modificar el archivo lanzador. Instale gedit:
+
+sudo apt install gedit
+
+Si ya lo tenía instalado no haga eso. Poner en la terminal:
+
+sudo cp /usr/share/applications/gromit-mpx.desktop /usr/share/applications/gromit-mpx.desktop.backup
+
+luego de creado el respaldo:
+
+sudo gedit /usr/share/applications/gromit-mpx.desktop
+
+y cambiar donde dice:
+
+Exec=gromit-mpx
+
+por:
+
+Exec=gromit-mpx --key F11 --undo-key F12
+
+guardar y cerrar
+
+Reiniciar
+
+y después funcionará
+
+
+
+
+

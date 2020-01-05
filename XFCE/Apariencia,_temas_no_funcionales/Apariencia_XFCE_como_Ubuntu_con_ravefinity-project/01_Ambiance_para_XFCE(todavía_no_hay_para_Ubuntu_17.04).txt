@@ -1,0 +1,24 @@
+
+
+
+
+sudo add-apt-repository ppa:ravefinity-project/ppa
+sudo apt-get update
+sudo apt-get install ambiance-colors
+
+luego de añadir este yo utilicé el tema (en apariencia):
+
+Ambiance-XFCE-LXDE-Orange
+
+y en el Gestor de Ventanas también el mismo
+
+Ambiance-XFCE-LXDE-Orange
+
+
+Consultas
+
+How to make Xubuntu 14.04 look and feel more like Ubuntu
+https://ubuntuforums.org/showthread.php?t=2244519 
+
+AMBIANCE AND RADIANCE COLORS THEME PACK AVAILABLE FOR UBUNTU 14.04
+http://www.webupd8.org/2014/04/ambiance-and-radiance-colors-theme-pack.html

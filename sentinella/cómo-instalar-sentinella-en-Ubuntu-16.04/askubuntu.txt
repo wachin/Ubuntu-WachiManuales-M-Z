@@ -1,0 +1,20 @@
+
+Sentinella Cannot be installed on ubuntu 14.10 above
+http://askubuntu.com/questions/595383/sentinella-cannot-be-installed-on-ubuntu-14-10-above
+
+From Ubuntu 14.10, Cannonical has removed few KDE packages from the respositories. You can see that the dependency required for sentinella has been removed from here. But yet there is hope while debian is here. There is a package to be downoaded before getting libprocessui4a. Here is a step by step how to.
+
+1) go to 'https://packages.debian.org/wheezy/libprocesscore4abi1'and scroll down to find the package which suits your computer architecture and then choose a mirror and download it.
+
+2) Double-cick the package (libprocesscore4abi1_4.8.4-6_amd64.deb) and install it with software center
+
+3) go to 'https://packages.debian.org/wheezy/libs/libprocessui4a' and scroll down to find the package which suits your computer architecture and then choose a mirror and download it.
+
+4)Double-click the package (libprocessui4a_4.8.4-6_amd64.deb) and install it with software centre
+
+5)Now you can install Sentinella either from software centre or by typingsudo apt-get install sentinella in the terminal 
+
+
+Soy wachín, es necesario descargar sentinella desde aquí para Ubuntu 16.04:
+
+https://packages.debian.org/wheezy/sentinella

@@ -1,0 +1,12 @@
+Remove a PPA using APT in terminal:
+http://itsfoss.com/how-to-remove-or-delete-ppas-quick-tip/
+
+Mostly, you add a PPA using add-apt. We’ll use same add-apt to remove a PPA.Use the following command in terminal:
+
+sudo add-apt-repository --remove ppa:PPA_Name/ppa
+
+sudo add-apt-repository --remove ppa:rikmills/latte-dock
+
+sudo add-apt-repository --remove ppa:torios-dev/fltk-torios-apps
+
+

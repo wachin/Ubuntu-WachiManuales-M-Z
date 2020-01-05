@@ -1,0 +1,29 @@
+
+
+installation - USB MBR Damaged - Ask Ubuntu
+http://askubuntu.com/questions/314699/usb-mbr-damaged
+
+¿es cierto que usar una usb para instalar ubuntu daña la usb? | Yahoo Respuestas
+https://espanol.answers.yahoo.com/question/index?qid=20100920172841AAVyIip
+
+Fixing problems installing Ubuntu from a USB flash drive
+http://cirrus.ucsd.edu/~pierce/fix_ubuntu_usb/
+
+[HowTo] Restore MBR Windows using Boot Repair
+http://www.howopensource.com/2011/08/restore-mbr-from-ubuntu-live-cd-usb/
+
+¿Desfragmentar el disco duro acorta la vida útil de este? @ ElOtroLado.net PC General
+http://www.elotrolado.net/hilo_desfragmentar-el-disco-duro-acorta-la-vida-util-de-este_1127071
+
+Agalisa Informática - Mitos en torno a los discos duros
+http://www.agalisa.es/modules.php?name=News&file=print&sid=607
+
+
+Fixing problems installing Ubuntu from a USB flash drive
+http://cirrus.ucsd.edu/~pierce/fix_ubuntu_usb/
+
+[ubuntu] Repairing a corrupt USB drive
+http://ubuntuforums.org/showthread.php?t=190133
+
+
+

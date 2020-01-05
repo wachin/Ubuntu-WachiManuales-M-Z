@@ -1,0 +1,49 @@
+[b]Importante:[/b] Este tuto está hecho con UbuntuStudio 13.10, es importante decir esto pues después en una versión anterior alguna palabra o nombre de alguna opción vaya a cambiar (pero así es en todo lo que tenga que ver con programas, ya luego uno se acostumbra, lo importante son los principios)
+
+En una PC o Laptop ¿cómo una persona podría cantar en un micrófono externo de PC conectado a la misma al mismo tiempo que estuviera escuchando sonar una pista de una canción y que ambos se escuchen sincronizados sin uno estar más adelantado o atrasado?
+
+[color=red]SOLUCIÓN 1[/color]
+Necestias UbuntuStudio 12.04 o 13.10
+- (Se podría en Ubuntu instalando los paquetes de Jack pero según he leído hay que hacer un tramite, más fácil es así, ya todo viene configurado)
+
+- Abra Jack Audio Connection Kit (QjackCtl) como muestra la sig fig:
+[img=http://k34.kn3.net/taringa/2/6/9/8/7/7/8/wachin_id/9FC.jpg?2284]
+
+- De clic en Setup
+[img=http://k38.kn3.net/taringa/2/6/9/8/7/7/8/wachin_id/506.jpg?2447]
+
+- En Cuados/Periodos pongale 128
+[img=http://k42.kn3.net/taringa/2/6/9/8/7/7/8/wachin_id/B98.jpg?9193]
+Dele a Aceptar. Por un caso alguien tenga miedo de hacer esto, me dijeron los desarrolladores de UbuntuSutdio en el XChat de Freenote en el canal de #UbuntuStudio (en el programa XChat IRC) que no le pasa nada al Hardware si se le cambian los valores allí.
+
+- Conecte un micrófono externo a su Laptop o PC y de clic en 
+
+Inicio/Mixers and Card Controls/Control de Volumen de PulseAudio
+
+Esto es para abrir el Control de Volumen
+[img=http://k36.kn3.net/taringa/2/6/9/8/7/7/8/wachin_id/690.jpg?3967]
+
+Allí vaya a la pestaña "Dispositivos de Entrada", vea esta fig:
+
+[img=http://k45.kn3.net/taringa/2/6/9/8/7/7/8/wachin_id/59C.jpg?3398]
+
+Allí le he puesto números a la imágen: [b]1.-[/b] Es la pestaña propiamente dicha. [b]2.-[/b] Es el puerto, donde usted notará lo siguiente(haga lo que le digo), sáque el cable del micrófono que le dije que lo conecte y observará que cambia y dice "Entrada Analógica" ese quiere decir que se ha conectado a los micrófonos de su laptop (si fuera laptop. Yo estoy haciendo este tuto desde una laptop, una Dell Inspiron y aquí pasa eso). [b]3.-[/b] Aquí es necesario bajar el volumen del micrófono, usted debe volver a conectar el micrófono externo (yo uso de esos para la cabeza con auriculares incluidos), bajeselo hasta más abajo de "Base", igual bájeselo hasta más abajo de Base si usa una laptop(saque el micrófono externo), para evitar chillidos. Por ultimo ponga el micrófono externo con el que va a cantar.
+
+
+- De clic en Conecciones
+[img=http://k36.kn3.net/taringa/2/6/9/8/7/7/8/wachin_id/8FD.jpg?6571]
+
+Arrastre (dandole clic y teniendo aplastado) al System de los micrófonos de la izquierda hacia el System de los micrófonos de la derecha, mire el sig video:
+
+[video]http://youtu.be/6oau_GEtgR0[/video]
+link: [url]http://youtu.be/6oau_GEtgR0[/url]
+
+- Abra el reproductor de música "Audacious" (que está en el menú de los programas "Media Playback" y dele clic en "Archivo/Preferencias" y asegúrese que está en "Ajustes de Salida" "Salida JACK" 
+
+[img=http://k43.kn3.net/taringa/2/6/9/8/7/7/8/wachin_id/7B9.jpg?8481]
+
+Y reproduzca la música que usted quiera en el (nota yo uso una 
+
+
+
+

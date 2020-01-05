@@ -1,0 +1,87 @@
+
+
+CAMBIAR LA DISTRIBUCIÓN DEL TECLADO con setxkbmap.
+https://travesuras.wordpress.com/tag/setxkbmap/
+
+Diferentes distribuciones de teclado se usa la opción -layout. También se puede llegar con ellas utilizando setxkbmap [nombre del layout]
+
+Español latinoamericano:
+
+setxkbmap -layout latam
+
+setxkbmap latam
+
+Algunos ejemplos de otras distribuciones de teclado (layout):
+
+Español de españa: es
+Inglés: us
+Inglés britanico: gb
+Portugues de Brasil: br
+Alemán: de
+Japones: jp
+
+CAMBIAR ENTRE DISTRIBUCIONES DE TECLADO CON ATAJOS DE TECLADO.
+
+Para indicar varias distribuciones de teclado y que se puedan intercambiar al presionar un atajo de teclado:
+
+setxkbmap -layout "latam,us,br,es" -option "grp:alt_shift_toggle"
+
+Al ir presionando las teclas ALT+SHIFT va cambiando entre las distribuciones de teclados latinoamericano, ingles, brasileño y español.
+
+Otras posibles combinaciones aparte de Alt+Shift (alt_shift_toggle):
+
+ctrl_shift_toggle: Ctrl+Shift.
+alts_toggle: Ambas teclas Alt.
+ctrls_toggle: Ambas teclas Ctrl.
+
+Hacer que intercambie distribuciones de teclado mientras se presiona la tecla AltGr:
+
+setxkbmap -option grp:switch latam,us
+
+Esta es una combinación de las dos opciones anteriores para cambiar de teclado. Se puede ir momentáneamente al otro al presionar AltGr o cambiar completamente al utilizar ALT-SHIFT.
+
+setxkbmap -option grp:switch,grp:alt_shift_toggle latam,us
+
+CAMBIAR TIPO DE TECLADO O ESPECIFICAR UNA VARIANTE DE DISTRIBUCIÓN DE TECLADO.
+
+Se usa la opción -variant para especificar las diferentes distribuciones de teclado.
+
+Inglés DVORAK
+
+El teclado DVORAK es una alternativa ergonómica al teclado QWERT. Para más información aquí y aquí.
+
+setxkbmap -layout us -variant dvorak
+
+Inglés internacional:
+
+setxkbmap -layout us -variant intl
+
+MAPEAR EL TECLADO
+
+Utilizar la tecla bloqueador de mayúsculas como control:
+
+setxkbmap -option ctrl:nocaps
+
+Hace que el bloqueado de mayúsculas funcione como retroceso:
+
+setxkbmap -option caps:backspace
+
+Si se quiere intercambiar las teclas control y bloqueador de mayúsculas:
+
+setxkbmap -option ctrl:swapcaps
+
+CAMBIAR EL MODELO DEL TECLADO
+
+La opción -model especifica el modelo de teclado. Otros modelos además del pc105: abnt2, pc104, evdev, jp106, nokiarm680, olpc, etc.
+
+setxkbmap -model pc105
+
+ 
+ 
+
+https://gracca.wordpress.com/2009/07/15/configurar-teclado-manualmente-en-linux/
+https://abaqueiro.wordpress.com/2007/09/13/comando-para-cambiar-esquema-del-teclado-en-linux/
+https://flossblog.wordpress.com/2009/11/05/como-cambiar-la-configuracion-del-teclado-en-gnulinux/
+http://www.glatelier.org/2012/09/mapea-tus-teclas-con-xmodmap-y-setxkbmap/
+http://dglog.com.ar/blog/multiple_layout_teclado/
+http://blog.ssokolow.com/archives/2011/12/24/getting-your-way-with-setxkbmap/

@@ -1,0 +1,32 @@
+
+
+Unetbootin
+https://help.ubuntu.com/community/Installation/FromUSBStick
+
+
+sudo apt-get install unetbootin
+
+para lanzar desde la terminal
+
+sudo unetbootin
+
+
+
+
+Unetbootin works well in Ubuntu, when installed via the developer's ppa. The version in the Ubuntu repositories is not up to date in order to install from the versions 12.04 LTS and 14.04 LTS to 15.04.
+
+https://launchpad.net/~gezakovacs/+archive/ubuntu/ppa
+
+sudo add-apt-repository ppa:gezakovacs/ppa
+sudo apt-get update
+sudo apt-get install unetbootin
+If you're using UEFI, do not currently use Unetbootin with Debian iso files due to a bug.
+
+
+Start Unetbootin, select an ISO file or a distribution to download, select a target drive (USB drive or Hard Disk), select persistence if you wish, then reboot once done. If your USB drive doesn't show up, reformat it as FAT32. Mount the FAT32 partition (for example by un-plugging and re-plugging the drive). 
+
+If you don't reboot, because you want to use the pendrive in another computer, unmount (eject) the FAT32 partition before unplugging it, otherwise you might corrupt the file system.
+
+See this detailed description
+http://zleap.net/unetbootln-usb-how_to/
+

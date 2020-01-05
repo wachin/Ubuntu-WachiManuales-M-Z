@@ -1,0 +1,17 @@
+
+
+How can I completely remove the KDE 5.6 Plasma desktop from Ubuntu 16.04 and restore Unity? - Ask Ubuntu
+https://askubuntu.com/questions/829125/how-can-i-completely-remove-the-kde-5-6-plasma-desktop-from-ubuntu-16-04-and-res
+
+sudo apt-get purge kde-* kubuntu-* plasma-*
+sudo apt-get purge plasma-*
+
+
+apport-kde apturl-kde akonadi-backend-mysql akonadi-server
+
+
+apt - Uninstalling Plasma desktop - Ask Ubuntu
+https://askubuntu.com/questions/814621/uninstalling-plasma-desktop
+
+sudo apt --purge autoremove plasma-desktop-data plasma-workspace kded5 libkf5plasma5 libkf5runner5 kactivities
+

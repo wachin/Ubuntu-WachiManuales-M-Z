@@ -1,0 +1,33 @@
+
+
+
+I have the next problem. I found a icon theme very good called "Suru++" 
+
+
+[Suru++ 20 \[Officially bug-free and 11 DEs-compatible\]][1]
+
+But this icon theme are made in svg all image. Now I want to use it in Fluxbox and generate menu entries but this only is possible with png icon image
+I download the [master][2] inside that are all icons in svg format, and yes I can convert from command line svg to png all ok generate for each folder size like 16x16, 24x24 px. But in that folders are symbolic links to a svg files:
+
+[![extensions svg inside symbolic links that I want to change to png][3]][3]
+
+If there is a way possible to change extension svg to png inside all symbolix links the icon theme would be working fine in Fluxbox menu and File Managers. [I made a entrie about this icon theme using in Xubuntu but in spanish][4] 
+
+God Bless
+
+
+  [1]: https://www.opendesktop.org/p/1238162/
+  [2]: https://github.com/gusbemacbe/suru-plus/archive/master.zip
+  [3]: https://i.stack.imgur.com/mSnai.png
+  [4]: https://facilitarelsoftwarelibre.blogspot.com/2019/01/como-instalar-el-tema-de-iconos.html
+
+
+
+
+Me falta poner esto aquí:
+
+
+https://superuser.com/questions/157743/batch-update-symbolic-links-recursively
+
+
+pues no lo había podido poner porque dicen que sólo puedo poner pocos cada dos minutos 

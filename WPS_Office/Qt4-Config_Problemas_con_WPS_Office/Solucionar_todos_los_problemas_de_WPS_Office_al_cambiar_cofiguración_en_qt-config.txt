@@ -1,0 +1,6 @@
+
+
+Solucionar todos los problemas de WPS Office (Kubuntu 17.10 , KDE Neón)
+http://novedad23.blogspot.com/2018/03/solucionar-todos-los-problemas-de-wps.html
+
+Si uno cambia la configuración de Qt-Config ya no funcionará WPS Office, por eso dejarlo nomás en Default en "Appearance/Style GUI"

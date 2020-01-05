@@ -1,0 +1,6 @@
+https://shareaholic.com/sites/add-site/3
+Blogger / Blogspot
+
+This is the Shareaholic setup code for this site profile. Copy and paste this code snippet within the </head> tag of every webpage you want to enable with Shareaholic.
+
+ <script type="text/javascript" data-cfasync="false" src="//apps.shareaholic.com/assets/pub/shareaholic.js" data-shr-siteid="321fa4d084f270f8fbbc67dfb5faa2f6" async="async"></script>

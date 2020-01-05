@@ -1,0 +1,27 @@
+[amarok]
+_k_friendly_name=Amarok
+decreaseVolume=Meta+-,Meta+-,Bajar el volumen
+increaseVolume=Meta++,Meta++,Subir el volumen
+loveTrack=Meta+L,Meta+L,Last.fm: Preferir pista actual
+mute=Meta+M,Meta+M,Silenciar volumen
+next=Media Next,Media Next,Pista siguiente
+play_pause=Media Play,Media Play,Reproducir/Pausa
+playlist_add=Meta+A,Meta+A,Añadir medio...
+prev=Media Previous,Media Previous,Pista anterior
+rate1=Meta+1,Meta+1,Valorar pista actual: 1
+rate2=Meta+2,Meta+2,Valorar pista actual: 2
+rate3=Meta+3,Meta+3,Valorar pista actual: 3
+rate4=Meta+4,Meta+4,Valorar pista actual: 4
+rate5=Meta+5,Meta+5,Valorar pista actual: 5
+replay=none,none,Reiniciar pista actual
+seek_backward_medium=Meta+Shift+-,Meta+Shift+-,Retroceder por 10 segundos
+seek_forward_medium=Meta+Shift++,Meta+Shift++,Avanzar por 10 segundos
+showNotificationPopup=Meta+O,Meta+O,Mostrar ventana emergente de notificaciones
+skipTrack=Meta+S,Meta+S,Last.fm: Saltar pista actual
+stop=Media Stop,Media Stop,Detener
+stop_after_current=Meta+Shift+V,Meta+Shift+V,Detener después de la pista actual
+toggleMainWindow=none,none,Conmutar la ventana principal
+
+[krusader]
+_k_friendly_name=krusader
+bring_main_window_to_top=none,none,Bring Main Window to Top

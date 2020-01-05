@@ -1,0 +1,52 @@
+
+
+
+Script para añadir Nuevo Modo (para que quepa en la pantalla) a VirtualBox Invitado
+
+He isntalado UbuntuStudio 11.04 y no cabe bien la pantalla ni instalando Guest Additions, y para solucionarlo puse esto en la consola del Invitado mencionado:
+
+xrandr --newmode "1024x768_60.00"  81.80  1024 1080 1192 1360  768 769 772 802  -HSync +Vsync
+
+Y listo, funcionó, ya puedo maximizar bien la pantalla y que quepa todo.
+
+Nota: No se le puede poner los 75Hz sino sólo 60 porque sinó no funciona
+
+
+FUENTE:
+--------------------------------------------------------------
+Cómo crear Script para añadir 75Hz en Monitor Externo en Linux
+--------------------------------------------------------------
+
+Primero, según esta página:
+
+http://www.arunviswanathan.com/node/53
+
+Ingresé los datos a la terminal:
+
+wachin@wachin-Inspiron-1750:~$ gtf 1024 768 75
+
+  # 1024x768 @ 75.00 Hz (GTF) hsync: 60.15 kHz; pclk: 81.80 MHz
+  Modeline "1024x768_75.00"  81.80  1024 1080 1192 1360  768 769 772 802  -HSync +Vsync
+
+wachin@wachin-Inspiron-1750:~$ xrandr --newmode "1024x768_75.00"  81.80  1024 1080 1192 1360  768 769 772 802  -HSync +Vsync
+wachin@wachin-Inspiron-1750:~$ xrandr --addmode VGA1 1024x768_75.00
+wachin@wachin-Inspiron-1750:~$ xrandr --output VGA1 --mode 1024x768_75.00
+wachin@wachin-Inspiron-1750:~$
+
+Luego de darme cuenta de los valores necesarios para añadir el nuevo modo, esto es lo que pondré en el script:
+
+
+---------------------------------------------------------
+xrandr --newmode "1024x768_75.00"  81.80  1024 1080 1192 1360  768 769 772 802  -HSync +Vsync
+xrandr --addmode VGA1 1024x768_75.00
+xrandr --output VGA1 --mode 1024x768_75.00
+-------------------------------------------------------------
+
+Sistema Operativo: Kbuntu 12.04.2
+
+
+Siguiendo las instrucciones de:
+
+
+
+                   

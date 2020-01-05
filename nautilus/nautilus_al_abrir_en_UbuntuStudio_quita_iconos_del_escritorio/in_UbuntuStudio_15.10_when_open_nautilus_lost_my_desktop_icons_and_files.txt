@@ -1,0 +1,23 @@
+
+in UbuntuStudio 15.10 when open	nautilus lost my desktop icons and files
+
+
+
+
+"--no-desktop
+    Do not manage the desktop -- ignore the preference set in the
+    preferences dialog." - http://linux.die.net/man/1/nautilus
+
+So likely you can disable it by it's preferences, but at least by
+launching nautilus with the --no-desktop option.
+
+You could edit the desktop file in /usr/share/applications/.
+For Caja and Nemo it's the same, while for other file managers it
+usually is vice versa, e.g.
+
+[rocketmouse@archlinux ~]$ spacefm --help | grep desk
+  --desktop                    Launch desktop manager daemon
+  --desktop-pref               Show desktop settings
+  --set-wallpaper              Set desktop wallpaper to FILE
+  --no-desktop                 No function - for compatibility only
+

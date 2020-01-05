@@ -1,0 +1,16 @@
+
+
+Descargar dentro de esta página al final:
+http://midkar.com/soundfonts/
+
+una vez que haya descargado la fuente de sonido, ejemplo a esta fecha que hago el tutorial está el archivo:
+
+Timbres Of Heaven GM_GS_XG_SFX V 3.4 Final.7z
+
+Lo descomprimo y dentro de la carpeta resultante está ya lista la fuente de sonido:
+
+Timbres Of Heaven GM_GS_XG_SFX V 3.4 Final.sf2
+
+Nota: No copio aquí el link directo de descarga porque el desarrollador va actualizando con frecuencia la fuente de sonidos puesto que está en Beta, pero es muy buena.
+
+ 

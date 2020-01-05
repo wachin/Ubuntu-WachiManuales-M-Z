@@ -1,0 +1,15 @@
+Commit Log for Mon Feb 15 20:49:43 2016
+
+
+Actualizó los siguientes paquetes:
+frei0r-plugins (1.4-3build1) to 1.4.0+git20151226.cea68c2b-0ubuntu0~sunab~wily2
+gtk2-engines-pixbuf (2.24.28-1ubuntu1) to 2.24.28-1ubuntu1.1
+libgail-common (2.24.28-1ubuntu1) to 2.24.28-1ubuntu1.1
+libgail18 (2.24.28-1ubuntu1) to 2.24.28-1ubuntu1.1
+libgcrypt20 (1.6.3-2ubuntu1) to 1.6.3-2ubuntu1.1
+libgtk2.0-0 (2.24.28-1ubuntu1) to 2.24.28-1ubuntu1.1
+libgtk2.0-bin (2.24.28-1ubuntu1) to 2.24.28-1ubuntu1.1
+libgtk2.0-common (2.24.28-1ubuntu1) to 2.24.28-1ubuntu1.1
+libhogweed4 (3.1.1-4) to 3.1.1-4ubuntu0.1
+libnettle6 (3.1.1-4) to 3.1.1-4ubuntu0.1
+melt (0.9.8-1build1) to 0.9.9+git20151223.a71d66ea-0ubuntu0~sunab~wily1

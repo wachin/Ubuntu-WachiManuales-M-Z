@@ -1,0 +1,21 @@
+
+Directrices sobre el tamaño y el archivo de las imágenes canal youtube
+
+Crear o editar el diseño del canal - Ordenador - Ayuda de YouTube
+https://support.google.com/youtube/answer/2972003?co=GENIE.Platform%3DDesktop&hl=es
+
+
+El diseño del canal tiene un aspecto diferente en las pantallas de ordenadores, dispositivos móviles y TVs. Por este motivo, es posible que las imágenes grandes se recorten. Para que el aspecto sea estupendo en todas las pantallas, te recomendamos que subas una imagen de 2560x1440 píxeles.
+
+Dimensiones mínimas de subida: 2048x1152 píxeles.
+Área de seguridad mínima para texto y logotipos: 1546x423 píxeles. Si las imágenes superan estas dimensiones, es posible que aparezcan recortadas en algunos dispositivos o modos de visualización.
+Anchura máxima: 2560x423 píxeles. De este modo, el área de seguridad siempre será visible, independientemente del tamaño de la pantalla. Las áreas de cada lado del diseño del canal se mostrarán o no dependiendo del tamaño del navegador.
+Tamaño de archivo: se recomienda que sea de 6 MB o menos.
+
+
+
+Si tienes dudas sobre la anchura y la altura de una imagen, descarga nuestra Channel Art Templates 
+
+https://storage.googleapis.com/support-kms-prod/723CF6954B9CC9B50AD58BCC2F5F14825FF4
+
+para comprobar qué aspecto tendrán las imágenes en los distintos dispositivos.

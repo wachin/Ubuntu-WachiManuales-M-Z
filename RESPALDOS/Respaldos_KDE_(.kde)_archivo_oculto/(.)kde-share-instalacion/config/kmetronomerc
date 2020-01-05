@@ -1,0 +1,29 @@
+[MainWindow]
+Height 768=383
+State=AAAA/wAAAAD9AAAAAAAAAZwAAAFAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=412
+Width 1360=412
+
+[Settings]
+autoconnect=true
+balance=64
+bank=General MIDI Drums
+channel=9
+duration=10
+fakeToolbar=true
+inputConn=Midi Through:0
+instrument=General MIDI
+outputConn=Midi Through:0
+program=General MIDI Drums
+resolution=120
+rhythmDenominator=4
+rhythmNumerator=4
+sendNoteOff=true
+strongNote=37
+strongVelocity=100
+styledKnobs=true
+tempo=110
+volume=100
+weakNote=75
+weakVelocity=100

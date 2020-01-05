@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Visual Studio mensaje de que no se visualizan suficientes
+      caracteres en antiX 9</title>
+  </head>
+  <body>
+    <div class="col-sm-9 col-md-8 body">
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <h3
+id="_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc"
+data-needslink="_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc">"Visual
+        Studio Code is unable to watch for file changes in this large
+        workspace" (error ENOSPC)</h3>
+      <p>When you see this notification, it indicates that the VS Code
+        file watcher is running out of handles because the workspace is
+        large and contains many files. The current limit can be viewed
+        by running:</p>
+      <pre class="shiki" style="background-color: #fff"><code><span style="color: #000000">cat /proc/sys/fs/inotify/max_user_watches</span></code></pre>
+      <p>The limit can be increased to its maximum by editing <code>/etc/sysctl.conf</code>
+        and adding this line to the end of the file:</p>
+      <pre class="shiki" style="background-color: #fff"><code><span style="color: #000000">fs.inotify.max_user_watches=524288</span></code></pre>
+      <p>The new value can then be loaded in by running <code>sudo
+          sysctl -p</code>. Note that <a
+          href="https://www.archlinux.org/" class="external-link"
+          target="_blank">Arch Linux</a> works a little differently, See
+        <a
+href="https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers"
+          class="external-link" target="_blank">Increasing the amount of
+          inotify watchers</a> for details.</p>
+      <p>While 524,288 is the maximum number of files that can be
+        watched, if you're in an environment that is particularly memory
+        constrained, you may wish to lower the number. Each file watch <a
+          href="https://stackoverflow.com/a/7091897/1156119"
+          class="external-link" target="_blank">takes up 540 bytes
+          (32-bit) or ~1kB (64-bit)</a>, so assuming that all 524,288
+        watches are consumed, that results in an upper bound of around
+        256MB (32-bit) or 512MB (64-bit).</p>
+      <p>Another option is to exclude specific workspace directories
+        from the VS Code file watcher with the <code>files.watcherExclude</code>
+        <a href="https://code.visualstudio.com/docs/getstarted/settings">setting</a>.
+        The default for <code>files.watcherExclude</code> excludes <code>node_modules</code>
+        and some folders under <code>.git</code>, but you can add other
+        directories that you don't want VS Code to track.</p>
+      <pre class="shiki" style="background-color: #fff"><code><span style="color: #A31515">"files.watcherExclude"</span><span style="color: #000000">: {</span>
+<span style="color: #000000">    </span><span style="color: #0451A5">"**/.git/objects/**"</span><span style="color: #000000">: </span><span style="color: #0000FF">true</span><span style="color: #000000">,</span>
+<span style="color: #000000">    </span><span style="color: #0451A5">"**/.git/subtree-cache/**"</span><span style="color: #000000">: </span><span style="color: #0000FF">true</span><span style="color: #000000">,</span>
+<span style="color: #000000">    </span><span style="color: #0451A5">"**/node_modules/*/**"</span><span style="color: #000000">: </span><span style="color: #0000FF">true</span>
+<span style="color: #000000">  }</span></code></pre>
+      <h3 id="_i-cant-see-chinese-characters-in-ubuntu"
+        data-needslink="_i-cant-see-chinese-characters-in-ubuntu"><br>
+      </h3>
+    </div>
+  </body>
+</html>

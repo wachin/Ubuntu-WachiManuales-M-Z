@@ -1,0 +1,19 @@
+Commit Log for Sun Jan 10 11:01:18 2016
+
+
+Actualizó los siguientes paquetes:
+gimp (2.8.16-0wily0~ppa) to 2.9.3~5-0w1~ppa
+gimp-data (2.8.16-0wily0~ppa) to 2.9.3~5-0w1~ppa
+gimp-gmic (1:1.6.8-0w4~ppa) to 1:1.6.8.0-0w3~ppa
+gimp-help-common (2.8.2-0.1) to 2:2.9.202-0w0~ppa
+gimp-help-en (2.8.2-0.1) to 2:2.9.202-0w0~ppa
+gimp-help-es (2.8.2-0.1) to 2:2.9.202-0w0~ppa
+gimp-plugin-registry (7.20141204-0wily3~ppa) to 7.20141204-0wily4~ppa
+libbabl-0.1-0 (0.1.12-2) to 0.1.15~5-0w1~ppa
+libgegl-0.3-0 (0.3.0-4ubuntu2) to 1:0.3.5~5-0w3~ppa
+libgimp2.0 (2.8.16-0wily0~ppa) to 2.9.3~5-0w1~ppa
+liblensfun-data (0.2.8-2) to 0.3.1-0wily2~edge~ppa
+liblensfun0 (0.2.8-2) to 0.3.1-0wily2~edge~ppa
+
+Instaló los siguientes paquetes:
+libmypaint (1.1.0~beta2-0w1~ppa)

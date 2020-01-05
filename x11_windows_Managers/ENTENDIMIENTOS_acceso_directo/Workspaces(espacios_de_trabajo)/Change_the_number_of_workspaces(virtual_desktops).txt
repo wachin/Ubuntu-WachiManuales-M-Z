@@ -1,0 +1,12 @@
+
+
+ IceWM : Change the number of workspaces / virtual desktops
+ http://tehpost.blogspot.com/2008/03/icewm-change-number-of-workspaces.html?m=1
+ 
+ 
+By IceWM default loads four virtual desktops ( aka Workspaces). If you want to adjust this setting open your ~/.icewm/preferences file and look for this line :
+
+    WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
+
+
+Adjust that according to your needs then restart IceWM for the changes to take effect.

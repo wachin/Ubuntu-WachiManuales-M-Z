@@ -1,0 +1,125 @@
+[Author]
+active-profile=Perfil de autor predeterminado
+
+[Colors]
+CurrentPalette=Forty Colors
+
+[DockWidget sharedtooldocker]
+TabbedMode=false
+
+[Interface]
+ResolutionX=14.1732529
+ResolutionY=14.1732529
+Rulers=false
+StatusBarShowLineNumber=true
+StatusBarShowModified=true
+StatusBarShowMouse=false
+StatusBarShowPage=true
+StatusBarShowPageSize=false
+StatusBarShowPageStyle=true
+StatusBarShowWordCount=false
+StatusBarShowZoom=true
+ViewFieldShadings=true
+ViewFormattingChars=false
+ViewFrameBorders=true
+ViewSectionBounds=false
+ViewTableBorders=true
+Zoom=40
+ZoomMode=1
+
+[MainWindow]
+Height 768=469
+Width 1280=899
+ko_geometry=AdnQywABAAAAAAB5AAAATwAABAMAAAI8AAAAfQAAAGQAAAP/AAACOAAAAAAAAA==
+ko_windowstate=AAAA/wAAAAD9AAAAAgAAAAEAAAODAAABk/wCAAAADPsAAAAOAFQAbwBvAGwAQgBvAHgBAAAAGAAAAGMAAAAAAAAAAPsAAAAgAHMAaABhAHIAZQBkAHQAbwBvAGwAZABvAGMAawBlAHIAAAAAQgAAAMQAAABlAQAAA/sAAAAqAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAEIAAADBAAAAHwAAAB/7AAAAIgBTAHQAcgBvAGsAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAAAAAAAAAPsAAAAWAFMAdAB5AGwAZQBEAG8AYwBrAGUAcgAAAAKSAAAAcAAAAAAAAAAA+wAAACAAUwBoAGEAcABlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAB8BAAAD+wAAACIAUwBoAGEAZABvAHcAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAAAAAAAD7AAAAFABTAHQAYQB0AGkAcwB0AGkAYwBzAAAAAAD/////AAAA8QEAAAP7AAAABgBSAGQAZgAAAAAA/////wAAAGsBAAAD+wAAABQATgBhAHYAaQBnAGEAdABpAG8AbgAAAAAA/////wAAAGsBAAAD+wAAACgAUwBuAGEAcABHAHUAaQBkAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAHwEAAAP7AAAADgBNAG8AZABlAEIAbwB4AQAAAEIAAAGTAAAArAAIAB4AAAACAAAAAAAAAAD8AQAAAAH7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAAAAAAABbgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+
+[Misc]
+Units=cm
+
+[Recent Dirs]
+OpenDialog[$e]=$HOME,$HOME/Documentos
+
+[Spelling]
+backgroundCheckerEnabled=true
+checkUppercase=true
+checkerEnabledByDefault=false
+defaultClient=
+defaultLanguage=es_EC
+skipRunTogether=true
+
+[Statistics]
+CharnospacesVisible=true
+CharspacesVisible=true
+EastAsianCharactersVisible=true
+FleschVisible=true
+LinesVisible=true
+SentencesVisible=true
+SyllablesVisible=true
+WordsVisible=true
+
+[TemplateChooserDialog]
+AlwaysUseTemplate=
+DetailsPaneSplitterSizes=616,388
+FullTemplateName[$e]=/usr/share/kde4/apps/words/templates/Normal/.source/A4.odt
+LastReturnType=Documento personalizado
+
+[calligra]
+DevicePlugins=spacenavigator
+DevicePluginsDisabled=
+DockerPlugins=calligradockers
+DockerPluginsDisabled=
+FlakePlugins=formulashape,textshape,vectorshape
+FlakePluginsDisabled=
+ModeBoxHorizontalTabsSide=0
+SemanticItemPlugins=calligra_semanticitem_event,calligra_semanticitem_contact,calligra_semanticitem_location
+SemanticItemPluginsDisabled=
+ShapePlugins=stateshape,chartshape,spreadsheetshape,pictureshape,artistictextshape,videoshape,pluginshape,musicshape,webshape,pathshapes
+ShapePluginsDisabled=
+TextEditingPlugins=autocorrect,spellcheck,changecase
+TextInlinePlugins=textvariables
+ToolPlugins=karbontools,defaulttools,basicflakesplugin
+ToolPluginsDisabled=
+
+[words]
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAHoAAABbvwCAAAADPsAAAAOAFQAbwBvAGwAQgBvAHgBAAAAGAAAAGMAAAAAAAAAAPsAAAAgAHMAaABhAHIAZQBkAHQAbwBvAGwAZABvAGMAawBlAHIAAAAAQgAAAMQAAABlAQAAA/sAAAAqAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAEIAAADBAAAAHwAAAB/7AAAAIgBTAHQAcgBvAGsAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAAAAAAAAAPsAAAAWAFMAdAB5AGwAZQBEAG8AYwBrAGUAcgAAAAKSAAAAcAAAAAAAAAAA+wAAACAAUwBoAGEAcABlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAB8BAAAD+wAAACIAUwBoAGEAZABvAHcAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAAAAAAAD7AAAAFABTAHQAYQB0AGkAcwB0AGkAYwBzAAAAAAD/////AAAA8QEAAAP7AAAABgBSAGQAZgAAAAAA/////wAAAGsBAAAD+wAAABQATgBhAHYAaQBnAGEAdABpAG8AbgAAAAAA/////wAAAGsBAAAD+wAAACgAUwBuAGEAcABHAHUAaQBkAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAcAEAAAP7AAAADgBNAG8AZABlAEIAbwB4AQAAAEIAAAFuAAAArAAIAB4AAAACAAAAAAAAAAD8AQAAAAH7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAAGaAAABbgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZQBkAGkAdABfAHQAbwBvAGwAYgBhAHIBAAABF/////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[words][DockWidget ModeBox]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget Navigation]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget Rdf]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget Shape Properties]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget ShapeCollectionDocker]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget SnapGuide Properties]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget Statistics]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget sharedtooldocker]
+Collapsed=false
+DockArea=2
+Locked=false

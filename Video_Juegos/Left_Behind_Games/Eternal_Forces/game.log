@@ -1,0 +1,1168 @@
+[app:err] (LUA error): cannot read es.cfg: No such file or directory
+[app:err] (LUA error): cannot read C:\users\wachin\Mis Documentos\Left Behind Games\Eternal Forces\user.cfg: No such file or directory
+[app:info] Application started at: Tue Sep 22 19:51:01 2015
+[app:info] Build number is: 0
+[app:info] Build time is: Nov  3 2011 21:59:55
+[core:info] QueryPerformanceCounter() based timer selected via config settings.
+[app:info] Data package file 'textures.pak' successfully loaded.[app:info] Data package file 'sounds.pak' successfully loaded.[app:info] Data package file 'data.pak' successfully loaded.[app:err] Patch file #0 does not exist.
+[app:err] Patch file #1 does not exist.
+[app:err] Patch file #2 does not exist.
+[app:err] Patch file #3 does not exist.
+[app:err] Patch file #4 does not exist.
+[app:err] Patch file #5 does not exist.
+[app:err] Patch file #6 does not exist.
+[app:err] Patch file #7 does not exist.
+[app:err] Patch file #8 does not exist.
+[app:err] Patch file #9 does not exist.
+[app:err] Patch file #10 does not exist.
+[app:err] Patch file #11 does not exist.
+[app:err] Patch file #12 does not exist.
+[app:err] Patch file #13 does not exist.
+[app:err] Patch file #14 does not exist.
+[app:err] Patch file #15 does not exist.
+[app:err] Patch file #16 does not exist.
+[app:err] Patch file #17 does not exist.
+[app:err] Patch file #18 does not exist.
+[app:err] Patch file #19 does not exist.
+[render:info] Adapter: Mobile Intel(R) GM45 Express Chipset Family(igxprd32.dll). Driver version: 6.14.10.5218
+[render:info] Used shader versions: vs_30, ps_30
+[core:info] Using hardware vertex processing.
+[render:info] Estimated amount of texture memory: 1530MB
+[render:info] Adapter video memory: 1536 MB
+[render:info] Depth stencil surface D3DFMT_D24S8 1024x768: successfully created. ID: 1
+[render:info] Render target texture D3DFMT_R5G6B5 512x512: successfully created. ID: 2
+[render:info] Render target texture D3DFMT_R5G6B5 512x512: successfully created. ID: 3
+[render:info] Device surface object with ID: 1 selected from pool. This is good.
+[render:info] Late creation of render target texture D3DFMT_A8R8G8B8 512x512: succeded. ID: 4. Late creation is really bad. Try to modify precreation section.
+[render:info] Instantiating materials...
+[render:info] All materials successfully loaded
+[core:info] Font Manager: Created new font. Name: 'arial, flags: 0, height: 12 (0x03C4FE88).
+[app:info] ------- Enumerating sound devices -------
+[app:info] Sound device 0: Primary Sound Driver <-- Selected device
+[app:info] Sound device 1: Pulseaudio
+[app:info] Sound device 2: Audio Interno Estéreo analógico
+[app:info] -----------------------------------------
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 16 (0x031EC370).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 13 (0x03BB2E90).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 12 (0x03BB30F0).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 23 (0x03C1A6A8).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 15 (0x03248068).
+[app:info] Instancing event handlers
+[app:info] Loading States
+[app:info] Loading states sectionmenu
+[app:info] Preloading common icons
+[app:warn] Failed to load texture 'angle_selector_d.dds' for mesh 'meshes\angle_selector.x'.
+[core:info] Font Manager: Created new font. Name: 'arial, flags: 0, height: 22 (0x032732D8).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 0, height: 24 (0x0337F168).
+[core:info] Font Manager: Created new font. Name: 'arial, flags: 0, height: 16 (0x0337F1C8).
+[app:info] Loading options menus
+[app:info] Preloading mainoptions icons
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 19 (0x0390FCB0).
+[core:info] Font Manager: Created new font. Name: 'verdana, flags: 1, height: 14 (0x03910B28).
+[core:info] Font Manager: Created new font. Name: 'verdana, flags: 1, height: 15 (0x039123B8).
+[core:info] Font Manager: Created new font. Name: 'verdana, flags: 1, height: 6 (0x03913268).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 20 (0x03936FF0).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 14 (0x03939508).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 10 (0x03950508).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 39 (0x03982B60).
+[core:info] Font Manager: Created new font. Name: 'verdana, flags: 1, height: 17 (0x0399DFE8).
+[core:info] Font Manager: Created new font. Name: 'verdana, flags: 1, height: 12 (0x0399E460).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 17 (0x039BF358).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 22 (0x039D74C0).
+[app:info] Loaded in 6.375
+[app:info] Preloading buildings_icons icons
+[app:info] Preloading unit_icons icons
+[app:err] Loading map storyline_201.xml
+[app:err] Transport created.
+[core:info] Invoking task "Unload Unlisted Compound Meshes" for map "storyline_201".
+[core:info] Model Manager: Doing "Unload Unlisted Compound Meshes".
+[core:info] * Compounds hold list size: 654;
+* Resulting 'simple' hold list size: 685;
+* Resulting 'skinned' hold list size: 5;
+* SIMPLE: (freed: 0, kept: 2);
+* SKINNED: (freed: 0, kept: 2);
+* Total freed: 0;
+* Total left (SKINNED & SIMPLE): 4;
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane137.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane137.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane138.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane138.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane140.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane140.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane158.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane158.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane159.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane159.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane136.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane136.x'.
+[app:warn] Failed to load texture 'grass2_d.dds' for mesh 'meshes\q6_p4_v2\plane136.x'.
+[app:warn] Failed to load texture 'grate_d.dds' for mesh 'meshes\q6_p4_v2\plane136.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane139.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane139.x'.
+[app:warn] Failed to load texture 'grate_d.dds' for mesh 'meshes\q6_p4_v2\plane139.x'.
+[app:warn] Failed to load texture 'grass2_d.dds' for mesh 'meshes\q6_p4_v2\plane139.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane142.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane142.x'.
+[app:warn] Failed to load texture 'grass2_d.dds' for mesh 'meshes\q6_p4_v2\plane143.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane143.x'.
+[app:warn] Failed to load texture 'grate_d.dds' for mesh 'meshes\q6_p4_v2\plane143.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane143.x'.
+[app:warn] Failed to load texture 'grass2_d.dds' for mesh 'meshes\q6_p4_v2\plane153.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane153.x'.
+[app:warn] Failed to load texture 'grate_d.dds' for mesh 'meshes\q6_p4_v2\plane153.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane153.x'.
+[app:warn] Failed to load texture 'grass2_d.dds' for mesh 'meshes\q6_p4_v2\plane154.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane154.x'.
+[app:warn] Failed to load texture 'grate_d.dds' for mesh 'meshes\q6_p4_v2\plane154.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane154.x'.
+[app:warn] Failed to load texture 'grass2_d.dds' for mesh 'meshes\q6_p4_v2\plane155.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane155.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane155.x'.
+[app:warn] Failed to load texture 'grate_d.dds' for mesh 'meshes\q6_p4_v2\plane155.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane156.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane156.x'.
+[app:warn] Failed to load texture 'grass2_d.dds' for mesh 'meshes\q6_p4_v2\plane157.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane157.x'.
+[app:warn] Failed to load texture 'grate_d.dds' for mesh 'meshes\q6_p4_v2\plane157.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane157.x'.
+[app:warn] Failed to load texture 'grass2_d.dds' for mesh 'meshes\q6_p4_v2\plane160.x'.
+[app:warn] Failed to load texture 'grate_d.dds' for mesh 'meshes\q6_p4_v2\plane160.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane160.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane160.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c02.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c02.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r03.x'.
+[app:warn] Failed to load texture 'road_base_2p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p03.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c03.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c03.x'.
+[app:warn] Failed to load texture 'road_base_p_d.dds' for mesh 'meshes\q6_p4_v2\r12.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p08.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c05.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c05.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p05.x'.
+[app:warn] Failed to load texture 'road_base_p_d.dds' for mesh 'meshes\q6_p4_v2\r_p16.x'.
+[app:warn] Failed to load texture 'road_base_d.dds' for mesh 'meshes\q6_p4_v2\road_base24.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c06.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c06.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p18.x'.
+[app:warn] Failed to load texture 'road_base_2p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p06.x'.
+[app:warn] Failed to load texture 'road_base_2p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p07.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r20.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r21.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p19.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p20.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r22.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c07.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c07.x'.
+[app:warn] Failed to load texture 'road_base_2p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p21.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p22.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r23.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p23.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r24.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r033.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c08.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c08.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p24.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p25.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p26.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p27.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p28.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p29.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p30.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r34.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r35.x'.
+[app:warn] Failed to load texture 'road_base_2p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p31.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p32.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c09.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c09.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p33.x'.
+[app:warn] Failed to load texture 'road_base_2p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p34.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p35.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p36.x'.
+[app:warn] Failed to load texture 'road_base_d.dds' for mesh 'meshes\q6_p4_v2\r37.x'.
+[app:warn] Failed to load texture 'road_base_p_d.dds' for mesh 'meshes\q6_p4_v2\r38.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r43.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r44.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r45.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r46.x'.
+[app:warn] Failed to load texture 'road_base_d.dds' for mesh 'meshes\q6_p4_v2\r47.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r48.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane108.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane108.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane109.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane109.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p39.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p40.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c11.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c11.x'.
+[app:warn] Failed to load texture 'road_base_2p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p41.x'.
+[app:warn] Failed to load texture 'road_base_2p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p42.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r49.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r50.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r51.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p44.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c12.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c12.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p45.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p46.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p48.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p49.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p52.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p56.x'.
+[app:warn] Failed to load texture 'road_base_1p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p60.x'.
+[app:warn] Failed to load texture 'road_base_1p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p64.x'.
+[app:warn] Failed to load texture 'road_base_2p02_d.dds' for mesh 'meshes\q6_p4_v2\r_p65.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r52.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p67.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2\r_p68.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2\r_c18.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2\r_c18.x'.
+[app:warn] Failed to load texture 'road_base_p_d.dds' for mesh 'meshes\q6_p4_v2\r53.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r55.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r56.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r57.x'.
+[app:warn] Failed to load texture 'road_base_1_d.dds' for mesh 'meshes\q6_p4_v2\r58.x'.
+[app:warn] Failed to load texture 'road_base_d.dds' for mesh 'meshes\q6_p4_v2\r59.x'.
+[app:warn] Failed to load texture 'road_base_p_d.dds' for mesh 'meshes\q6_p4_v2\r60.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r62.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r63.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r64.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2\r69.x'.
+[app:warn] Failed to load texture 'asfalt_02_d.dds' for mesh 'meshes\q6_p4_v2\plane161.x'.
+[app:warn] Failed to load texture 'asfalt_01_d.dds' for mesh 'meshes\q6_p4_v2\plane161.x'.
+[app:warn] Failed to load texture 'perehod_d.dds' for mesh 'meshes\q6_p4_v2\under02.x'.
+[app:warn] Failed to load texture 'perehod_d.dds' for mesh 'meshes\q6_p4_v2\under10.x'.
+[app:warn] Failed to load texture 'perehod_d.dds' for mesh 'meshes\q6_p4_v2\under11.x'.
+[app:warn] Failed to load texture 'perehod_d.dds' for mesh 'meshes\q6_p4_v2\under12.x'.
+[app:warn] Failed to load texture 'perehod_d.dds' for mesh 'meshes\q6_p4_v2\under13.x'.
+[app:warn] Failed to load texture 'q6b097_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_e2.x'.
+[app:warn] Failed to load texture 'office_mv3_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_e2.x'.
+[app:warn] Failed to load texture 'wire_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_e2.x'.
+[app:warn] Failed to load texture 'office_mv3_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_e1.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_e1.x'.
+[app:warn] Failed to load texture 'wire_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_e1.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_01nw.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_01nw.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_01nw.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_02ne.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_02ne.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_02ne.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_03e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_03e.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_03e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_04e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_04e.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_04e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_05e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_05e.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_05e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_06e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_06e.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_06e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_07e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_07e.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_07e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_08e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_08e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_09e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_09e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_10e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_10e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_11e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_11e.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_12e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_12e.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_12e.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_13se.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_13se.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_14sw.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_14sw.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_14sw.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_15w.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_15w.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_16w.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_16w.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_16w.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_17w.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_17w.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_17w.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_18w.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_18w.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_18w.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_19w.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_19w.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_20w.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_20w.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_21w.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_21w.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_22w.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_22w.x'.
+[app:warn] Failed to load texture 'q6b0103_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_23w.x'.
+[app:warn] Failed to load texture 'q6b0103_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_23w.x'.
+[app:warn] Failed to load texture 'q6b0103_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b0103_23w.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_01_nw01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_02_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_03_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_04_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_05_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_06_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_07_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_08_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_09_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_10_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_11_n01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_12_ne01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_13_se01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_14_s01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_15_s01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_16_s01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_17_s01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_18_s01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_19_s01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_20_s01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_21_s01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_22_s01.x'.
+[app:warn] Failed to load texture 'q6b102_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b102_23_sw01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_01n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_02n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_03n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_04n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_05n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_06n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_08n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_09n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_10n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_11n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_12n01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_13w01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_14s01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_15s01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_16s01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_17s01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_18s01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_19s01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_20s01.x'.
+[app:warn] Failed to load texture 'q6b101_d.dds' for mesh 'meshes\q6_p4_v2b\q6b101_21s01.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_01nw.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_01nw.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_01nw.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_02n.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_02n.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_03n.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_03n.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_03n.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_04n.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_04n.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_04n.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_05n.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_05n.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_05n.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_06n.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_06n.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_07n.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_07n.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_08n.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_08n.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_08n.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_09ne.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_09ne.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_09ne.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_10se.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_10se.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_10se.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_11s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_11s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_12s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_12s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_13s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_13s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_14s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_14s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_15s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_15s.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_15s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_16s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_16s.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_16s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_17s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_17s.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_17s.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_18s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_18s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_18s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_19s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_19s.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_19s.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_20s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_20s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_20s.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_21s.x'.
+[app:warn] Failed to load texture 'q6b0100_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_21s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_21s.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_22sw.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_22sw.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_23w.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_23w.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_24w.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_24w.x'.
+[app:warn] Failed to load texture 'q6b0100_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_25w.x'.
+[app:warn] Failed to load texture 'q6b0100_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6b100_25w.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_01n.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_02n.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_03n.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_04n.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_05n.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_06n.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_07n.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_08n.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_09n.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_10w.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_11w.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_12w.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_13w.x'.
+[app:warn] Failed to load texture 'q6b099_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_14w.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_15s.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_16s.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_17s.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_18s.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_19s.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_20s.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_21s.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_22s.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_23e.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_24e.x'.
+[app:warn] Failed to load texture 'q6b099_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b099_25e.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_01n.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_02n.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_03n.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_04n.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_05n.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_07s.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_08s.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_09s.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_10s.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_11s.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_12e.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_03n01.x'.
+[app:warn] Failed to load texture 'q6b098_d.dds' for mesh 'meshes\q6_p4_v2b\q6b098_07s01.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_01.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_01r.x'.
+[app:warn] Failed to load texture 'q6b097_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_04.x'.
+[app:warn] Failed to load texture 'q6b097_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_05.x'.
+[app:warn] Failed to load texture 'q6b097_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_07.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_08.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_08_r.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_09.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_10.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_11.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_12.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_13.x'.
+[app:warn] Failed to load texture 'q6b097_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6b97_14.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_08w01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_01e_reflex01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_02n01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_03n01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_04n01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_05n01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_06n01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_07n01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_15s01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_08w_reflex01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_09s01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_10s01.x'.
+[app:warn] Failed to load texture 'ruined_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_11s01_wasted.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_12s01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_13s01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_14s01.x'.
+[app:warn] Failed to load texture 'q6p014_d.dds' for mesh 'meshes\q6_p4_v2b\q6p14_01e01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_01n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_02n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_03n01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_04n01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_05n01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_06n01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_07n01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_08n01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_09n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_10n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_11n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_12n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_13n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_14n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_15n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_16n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_17n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_18n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_19n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_20n01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_21w01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_22w01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_23s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_24s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_25s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_26s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_27s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_28s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_29s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_30s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_31s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_32s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_33s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_34s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_35s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_36s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_37s01.x'.
+[app:warn] Failed to load texture 'q6b084_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_38s01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_39e01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_40e01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_41e01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_42e01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_43e01.x'.
+[app:warn] Failed to load texture 'q6b084_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b084_44e01.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_01n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_02n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_03n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_04n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_05n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_06n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_07n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_08n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_09n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_10n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_11n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_12n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_13n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_14n.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_15n.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_16w.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_17s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_18s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_19s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_20s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_21s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_22s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_23s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_24s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_25s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_26s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_27s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_28s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_29s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_30s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_31s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_32s.x'.
+[app:warn] Failed to load texture 'q6b085_2_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_33s.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_34e.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_35e.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_36e.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_37e.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_38e.x'.
+[app:warn] Failed to load texture 'q6b085_1_d.dds' for mesh 'meshes\q6_p4_v2b\q6b085_39e.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_east_01.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_east_02.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_east_03.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_01.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_02.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_03.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_04.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_05.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_06.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_06.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_07.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_07.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_08.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_08.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_09.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_north_09.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_01.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_01.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_02.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_02.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_04.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_04.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_05.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_05.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_06.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_south_06.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_west_01.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_west_01.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_west_02.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_west_02.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_west_03.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_west_03.x'.
+[app:warn] Failed to load texture 'q6p013_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_west_05.x'.
+[app:warn] Failed to load texture 'q6p013_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p013_west_05.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_08w01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_09w01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_12s01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_07w01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_13s01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_10w01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_14s01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_11sw01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_06w01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_01n01.x'.
+[app:warn] Failed to load texture 'q6p011_d.dds' for mesh 'meshes\q6_p4_v2b\q6p11_01s01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_05nw01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_02n01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_04n01.x'.
+[app:warn] Failed to load texture 'q6p12_d.dds' for mesh 'meshes\q6_p4_v2b\q6p12_03n01.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_east_02.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_east_03.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_01.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_01.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_02.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_03.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_04.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_05.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_06.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_07.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_08.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_09.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_north_10.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_01.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_01.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_02.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_02.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_03.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_03.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_04.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_04.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_05.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_05.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_06.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_06.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_07.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_07.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_08.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_08.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_09.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_09.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_10.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_10.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_11.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_south_11.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_01.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_01.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_02.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_03.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_03.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_04.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_04.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_05.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_05.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_06.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_06.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_07.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_07.x'.
+[app:warn] Failed to load texture 'q6p010_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_08.x'.
+[app:warn] Failed to load texture 'q6p010_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p010_west_08.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_01nw.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_01nw.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_01nw.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_02n.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_02n.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_03n.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_03n.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_03n.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_04n.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_04n.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_05n.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_05n.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_05n.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_06n.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_06n.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_07n.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_07n.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_07n.x'.
+[app:warn] Failed to load texture 'Q6P009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_08n.x'.
+[app:warn] Failed to load texture 'Q6P009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_08n.x'.
+[app:warn] Failed to load texture 'Q6P009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_08n.x'.
+[app:warn] Failed to load texture 'Q6P009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_09n.x'.
+[app:warn] Failed to load texture 'Q6P009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_09n.x'.
+[app:warn] Failed to load texture 'Q6P009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_09n.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_10n.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_10n.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_10n.x'.
+[app:warn] Failed to load texture 'Q6P009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_11n.x'.
+[app:warn] Failed to load texture 'Q6P009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_11n.x'.
+[app:warn] Failed to load texture 'Q6P009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_11n.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_12n.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_12n.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_13ne.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_13ne.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_13ne.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_14e.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_14e.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_15se.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_15se.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_15se.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_16s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_16s.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_16s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_17s.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_17s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_18s.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_18s.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_19s.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_19s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_19s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_20s.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_20s.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_20s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_21s.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_21s.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_22s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_22s.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_22s.x'.
+[app:warn] Failed to load texture 'Q6P009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_23s.x'.
+[app:warn] Failed to load texture 'Q6P009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_23s.x'.
+[app:warn] Failed to load texture 'Q6P009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_23s.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_24s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_24s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_25s.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_25s.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_26w.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_26w.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_27w.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_27w.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_28w.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_28w.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_28w.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_29w.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_29w.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_29w.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_30w.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_30w.x'.
+[app:warn] Failed to load texture 'q6p009_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_31w.x'.
+[app:warn] Failed to load texture 'q6p009_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_31w.x'.
+[app:warn] Failed to load texture 'q6p009_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p009_31w.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_01nw.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_01nw.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_01nw.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_02n.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_02n.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_02n.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_03n.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_03n.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_04n.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_04n.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_05n.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_05n.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_05n.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_06n.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_06n.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_07n.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_07n.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_07n.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_08ne.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_08ne.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_09e.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_09e.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_10e.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_10e.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_10e.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_11e.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_11e.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_12se.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_12se.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_13s.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_13s.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_14s.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_14s.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_14s.x'.
+[app:warn] Failed to load texture 'Q6P008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_15s.x'.
+[app:warn] Failed to load texture 'Q6P008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_15s.x'.
+[app:warn] Failed to load texture 'Q6P008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_15s.x'.
+[app:warn] Failed to load texture 'Q6P008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_16s.x'.
+[app:warn] Failed to load texture 'Q6P008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_16s.x'.
+[app:warn] Failed to load texture 'Q6P008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_16s.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_17s.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_17s.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_17s.x'.
+[app:warn] Failed to load texture 'Q6P008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_18s.x'.
+[app:warn] Failed to load texture 'Q6P008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_18s.x'.
+[app:warn] Failed to load texture 'Q6P008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_18s.x'.
+[app:warn] Failed to load texture 'Q6P008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_19s.x'.
+[app:warn] Failed to load texture 'Q6P008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_19s.x'.
+[app:warn] Failed to load texture 'Q6P008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_19s.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_20s.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_20s.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_21s.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_21s.x'.
+[app:warn] Failed to load texture 'Q6P008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_22s.x'.
+[app:warn] Failed to load texture 'Q6P008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_22s.x'.
+[app:warn] Failed to load texture 'Q6P008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_22s.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_24sw.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_24sw.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_25w.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_25w.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_25w.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_26w.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_26w.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_26w.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_27w.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_27w.x'.
+[app:warn] Failed to load texture 'q6p008_01_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_27w.x'.
+[app:warn] Failed to load texture 'q6p008_02_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_28w.x'.
+[app:warn] Failed to load texture 'q6p008_03_d.dds' for mesh 'meshes\q6_p4_v2b\q6p008_28w.x'.
+[app:warn] Failed to load texture 'BlockLine_d.dds' for mesh 'meshes\blockline04.x'.
+[app:warn] Failed to load texture 'st_d.dds' for mesh 'meshes\city_stuff\stvol62.x'.
+[app:warn] Failed to load texture 'krona30_d.dds' for mesh 'meshes\city_stuff\stvol62.x'.
+[app:warn] Failed to load texture 'st_d.dds' for mesh 'meshes\city_stuff\listva62.x'.
+[app:warn] Failed to load texture 'krona30_d.dds' for mesh 'meshes\city_stuff\listva62.x'.
+[app:warn] Failed to load texture 'st_d.dds' for mesh 'meshes\city_stuff\krverh62.x'.
+[app:warn] Failed to load texture 'krona30_d.dds' for mesh 'meshes\city_stuff\krverh62.x'.
+[app:warn] Failed to load texture 'BAK_013_d.DDS' for mesh 'meshes\city_stuff\bak01.x'.
+[app:warn] Failed to load texture 'BAK_02_d.DDS' for mesh 'meshes\city_stuff\bak02.x'.
+[app:warn] Failed to load texture 'st_d.dds' for mesh 'meshes\city_stuff\stvol61.x'.
+[app:warn] Failed to load texture 'krona3_d.dds' for mesh 'meshes\city_stuff\stvol61.x'.
+[app:warn] Failed to load texture 'krona3_d.dds' for mesh 'meshes\city_stuff\listva61.x'.
+[app:warn] Failed to load texture 'st_d.dds' for mesh 'meshes\city_stuff\krverh61.x'.
+[app:warn] Failed to load texture 'krona3_d.dds' for mesh 'meshes\city_stuff\krverh61.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\shadow2.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02r.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02r.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02q.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02q.x'.
+[app:warn] Failed to load texture 'Postbox_d.dds' for mesh 'meshes\city_stuff\postbox.x'.
+[app:warn] Failed to load texture 'Grate_d.dds' for mesh 'meshes\city_stuff\grate01.x'.
+[app:warn] Failed to load texture 'Luck_d.dds' for mesh 'meshes\city_stuff\hatch01.x'.
+[app:warn] Failed to load texture 'hydrant_d.dds' for mesh 'meshes\city_stuff\hydrant.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\hydrant_sh.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02p.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02p.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02o.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02o.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02n.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02n.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02m.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02m.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02l.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02l.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02k.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02k.x'.
+[app:warn] Failed to load texture 'PAPER03_d.DDS' for mesh 'meshes\city_stuff\paperbox03.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\paperbox03_sh.x'.
+[app:warn] Failed to load texture 'PAPER01_d.DDS' for mesh 'meshes\city_stuff\paperbox01.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\paperbox01_sh.x'.
+[app:warn] Failed to load texture 'PAPER04_d.DDS' for mesh 'meshes\city_stuff\paperbox04.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\paperbox04_sh.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02i.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02i.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02j.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02j.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp03.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\city_pc.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\shadow1.x'.
+[app:warn] Failed to load texture 'PAPER02_d.DDS' for mesh 'meshes\city_stuff\paperbox02.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\paperbox02_sh.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\tl02a_p.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02t.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02t.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02a.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02a.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02b.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02b.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02c.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02c.x'.
+[app:warn] Failed to load texture 'car_ford_tranzit d_d.dds' for mesh 'meshes\cars\car_ford_tranzit_destr.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02d.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02d.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02f.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02f.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02s.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02s.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02e.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02e.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02g.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02g.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\lamp02h.x'.
+[app:warn] Failed to load texture 'Signs_d.dds' for mesh 'meshes\city_stuff\lamp02h.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\tl2b.x'.
+[app:warn] Failed to load texture 'traffic_light_d.dds' for mesh 'meshes\city_stuff\tl02a.x'.
+[app:warn] Failed to load texture 'garb_d.dds' for mesh 'meshes\city_stuff\garbage.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007e_17.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007e_18.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007e_19.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007e_20.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007e_21.x'.
+[app:warn] Failed to load texture 'q6p007_02_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_23.x'.
+[app:warn] Failed to load texture 'q6p007_02_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_24.x'.
+[app:warn] Failed to load texture 'q6p007_02_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_25.x'.
+[app:warn] Failed to load texture 'q6p007_02_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_26.x'.
+[app:warn] Failed to load texture 'q6p007_02_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_27.x'.
+[app:warn] Failed to load texture 'q6p007_02_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_28.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_29.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_30.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_31.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_32.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_33.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_34.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_35.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007n_36.x'.
+[app:warn] Failed to load texture 'q6p007_02_d.dds' for mesh 'meshes\q6_p4_p007\q6p007ne_22.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007nw_37.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_01.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_02.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_03.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_04.x'.
+[app:warn] Failed to load texture 'q6p007_02_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_05.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_06.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_07.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_08.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_09.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_10.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_11.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_12.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_13.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_14.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007s_15.x'.
+[app:warn] Failed to load texture 'q6p007_01_d.dds' for mesh 'meshes\q6_p4_p007\q6p007se_16.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007sw_00.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007w_38.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007w_39.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007w_40.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007w_41.x'.
+[app:warn] Failed to load texture 'q6p007_03_d.dds' for mesh 'meshes\q6_p4_p007\q6p007w_42.x'.
+[app:warn] Failed to load texture 'q6p007_00_d.dds' for mesh 'meshes\q6_p4_p007\q6p007w_43.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_01_n.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_01_n.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_02_n.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_02_n.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_03_n.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_03_n.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_04_n.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_04_n.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_05_n.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_05_n.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_06_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_06_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_08_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_08_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_09_n.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_09_n.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_10_n.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_10_n.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_11_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_11_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_14_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_14_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_15_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_15_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_16_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_16_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_17_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_17_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_18_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_18_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_20_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_20_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_21_s.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_21_s.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_22_nw.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_22_nw.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_23_w.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_23_w.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_24_w.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_24_w.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_25_w.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_25_w.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_26_w.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_26_w.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_27_w.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_27_w.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_28_w.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_28_w.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_29_sw.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_29_sw.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_30_se.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_30_se.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_31_ne.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_31_ne.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_32_n.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_32_n.x'.
+[app:warn] Failed to load texture 'q6bp006_01_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_33_n.x'.
+[app:warn] Failed to load texture 'q6bp006_02_d.dds' for mesh 'meshes\q6_p4_p006\q6p006_33_n.x'.
+[app:warn] Failed to load texture 'road_cross00_d.dds' for mesh 'meshes\q6_p4_v2_d\r_c34.x'.
+[app:warn] Failed to load texture 'road_cross_d.dds' for mesh 'meshes\q6_p4_v2_d\r_c34.x'.
+[app:warn] Failed to load texture 'road_base_2p01_d.dds' for mesh 'meshes\q6_p4_v2_d\r_p122.x'.
+[app:warn] Failed to load texture 'road_base_2_d.dds' for mesh 'meshes\q6_p4_v2_d\r105.x'.
+[app:warn] Failed to load texture 'CityStaff_d.dds' for mesh 'meshes\city_stuff\bbq.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\bbq_sh.x'.
+[app:warn] Failed to load texture 'CityStaff_d.dds' for mesh 'meshes\city_stuff\hotdog.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\hotdog_sh.x'.
+[app:warn] Failed to load texture 'CityStaff_d.dds' for mesh 'meshes\city_stuff\veget.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\veget_sh.x'.
+[app:warn] Failed to load texture 'CityStaff_d.dds' for mesh 'meshes\city_stuff\clock.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\clock_sh.x'.
+[app:warn] Failed to load texture 'car_ambulance_d_d.dds' for mesh 'meshes\cars\car_ambulance_destr.x'.
+[app:warn] Failed to load texture 'car_dodge_destr_d.dds' for mesh 'meshes\cars\car_dodge_destr.x'.
+[app:warn] Failed to load texture 'car_dodge_destr_d.dds' for mesh 'meshes\cars\car_dodge_destr.x'.
+[app:warn] Failed to load texture 'car_dodge_destr_d.dds' for mesh 'meshes\cars\car_dodge_destr.x'.
+[app:warn] Failed to load texture 'car_dodge_destr_d.dds' for mesh 'meshes\cars\car_dodge_destr.x'.
+[app:warn] Failed to load texture 'car_dodge_destr_d.dds' for mesh 'meshes\cars\car_dodge_destr.x'.
+[app:warn] Failed to load texture 'basket1_d.dds' for mesh 'meshes\city_stuff\basket01.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\basket01_sh.x'.
+[app:warn] Failed to load texture 'basket2_d.dds' for mesh 'meshes\city_stuff\basked02.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\basked02_sh.x'.
+[app:warn] Failed to load texture 'CityStaff_d.dds' for mesh 'meshes\city_stuff\kolpak.x'.
+[app:warn] Failed to load texture 'CityStaff_d.dds' for mesh 'meshes\city_stuff\roadblock.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\roadblock_sh.x'.
+[app:warn] Failed to load texture 'car_lexus_d_d.dds' for mesh 'meshes\cars\car_lexus_destr.x'.
+[app:warn] Failed to load texture 'garbagebags_d.dds' for mesh 'meshes\city_stuff\garbage02.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\garbage02_sh.x'.
+[app:warn] Failed to load texture 'car_diablo_destr_d.dds' for mesh 'meshes\cars\car_diablo_destr.x'.
+[app:warn] Failed to load texture 'car_diablo_destr_d.dds' for mesh 'meshes\cars\car_diablo_destr.x'.
+[app:warn] Failed to load texture 'car_diablo_destr_d.dds' for mesh 'meshes\cars\car_diablo_destr.x'.
+[app:warn] Failed to load texture 'car_diablo_destr_d.dds' for mesh 'meshes\cars\car_diablo_destr.x'.
+[app:warn] Failed to load texture 'car_diablo_destr_d.dds' for mesh 'meshes\cars\car_diablo_destr.x'.
+[app:warn] Failed to load texture 'car_ferarri_d_d.dds' for mesh 'meshes\cars\car_ferarri_destr.x'.
+[app:warn] Failed to load texture 'car_mersedes_d_d.dds' for mesh 'meshes\cars\car_mersedes_destr.x'.
+[app:warn] Failed to load texture 'car_range_rover_d_d.dds' for mesh 'meshes\cars\car_range_rover_destr.x'.
+[app:warn] Failed to load texture 'car_jeep_d_d.dds' for mesh 'meshes\cars\car_jeep_destr.x'.
+[app:warn] Failed to load texture 'car_schoolbus_d_d.dds' for mesh 'meshes\cars\car_schoolbus_destr.x'.
+[app:warn] Failed to load texture 'car_jeep02_d_d.dds' for mesh 'meshes\cars\car_jeep02_destr.x'.
+[app:warn] Failed to load texture 'car_ford_police_d_d.dds' for mesh 'meshes\cars\car_ford_police_destr.x'.
+[app:warn] Failed to load texture 'car_ford_picup_d_d.dds' for mesh 'meshes\cars\car_ford_picup_destr.x'.
+[app:warn] Failed to load texture 'car_chevrolet_miniven_d_d.dds' for mesh 'meshes\cars\car_chevrolet_miniven_destr.x'.
+[app:warn] Failed to load texture 'car_taxi_d_d.dds' for mesh 'meshes\cars\car_ford_taxi_destr.x'.
+[app:warn] Failed to load texture 'car_sitybus_d_d.dds' for mesh 'meshes\cars\car_sitybus_destr.x'.
+[app:warn] Failed to load texture 'BENCH_d.DDS' for mesh 'meshes\city_stuff\bench01.x'.
+[app:warn] Failed to load texture 'vetka_1_d.dds' for mesh 'meshes\city_stuff\treesm01.x'.
+[app:warn] Failed to load texture 'st_d.dds' for mesh 'meshes\city_stuff\treesm01.x'.
+[app:warn] Failed to load texture 'Grate_d.dds' for mesh 'meshes\city_stuff\treesm01pod.x'.
+[app:warn] Failed to load texture 'Grass2_d.dds' for mesh 'meshes\city_stuff\treesm01pod.x'.
+[app:warn] Failed to load texture 'st2_d.dds' for mesh 'meshes\city_stuff\treesm02.x'.
+[app:warn] Failed to load texture 'vetka_2_d.dds' for mesh 'meshes\city_stuff\treesm02.x'.
+[app:warn] Failed to load texture 'Grate_d.dds' for mesh 'meshes\city_stuff\treesm02pod.x'.
+[app:warn] Failed to load texture 'Grass2_d.dds' for mesh 'meshes\city_stuff\treesm02pod.x'.
+[app:warn] Failed to load texture 'st_d.dds' for mesh 'meshes\city_stuff\treesm03.x'.
+[app:warn] Failed to load texture 'vetka_3_d.dds' for mesh 'meshes\city_stuff\treesm03.x'.
+[app:warn] Failed to load texture 'Grate_d.dds' for mesh 'meshes\city_stuff\treesm03pod.x'.
+[app:warn] Failed to load texture 'Grass2_d.dds' for mesh 'meshes\city_stuff\treesm03pod.x'.
+[app:warn] Failed to load texture 'car_lincoln_d_d.dds' for mesh 'meshes\cars\car_lincoln_destr.x'.
+[app:warn] Failed to load texture 'Commercial/commercial08_d.tga' for mesh 'meshes\commercial\commercial08_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial01_d.tga' for mesh 'meshes\commercial\commercial01_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial02_d.tga' for mesh 'meshes\commercial\commercial02_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial04_d.tga' for mesh 'meshes\commercial\commercial04_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial07_d.tga' for mesh 'meshes\commercial\commercial07_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial03_d.tga' for mesh 'meshes\commercial\commercial03_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial09_d.tga' for mesh 'meshes\commercial\commercial09_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial13_d.tga' for mesh 'meshes\commercial\commercial13_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial10_d.tga' for mesh 'meshes\commercial\commercial10_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial11_d.tga' for mesh 'meshes\commercial\commercial11_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial05_d.tga' for mesh 'meshes\commercial\commercial05_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial12_d.tga' for mesh 'meshes\commercial\commercial12_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial15_d.tga' for mesh 'meshes\commercial\commercial15_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial14_d.tga' for mesh 'meshes\commercial\commercial14_2x.x'.
+[app:warn] Failed to load texture 'Commercial/commercial06_d.tga' for mesh 'meshes\commercial\commercial06_2x.x'.
+[app:warn] Failed to load texture 'BlockLine_d.dds' for mesh 'meshes\blockline03.x'.
+[app:warn] Failed to load texture 'tire_heepCompleteMap_d.dds' for mesh 'meshes\city_stuff\tires.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\tires_sh.x'.
+[app:warn] Failed to load texture 'boxes_side_d.dds' for mesh 'meshes\city_stuff\boxes1.x'.
+[app:warn] Failed to load texture 'boxes_top_d.dds' for mesh 'meshes\city_stuff\boxes1.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\boxes1_sh.x'.
+[app:warn] Failed to load texture 'bochkacompletemap_d.dds' for mesh 'meshes\city_stuff\bochka.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\bochka_sh.x'.
+[app:warn] Failed to load texture 'BagCompleteMap_d.dds' for mesh 'meshes\city_stuff\bags.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\bags_sh.x'.
+[app:warn] Failed to load texture 'BigBoxCompleteMap_d.dds' for mesh 'meshes\city_stuff\bigbox.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\bigbox_sh.x'.
+[app:warn] Failed to load texture 'Phone01CompleteMap_d.dds' for mesh 'meshes\city_stuff\phone03.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\phone03_sh.x'.
+[app:warn] Failed to load texture 'Phone01CompleteMap_d.dds' for mesh 'meshes\city_stuff\phone02.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\phone02_sh.x'.
+[app:warn] Failed to load texture 'Phone01CompleteMap_d.dds' for mesh 'meshes\city_stuff\phone01.x'.
+[app:warn] Failed to load texture 'Shadow1_d.dds' for mesh 'meshes\city_stuff\phone01_sh.x'.
+[core:info] Font Manager: Created new font. Name: 'times new roman, flags: 1, height: 16 (0x03577420).
+[app:info] Preloading gameui icons
+[app:info] Preloading side_common icons
+[app:info] Preloading common_good icons
+[app:info] Loading states sectiongame
+[app:err] Can't set handler ReloadUI
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 11 (0x0707FC90).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 25 (0x07094CB8).
+[app:info] Preloading side_good icons
+[core:info] Invoking task "Unload Unlisted Compound Meshes" for map "storyline_201".
+[core:info] Model Manager: Doing "Unload Unlisted Compound Meshes".
+[core:info] * Compounds hold list size: 654;
+* Resulting 'simple' hold list size: 685;
+* Resulting 'skinned' hold list size: 5;
+* SIMPLE: (freed: 0, kept: 688);
+* SKINNED: (freed: 0, kept: 7);
+* Total freed: 0;
+* Total left (SKINNED & SIMPLE): 695;
+[render:info] Late creation of render target texture D3DFMT_A8R8G8B8 256x256: succeded. ID: 5. Late creation is really bad. Try to modify precreation section.
+[render:info] Device surface object with ID: 5 selected from pool. This is good.
+[render:info] Device surface object with ID: 1 selected from pool. This is good.
+[render:info] Device surface object with ID: 5 selected from pool. This is good.
+[render:info] Device surface object with ID: 5 selected from pool. This is good.
+[render:info] Device surface object with ID: 1 selected from pool. This is good.
+[render:info] Using per-object lightmaps enabled.
+[render:info] Device surface object with ID: 2 selected from pool. This is good.
+[render:info] Device surface object with ID: 3 selected from pool. This is good.
+[app:warn] Duplicate window ID (140) was found.
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 13 (0x03BB2E90).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 20 (0x03936FF0).
+[core:info] Font Manager: Created new font. Name: 'times new roman, flags: 0, height: 24 (0x03945700).
+[app:info] Leonard needs your help finding his friend, Brad.  Guide Leonard through the city and speak to the citizens of New York. Meet Brad, and then visit Taylor at the Church.  Press the O key for your objectives.
+[app:info] Game paused
+[app:warn] Duplicate window ID (140) was found.
+[app:info] Game resumed
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'times new roman, flags: 0, height: 24 (0x03945700).
+[app:info] Game paused
+[core:info] Font Manager: Created new font. Name: 'times new roman, flags: 0, height: 24 (0x07365C80).
+[app:warn] Duplicate window ID (140) was found.
+[app:info] Game resumed
+[app:info] There are no Religious buildings on the map!
+[app:info] There are no Mission TC on the map!
+[app:info] There are no Healing buildings on the map!
+[app:info] No units selected!
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'times new roman, flags: 0, height: 24 (0x07365C80).
+[app:info] Game paused
+[core:info] Font Manager: Created new font. Name: 'times new roman, flags: 0, height: 24 (0x03925AC0).
+[app:warn] Duplicate window ID (140) was found.
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'arial, flags: 0, height: 16 (0x0337F1C8).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 0, height: 24 (0x0337F168).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'arial, flags: 0, height: 22 (0x032732D8).
+[core:info] Font Manager: Created new font. Name: 'arial, flags: 0, height: 22 (0x039B18D0).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 0, height: 24 (0x039A79E0).
+[core:info] Font Manager: Created new font. Name: 'arial, flags: 0, height: 16 (0x039909D0).
+[render:info] Device surface object with ID 5 was destroyed.
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'times new roman, flags: 1, height: 16 (0x03577420).
+[app:info] Loading options menus
+[app:info] Preloading mainoptions icons
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 20 (0x03B93F50).
+[core:info] Font Manager: Created new font. Name: 'tahoma, flags: 1, height: 13 (0x03BD8118).
+[app:info] Loaded in 0.714
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'times new roman, flags: 0, height: 24 (0x03925AC0).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'arial, flags: 0, height: 16 (0x039909D0).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 0, height: 24 (0x039A79E0).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'arial, flags: 0, height: 22 (0x039B18D0).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 11 (0x0707FC90).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 25 (0x07094CB8).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 10 (0x03950508).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 13 (0x03BD8118).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'verdana, flags: 1, height: 6 (0x03913268).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 19 (0x0390FCB0).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'verdana, flags: 1, height: 17 (0x0399DFE8).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'verdana, flags: 1, height: 12 (0x0399E460).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 39 (0x03982B60).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'verdana, flags: 1, height: 15 (0x039123B8).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 17 (0x039BF358).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 14 (0x03939508).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 20 (0x03B93F50).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 22 (0x039D74C0).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'verdana, flags: 1, height: 14 (0x03910B28).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 16 (0x031EC370).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 12 (0x03BB30F0).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'tahoma, flags: 1, height: 23 (0x03C1A6A8).
+[core:info] esFontManager::DropFont: Releasing unreferenced font. Name: 'arial, flags: 0, height: 12 (0x03C4FE88).
+[core:info] Destructing Font Manager...
+[core:info] Destructing Model Manager...
+[render:info] Device surface object with ID 3 was destroyed.
+[render:info] Device surface object with ID 2 was destroyed.
+[render:info] All materials cleared
+[app:info] Application stopped at: Tue Sep 22 19:57:44 2015

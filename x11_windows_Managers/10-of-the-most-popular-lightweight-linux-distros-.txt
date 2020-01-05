@@ -1,0 +1,32 @@
+
+
+http://www.techradar.com/news/software/operating-systems/10-of-the-most-popular-lightweight-linux-distros-1295034
+
+TinyCore
+
+CorePlus is the tiniest of Linux distros, and ships three variants. The lightest edition is Core, weighing in at just 10MB with no window manager at all. Next up is TinyCore, clocking in at 15MB and offering the flwm window manager. At the top of the pile sits CorePlus itself, measuring a relatively hefty 86MB but offering you a choice of window managers:
+
+ flwm, IceWM, JWM, FluxBox, Openbox and Hackedbox.
+ 
+  It's also the only version that provides an installation image.
+
+TinyCore is 32-bit by default, but there is a 64-bit variant as well as builds for select ARM devices including the Raspberry Pi. The latest release features a number of useful updates over the previous edition such as legacy-BIOS/UEFI multi-boot support in the TinyCorePure64 variant.
+
+This minimalist distro doesn't feature many apps, providing only a text editor and a terminal and the means to configure your network connection. The Control Panel provides quick access to the different configurable parts of the distro such as display, mouse, network, etc. The barebones distro doesn't provide multimedia codecs but the graphical package manager called Apps makes installing additional software a non-issue.
+
+instalo ademas
+
+fbautostart
+pekwm
+razor-qt
+
+*************************************************************************
+0Linux
+Última actualización: 2016-07-01 04:14 UTC
+http://distrowatch.com/table.php?distribution=0linux
+OS Type: Linux
+Basado en: Independent
+Origen: France 
+Arquitectura: i686, x86_64
+Escritorio: Enlightenment, Fluxbox, GNOME, KDE, MATE, Openbox, Razor-qt, XBMC, Xfce
+Fecha de lanzamiento	2014-09-09

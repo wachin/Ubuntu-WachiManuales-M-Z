@@ -1,0 +1,13 @@
+
+384kbps tasa de bits de audio Recomendada por Youtube, para usar en SimpleScreenRecorder
+http://facilitarelsoftwarelibre.blogspot.com/2018/06/384kbps-tasa-de-bits-de-audio.html
+
+384kbps tasa de bits de audio Recomendada por Youtube, para usar en SimpleScreenRecorder
+La tasa de bits para audio que yo usaré en SimpleScreenRecorder es 384kbps porque uso pistas de musica estereo y eso es lo que recomienda youtube
+
+En SimpleScreenRecorder por defecto está a 128:
+
+usaré 384
+
+
+

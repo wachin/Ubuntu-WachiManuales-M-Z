@@ -1,0 +1,61 @@
+
+
+scripting - Export a m3u playlist to a directory in order they appear in the playlist - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/29799/export-a-m3u-playlist-to-a-directory-in-order-they-appear-in-the-playlist
+
+
+There is a way to rsync a m3u playlist into a destination directory.
+
+How can I process the list and number the output so it orders the files to match the playlist order?
+
+For example the m3u:
+
+/music/song-yellow.mp3
+/music/song-red.mp3
+/music/song-blue.mp3
+would copy/rsync the playlist contents, renaming the files to:
+
+/dest-path/01-song-yellow.mp3
+/dest-path/02-song-red.mp3
+/dest-path/03-song-blue.mp3
+This is so I can build mixtape playlists and copy them for people.
+
+Any advice appreciated.
+
+scripting rsync filenames
+shareimprove this question
+edited Apr 13 at 12:36
+
+Community♦
+1
+asked Jan 23 '12 at 17:38
+
+invert
+1,03811423
+add a comment
+1 Answer
+active oldest votes
+up vote
+2
+down vote
+accepted
+Try something like this:
+
+#!/usr/bin/python
+
+FILE = '/home/my-home/my-playlist.m3u'
+DIR = '/some-target-directory'
+
+import os.path, shutil, sys
+
+for i, s in enumerate(open(FILE)):
+    s = s.rstrip()
+    try:
+        shutil.copy(s, os.path.join(DIR, '%03d-%s' % (i+1, os.path.basename(s))))
+    except IOError, e:
+        sys.stderr.write('warning: %s\n' % e)
+
+# End of file.
+Obviously, set FILE and DIR to what you need. Apologies for going over the top and using Python for this — it helps not to have to escape all those characters shells love to attach special meanings to.
+
+The script won't fail on I/O errors, it'll just output a warning. Other than that, there are no sanity checks (as you can probably see). Nor does it exclude M3U comments. It'll happily copy any character you throw at it, though, with the obvious exceptions of NULs and slashes which are special characters at the filesystem level.

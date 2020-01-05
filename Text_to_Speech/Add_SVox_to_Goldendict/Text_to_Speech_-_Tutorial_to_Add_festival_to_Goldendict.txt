@@ -1,0 +1,20 @@
+
+http://www.atechnote.com/2015/02/how-to-add-text-to-speech-to-goldendict.html?showComment=1466263553852#c6468624554600577611
+
+I test with you new parameters in Goldendict English python script and Working fine. I add:
+
+python /home/wachin/myttsEng.py %GDWORD%
+
+to the Goldendict "Program" tab in command line. Wokfing fine, I hear in whatever word in english when I clic in the speaking icon
+
+I test in the command line and working fine:
+
+python /home/wachin/myttsEng.py house
+
+also:
+
+python /home/wachin/myttsEng.py "What can I do"
+
+
+
+nodejs /home/wachin/myttsEsp.py hola

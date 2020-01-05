@@ -1,0 +1,16 @@
+Export or save songs from a playlist (Linux)
+http://fully-faltoo.com/2012/07/14/save-playlist/
+
+
+Export or save songs from a playlist (Linux)
+Posted on Sat 14 July 2012
+I often need to export a playlist items for saving them in a USB or just in a folder. Found this useful one line command for Terminal which exports or saves a play-list items as files.
+
+Export your playlist to a m3u file. I called it playlist.m3u
+Open a terminal in the folder where you have saved the file.
+
+Copy & paste this:
+sed "s/#.*//g" < playlist.m3u | sed "/^$/d" | while read line; do cp "${line}" '/path/to/output/folder/'; done
+
+Remember to change the path to your desired output folder.
+Note: Terminal will not give any output whilst files are copied, just be patient ;)

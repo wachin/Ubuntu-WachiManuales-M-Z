@@ -1,0 +1,17 @@
+
+
+Sweet Home 3D Simple keyboard shortcuts
+
+http://www.sweethome3d.com/support/forum/viewthread_thread,2867%3Bjsessionid=2F125B5AF0EB23BA6FCFABC35FEC1B0D
+I think it would be very effective to use "single key shortcuts" for the key features, for example...
+
+- select: "s"
+- draw wall "w"
+- create room "r"
+- dimension tool "d"
+- move "m"
+- zoom in numpad "+"
+- zoom out numpad "-"
+- text "t"
+
+This would allow to switch between the modes with one single key, instead of hitting ctrl + shift + key.

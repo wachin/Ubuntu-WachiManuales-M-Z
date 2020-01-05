@@ -1,0 +1,23 @@
+
+poner en la terminal:
+
+
+et
+
+wpp
+
+wps
+
+
+
+Visto en Synaptic:
+
+/usr
+/usr/bin
+/usr/bin/et
+/usr/bin/wpp
+/usr/bin/wps
+/usr/share
+
+
+ 

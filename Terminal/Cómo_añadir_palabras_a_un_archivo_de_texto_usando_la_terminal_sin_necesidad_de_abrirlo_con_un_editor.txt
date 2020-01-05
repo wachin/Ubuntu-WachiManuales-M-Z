@@ -1,0 +1,16 @@
+
+
+Cómo añadir palabras a un archivo de texto usando la terminal sin necesidad de abrirlo con un editor
+
+
+
+
+Add words to a text file using a single terminal command (no editors) - Ask Ubuntu
+https://askubuntu.com/questions/435291/add-words-to-a-text-file-using-a-single-terminal-command-no-editors/435309
+
+I usually do this way when I am programming my script to do same what you are asking but programmatically.
+
+echo "Hello you!" >> myfile.txt
+echo "this is 2nd line text" >> file.txt
+echo "last line!" >> file.txt
+Voila! You got it. Important to note >> means adding new line to existing file meanwhile > just simply overwrite everything.

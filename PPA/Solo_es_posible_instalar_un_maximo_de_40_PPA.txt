@@ -1,0 +1,13 @@
+
+Nota: Solo es posible instalar un maximo de 40 PPA, pues si se instala más dará errores con los paquetes de Ubuntu, esto lo ví aquí: 
+
+schragge escribió:
+How many keyrings are there? You can find it out with
+Code:
+ls /etc/apt/trusted.gpg.d | wc -l
+The current limit is about 40. To get around this limit you need the latest apt from Debian experimental which is not yet even in vivid.
+http://ubuntuforums.org/showthread.php?t=2257304
+
+Suponiendo que a alguien le haya pasado, aquí está la solución:
+https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/
+

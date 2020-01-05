@@ -1,0 +1,20 @@
+Commit Log for Tue Feb 16 11:05:56 2016
+
+
+Quitó completamente los siguientes paquetes:
+libfm-data
+libfm-extra4
+libfm-gtk-data
+libfm-gtk4
+libfm-modules
+libfm-tools
+libfm4
+liblxqt0
+libqt5xdg1
+pcmanfm
+
+Quitó los paquetes siguientes:
+libmenu-cache-bin
+libmenu-cache3
+lxqt-notificationd
+lxqt-session

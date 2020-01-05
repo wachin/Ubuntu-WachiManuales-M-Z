@@ -1,0 +1,60 @@
+
+First I capture the Pulseaudio GUI and next convert to a text with:
+
+https://convertio.co/es/ocr/
+
+next a Translate it with:
+
+https://translate.google.com
+
+
+Pulsejoin позволяет легко записать звук с микрофона и динамиков одновременно в программах, не умеющих записывать с нескольких устройств сразу.
+Нужно выбрать режим работы.
+
+Можно все сделать автоматически:
+1)создать виртуальный микрофон, объединяющий в себе звук с устройства ввода (микрофона) по умолчанию и устройства вывода по умолчанию (что выводится на динамики/наушники)
+2)открыть Аudacity для записи звука с этого объединенного виртуального устройства
+3)убрать это виртуальное устройство после закрытия  Аudacity
+
+Сделать все автоматически с запуском Audacity
+
+Сделать все автоматически с запуском SimpleScreenRecorder
+
+Сделать все автоматически с запуском другой программы
+
+Можно каждое действие выполнять по-отдельности с помощью кнопок:
+
+I Сделать виртуальный микрофон
+
+Убрать виртуальным микрофон
+
+Сбросить все виртуальные устройства ввода и вывода можно перезапуском звукового сервера Pulseaudio:
+
+— Перезапустить Рulseaudio
+
+
+
+
+Pulsejoin le permite grabar fácilmente el sonido de un micrófono y altavoces simultáneamente en programas que no pueden grabar desde múltiples dispositivos a la vez.
+Es necesario seleccionar el modo de operación.
+
+Puedes hacer todo automáticamente:
+1) cree un micrófono virtual que combine el sonido del dispositivo de entrada (micrófono) de manera predeterminada y el dispositivo de salida predeterminado (que se envía a los altavoces / auriculares)
+2) abra la capacidad de audio para grabar sonido de este dispositivo virtual combinado
+3) eliminar este dispositivo virtual después de cerrar la capacidad
+
+Haz todo de forma automática con el lanzamiento de Audacity.
+
+Haz todo automáticamente con el lanzamiento de SimpleScreenRecorder
+
+Haz todo automáticamente con el lanzamiento de otro programa.
+
+Puedes realizar cada acción por separado usando los botones:
+
+Hago un micrófono virtual
+
+Retire el micrófono virtual
+
+Puede restablecer todos los dispositivos de entrada y salida virtuales al reiniciar el servidor de sonido Pulseaudio:
+
+- Reiniciar Pulseaudio

@@ -1,0 +1,57 @@
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\bin\Debug\CamDesk.exe
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\bin\Debug\CamDesk.pdb
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\bin\Debug\CamDesk.xml
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\obj\x86\Debug\CamDesk.Form1.resources
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\obj\x86\Debug\CamDesk.Resources.resources
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\obj\x86\Debug\CamDesk.exe
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\obj\x86\Debug\CamDesk.xml
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\obj\x86\Debug\CamDesk.pdb
+C:\Users\Mike\AppData\Local\Temporary Projects\CamDesk\obj\x86\Debug\CamDesk.Form2.resources
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.exe
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.xml
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.pdb
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.exe
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.pdb
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.xml
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.Form1.resources
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.Form2.resources
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.Resources.resources
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.exe.manifest
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.application
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.exe.manifest
+C:\Users\Mike\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.application
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.exe
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.xml
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.pdb
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.Form1.resources
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.Form2.resources
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.Resources.resources
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.vbproj.GenerateResource.Cache
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.application
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.exe
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.pdb
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\bin\Debug\CamDesk.xml
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\CamDesk\CamDesk\obj\x86\Debug\CamDesk.application
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.vbprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.Form1.resources
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.Form2.resources
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.Resources.resources
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.vbproj.GenerateResource.Cache
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.exe
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.xml
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.pdb
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.exe.manifest
+C:\Users\Michael\Desktop\CamDesk\CamDesk\bin\Debug\CamDesk.exe.manifest
+C:\Users\Michael\Desktop\CamDesk\CamDesk\bin\Debug\CamDesk.application
+C:\Users\Michael\Desktop\CamDesk\CamDesk\bin\Debug\CamDesk.exe
+C:\Users\Michael\Desktop\CamDesk\CamDesk\bin\Debug\CamDesk.pdb
+C:\Users\Michael\Desktop\CamDesk\CamDesk\bin\Debug\CamDesk.xml
+C:\Users\Michael\Desktop\CamDesk\CamDesk\obj\x86\Debug\CamDesk.application

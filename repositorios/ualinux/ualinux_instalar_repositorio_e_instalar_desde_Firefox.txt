@@ -1,0 +1,9 @@
+
+
+Instalar el Repositorio de ualinux (ahí está un deb)
+
+https://ualinux.com/en/how-to-connect
+
+Para instalarlos desde dar clic en Firefox
+
+https://ualinux.com/en/ubuntu-games 

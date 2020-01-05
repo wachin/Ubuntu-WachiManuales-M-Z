@@ -1,0 +1,177 @@
+tttppp/mountain_tapir: Mountain Tapir Collage Maker is a tool for combining images into collages.
+https://github.com/tttppp/mountain_tapir
+
+Dependencias:
+
+bumpversion==0.5.3
+wheel==0.23.0
+watchdog==0.8.3
+flake8==2.4.1
+tox==2.6.0
+coverage==4.0
+Sphinx==1.3.1
+
+En Ubuntu hay estas no las tres de arriba:
+
+python-wheel
+python-coverage
+python-sphinx
+
+
+
+
+instalación
+
+wachin@Dell-Inspiron-1750:~/Apps-Linux-Instaladores/Collage-Mountain/mountain_tapir-master$ python setup.py install
+running install
+error: can't create or remove files in install directory
+
+The following error occurred while trying to add or remove files in the
+installation directory:
+
+    [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/test-easy-install-7428.write-test'
+
+The installation directory you specified (via --install-dir, --prefix, or
+the distutils default setting) was:
+
+    /usr/local/lib/python2.7/dist-packages/
+
+Perhaps your account does not have write access to this directory?  If the
+installation directory is a system-owned directory, you may need to sign in
+as the administrator or "root" account.  If you do not have administrative
+access to this machine, you may wish to choose a different installation
+directory, preferably one that is listed in your PYTHONPATH environment
+variable.
+
+For information on other options, you may wish to consult the
+documentation at:
+
+  https://setuptools.readthedocs.io/en/latest/easy_install.html
+
+Please make the appropriate changes for your system and try again.
+
+wachin@Dell-Inspiron-1750:~/Apps-Linux-Instaladores/Collage-Mountain/mountain_tapir-master$ sudo python setup.py install
+[sudo] contraseña para wachin: 
+running install                                                         
+running bdist_egg                                                       
+running egg_info                                                        
+creating mountain_tapir.egg-info                                        
+writing requirements to mountain_tapir.egg-info/requires.txt            
+writing mountain_tapir.egg-info/PKG-INFO                                
+writing top-level names to mountain_tapir.egg-info/top_level.txt        
+writing dependency_links to mountain_tapir.egg-info/dependency_links.txt
+writing manifest file 'mountain_tapir.egg-info/SOURCES.txt'             
+reading manifest file 'mountain_tapir.egg-info/SOURCES.txt'             
+reading manifest template 'MANIFEST.in'                                 
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+writing manifest file 'mountain_tapir.egg-info/SOURCES.txt'             
+installing library code to build/bdist.linux-i686/egg                   
+running install_lib                                                     
+running build_py                                                        
+creating build                                                          
+creating build/lib.linux-i686-2.7                                                                                                     
+creating build/lib.linux-i686-2.7/mountain_tapir                                                                                      
+copying mountain_tapir/model.py -> build/lib.linux-i686-2.7/mountain_tapir                                                            
+copying mountain_tapir/constants.py -> build/lib.linux-i686-2.7/mountain_tapir                                                        
+copying mountain_tapir/image_file.py -> build/lib.linux-i686-2.7/mountain_tapir                                                       
+copying mountain_tapir/mountain_tapir.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/controller.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/__init__.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/recent_images.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/algorithm.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/ui_vars.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/tool.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/preview.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/config.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/menu.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/region_maker.py -> build/lib.linux-i686-2.7/mountain_tapir
+copying mountain_tapir/open_image_dialog.py -> build/lib.linux-i686-2.7/mountain_tapir
+creating build/lib.linux-i686-2.7/mountain_tapir/resources
+copying mountain_tapir/resources/__init__.py -> build/lib.linux-i686-2.7/mountain_tapir/resources
+copying mountain_tapir/resources/algorithm_collage.png -> build/lib.linux-i686-2.7/mountain_tapir/resources
+copying mountain_tapir/resources/algorithm_frame.png -> build/lib.linux-i686-2.7/mountain_tapir/resources
+copying mountain_tapir/resources/algorithm_grid.png -> build/lib.linux-i686-2.7/mountain_tapir/resources
+copying mountain_tapir/resources/directory.png -> build/lib.linux-i686-2.7/mountain_tapir/resources
+copying mountain_tapir/resources/file.png -> build/lib.linux-i686-2.7/mountain_tapir/resources
+copying mountain_tapir/resources/refresh.png -> build/lib.linux-i686-2.7/mountain_tapir/resources
+copying mountain_tapir/resources/up_directory.png -> build/lib.linux-i686-2.7/mountain_tapir/resources
+creating build/bdist.linux-i686
+creating build/bdist.linux-i686/egg
+creating build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/model.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/constants.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/image_file.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/mountain_tapir.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/controller.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/__init__.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/recent_images.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/algorithm.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/ui_vars.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/tool.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/preview.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/config.py -> build/bdist.linux-i686/egg/mountain_tapir
+creating build/bdist.linux-i686/egg/mountain_tapir/resources
+copying build/lib.linux-i686-2.7/mountain_tapir/resources/__init__.py -> build/bdist.linux-i686/egg/mountain_tapir/resources
+copying build/lib.linux-i686-2.7/mountain_tapir/resources/directory.png -> build/bdist.linux-i686/egg/mountain_tapir/resources
+copying build/lib.linux-i686-2.7/mountain_tapir/resources/refresh.png -> build/bdist.linux-i686/egg/mountain_tapir/resources
+copying build/lib.linux-i686-2.7/mountain_tapir/resources/algorithm_frame.png -> build/bdist.linux-i686/egg/mountain_tapir/resources
+copying build/lib.linux-i686-2.7/mountain_tapir/resources/file.png -> build/bdist.linux-i686/egg/mountain_tapir/resources
+copying build/lib.linux-i686-2.7/mountain_tapir/resources/algorithm_grid.png -> build/bdist.linux-i686/egg/mountain_tapir/resources
+copying build/lib.linux-i686-2.7/mountain_tapir/resources/up_directory.png -> build/bdist.linux-i686/egg/mountain_tapir/resources
+copying build/lib.linux-i686-2.7/mountain_tapir/resources/algorithm_collage.png -> build/bdist.linux-i686/egg/mountain_tapir/resources
+copying build/lib.linux-i686-2.7/mountain_tapir/menu.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/region_maker.py -> build/bdist.linux-i686/egg/mountain_tapir
+copying build/lib.linux-i686-2.7/mountain_tapir/open_image_dialog.py -> build/bdist.linux-i686/egg/mountain_tapir
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/model.py to model.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/constants.py to constants.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/image_file.py to image_file.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/mountain_tapir.py to mountain_tapir.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/controller.py to controller.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/recent_images.py to recent_images.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/algorithm.py to algorithm.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/ui_vars.py to ui_vars.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/tool.py to tool.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/preview.py to preview.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/config.py to config.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/resources/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/menu.py to menu.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/region_maker.py to region_maker.pyc
+byte-compiling build/bdist.linux-i686/egg/mountain_tapir/open_image_dialog.py to open_image_dialog.pyc
+creating build/bdist.linux-i686/egg/EGG-INFO
+copying mountain_tapir.egg-info/PKG-INFO -> build/bdist.linux-i686/egg/EGG-INFO
+copying mountain_tapir.egg-info/SOURCES.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying mountain_tapir.egg-info/dependency_links.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying mountain_tapir.egg-info/not-zip-safe -> build/bdist.linux-i686/egg/EGG-INFO
+copying mountain_tapir.egg-info/requires.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying mountain_tapir.egg-info/top_level.txt -> build/bdist.linux-i686/egg/EGG-INFO
+creating dist
+creating 'dist/mountain_tapir-1.1.2-py2.7.egg' and adding 'build/bdist.linux-i686/egg' to it
+removing 'build/bdist.linux-i686/egg' (and everything under it)
+Processing mountain_tapir-1.1.2-py2.7.egg
+creating /usr/local/lib/python2.7/dist-packages/mountain_tapir-1.1.2-py2.7.egg
+Extracting mountain_tapir-1.1.2-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding mountain-tapir 1.1.2 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/mountain_tapir-1.1.2-py2.7.egg
+Processing dependencies for mountain-tapir==1.1.2
+Searching for Pillow==5.1.0
+Best match: Pillow 5.1.0
+Adding Pillow 5.1.0 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Finished processing dependencies for mountain-tapir==1.1.2
+wachin@Dell-Inspiron-1750:~/Apps-Linux-Instaladores/Collage-Mountain/mountain_tapir-master$ 
+
+
+
+Se creó la carpeta:
+
+mountain-tapir
+
+
+allí dentro está el archivo:
+
+file:///home/wachin/Apps-Linux-Instaladores/Collage-Mountain/mountain_tapir-master/mountain_tapir/mountain_tapir.py
+                                                                                                                                      

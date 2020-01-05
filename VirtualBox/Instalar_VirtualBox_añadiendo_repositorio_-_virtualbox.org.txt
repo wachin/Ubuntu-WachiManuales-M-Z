@@ -1,0 +1,24 @@
+
+INCOMPLETO WACHÍN (HAY QUE ARREGLAR EL COMANDO PARA AÑADIR DE UNA LA LINEA DEL REPOSITORIO)
+
+Linux_Downloads – Oracle VM VirtualBox
+https://www.virtualbox.org/wiki/Linux_Downloads
+
+Debian-based Linux distributions
+Add the following line to your 
+
+/etc/apt/sources.list:
+
+deb http://download.virtualbox.org/virtualbox/debian xenial contrib
+According to your distribution, replace 'xenial' by 'vivid', 'utopic', 'trusty', 'raring', 'quantal', 'precise', 'lucid', 'jessie', 'wheezy', or 'squeeze'.
+
+(Up to version 3.2 the packages were located in the non-free section. Starting with version 4.0 they are located in the contrib section.)
+
+The Oracle public key for apt-secure can be downloaded
+
+here for Debian 8 ("Jessie") / Ubuntu 16.04 ("Xenial") and later
+here for older distributions.
+You can add these keys with
+
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -

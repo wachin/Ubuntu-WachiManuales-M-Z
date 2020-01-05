@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='es-EC' lang='es-EC'>
+<head>
+<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+<title>Detalles de GParted</title>
+</head>
+<body>
+<p>GParted 0.25.0 --enable-libparted-dmraid --enable-online-resize</p>
+<p>Libparted 3.2</p>
+<table border='0'>
+<tr>
+<td colspan='2'>
+<b>Eliminar /dev/sdb1 (exfat, 2.58 GiB) de /dev/sdb</b>&nbsp;&nbsp;00:00:01&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<table border='0'>
+<tr>
+<td colspan='2'>
+calibrar /dev/sdb1&nbsp;&nbsp;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<table border='0'>
+<tr>
+<td colspan='2'>
+<i>ruta: /dev/sdb1 (partición)<br />inicio: 64<br />fin: 5418239<br />tamaño: 5418176 (2.58 GiB)</i>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+eliminar partición&nbsp;&nbsp;00:00:01&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>========================================</p>
+<table border='0'>
+<tr>
+<td colspan='2'>
+<b>Crear Partición primaria #1 (fat32, 7.47 GiB) en /dev/sdb</b>&nbsp;&nbsp;00:00:06&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<table border='0'>
+<tr>
+<td colspan='2'>
+crear una partición vacía&nbsp;&nbsp;00:00:01&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<table border='0'>
+<tr>
+<td colspan='2'>
+<i>ruta: /dev/sdb1 (partición)<br />inicio: 2048<br />fin: 15663103<br />tamaño: 15661056 (7.47 GiB)</i>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+limpiar firmas de sistemas de archivos antiguos en /dev/sdb1&nbsp;&nbsp;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<table border='0'>
+<tr>
+<td colspan='2'>
+write 512.00 KiB of zeros at byte offset 0&nbsp;&nbsp;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+write 4.00 KiB of zeros at byte offset 67108864&nbsp;&nbsp;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+write 512.00 KiB of zeros at byte offset 8017936384&nbsp;&nbsp;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+write 4.00 KiB of zeros at byte offset 8018395136&nbsp;&nbsp;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+write 8.00 KiB of zeros at byte offset 8018452480&nbsp;&nbsp;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+vaciar caché del sistema operativo de /dev/sdb&nbsp;&nbsp;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+establecer el tipo de partición en /dev/sdb1&nbsp;&nbsp;00:00:01&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<table border='0'>
+<tr>
+<td colspan='2'>
+<i>tipo de partición nuevo: fat32</i>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+crear un sistema de archivos fat32 nuevo&nbsp;&nbsp;00:00:04&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<table border='0'>
+<tr>
+<td colspan='2'>
+<b><i>mkfs.fat -F32 -v -I -n &quot;WACHIN     &quot; /dev/sdb1</i></b>&nbsp;&nbsp;00:00:04&nbsp;&nbsp;&nbsp;&nbsp;( ÉXITO )
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<table border='0'>
+<tr>
+<td colspan='2'>
+<i>mkfs.fat 3.0.28 (2015-05-16)<br />/dev/sdb1 has 247 heads and 62 sectors per track,<br />hidden sectors 0x0800;<br />logical sector size is 512,<br />using 0xf8 media descriptor, with 15661056 sectors;<br />drive number 0x80;<br />filesystem has 2 32-bit FATs and 8 sectors per cluster.<br />FAT size is 15265 sectors, and provides 1953811 clusters.<br />There are 32 reserved sectors.<br />Volume ID is 0de22d87, volume label WACHIN     .<br /></i>
+</td>
+</tr>
+</table>
+<table border='0'>
+<tr>
+<td colspan='2'>
+<i></i>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>========================================</p>
+</body>
+</html>

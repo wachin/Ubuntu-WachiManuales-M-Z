@@ -1,0 +1,22 @@
+
+
+
+
+sudo nautilus /usr/lib/jvm/ ~/
+
+
+thunar /usr/lib/jvm/ ~/
+
+dolphin4 ~/ /usr/lib/jvm/
+
+
+este tan targo puede ser resumido
+
+dolphin4 /home/wachin/ /home/wachin/Dropbox/UbuntuManuales/ /home/wachin/ /home/wachin/Dropbox/ &
+
+así:
+
+dolphin4 ~/ ~/Dropbox/UbuntuManuales/ ~/ ~/Dropbox/ &
+
+
+

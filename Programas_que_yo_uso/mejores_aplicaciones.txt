@@ -1,0 +1,70 @@
+
+Grabador de pantalla
+
+Vokoscreen.- No sirve para x11 WM
+kazam
+Simplescreenrecorder
+recordmydesktop
+deepin-screen-recorder
+termrec
+peek
+byzanz-record
+
+
+Ubuntu 16.04
+
+Reproductores de música
+
+rhythmbox
+clementine
+
+
+RENOMBRADORES
+
+krename
+gprename
+metamorphose2
+mp3rename
+autorename
+
+
+sudo apt-get install mate-system-monitor
+
+como el de windows
+
+sudo apt-get install hardinfo 
+
+Como en windows cuando uno le da clic a Administración del sistema
+
+htop.- es una aplicación de terminal para ver el uso de memoria de aplicaciones y del sistema
+
+sysinfo
+
+lshw
+
+sudo apt-get install lshw lshw-gtk
+
+
+lxtask
+LXDE task manager
+
+screenfetch
+sudo apt-get install screenfetch
+
+screenfetch hay que poner en la terminal y saldrá la información del sistema muy completa incluido el Administrador de Ventanas
+
+
+How To Install I-Nex 0.6.2 On Ubuntu, Linux Mint And Elementary OS | Unixmen
+https://www.unixmen.com/install-nex-0-6-2-ubuntu-linux-mint-elementary-os/
+sudo add-apt-repository -y ppa:i-nex-development-team/stable
+sudo apt-get update && sudo apt-get install i-nex
+
+
+
+https://launchpad.net/~qtcam/+archive/ubuntu/xenial
+sudo add-apt-repository ppa:qtcam/xenial
+sudo apt-get update
+sudo apt-get install qtcam
+
+
+

@@ -1,0 +1,60 @@
+
+Startup
+https://help.ubuntu.com/community/IceWM
+
+If you want certain programs to start automatically when you log in, you can use a startup file, much like the one in Fluxbox. It's located in the ~/.icewm folder. It's not there by default, so let's create it:
+
+$ nano .icewm/startup
+
+Here's an example:
+
+!#/bin/sh
+
+sleep 2
+#required to give icewm taskbar some time to startup before applets are added
+
+gnome-sound-applet &
+#Volume Control applet
+
+mate-bluetooth-applet &
+#Bluetooth applet (bluetooth-applet is not available on Ubuntu 13.1)
+
+mate-power-manager &
+#Power Manager applet (gnome-power-manager is not available on Ubuntu 13.1)
+
+/opt/extras.ubuntu.com/indicator-brightness/indicator-brightness &
+#Brightness Control applet (in the case keyboard brightness commands fail)
+
+nm-applet &
+#Network Manager applet
+
+gnome-settings-daemon &
+#makes all GTK applications (eg Firefox) use the Gnome3/Unity graphics (dark grey)
+
+xscreensaver -nosplash &
+#startup screensaver (enables desktop locking)
+
+Save, and quit nano. Don't forget to add an & after each app to keep them running. Now, you need to make it executable:
+
+chmod +x .icewm/startup
+
+Note the above recommendation includes startup of the following system tray applets which are not currently available in Ubuntu (e.g. 13.1). As such the mate desktop environment repository is currently required to be installed to gain access to them (mate-bluetooth-applet mate-power-manager);
+
+sudo add-apt-repository "deb http://repo.mate-desktop.org/ubuntu saucy main"
+sudo apt-get update
+sudo apt-get --yes --quiet --allow-unauthenticated install mate-archive-keyring
+sudo apt-get update
+sudo apt-get install mate-bluetooth-applet mate-power-manager
+
+The indicator-brightness applet ( indicator-brightness) may also be required depending upon how Ubuntu is handling the display brightness setting of your LCD monitor (e.g. if brightness keyboard control fails to function in icewm);
+
+sudo add-apt-repository ppa:indicator-brightness/ppa
+sudo apt-get update 
+sudo apt-get install indicator-brightness
+
+And that's all. Next time you log in, you should see the added programs running.
+
+More IceWM Configuration Applications can also be found here
+http://icecc.sourceforge.net/
+
+, which are not in the Ubuntu Repositories. 

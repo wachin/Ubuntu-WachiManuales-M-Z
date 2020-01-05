@@ -1,0 +1,22 @@
+
+
+Autostarting
+https://wiki.archlinux.org/index.php/IceWM#Autostarting
+
+The startup script is not provided by the icewm package so you will need to create it yourself.
+
+$ touch ~/.icewm/startup
+$ chmod +x ~/.icewm/startup
+
+Then open the file in your favourite text editor and add the commands for the programs that you wish to start with the IceWM session.
+Note: Startup commands that install system tray applets must be preceded by sleep 1 &&, otherwise IceWM will create an ugly black window that will prevent it from quitting; in that case, use xkill on the task bar.
+
+Below is an example of an IceWM startup script which starts network-manager-applet and XScreenSaver with the IceWM session:
+~/.icewm/startup
+
+#!/bin/bash
+
+sleep 1 &&
+nm-applet &
+
+xscreensaver -nosplash &

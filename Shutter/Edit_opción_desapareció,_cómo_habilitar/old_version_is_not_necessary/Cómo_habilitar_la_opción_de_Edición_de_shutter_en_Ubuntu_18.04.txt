@@ -1,0 +1,36 @@
+En Ubuntu 18.04 al instalar shutter, ha desaparecido la opción de editar, estos son los pasos para habilitarla:
+
+
+1.- NECESITAS LA LIBRERÍA libgoocanvas-common
+
+Descarguela e instalela para 64 o 32 bits:
+
+https://packages.ubuntu.com/xenial/libgoocanvas-common
+
+
+
+2.- NECESITAS LA LIBRERÍA libgoocanvas3
+
+Descarguela e instalela para 64 o 32 bits:
+
+https://packages.ubuntu.com/xenial/libgoocanvas3
+
+
+3. NECESITAS LA LIBRERÍA libgoo-canvas-perl
+
+3.1.- Descarguela e instalela para 64 bits solamente:
+
+https://packages.ubuntu.com/xenial/libgoo-canvas-perl
+
+
+3.2.- Descarguela e instalela para 32 bits solamente:
+
+http://launchpadlibrarian.net/330847981/libgoo-canvas-perl_0.06-2ubuntu3_i386.deb
+
+4.- Instale con gdebi
+
+
+CONSULTA:
+[Quick Fix] The “Edit” Option Disabled in Shutter in Ubuntu 18.04
+http://ubuntuhandbook.org/index.php/2018/04/fix-edit-option-disabled-shutter-ubuntu-18-04/
+

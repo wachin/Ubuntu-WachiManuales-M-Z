@@ -1,0 +1,31 @@
+
+WPS Office not working, error ${gInstallPath}/office6/${gApp} ${gOptExt} ${gOpt} "$@"
+
+
+The solution is install Qt 4 Settings and change the theme
+
+sudo apt-get install qt4-qtconfig
+
+In Ubuntu 16.04 the launcher of this packages is called:
+
+qtconfig-qt4
+
+this you need to put in a terminal and launch (You can also look for it in the application launcher for your operating system but I can not do a tutorial for all of them since there is: Xubuntu, Ubuntu Studio, Ubuntu Gnome, Kubuntu, e.g.)
+
+open this config dialog and chose GTK+
+
+
+
+Error:
+${gInstallPath}/office6/${gApp} ${gOptExt} ${gOpt} "$@"
+
+
+
+WPS Office not working, error
+https://forum.kde.org/viewtopic.php?f=309&t=140892
+
+
+
+
+
+

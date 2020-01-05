@@ -1,0 +1,13 @@
+
+
+
+Re: synaptic no history
+
+    The logs are being created in /root/.synaptic/log, just not viewable in synaptic 
+    
+    
+sudo gedit /root/.synaptic/log   
+    
+
+synaptic no history 
+http://ubuntuforums.org/showthread.php?t=2285279 
