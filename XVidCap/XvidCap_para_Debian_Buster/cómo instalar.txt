@@ -1,0 +1,14 @@
+
+
+Instalar en este orden los deb para 32 bits
+
+librarian0_0.8.1-6+b1_i386.deb
+rarian-compat_0.8.1-6+b1_i386.deb
+scrollkeeper_0.8.1-6_all.deb
+xvidcap_1.1.7jaunty_i386.deb
+ 
+
+ 
+ para 64 debera buscarlso tres primeros en:
+ 
+ packages.debian.org, descargar los de stretch

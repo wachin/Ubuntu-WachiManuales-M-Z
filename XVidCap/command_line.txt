@@ -1,36 +1,69 @@
 
-http://linux.byexamples.com/archives/231/create-screencast-using-xvidcap/
+Para que XvidCap grabe video con audio
 
-padsp xvidcap --audio no --cap_geometry 1024x768[+0+0] --rescale 50 --file test.mpg
+Descargarlo desde:
 
-ESte funciona bien en UbuntuStudio 13.10:
-padsp xvidcap --audio yes --cap_geometry 680x470[+200+200] --file test.mpg
+https://sourceforge.net/projects/xvidcap/files/xvidcap/1.1.7/
 
-a ver si este:
-de aquí el --fps 8
-http://writkas.wordpress.com/2010/11/03/problema-sonido-xvidcap/
+la versión para Jaunty
 
-padsp xvidcap --audio yes --cap_geometry 680x470[+200+200] --fps 8 --file test.mpg
+Para que grabe sonido hay que poner en la terminal padsp antes de los comandos de trabajo en la terminal, así
 
-Si funciona, ahora como allí dice que 8 es lo mínimo, se lo voy a subir a 15
+
+***********                    
+60 fps 480p
+***********
+                    
+Con audio a 30 fps, calidad 100% y 480p en MOV
+
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video grabación.mov"
+
+
+Con audio a 30 fps, calidad 100% y 480p en MPG
+
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video grabación.mpg"
+
+
+
+***********                    
+30 fps 480p
+***********
+                    
+Con audio a 30 fps, calidad 100% y 480p en MOV
+
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Su video grabación.mov"
+
+
+Con audio a 30 fps, calidad 100% y 480p en MPG
+
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Su video grabación.mpg"
+
+
+
+
+***********                    
+30 fps 480p
+***********
+
+Con audio a 15 fps
 
 padsp xvidcap --audio yes --cap_geometry 680x470[+200+200] --fps 15 --file test.mpg
 
-lo voy a subir a 30
+Con audio a 30 fps
 
 padsp xvidcap --audio yes --cap_geometry 680x470[+200+200] --fps 30 --file test.mpg
 
 
-                    
-PARA MAYOR CALIDAD USAR ESTA CONFIGURACIÓN:
-
-padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file xvidcap.mov
 
 
-padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file xvidcap.mpg
+Sin audio
+
+padsp xvidcap --audio no --cap_geometry 1024x768[+0+0] --rescale 50 --file test.mpg
 
 
 
+CONSULTAS:
 
-xvidcap con soporte de audio
 http://tombuntu.com/index.php/2007/11/06/record-your-screen-with-xvidcap/
+
+http://linux.byexamples.com/archives/231/create-screencast-using-xvidcap/
