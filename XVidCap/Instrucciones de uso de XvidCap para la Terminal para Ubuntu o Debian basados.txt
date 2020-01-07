@@ -1,5 +1,5 @@
 
-Para que XvidCap grabe video con audio
+XvidCap para grabe video con audio en Debian 10 Buster y derivados como antiX 9
 
 Descargarlo desde:
 
