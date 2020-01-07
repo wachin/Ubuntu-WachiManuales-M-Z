@@ -13,40 +13,21 @@ Para que grabe sonido hay que poner en la terminal padsp antes de los comandos d
 
 
 ***********                    
-720p 60 fps 
+720p 30 fps 
 ***********
                     
-Con audio a 60 fps, calidad 100% y 720p en MOV
+Con audio a 30 fps, calidad 100% y 720p en MOV
 
-padsp xvidcap --audio yes --cap_geometry 1280x420[+200+200] --fps 60 --quality 100 --file "Su video.mov"
+padsp xvidcap --audio yes --cap_geometry 1280x720[+200+200] --fps 30 --quality 100 --file "Su video.mov"
 
-Con audio a 60 fps, calidad 100% y 720p en MPG
+Con audio a 30 fps, calidad 100% y 720p en MPG
 
-padsp xvidcap --audio yes --cap_geometry 1280x420[+200+200] --fps 60 --quality 100 --file "Su video.mpg"
+padsp xvidcap --audio yes --cap_geometry 1280x720[+200+200] --fps 30 --quality 100 --file "Su video.mpg"
 
-Con audio a 60 fps, calidad 100% y 720p en AVI
+Con audio a 30 fps, calidad 100% y 720p en AVI
 
-padsp xvidcap --audio yes --cap_geometry 1280x420[+200+200] --fps 60 --quality 100 --file "Su video.avi"
+padsp xvidcap --audio yes --cap_geometry 1280x720[+200+200] --fps 30 --quality 100 --file "Su video.avi"
 
-
-
-***********                    
-480p 60 fps 
-***********
-
-Esta configuración yo la uso para hacer video tutoriales del uso de programas como ejemplo: WPS Office, LibreOffice, etc, para subirlos a Youtube
-                    
-Con audio a 60 fps, calidad 100% y 480p en MOV
-
-padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video.mov"
-
-Con audio a 60 fps, calidad 100% y 480p en MPG
-
-padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video.mpg"
-
-Con audio a 60 fps, calidad 100% y 480p en AVI
-
-padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video.avi"
 
 
 ***********                    
@@ -90,6 +71,16 @@ Sin audio
 
 padsp xvidcap --audio no --cap_geometry 1024x768[+0+0] --rescale 50 --file test.mpg
 
+
+Ver también en la ayuda del programa, poner en la terminal:
+
+xvidcap --help
+
+
+
+la siguiente resolución también funciona
+
+680x470
 
 
 CONSULTAS:
