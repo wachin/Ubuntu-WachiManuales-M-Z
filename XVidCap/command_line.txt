@@ -10,49 +10,79 @@ la versión para Jaunty
 Para que grabe sonido hay que poner en la terminal padsp antes de los comandos de trabajo en la terminal, así
 
 
+
+
 ***********                    
-60 fps 480p
+720p 60 fps 
+***********
+                    
+Con audio a 60 fps, calidad 100% y 720p en MOV
+
+padsp xvidcap --audio yes --cap_geometry 1280x420[+200+200] --fps 60 --quality 100 --file "Su video.mov"
+
+Con audio a 60 fps, calidad 100% y 720p en MPG
+
+padsp xvidcap --audio yes --cap_geometry 1280x420[+200+200] --fps 60 --quality 100 --file "Su video.mpg"
+
+Con audio a 60 fps, calidad 100% y 720p en AVI
+
+padsp xvidcap --audio yes --cap_geometry 1280x420[+200+200] --fps 60 --quality 100 --file "Su video.avi"
+
+
+
+***********                    
+480p 60 fps 
+***********
+
+Esta configuración yo la uso para hacer video tutoriales del uso de programas como ejemplo: WPS Office, LibreOffice, etc, para subirlos a Youtube
+                    
+Con audio a 60 fps, calidad 100% y 480p en MOV
+
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video.mov"
+
+Con audio a 60 fps, calidad 100% y 480p en MPG
+
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video.mpg"
+
+Con audio a 60 fps, calidad 100% y 480p en AVI
+
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video.avi"
+
+
+***********                    
+480p 30 fps 
 ***********
                     
 Con audio a 30 fps, calidad 100% y 480p en MOV
 
-padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video grabación.mov"
-
-
-Con audio a 30 fps, calidad 100% y 480p en MPG
-
-padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 60 --quality 100 --file "Su video grabación.mpg"
-
-
-
-***********                    
-30 fps 480p
-***********
-                    
-Con audio a 30 fps, calidad 100% y 480p en MOV
-
-padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Su video grabación.mov"
-
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Su video.mov"
 
 Con audio a 30 fps, calidad 100% y 480p en MPG
 
-padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Su video grabación.mpg"
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Su video.mpg"
 
+Con audio a 30 fps, calidad 100% y 480p en AVI
 
+padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Su video.avi"
 
 
 ***********                    
-30 fps 480p
+360p 30 fps 
 ***********
 
-Con audio a 15 fps
+Esta configuración yo la uso para hacer Gif para mis videos los cuales videos los convierto con ezgif.com 
 
-padsp xvidcap --audio yes --cap_geometry 680x470[+200+200] --fps 15 --file test.mpg
+Con audio a 30 fps, calidad 100% y 360p en MOV
 
-Con audio a 30 fps
+padsp xvidcap --audio yes --cap_geometry 640x360[+200+200] --fps 30 --quality 100 --file "Su video.mov"
 
-padsp xvidcap --audio yes --cap_geometry 680x470[+200+200] --fps 30 --file test.mpg
+Con audio a 30 fps, calidad 100% y 360p en MPG
 
+padsp xvidcap --audio yes --cap_geometry 640x360[+200+200] --fps 30 --quality 100 --file "Su video.mpg"
+
+Con audio a 30 fps, calidad 100% y 360p en AVI
+
+padsp xvidcap --audio yes --cap_geometry 640x360[+200+200] --fps 30 --quality 100 --file "Su video.avi"
 
 
 
