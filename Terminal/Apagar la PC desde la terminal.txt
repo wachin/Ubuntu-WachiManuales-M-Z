@@ -1,0 +1,15 @@
+
+
+
+Reiniciar
+              
+systemctl reboot
+              
+              
+Apagar
+
+systemctl poweroff
+
+Suspender
+
+systemctl suspend
