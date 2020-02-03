@@ -6,8 +6,9 @@ Para instalar desde terminal Todo-en-uno en UbuntuStudio 16.04
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 Los siguientes programas se instalaran automáticamente (instalación desatendida) al poner esto en la terminal:
 
-sudo apt install dolphin kde-cli-tools speedcrunch florence gnome-disk-utility mediainfo-gui puddletag cups-pdf gprename pdfshuffler uget rar unrar goldendict vlc gdebi xfce4-notes geeqie soundconverter convertall converseen hugin playonlinux clementine calibre mkvtoolnix-gui gedit pluma phototonic boomaga nautilus
+sudo apt install dolphin kde-cli-tools speedcrunch florence gnome-disk-utility mediainfo-gui puddletag cups-pdf gprename pdfshuffler uget rar unrar goldendict vlc gdebi xfce4-notes geeqie soundconverter convertall converseen hugin playonlinux wine clementine calibre mkvtoolnix-gui gedit pluma phototonic boomaga nautilus khelpcenter winetricks exe-thumbnailer kio-extras
 
+wine-binfmt
 
 dconf-editor  ppa-purge kylin-video
 
