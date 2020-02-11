@@ -16,4 +16,4 @@ https://facilitarelsoftwarelibre.blogspot.com/2019/10/instalar-wps-office-2019-3
 
 
 
-WPS Office,WPS Office 2019,Interfaz en Español,MUI,es_ES,Corrección ortográfica,español_España,Ubuntu,Linux,Debian,Fedora,RPM,DEB,OpenSUSE,Red Hat,Ofimática
+WPS Office,WPS Office 2019,Interfaz en Español,MUI,es_ES,Corrección ortográfica,español_España,Ubuntu,Linux,Debian,Fedora,RPM,DEB,OpenSUSE,Red Hat,Ofimática, fuentes, Symbol, Wingdings, Wingdings 2, Wingdings 3, MT Extra

@@ -24,7 +24,7 @@ padsp xvidcap --audio yes --audio_bits 128 --cap_geometry 1280x720[+200+200] --f
 
 Con audio a 30 fps, calidad 100% y 720p en AVI
 
-padsp xvidcap --audio yes --audio_bits 128 --cap_geometry 1280x720[+200+200] --fps 30 --quality 100 --file "Su video.avi"
+padsp xvidcap --audio yes --audio_bits 128 --cap_geometry 1280x720[+200+200] --fps 30 --quality 100 --file $(date '+%Y-%m-%d-%H:%M:%S-')"XvidCap.avi"
 
 
 
@@ -42,7 +42,7 @@ padsp xvidcap --audio yes --audio_bits 128 --cap_geometry 854x480[+200+200] --fp
 
 Con audio a 30 fps, calidad 100% y 480p en AVI
 
-padsp xvidcap --audio yes --audio_bits 128 --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Su video.avi"
+padsp xvidcap --audio yes --audio_bits 128 --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file $(date '+%Y-%m-%d-%H:%M:%S-')"XvidCap.avi"
 
 
 
