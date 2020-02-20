@@ -6,6 +6,11 @@ Copie el archivo necesario que está en el mismo sistema operativo, copielo a su
 
 cp /etc/skel/.bashrc ~/.bashrc
 
+Para antiX es así:
+
+cp /etc/bash.bashrc ~/.bashrc
+
+
 luego editelo (debe tener instaldo gedit):
 
 gedit ~/.bashrc
