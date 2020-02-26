@@ -326,3 +326,5 @@ Se actualizarán los siguientes paquetes:
 Se necesita descargar 181 MB/202 MB de archivos.
 Se utilizarán 770 MB de espacio de disco adicional después de esta operación.
 ¿Desea continuar? [S/n] s
+
+
