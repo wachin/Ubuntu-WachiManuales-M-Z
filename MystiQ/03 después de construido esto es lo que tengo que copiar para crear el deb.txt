@@ -1,0 +1,19 @@
+
+
+ sudo make install
+
+
+
+/usr/lib/qt5/bin/qmake -install qinstall -exe mystiq /usr/bin/mystiq
+strip /usr/bin/mystiq
+/usr/lib/qt5/bin/qmake -install qinstall -exe /home/wachin/github/MystiQ/icons/mystiq.svg /usr/share/icons/hicolor/scalable/apps/mystiq.svg
+strip /usr/share/icons/hicolor/scalable/apps/mystiq.svg
+strip:/usr/share/icons/hicolor/scalable/apps/mystiq.svg: file format not recognized
+make: [Makefile:1332: install_icon] Error 1 (no tiene efecto)
+/usr/lib/qt5/bin/qmake -install qinstall -exe /home/wachin/github/MystiQ/mystiq.desktop /usr/share/applications/mystiq.desktop
+strip /usr/share/applications/mystiq.desktop
+strip:/usr/share/applications/mystiq.desktop: file format not recognized
+make: [Makefile:1342: install_desktop] Error 1 (no tiene efecto)
+/usr/lib/qt5/bin/qmake -install qinstall /home/wachin/github/MystiQ/man/mystiq.1.gz /usr/share/man/man1/mystiq.1.gz
+/usr/lib/qt5/bin/qmake -install qinstall /home/wachin/github/MystiQ/metainfo/mystiq.appdata.xml /usr/share/metainfo/mystiq.appdata.xml
+ 

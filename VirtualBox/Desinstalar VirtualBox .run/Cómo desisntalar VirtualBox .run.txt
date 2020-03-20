@@ -1,0 +1,9 @@
+
+
+https://www.linuxquestions.org/questions/linux-newbie-8/how-to-uninstall-virtualbox-run-896345/
+
+
+
+sudo ./VirtualBox*.*.run uninstall
+
+

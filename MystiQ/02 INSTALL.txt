@@ -1,0 +1,163 @@
+
+
+https://github.com/swl-x/MystiQ/blob/master/INSTALL
+
+Yo lo instalé en antiX 19 así
+  
+To build, on Debian and derivated install:
+
+sudo apt install ffmpeg sox libnotify-dev qt5-default qtdeclarative5-dev qtmultimedia5-dev libqt5opengl5-dev qt5-qmake g++ make
+
+To run, on Debian and derivated install:
+sudo apt install libc6 ffmpeg qt5-default libqt5multimedia5-plugins libqt5opengl5 libqt5qml5 libqt5quickwidgets5 qml-module-qtquick2 qml-module-qtquick-dialogs qml-module-qtmultimedia
+
+Compile:
+
+git clone https://github.com/swl-x/mystiq.git
+qmake mystiq.pro
+make
+sudo make install
+
+
+y me devolvió esto en la terminal:
+
+
+
+/usr/lib/qt5/bin/qmake -install qinstall -exe mystiq /usr/bin/mystiq
+strip /usr/bin/mystiq
+/usr/lib/qt5/bin/qmake -install qinstall -exe /home/wachin/github/MystiQ/icons/mystiq.svg /usr/share/icons/hicolor/scalable/apps/mystiq.svg
+strip /usr/share/icons/hicolor/scalable/apps/mystiq.svg
+strip:/usr/share/icons/hicolor/scalable/apps/mystiq.svg: file format not recognized
+make: [Makefile:1332: install_icon] Error 1 (no tiene efecto)
+/usr/lib/qt5/bin/qmake -install qinstall -exe /home/wachin/github/MystiQ/mystiq.desktop /usr/share/applications/mystiq.desktop
+strip /usr/share/applications/mystiq.desktop
+strip:/usr/share/applications/mystiq.desktop: file format not recognized
+make: [Makefile:1342: install_desktop] Error 1 (no tiene efecto)
+/usr/lib/qt5/bin/qmake -install qinstall /home/wachin/github/MystiQ/man/mystiq.1.gz /usr/share/man/man1/mystiq.1.gz
+/usr/lib/qt5/bin/qmake -install qinstall /home/wachin/github/MystiQ/metainfo/mystiq.appdata.xml /usr/share/metainfo/mystiq.appdata.xml
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+If you want to use MystiQ Video Converter from an alternative repository, without the need to compile, you can configure an alternative repository:
+
+
+### Arch Linux
+
+For Arch Linux, edit `/etc/pacman.conf` and add the following (the order of the repositories is important in pacman.conf, because pacman always downloads the first package it finds):
+
+[home_llamaret_Arch]
+SigLevel = Never
+Server = https://download.opensuse.org/repositories/home:/llamaret/Arch/$arch
+
+Then run the following as root
+
+pacman -Syu
+pacman -S home_llamaret_Arch / mystiq
+
+
+### Debian
+
+For Debian Unstable run the following as root:
+
+echo 'deb http://download.opensuse.org/repositories/home:/llamaret/Debian_Unstable/ /' > /etc/apt/sources.list.d/home:llamaret.list
+wget -nv https://download.opensuse.org/repositories/home:llamaret/Debian_Unstable/Release.key -O Release.key
+apt-key add - < Release.key
+apt-get update
+apt-get install mystiq
+
+For Debian Testing run the following as root:
+
+echo 'deb http://download.opensuse.org/repositories/home:/llamaret/Debian_Testing/ /' > /etc/apt/sources.list.d/home:llamaret.list
+wget -nv https://download.opensuse.org/repositories/home:llamaret/Debian_Testing/Release.key -O Release.key
+apt-key add - < Release.key
+apt-get update
+apt-get install mystiq
+
+For Debian Stable (10) run the following as root:
+
+echo 'deb http://download.opensuse.org/repositories/home:/llamaret/Debian_10/ /' > /etc/apt/sources.list.d/home:llamaret.list
+wget -nv https://download.opensuse.org/repositories/home:llamaret/Debian_10/Release.key -O Release.key
+apt-key add - < Release.key
+apt-get update
+apt-get install mystiq
+
+
+### MX Linux 19
+
+MystiQ can be installed via the MX Package Manager (Currently under MX Test Repo Tab)
+
+Or with the Test Repo enabled (not recommended) run the following as root:
+apt-get update
+apt-get install mystiq
+
+
+### Ubuntu
+
+For Ubuntu 20.04 run the following:
+
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/llamaret/xUbuntu_Next/ /' > /etc/apt/sources.list.d/home:llamaret.list"
+wget -nv https://download.opensuse.org/repositories/home:llamaret/xUbuntu_Next/Release.key -O Release.key
+sudo apt-key add - < Release.key
+sudo apt-get update
+sudo apt-get install mystiq
+
+For Ubuntu 19.10 run the following:
+
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/llamaret/xUbuntu_19.10/ /' > /etc/apt/sources.list.d/home:llamaret.list"
+wget -nv https://download.opensuse.org/repositories/home:llamaret/xUbuntu_19.10/Release.key -O Release.key
+sudo apt-key add - < Release.key
+sudo apt-get update
+sudo apt-get install mystiq
+
+For Ubuntu 19.04 run the following:
+
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/llamaret/xUbuntu_19.04/ /' > /etc/apt/sources.list.d/home:llamaret.list"
+wget -nv https://download.opensuse.org/repositories/home:llamaret/xUbuntu_19.04/Release.key -O Release.key
+sudo apt-key add - < Release.key
+sudo apt-get update
+sudo apt-get install mystiq
+
+
+### Fedora
+
+For Fedora 31 run the following as root:
+
+dnf config-manager --add-repo https://download.opensuse.org/repositories/home:llamaret/Fedora_31/home:llamaret.repo
+dnf install mystiq
+
+For Fedora 30 run the following as root:
+
+dnf config-manager --add-repo https://download.opensuse.org/repositories/home:llamaret/Fedora_30/home:llamaret.repo
+dnf install mystiq
+
+
+### openSUSE
+
+For openSUSE Tumbleweed run the following as root:
+
+zypper addrepo https://download.opensuse.org/repositories/home:llamaret/openSUSE_Tumbleweed/home:llamaret.repo
+zypper refresh
+zypper install mystiq
+
+For openSUSE Leap 15.2 run the following as root:
+
+zypper addrepo https://download.opensuse.org/repositories/home:llamaret/openSUSE_Leap_15.2/home:llamaret.repo
+zypper refresh
+zypper install mystiq
+
+For openSUSE Leap 15.1 run the following as root:
+
+zypper addrepo https://download.opensuse.org/repositories/home:llamaret/openSUSE_Leap_15.1/home:llamaret.repo
+zypper refresh
+zypper install mystiq

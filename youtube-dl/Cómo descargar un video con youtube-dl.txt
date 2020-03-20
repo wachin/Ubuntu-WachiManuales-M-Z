@@ -36,6 +36,6 @@ format code  extension  resolution note
 18           mp4        640x360    360p  565k , avc1.42001E, mp4a.40.2@ 96k (44100Hz), 172.42MiB (best
 
 
-y allí están todos los formatos disponibles. Voy a descargar el que tiene el tamaño más grande, y es el número 135 así que voy a poner en la terminal así:
+y allí están todos los formatos disponibles. Voy a descargar el que tiene el tamaño más grande, y es el número 135 ese dice que video solo, lo cual significa que no tiene audio
  
 youtube-dl -f 135 https://www.youtube.com/watch?v=_SpOrF5WvH8

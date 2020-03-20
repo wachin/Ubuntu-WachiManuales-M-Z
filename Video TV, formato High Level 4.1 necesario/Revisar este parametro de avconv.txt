@@ -1,0 +1,14 @@
+
+
+https://superuser.com/questions/817744/convert-mkv-with-avc-highl4-0-to-mp4-with-acv-highl4-1-or-higher
+
+
+
+It surprises me that the Chromecast can't play a video with lower level specifications… but anyway, you can try an app like this H.264 level editor to change the file headers. It'll make your video bitstream appear to be a different level than it actually is. I'm not aware of a *nix counterpart, but you could always change the bytes themselves.
+
+If it doesn't work, you need to re-code the video, unfortunately.
+
+avconv -i input.mp4 -c:a copy -c:v libx264 -profile:v high -level 4.1 -crf 21 output.mp4
+
+See this guide for a little more info. The CRF controls the quality. Less is better and anything between 18 and 28 is reasonable. For re-encoding, you'll probably want to be on the lower side.
+ 

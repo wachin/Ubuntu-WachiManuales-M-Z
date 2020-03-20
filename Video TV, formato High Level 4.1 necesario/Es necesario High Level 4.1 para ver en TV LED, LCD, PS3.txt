@@ -1,0 +1,107 @@
+
+
+
+http://coolsoft.altervista.org/en/h264leveleditor
+
+H264/AVC Level Editor
+[Quick links]
+Quick intro | Usage help (graphical version) | Usage help (command line version) | Version history | Download | Comments | Pages | Pages
+
+H264LevelEditor is a free and small tool to edit an H264/AVC encoded video stream and change IDC profile level (see here for detailed info about IDC levels).
+Works both on MKV containers and raw H264 streams (*.h264, *.264, *.ts or any other file containing H264 encoded video).
+It's a portable software, no need to install it, and comes in two flavours:
+
+    Graphical (GUI):
+    Use it if you need to edit a single or few files.
+    Command line (CLI):
+    It has the same features of the graphical version and can also work on multiple files.
+    You could also include it into your custom conversion scripts.
+
+Quick intro
+
+Video stream/file is edited in-place, which means:
+
+    fast editing
+    no need to reencode the file (save time)
+    no need to demux, edit and remux streams (save time and HDD space)
+
+To make a long story short, some mediaplayers (like my Samsung C6000 LED TV and Sony PS3) search the video file being played for an header info named AVC profile level; if this level is greater than the requested (supported) one they simply refuse to play it, even if they could.
+BluRay specifications requires level 4.1, which is supported by all actual HD mediaplayers. Many of the video files you'll find on internet were encoded with an unnecessary high level, like 5.1.
+
+The right way to change AVC level is to reencode the file; this is really time consuming, even if you have a recent CPU.
+A quick way is to change some bytes inside the file and make it appear as being encoded with a different level; if you're lucky, changing that 5.1 to 4.1 will make the file playable on your mediaplayer.
+
+Just to be clear: H264LevelEditor does not change video stream compression.
+It only changes a value in file header, where it "declares" its level to the world.
+Many of the 5.1 encoded files out there are not really 5.1, but over-leveled 4.0 or 4.1.
+If the file itself is encoded using 5.1-only features, and your player is not able to decode it, well... you must reencode it, no way.
+Usage help (graphical version)
+
+Using H264LevelEditor is easy as 1-2-3:
+
+    select the video file to edit by pressing then tree-dots button, or drag&drop the file directly from Windows Explorer
+    H264LevelEditor will show actual AVC level into the "h264 level" box, choose the new level you want to set
+    press "Change level" button
+    click on "Donate" button (well, this is obviously optional ;) )
+
+User BlackMIIX published a good video tutorial here, take a look.
+Usage help (command line version)
+
+Command line version can be used to edit a single file or a group of files in a shot.
+Can also be called by .bat or .vbs custom scripts.
+
+This will change level of file C:\MyFiles\test.avi to 4.1:
+
+> H264LevelEditorCli.exe --action change --input "C:\MyFiles\test.avi" --new-level 4.1
+
+This will change level of all file*.avi files into folder C:\MyFiles (file001.avi, file002.avi, fileabc.avi, ...) to 4.1:
+
+> H264LevelEditorCli.exe --action change --input "C:\MyFiles\file*.avi" --new-level 4.1
+
+See the included file H264LevelEditorCli.txt for more options, samples and exit codes.
+Version history 
+
+v.1.5.3 - 2017-04-28
+
+    FIX: CLI parameter "--new-level" is not required if action is "restore".
+
+v.1.5.2 - 2014-07-17
+
+    NEW: Added *.avc to the list of supported file extensions.
+
+v.1.5.1 - 2014-04-22
+
+    NEW: Initial support for Mono Framework. The application should now run on Linux and Mac OSX through the Mono framework.
+
+v.1.5.0 - 2014-01-29
+
+    NEW: Added an option to preserve last modified date of the file being patched. The option is available in both GUI and CLI versions.
+    FIX: Runtime error when closing the GUI while search is running.
+
+v.1.4.0 - 2013-08-29
+
+    NEW: Command line version of H264LevelEditor is now available (H264LevelEditorCli.exe).
+    It has the same patching engine of the GUI version and can also work on multiple files.
+
+v.1.3.0 - 2013-08-16
+
+    NEW: Search task now runs in a separate thread.
+    This will keep the UI alive during long searches.
+    FIX: Readonly files caused a runtime error when pressing the "change level" button.
+    This state is now detected and user is asked to clear the flag before level change starts (thanks to Biomech for the suggestion).
+
+v.1.2.0 - 2012-01-24
+
+    NEW: Search limit can now be extended up to first 100MB of the file (default is 1MB). This adds better support for MP4 files.
+    NEW: initial (and really experimental) support for H264 encoded AVI files. Please remember that AVI is not a good container for H264/AVC stream.
+    NEW: added automatic software update checking feature, can be set into Options dialog
+    FIX: fixed search algorithm to avoid @n.k profiles detection
+    please see comments here for further details:
+    http://coolsoft.altervista.org/comment/363#comment-363
+
+v.1.1.0 - 2011-08-05
+
+    NEW: backup feature, allows to undo any changes to input file
+    NEW: improved search algorithm, now changes the muxing tag too
+    NEW: fix to recognize mislabeled profiles, such the ones produced with very old encoders
+ 
