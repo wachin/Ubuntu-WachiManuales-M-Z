@@ -1,0 +1,22 @@
+
+
+
+wachin@antix19:~/Instaladores-Linux/Virtualbox/5.2.38
+$ sudo ./VirtualBox-5.2.38-136252-Linux_x86.run 
+Verifying archive integrity... All good.
+Uncompressing VirtualBox for Linux installation.............
+VirtualBox Version 5.2.38 r136252 (2020-02-21T16:38:33Z) installer
+Installing VirtualBox to /opt/VirtualBox
+cp: no se puede efectuar `stat' sobre 'blacklist-vboxpci.conf': No existe el fichero o el directorio
+Python found: python, installing bindings...
+
+VirtualBox has been installed successfully.
+
+You will find useful information about using VirtualBox in the user manual
+  /opt/VirtualBox/UserManual.pdf
+and in the user FAQ
+  http://www.virtualbox.org/wiki/User_FAQ
+
+We hope that you enjoy using VirtualBox.
+
+ 

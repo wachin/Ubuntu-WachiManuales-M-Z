@@ -9,14 +9,14 @@ Nota: Estaba convirtiendo un video de 10,20min y pesa 1,4GB, pero el tamaño que
 
 MEJORADO, usando los datos del testimonio de Pablo Olivares que tiene 6:51min y pesa 11MB:
 
-Dos canales
+DOS CANALES AUDIO, VIDEO HORIZONTAL para WhatsApp
 
 video 250kbps, 512x288, fps15
 audio 128kbps, 44.1kHz, 2 chnnels, AAC
 -vf "scale=512:288" -b:v 250k -r 15 -ac 2 -b:a 128k -ar 44100
 
 
-UN CANAL - HORIZONTAL para WhatsApp en SAMSUNG GALAXY J5
+UN CANAL AUDIO, VIDEO HORIZONTAL para WhatsApp
 
 video 300kbps, 512x288, fps15
 audio 96kbps, 44.1kHz, 1 chnnels, AAC
@@ -72,7 +72,7 @@ Nota: la resolución correcta la encontré en kdenlive, en:
 "Proyecto/Preferencias del proyecto/Personalizado/512x288 16:9 PAL"
 
 
-UN CANAL VERTICAL
+UN CANAL AUDIO, VIDEO VERTICAL para WhatsApp
 
 video 180kbps, 288x512, fps15,  Audio 30k, 44.1kHz 
 -vf "scale=288:512" -b:v 180k -r 15 -ac 1 -b:a 30k -ar 44100

@@ -97,7 +97,7 @@ Nota: Cuando descargue estos instaladores .msi no los guarde dentro de carpetas 
 
 
 **********************************************
-04 INSTALÉ LAS VOCES ALTA CALIDAD DE MICROSOFT
+04 INSTALE LAS VOCES ALTA CALIDAD DE MICROSOFT
 **********************************************
 
 descarguelas de aquí:
