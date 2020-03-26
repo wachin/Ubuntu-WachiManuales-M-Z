@@ -5,5 +5,16 @@
 
 Este paquete network-manager-gnome instala network-manager y es el que tiene dentro a nm-applet
 
+y creo que hay que instalar también el paquete gnome-system-tools que tiene la opción Usuarios y Grupos (depende de policykit-1-gnome) 
+
+sudo apt install gnome-system-tools network-manager-gnome
+
+
+y poner en la terminal:
+
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+
+esto porque así está hecho en Ubuntu y derivados 
+
 
 
