@@ -1,6 +1,23 @@
 
 
 
-El paquete gnome-system-tools (depende de policykit-1-gnome) tinene el programa users-admin el cual es el que tiene el nombre entre todas las aplicaciones: "Usuarios y Grupos"
+El paquete gnome-system-tools que tiene la opción Usuarios y Grupos (depende de policykit-1-gnome) tinene el programa users-admin el cual es el que tiene el nombre entre todas las aplicaciones: "Usuarios y Grupos"
+
+sudo apt install gnome-system-tools
 
 
+Primero poner en la terminal:
+
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+
+luego si ejecutar la aplicación de usuarios y grupos:
+
+users-admin
+
+
+
+
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+# Sirve para que en Synaptic, Gdebi, aparezca una ventana para poner la contraseña y poder instalar diversas cosas
+# que necesitan elevación de permisos. Esta aplicación pertenece al paquete policykit-1-gnome
+# ese paquete viene instalado por defecto en todos los Ubuntu exepto en antiX donde se puede instalar instando network-manager-gnome pues es una dependencia de este

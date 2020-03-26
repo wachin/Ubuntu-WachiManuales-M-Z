@@ -1,0 +1,9 @@
+
+
+
+
+
+Este paquete network-manager-gnome instala network-manager y es el que tiene dentro a nm-applet
+
+
+
