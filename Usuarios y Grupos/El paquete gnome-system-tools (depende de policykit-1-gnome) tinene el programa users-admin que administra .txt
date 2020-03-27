@@ -3,7 +3,7 @@
 
 El paquete gnome-system-tools que tiene la opción Usuarios y Grupos (depende de policykit-1-gnome) tinene el programa users-admin el cual es el que tiene el nombre entre todas las aplicaciones: "Usuarios y Grupos"
 
-sudo apt install gnome-system-tools
+sudo apt install gnome-system-tools policykit-1-gnome
 
 
 Primero poner en la terminal:
