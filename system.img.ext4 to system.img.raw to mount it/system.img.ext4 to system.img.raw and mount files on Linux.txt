@@ -1,0 +1,22 @@
+
+system.img.ext4 to system.img.raw and mount files on Linux
+
+install:
+
+sudo apt install simg2img
+
+navigate in a terminal to the program folder contained system.img.ext4
+
+Call 
+
+simg2img system.img.ext4 system.img.raw
+
+Then when finish convert:
+
+sudo mount -o loop -t ext4 system.img.raw /mnt
+
+
+Based in:
+
+How to unpack Android Lollipop system.img.ext4 and add new language? - Stack Overflow
+https://stackoverflow.com/questions/33684741/how-to-unpack-android-lollipop-system-img-ext4-and-add-new-language
