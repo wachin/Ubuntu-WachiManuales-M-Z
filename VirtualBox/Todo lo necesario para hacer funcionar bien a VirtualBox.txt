@@ -1,0 +1,14 @@
+
+Todo lo necesario para hacer funcionar bien a VirtualBox
+
+
+Instalar Guest Addition en Máquina Virtual con Linux en VirtualBox para ver bien la pantalla 
+https://facilitarelsoftwarelibre.blogspot.com/2018/06/instalar-guest-addition-en-maquina.html
+
+Activar entrada de dispositivos USB(cámara,Webcam,Impresora,Escaner,celular) en VirtualBox + Extension Pack + añadiendo el grupo vboxusers
+https://facilitarelsoftwarelibre.blogspot.com/2019/12/activar-entrada-de-dispositivos-usb.html
+
+Acceder a "Carpetas Compartidas" en Máquina Virtual con Linux en VirtualBox 
+https://facilitarelsoftwarelibre.blogspot.com/2018/07/acceder-carpetas-compartidas-en-maquina.html
+
+

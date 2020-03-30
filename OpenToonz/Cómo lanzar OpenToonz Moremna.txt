@@ -1,0 +1,12 @@
+
+
+
+
+LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0  nohup ~/Apps/OpenToonz/OpenToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage
+
+
+
+LD_PRELOAD=/usr/lib/i386-linux-gnu/libxcb-dri3.so.0 nohup /home/wachin/Apps-Linux/OpenToonz-1.4.0-morevna-2020.03.03-linux32-b6177.appimage
+
+LD_PRELOAD=/usr/lib/i386-linux-gnu/libxcb-dri3.so.0 nohup /home/wachin/Apps/OpenToonz/OpenToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage
+
