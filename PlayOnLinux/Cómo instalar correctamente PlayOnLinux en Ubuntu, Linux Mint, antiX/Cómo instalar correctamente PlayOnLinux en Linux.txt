@@ -1,0 +1,13 @@
+
+
+
+Estas son las cajas de código que hice gracias a Solo Learn
+
+Cómo instalar correctamente PlayOnLinux en Ubuntu
+https://code.sololearn.com/WJd859ZLBetf
+
+Cómo instalar correctamente PlayOnLinux en Linux Mint
+https://code.sololearn.com/WEEyt1ND6FZS
+
+Cómo instalar correctamente PlayOnLinux en antiX
+https://code.sololearn.com/W8eHz0h5ZeHM
