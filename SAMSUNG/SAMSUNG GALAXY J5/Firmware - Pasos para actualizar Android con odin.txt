@@ -1,7 +1,7 @@
 
 Descargar el Firmware de Samsung Galaxy J5 de:
 
-https://www.sammobile.com/firmwares/galaxy-j5/SM-J500M/
+https://www.sammobile.com/firmwares/galaxy-j5/SM-J500H/
 
 Instructions
 Extract (unzip) the firmware file
