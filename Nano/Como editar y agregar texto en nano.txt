@@ -20,6 +20,7 @@ Es importante hacer notar que es la letra o, no es cero. Una vez que presionas e
  
 ***************************
 Como salir de nano en linux
+***************************
 
 Cuando has realizado los cambios necesarios y has guardado el archivo solo tienes que salir del editor para continuar tus actividades
 
@@ -28,4 +29,5 @@ Si no se ha guardado con ctrl + o  esto lo puedes hacer con la siguiente combina
 
 Ctrl+x Salir de nano (y grabar el archivo si tiene alguna modificación)
 
+Nano es medio loco, cuando uno le da Ctrl+X aún pregunta si deseas guardar los cambios antes de salir. Debes responder Y (si) o N (no) y presionar enter. Si ya se ha guardado poner N (no)
 

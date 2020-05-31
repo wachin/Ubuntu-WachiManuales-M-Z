@@ -6,3 +6,7 @@ qt4-default
 o
 
 qt5-default
+
+
+make - How do I change which version of Qt is used for qmake? - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/a/546291/312968
