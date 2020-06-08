@@ -1,0 +1,35 @@
+
+
+
+
+Instalar:
+
+sudo apt install playonlinux winbind
+
+
+
+Instalar en PlayOnLinux una versión de Wine
+
+
+wine 3.0.3
+
+o 
+
+wine 3.0.4
+
+o 
+
+Wine 3.0.5
+
+ 
+
+
+dotnet20
+gecko
+corefonts
+gdiplus
+riched20
+riched30
+msxml6
+mspatcha
+
