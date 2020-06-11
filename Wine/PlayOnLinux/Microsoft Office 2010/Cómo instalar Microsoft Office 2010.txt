@@ -1,5 +1,10 @@
 
 
+La mejor instrucción está aquí:
+
+Instalar Microsoft Office en cualquier distro de Linux basada en Debian - YouTube
+https://www.youtube.com/watch?v=0-T3b-wAhus
+
 
 
 Instalar:
@@ -32,4 +37,17 @@ riched20
 riched30
 msxml6
 mspatcha
+
+
+POL_Install_corefonts
+POL_Install_dotnet20
+POL_Install_gdiplus
+POL_Install_gecko
+POL_Install_mspatcha
+POL_Install_msxml6
+POL_Install_riched20
+POL_Install_riched30
+
+
+
 

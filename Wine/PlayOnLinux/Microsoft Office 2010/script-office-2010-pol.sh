@@ -1,7 +1,8 @@
+
 #!/bin/bash
   
-# https://www.playonlinux.com/es/app-801-Microsoft_Office_2010.html  
-  
+# https://www.playonlinux.com/en/app-801.html
+
 # CHANGELOG
 # [Quentin PÂRIS] (2012-05-05 14-45)
 #   Wine version set to 1.5.3, Outlook 2010 compatiblity
