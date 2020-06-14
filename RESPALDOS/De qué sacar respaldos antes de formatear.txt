@@ -1,16 +1,28 @@
 
 Estos son los respaldos que debo de sacar antes de formatear mi Linux o si lo quiero dejar como estaba de fabrica
 
+CONFIG
 /home/wachin/.config/chromium
 /home/wachin/.config/doublecmd
 /home/wachin/.config/compiz-1
 /home/wachin/.config/geany
 /home/wachin/.config/geeqie
+/home/wachin/.config/google-chrome
 /home/wachin/.config/libreoffice/4/user/wordbook/
 /home/wachin/.config/hexchat
 /home/wachin/.config/teamviewer
 /home/wachin/.config/spotify
 /home/wachin/.config/mimeapps.list
+file:///home/wachin/.config/zoomus.conf
+file:///home/wachin/.config/katerc
+file:///home/wachin/.config/kateschemarc
+file:///home/wachin/.config/katesyntaxhighlightingrc
+file:///home/wachin/.config/katevirc
+file:///home/wachin/.config/kdeglobals
+file:///home/wachin/.config/kdenliverc
+file:///home/wachin/.config/dolphinrc
+
+CARPETAS OCULTAS
 /home/wachin/.epsxe
 /home/wachin/.icewm
 /home/wachin/.icons
@@ -20,10 +32,15 @@ Estos son los respaldos que debo de sacar antes de formatear mi Linux o si lo qu
 /home/wachin/.themes
 /home/wachin/.wine
 /home/wachin/.zoom
-/home/wachin/.zotero
 /home/wachin/.gramps
 /home/wachin/.fonts
 /home/wachin/.kde
+/home/wachin/.mozilla
+/home/wachin/.Skype
+/home/wachin/.thunderbird
+/home/wachin/.zotero
+
+LOCAL
 /home/wachin/.local/share/desktop-defaults
 /home/wachin/.local/share/desktop-directories
 /home/wachin/.local/share/konsole
@@ -44,10 +61,18 @@ Estos son los respaldos que debo de sacar antes de formatear mi Linux o si lo qu
 /home/wachin/.local/share/notes
 /home/wachin/.local/share/openlp
 /home/wachin/.local/share/teamviewer
-/home/wachin/.mozilla
-/home/wachin/.Skype
-/home/wachin/.thunderbird
-/home/wachin/.zotero
+
+ARCHIVOS OCULTOS
+/home/wachin/.git-credentials
+/home/wachin/.gitconfig
+/home/wachin/.gitconfig.save
+
+
+ARCHIVOS
+/home/wachin/mi-llave-gitlab
+/home/wachin/mi-llave-gitlab.pub
+
+
 
 Revisar por un caso
 /home/wachin/Dropbox/UbuntuManuales/RESPALDOS/Respaldos KDE (.kde)/.kde
