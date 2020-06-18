@@ -1,0 +1,16 @@
+
+
+Descargar el programa de:
+
+https://www.soliddocuments.com/
+
+en POL instalar:
+
+dotnet0
+gecko
+corefonts
+gdiplus
+riched20
+riched30
+msxml6
+mspatcha
