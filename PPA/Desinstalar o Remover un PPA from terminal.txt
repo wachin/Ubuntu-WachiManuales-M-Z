@@ -1,6 +1,12 @@
 Remove a PPA using APT in terminal:
 http://itsfoss.com/how-to-remove-or-delete-ppas-quick-tip/
 
+otro ejemplo:
+
+http://ubuntuhandbook.org/index.php/2019/12/install-darktable-3-0-0-ubuntu-18-04-19-10/
+
+
+
 Mostly, you add a PPA using add-apt. We’ll use same add-apt to remove a PPA.Use the following command in terminal:
 
 sudo add-apt-repository --remove ppa:PPA_Name/ppa
