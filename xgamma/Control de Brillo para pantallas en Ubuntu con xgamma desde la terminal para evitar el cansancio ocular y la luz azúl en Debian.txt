@@ -1,0 +1,91 @@
+Control de Brillo para pantallas en Ubuntu con xgamma desde la terminal para evitar el cansancio ocular y la luz azúl en Debian
+https://facilitarelsoftwarelibre.blogspot.com/2020/07/control-de-brillo-para-pantallas-con-xgamma.html
+
+
+Brillo de pantalla · Cuidado de los ojos en la pantalla · eyestrain · Fatiga ocular · Luz Azul · Monitor · Síndrome visual informático
+Lastimosamente en Debian y algunos Sistemas Operativos derivados (como MX Linux desde el cual estoy haciendo este tutorial) no se pude instalar:
+
+Control de Brillo para pantallas en Ubuntu con brightness-controller para evitar el cansancio ocular y la luz azúl
+https://facilitarelsoftwarelibre.blogspot.com/2017/06/control-de-brillo-para-pantallas-en.html
+
+pero se puede usar desde la terminal el programa xgamma que ya viene instalado en todas las distribuciones Linux para poder cambiar a gusto la luz azúl, sólo que será más complicado para las personas que recién usan la terminal de Linux.
+
+Para mi lo importante es en la noche poder bajarle la luz azul al monitor de mi laptop
+
+Para tener una idea de los valores de lúz roja "red", verde "green" y azúl "blue" que está usando su monitor ponga en la terminal:
+
+xgamma
+
+Me da esto:
+
+
+
+
+Bien les he preparado un diseño hecho en Inkscape para poderles explicar, pues dice el dicho que una imagen vale más que mil palabras (para hacer esta imagen tomé como ejemplo a brightness-controller del tutorial al inicio mencionado):
+
+
+
+
+
+Con esa imagen estoy tratando de explicarles qué es lo que se va a variar, como si estuvieramos usando el programa brightness-controller que lastimosamente no se puede instalar en algunas distribuciones basadas en Debian.
+
+
+Color para noche, bajo brillo y baja luz azul
+Para mi lo más preocupante es en la noche, pues debo bajarle la luz azúl al monitor para poderme dormir más rapido. Lo siguiente es un ejemplo
+
+
+xgamma Red 0.6 Green 0.6 Blue 0.5
+Voy a poner lo siguiente en la terminal:
+
+xgamma -rgamma 0.6 -ggamma 0.6 -bgamma 0.5
+
+me aparece esto:
+
+
+
+Donde la segunda línea eran los valores orginales y la tercela línea son los valores que han sido actualizados.
+
+ahora les voy a poner lo que esto significa en cuanto al brillo y al color:
+
+
+
+Bueno espero esa imagen pueda haberles explicado.
+
+Si desean bajar más la luz azúl puden poner así
+
+xgamma Red 0.6 Green 0.6 Blue 0.4
+Poner en la terminal:
+
+xgamma -rgamma 0.6 -ggamma 0.6 -bgamma 0.4
+
+o pueden bajar más el brilo y el rojo así:
+
+xgamma -rgamma 0.5 -ggamma 0.5 -bgamma 0.3
+
+Ustedes son libres de cambiar los valores
+Los valores que les puse arriba son los que he usado yo, pero ustedes pueden usar otros de acuerdo a sus condiciones de luz y tipo de monitor, lo importante es que la luz azul en la noche no les moleste y puedan dormir bien.
+
+
+
+Bajar a todos al mismo tiempo
+Ahora bien, si sólo desean bajar o subir el brillo al mismo tiempo pues pueden poner así como ejemplo:
+
+xgamma -gamma 0.60
+
+
+
+Y por ultimo les dejo el video de Tortilla Squad, les animo a verlo:
+
+
+
+
+y el video de Pantallasamigas:
+
+
+
+Dios les bendiga.
+
+Basado en:
+
+How to Change Display Brightness Using Command Line in Linux – Linux Hint
+https://linuxhint.com/display_brightness_commandline/
