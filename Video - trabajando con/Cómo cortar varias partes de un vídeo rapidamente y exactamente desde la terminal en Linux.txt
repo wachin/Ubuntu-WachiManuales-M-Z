@@ -1,0 +1,22 @@
+
+
+Cómo cortar varias partes de un vídeo rapidamente y exactamente desde la terminal en Linux
+
+software recommendation - What to use to quickly cut Audio/Video - Ask Ubuntu
+
+https://askubuntu.com/a/56044/145772
+
+
+ffmpeg -ss 00:00:00 -t 00:30:00 -i input.avi -vcodec copy -acodec copy output1.avi
+ffmpeg -ss 00:30:00 -t 00:30:00 -i input.avi -vcodec copy -acodec copy output2.avi  
+ffmpeg -ss 01:00:00 -t 00:30:00 -i input.avi -vcodec copy -acodec copy output3.avi
+
+1ra. línea, este ejemplo significa que desde cero avanzará 30 minutos
+2da. línea significa que desde el minuto 30 avanzará 30 minutos para delante
+3ra. línea significa que desde la hora avanzará 30 minutos adelante
+
+
+ffmpeg -ss 00:00:00 -t 00:22:00 -i "Dióxido de Cloro_edit.mp4" -vcodec copy -acodec copy output1.mp4
+ffmpeg -ss 00:22:00 -t 00:22:00 -i "Dióxido de Cloro_edit.mp4" -vcodec copy -acodec copy output2.mp4  
+ffmpeg -ss 00:44:00 -t 00:22:00 -i "Dióxido de Cloro_edit.mp4" -vcodec copy -acodec copy output3.mp4
+
