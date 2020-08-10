@@ -1,0 +1,40 @@
+
+
+Se puede saber poniendo en la terminal:
+
+wachin@mxlinux:~$ xmodmap
+xmodmap:  up to 4 keys per modifier, (keycodes in parentheses):
+
+shift       Shift_L (0x32),  Shift_R (0x3e)
+lock        Caps_Lock (0x42)
+control     Control_L (0x25),  Control_R (0x69)
+mod1        Alt_L (0x40),  Meta_L (0xcd)
+mod2        Num_Lock (0x4d)
+mod3      
+mod4        Super_L (0x85),  Super_R (0x86),  Super_L (0xce),  Hyper_L (0xcf)
+mod5        ISO_Level3_Shift (0x5c),  Mode_switch (0xcb)
+
+
+
+
+
+
+y también acá hay una explicación:
+
+
+Xmodmap mod keys
+https://www.linuxquestions.org/questions/linux-software-2/xmodmap-mod-keys-794513/#post3895990
+
+I always get confused with Xmodmap and the man page is not much use (which is why I prefer to rewrite the driver files), but I think
+
+Lock = caps lock
+Mod1 = alt (aka meta)
+Mod2 = number lock
+Mod4 = super (aka windows)
+Mod5 = level 3 shift (aka AltGr, Opt)
+
+Mod3 I can't remember 
+
+The double naming can be confusing at first. "Caps_Lock" is the name of the key, as established by the keyboard driver, while "Lock" is the function it carries out.
+
+If you have a pc keyboard without AltGr, you must be in the USA: everywhere else, it's where you have your right Alt key. The desktop configuration system will enable that to be changed, and the Level 3 Shift can go on RAlt, LAlt, RWin, LWin, Menu, LWin+RWin, etc, etc. I have it where the CapsLock used to be  

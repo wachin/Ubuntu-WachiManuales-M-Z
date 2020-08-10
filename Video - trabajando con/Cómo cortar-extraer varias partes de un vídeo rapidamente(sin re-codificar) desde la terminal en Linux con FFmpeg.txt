@@ -1,0 +1,84 @@
+Cómo cortar/extraer varias partes de un vídeo rapidamente(sin re-codificar) desde la terminal en Linux con FFmpeg ~ Proyecto Facilitar el Software Libre en el Ecuador
+https://facilitarelsoftwarelibre.blogspot.com/2020/07/como-cortar-varias-partes-de-un-video.html?showComment=1597099640709#c8857125956561201730
+
+Tengo un video que tiene por todo 1H15 minutos (una hora con quince minutos, y 18 segundos):
+
+
+y quiero cortarlo rápido (sin usar Kdenlive, OpenShot, ShotCut pues allí se demoraría ufff), y de la siguiente manera sólo son segundos. Bien, quiero cortarlo de 30 minutos en 30 minutos. 
+
+Lo siguiente es lo que debo entender para luego ponerlo en la terminal cambiando los nombres
+
+Interpretación del tiempo:
+00:00:00 + 00:30:00 = 30 minutos
+00:30:00 + 00:30:00 = 60 minutos o 1 hora
+01:00:00 + 00:15:00 = 1H15 (que es el tiempo que tiene el video)
+
+Ejecución:
+
+ffmpeg -ss 00:00:00 -t 00:30:00 -i input.avi -vcodec copy -acodec copy output1.avi
+ffmpeg -ss 00:30:00 -t 00:30:00 -i input.avi -vcodec copy -acodec copy output2.avi 
+ffmpeg -ss 01:00:00 -t 00:15:00 -i input.avi -vcodec copy -acodec copy output3.avi
+
+Explicación:
+
+    1ra. línea de este ejemplo significa que desde cero avanzará 30 minutos guardando ese tiempo como output1.avi
+    2da. línea significa que desde el minuto 30 avanzará 30 minutos para  guardar esos 30 minutos como output2.avi  Es decir por todo ya ha avanzado 1 hora (tenerlo en cuenta).
+    3ra. línea significa que desde 1 hora (60 minutos o sea 01:00:00) avanzará 15 minutos adelante guardando ese tiempo de 15 minutos como output3.avi 
+
+Nota: En mi caso no es necesario tomar en cuenta esos 18 segundos finales por los que no los mencionaré, pero si usted necesita segundos uselos.
+
+ 
+
+Y en la ejecución será así:
+
+Parte 1.- Para los primeros 30 minutos:
+
+ffmpeg -ss 00:00:00 -t 00:30:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp4" -vcodec copy -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 1.mp4"
+
+aquí pondré una imágen de cómo se ve en la terminal Konsole estándo allí en ese directorio (puede usar esta o esta opción para llegar allí si no sabe como hacerlo):
+
+
+y así queda en como 7 segundos:
+
+
+
+Parte 2.- Para los siguientes 30 minutos:
+
+ffmpeg -ss 00:30:00 -t 00:30:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp4" -vcodec copy -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 2.mp4"
+
+
+Parte 3.- Para los 15 minutos que restan:
+
+ffmpeg -ss 01:00:00 -t 00:15:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp4" -vcodec copy -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 3.mp4"
+
+
+
+Nota: FFmpeg también permite incluir milisegundos, sería así: 00:00:00.000 y si usted los necesita los puede usar, sólo se se complica el calculo.
+
+
+
+****************
+EJERCICIO #2
+****************
+
+Tengo un vídeo llamado "Dióxido de cloro.mp4" que tiene 54 minutos y lo quiero cortar de 22 en 22 minutos. La solución sería así:
+ 
+Interpretación del tiempo:
+00:00:00 + 00:22:00 = 22 minutos
+00:22:00 + 00:22:00 = 44 minutos
+00:44:00 + 00:10:00 = 54 minutos (que es el tiempo que tiene el video)
+ 
+Ejecución:
+ 
+ffmpeg -ss 00:00:00 -t 00:22:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 1.mp4"
+
+ffmpeg -ss 00:22:00 -t 00:22:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 2.mp4"
+ 
+ffmpeg -ss 00:44:00 -t 00:10:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 3.mp4"
+
+
+Fuente:
+
+software recommendation - What to use to quickly cut Audio/Video - Ask Ubuntu
+https://askubuntu.com/a/56044/145772
+
