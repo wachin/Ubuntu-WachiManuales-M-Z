@@ -1,0 +1,80 @@
+
+
+Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp4
+
+Interpretación del tiempo:
+00:00:00 + 00:30:00 = 30 minutos
+00:30:00 + 00:30:00 = 60 minutos o 1 hora
+01:00:00 + 00:15:00 = 1H15 (que es el tiempo que tiene el video)
+
+Ejecución:
+
+ffmpeg -ss 00:00:00 -t 00:30:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp4" -vcodec copy -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 1.mp4"
+ffmpeg -ss 00:30:00 -t 00:30:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp4" -vcodec copy -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 2.mp4"
+ffmpeg -ss 01:00:00 -t 00:30:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp4" -vcodec copy -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 3.mp4" 
+
+
+Ejercicio #2
+Tengo un vídeo que tiene 54 minutos y lo quiero cortar de 22 en 22 minutos y en el último lo que sobre, sería así:
+
+Interpretación del tiempo:
+00:00:00 + 00:22:00 = 22 minutos
+00:22:00 + 00:22:00 = 44 minutos
+00:44:00 + 00:10:00 = 54 minutos (que es el tiempo que tiene el video)
+
+Ejecución:
+
+ffmpeg -ss 00:00:00 -t 00:22:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 1.mp4"
+ffmpeg -ss 00:22:00 -t 00:22:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 2.mp4"
+ffmpeg -ss 00:44:00 -t 00:10:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 3.mp4" 
+
+
+
+ffmpeg -ss 00:00:00 -t 00:30:00 -i input.avi -vcodec copy -acodec copy output1.avi
+ffmpeg -ss 00:30:00 -t 00:30:00 -i input.avi -vcodec copy -acodec copy output2.avi 
+ffmpeg -ss 01:00:00 -t 00:15:00 -i input.avi -vcodec copy -acodec copy output3.avi
+
+
+ffmpeg -ss 00:00:00 -t 00:15:00 -i input.mp3 -vn -acodec copy output1.mp3
+ffmpeg -ss 00:30:00 -t 00:30:00 -i input.mp3 -vn -acodec copy output1.mp3
+ffmpeg -ss 01:00:00 -t 00:15:00 -i input.mp3 -vn -acodec copy output1.mp3
+
+
+
+Interpretación del tiempo:
+00:00:00 + 00:15:00 = 15 minutos
+00:15:00 + 00:15:00 = 30 minutos
+00:30:00 + 00:15:00 = 45 minutos
+00:45:00 + 00:15:00 = 65 minutos
+01:05:00 + 00:15:00 = 1H20 minutos
+01:20:00 + 00:15:00 = 1H35 minutos
+01:35:00 + 00:15:00 = 2H10 minutos
+02:10:00 + 00:15:00 = 2H25 minutos
+02:25:00 + 00:15:00 = x minutos
+
+
+
+ (que es el tiempo que tiene el audio)
+
+
+ffmpeg -ss 00:00:00 -t 00:15:00 -i "2020-07-08_Eliseo Azuero Asambleísta_SESIÓN DE FISCALIZACIÓN.mp3" -vn -acodec copy output1.mp3
+ffmpeg -ss 00:15:00 -t 00:15:00 -i "2020-07-08_Eliseo Azuero Asambleísta_SESIÓN DE FISCALIZACIÓN.mp3" -vn -acodec copy output1.mp3
+ffmpeg -ss 00:30:00 -t 00:15:00 -i "2020-07-08_Eliseo Azuero Asambleísta_SESIÓN DE FISCALIZACIÓN.mp3" -vn -acodec copy output1.mp3
+ffmpeg -ss 00:00:00 -t 00:15:00 -i "2020-07-08_Eliseo Azuero Asambleísta_SESIÓN DE FISCALIZACIÓN.mp3" -vn -acodec copy output1.mp3
+ffmpeg -ss 00:00:00 -t 00:15:00 -i "2020-07-08_Eliseo Azuero Asambleísta_SESIÓN DE FISCALIZACIÓN.mp3" -vn -acodec copy output1.mp3
+
+
+2020-07-08_Eliseo Azuero Asambleísta_SESIÓN DE FISCALIZACIÓN.mp3
+
+
+ffmpeg -ss 00:00:00 -t 00:22:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 1.mp4"
+ffmpeg -ss 00:22:00 -t 00:22:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 2.mp4"
+ffmpeg -ss 00:44:00 -t 00:10:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 3.mp4" 
+
+
+
+
+
+
+
+

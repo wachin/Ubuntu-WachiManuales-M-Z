@@ -33,7 +33,14 @@ Y en la ejecución será así:
 
 Parte 1.- Para los primeros 30 minutos:
 
-ffmpeg -ss 00:00:00 -t 00:30:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp3" -vcodec copy -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 1.mp3"
+
+
+
+
+
+
+
+ffmpeg -ss 00:00:00 -t 00:15:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp3" -vn -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 1.mp3"
 
 aquí pondré una imágen de cómo se ve en la terminal Konsole estándo allí en ese directorio (puede usar esta o esta opción para llegar allí si no sabe como hacerlo):
 
@@ -44,12 +51,12 @@ y así queda en como 7 segundos:
 
 Parte 2.- Para los siguientes 30 minutos:
 
-ffmpeg -ss 00:30:00 -t 00:30:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp3" -vcodec copy -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 2.mp3"
+ffmpeg -ss 00:30:00 -t 00:30:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp3" -vn -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 2.mp3"
 
 
 Parte 3.- Para los 15 minutos que restan:
 
-ffmpeg -ss 01:00:00 -t 00:15:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp3" -vcodec copy -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 3.mp3"
+ffmpeg -ss 01:00:00 -t 00:15:00 -i "Especial TLV1 N°25 - Oxidante curativo que alcaliniza el cuerpo.mp3" -vn -acodec copy "Oxidante curativo que alcaliniza el cuerpo - Parte 3.mp3"
 
 
 
@@ -61,7 +68,7 @@ Nota: FFmpeg también permite incluir milisegundos, sería así: 00:00:00.000 y 
 EJERCICIO #2
 ****************
 
-Tengo un vídeo llamado "Dióxido de cloro.mp4" que tiene 54 minutos y lo quiero cortar de 22 en 22 minutos. La solución sería así:
+Tengo un vídeo llamado "Dióxido de cloro.mp3" que tiene 54 minutos y lo quiero cortar de 22 en 22 minutos. La solución sería así:
  
 Interpretación del tiempo:
 00:00:00 + 00:22:00 = 22 minutos
@@ -70,15 +77,30 @@ Interpretación del tiempo:
  
 Ejecución:
  
-ffmpeg -ss 00:00:00 -t 00:22:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 1.mp4"
-
-ffmpeg -ss 00:22:00 -t 00:22:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 2.mp4"
- 
-ffmpeg -ss 00:44:00 -t 00:10:00 -i "Dióxido de cloro.mp4" -vcodec copy -acodec copy "Dióxido de cloro - Parte 3.mp4"
+ffmpeg -ss 00:00:00 -t 00:22:00 -i "Dióxido de cloro.mp3" -vn -acodec copy "Dióxido de cloro - Parte 1.mp3"
+ffmpeg -ss 00:22:00 -t 00:22:00 -i "Dióxido de cloro.mp3" -vn -acodec copy "Dióxido de cloro - Parte 2.mp3"
+ffmpeg -ss 00:44:00 -t 00:10:00 -i "Dióxido de cloro.mp3" -vn -acodec copy "Dióxido de cloro - Parte 3.mp3"
 
 
-Fuente:
+
+
+
+
+00:00:00 + 00:15:00 = 15 minutos
+00:15:00 + 00:15:00 = 30 minutos
+00:30:00 + 00:15:00 = 45 minutos
+00:45:00 + 00:15:00 = 75 minutos
+01:00:00 + 00:15:00 = 90 minutos
+01:15:00 + 00:15:00 = 105 minutos
+01:30:00 + 00:15:00 = 120 minutos
+01:45:00 + 00:15:00 = 135 minutos
+02:00:00 + 00:15:00 = 150 minutos
+
+
+Basado en:
 
 software recommendation - What to use to quickly cut Audio/Video - Ask Ubuntu
 https://askubuntu.com/a/56044/145772
 
+software recommendation - How can I split a mp3 file? - Ask Ubuntu
+https://askubuntu.com/a/58707/145772
