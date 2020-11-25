@@ -1,0 +1,7 @@
+
+
+sudo apt-get install cmake build-essential libqt5x11extras5-dev qt5-qmake qt5-default qtbase5-dev-tools extra-cmake-modules qtdeclarative5-dev-tools qtdeclarative5-dev qtcreator qttools5-dev qttools5-dev-tools
+
+
+
+ 

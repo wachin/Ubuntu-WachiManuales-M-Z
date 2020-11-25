@@ -13,6 +13,7 @@ Para borrar una carpeta y archivos y directorios que estén dentro:
 
 rm -r /home/tuusuario/fotos
 
+
 (Soy Wachín, este estoy usando)
 Para borrar una carpeta y archivos y directorios que estén dentro sin pedir permiso, ejemplos:
 
