@@ -1,0 +1,40 @@
+
+
+En esta unidad estaba instalado:
+
+VSDC VideoEditor 6.4.1 (Wine 3.5)
+
+allí abrió Adobe Illustrator CS6
+
+Usar:
+
+wine 5.5 
+
+En Wine Cofigurar versión a imitar:
+
+Windows 8.1
+
+
+Instalar 
+
+msxml3
+msxml6
+
+copiar estos archivos de los que tengo que instaló VSDC Video Editor en la unidad
+
+Cuando uno ejecuta el instalador hay que dar clic en 
+
+Probar
+
+Luego al poner mis datos me dice eniará a mi un código a mi celular, pero a la primera ni a la segunda me envió, sino tuve que reiniciar la unidad e intentar instalar otra vez y allí si me envió el código a mi celular y lo pude instalar
+
+
+Ahora abrir la aplicación
+
+cerrar
+
+el crack aplicarlo aquí:
+
+PlayOnLinux's virtual drives/vsdcwine35/drive_c/Program Files/Adobe/Adobe Illustrator CS6/Support Files/Contents/Windows/
+
+
