@@ -1,0 +1,158 @@
+
+he respondido en:
+
+Enabling equation editor in kingsoft wps office suite - Ask Ubuntu
+https://askubuntu.com/questions/532152/enabling-equation-editor-in-kingsoft-wps-office-suite
+
+and:
+
+16.04 - WPS-Office equation editor - Ask Ubuntu
+https://askubuntu.com/questions/861588/wps-office-equation-editor/
+
+
+
+
+
+
+**WPS Office does not have the tool to Equation Editor as it does in windows**
+
+On Windows Equation Editor Software executable .exe are inside this path:
+
+C:\Users\yourusername\AppData\Local\Kingsoft\WPS Office\11.2.0.9906\office6\mui\default\resource\ksee
+
+there is the next files:
+
+Fonts
+
+ee3.dsc
+
+EqnEdit.exe
+
+Equation Editor.chm
+
+**Note:** You can open the Windows help file on Linux with: xchm or kchmviewer
+
+In the next picture on Linux I have that folder from WPS Office Windows Version:
+
+EqnEdit.exe 
+
+working Linux with wine
+
+[![working Linux with wine][1]][1]
+
+
+**Note:** You can obtain that on Windows if you have installed WPS Office. Search in that path.
+
+This software where made for:
+
+http://www.dessci.com 
+
+**Note:** I do not know if in the future they ask that company to make a version for Linux
+
+You can execute this on Linux with wine but the formula generated is not possible to insert to WPS Writer and this tool not have any way to export in file the content code formula language to view the code. But there is a way to enter that on WPS Office Linux version with code:
+
+
+**Enter Fraction and Radical Number in WPS Office Writer enabling Equation Field Code**
+
+Acording to this tutorial: http://help.wps.com/articles/how-to-enter-fraction-and-radical-number-in-writer to enable **Toggle Field Codes** you need to use the shortcut:
+
+Ctrl+F9
+
+now appeare teh following:
+
+[![Ctrl + 9][2]][2]
+
+then in the generated field enter (or paste but wihout format):
+
+eq \f(3,4)
+
+Next, click the right mouse button and choose "Toggle Field Codes" from context menu:
+
+[![Toggle Field Codes][3]][3]
+
+now see a fraction:
+
+[![Fraction][4]][4]
+
+And in that web page said the next example:
+
+[![help.wps.com example][5]][5]
+
+to do that enter:
+
+eq \r(3,2)
+
+with right clic:
+
+[![right clic][6]][6]
+
+and edit:
+
+[![edit to write: eq \r(3,2)][7]][7]
+
+and appear:
+
+[![Appear [eq \r(3,2)][7]][8]
+
+I go to enter this in the same place:
+
+eq \f(3,4 ) eq \r(3,2)
+
+
+
+
+[![add other formula][9]][9]
+
+and appear repeated "eq":
+
+[![appear repeat eq][10]][10]
+
+for this reason delete this second word:
+
+eq \f(3,4 ) \r(3,2)
+
+[![then yes][11]][11]
+
+and now ok:
+
+[![ok][12]][12]
+
+Now I do other example:
+
+eq × = \f(13 × 7,201 ÷ 6 ) ÷ \r(4, 2 ÷ 3)
+
+[![Formula 4][13]][13]
+
+And Togle Field Codes:
+
+[![Formula 5][14]][14]
+
+To do that I insert × and ÷ symbols with that tool in WPS Office:
+
+[![Symbol Tool][15]][15]
+
+**¿The rest of the codes?**
+
+I do not know the language in which these codes are written, I have tried to search the Web for a manual to be able to write the formulas in code but I cannot find anywhere. At the moment what I am going to do is write to the developers because there on that page it says that they can be written:
+
+[![Writing to developers][16]][16]
+
+If you know the codes help us
+
+
+  [1]: https://i.stack.imgur.com/bOrgZ.png
+  [2]: https://i.stack.imgur.com/KxINm.png
+  [3]: https://i.stack.imgur.com/zl18T.png
+  [4]: https://i.stack.imgur.com/LdDt6.png
+  [5]: https://i.stack.imgur.com/6vvaB.png
+  [6]: https://i.stack.imgur.com/TapuZ.png
+  [7]: https://i.stack.imgur.com/0iAYO.png
+  [8]: https://i.stack.imgur.com/RYqsg.png
+  [9]: https://i.stack.imgur.com/we0EY.png
+  [10]: https://i.stack.imgur.com/hYuiS.png
+  [11]: https://i.stack.imgur.com/W5zOm.png
+  [12]: https://i.stack.imgur.com/CzxLw.png
+  [13]: https://i.stack.imgur.com/nSPly.png
+  [14]: https://i.stack.imgur.com/KWD9s.png
+  [15]: https://i.stack.imgur.com/qeMr4.png
+  [16]: https://i.stack.imgur.com/Kwn6s.png
