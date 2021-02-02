@@ -15,8 +15,9 @@ wget --mirror -p --convert-links -P ./LOCAL-DIR WEBSITE-URL
     -P ./LOCAL-DIR : save all the files and directories to the specified directory.
 
 
+WachiEjemplo:
 
-wget --mirror -p --convert-links -P ./home/wachin/websites/idratherbewriting.com https://idratherbewriting.com/
+wget --mirror -p --convert-links -P /home/wachin/Descargas/Web-Wget-Descargadas/ http://biofarmin.com
 
 
-file:///home/wachin/websites/idratherbewriting.com
+

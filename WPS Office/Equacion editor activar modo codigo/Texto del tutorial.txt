@@ -1,0 +1,122 @@
+
+WPS Office no tiene la herramienta para el Editor de ecuaciones como lo hace en Windows
+
+En el software Windows Equation Editor, los archivos ejecutables .exe están dentro de esta ruta:
+
+C: \ Users \ yourusername \ AppData \ Local \ Kingsoft \ WPS Office \ 11.2.0.9906 \ office6 \ mui \ default \ resource \ ksee
+
+ksee camino
+
+Nota: Necesita habilitar la vista de archivos y carpetas ocultos en Windows para encontrar esa ruta.
+
+hay la siguiente carpeta y archivos:
+
+Fuentes
+
+ee3.dsc
+
+EqnEdit.exe
+
+Editor de ecuaciones.chm
+
+Nota: puede abrir el archivo de ayuda de Windows en Linux con: xchm o kchmviewer
+
+En la siguiente imagen en Linux tengo esa carpeta de la versión de Windows de WPS Office con el ejecutable:
+
+EqnEdit.exe
+
+trabajando Linux con vino
+
+Nota: Puede obtenerlo en Windows si ha instalado WPS Office. Busca en ese camino.
+
+Este software fue hecho para:
+
+http://www.dessci.com
+
+Nota: no sé si en el futuro le piden a esa empresa que haga una versión para Linux
+
+Puede ejecutar esto en Linux con wine, pero la fórmula generada no se puede insertar en WPS Writer y esta herramienta no tiene ninguna forma de exportar en el archivo el lenguaje de la fórmula del código de contenido para ver el código. Pero hay una manera de ingresar eso en la versión de WPS Office Linux con código:
+
+Ingrese la fracción y el número radical en WPS Office Writer habilitando el código de campo de ecuación
+
+De acuerdo con este tutorial: http://help.wps.com/articles/how-to-enter-fraction-and-radical-number-in-writer para habilitar los códigos de campo de alternancia, debe usar el acceso directo:
+
+Ctrl + F9
+
+ahora aparecen los siguientes:
+
+Ctrl + 9
+
+luego en el campo generado ingrese (o pegue pero sin formato):
+
+eq \ f (3,4)
+
+A continuación, haga clic con el botón derecho del mouse y seleccione "Alternar códigos de campo" en el menú contextual:
+
+Alternar códigos de campo
+
+ahora vea una fracción:
+
+Fracción
+
+Y en esa página web decía el siguiente ejemplo:
+
+ejemplo help.wps.com
+
+para hacer eso ingrese:
+
+eq \ r (3,2)
+
+con clic derecho:
+
+clic derecho
+
+y editar:
+
+editar para escribir: eq \ r (3,2)
+
+y aparecen:
+
+[Aparece eq \ r (3,2)
+
+Voy a ingresar esto en el mismo lugar:
+
+eq \ f (3,4) eq \ r (3,2)
+
+agregar otra fórmula
+
+y aparecen repetidos "eq":
+
+aparecer repetir eq
+
+por eso borra esta segunda palabra:
+
+eq \ f (3,4) \ r (3,2)
+
+entonces sí
+
+y ahora ok:
+
+Okay
+
+Ahora hago otro ejemplo:
+
+eq × = \ f (13 × 7,201 ÷ 6) ÷ \ r (4, 2 ÷ 3)
+
+Fórmula 4
+
+Y alternar códigos de campo:
+
+Fórmula 5
+
+Para hacer eso, inserto símbolos × y ÷ con esa herramienta en WPS Office:
+
+Herramienta de símbolo
+
+¿El resto de códigos?
+
+No sé el idioma en el que están escritos estos códigos, he intentado buscar en la web un manual para poder escribir las fórmulas en código pero no lo encuentro por ningún lado. De momento lo que voy a hacer es escribirles a los desarrolladores porque ahí en esa página dice que se pueden escribir:
+
+Escribiendo a desarrolladores
+
+Si conoces los códigos ayúdanos 
