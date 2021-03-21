@@ -1,0 +1,40 @@
+
+
+EJEMPLO #1
+
+Tengo el siguiente archivo de texto en la siguiente ruta:
+
+/home/wachin/Dropbox/UbuntuManuales/Acceso-directo/Crear un acceso directo en linux.txt
+
+y quiero crear un enlace simbólico a la siguiente carpeta:
+
+/home/wachin/Dropbox/UbuntuManuales/Terminal/
+
+Solución
+
+ln -s (Lugar donde existe físicamente el objetivo o blanco) (Destino, nombre del enlace simbólico a crear)
+
+ln -s "/home/wachin/Dropbox/UbuntuManuales/Acceso-directo/Crear un acceso directo en linux.txt" /home/wachin/Dropbox/UbuntuManuales/Terminal/
+
+
+EJEMPLO #2
+
+Estoy compilando Ksnip desde código fuente y el ejecutable lanzador de la aplicación es compilado en /usr/local/bin/ y no en /usr/bin/ así que por esa razón debo allí crear un enlace directo para que al crear un deb con ese ejecutable se pueda lanzar.
+
+Solución:
+
+sudo ln -s /usr/local/bin/ksnip /usr/bin/ksnip
+
+Nota: No en todas las compilaciones el lanzador es creado en /usr/local/bin/ksnip
+
+
+
+
+
+
+
+
+VISTO EN:
+
+wachin@Dell-Inspiron-1750:~$ ln --help
+

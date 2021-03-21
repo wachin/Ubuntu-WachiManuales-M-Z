@@ -22,6 +22,8 @@ donde dice que hay que poner así:
 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 425956BB3E31DF51
 
+
+
 y funcionó
 
 

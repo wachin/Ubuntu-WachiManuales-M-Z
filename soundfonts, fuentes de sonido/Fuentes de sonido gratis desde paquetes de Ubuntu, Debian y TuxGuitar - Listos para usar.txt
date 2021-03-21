@@ -1,6 +1,8 @@
 
 
-Fuentes de sonido gratis desde paquetes de Ubuntu, Debian y TuxGuitar - Listos para usar
+
+Fuentes de sonido (SoundFonts) gratis desde paquetes de Ubuntu, Debian, Deepin Linux y TuxGuitar - Listos para usar ~ Proyecto Facilitar el Software Libre en el Ecuador
+https://facilitarelsoftwarelibre.blogspot.com/2019/11/fuentes-de-sonido-soundfonts-gratuitas.html
 
 Las siguientes son fuentes de sonido (SoundFonts) listas para usar, digo esto porque hay otras que vienen comprimidas y es todo un trámite descomprimirlas para poderlas usar.
 

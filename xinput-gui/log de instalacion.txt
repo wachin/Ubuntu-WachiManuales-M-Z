@@ -1,0 +1,103 @@
+sudo python3 setup.py install
+running install
+running bdist_egg
+running egg_info
+writing xinput_gui.egg-info/PKG-INFO
+writing dependency_links to xinput_gui.egg-info/dependency_links.txt
+writing entry points to xinput_gui.egg-info/entry_points.txt
+writing requirements to xinput_gui.egg-info/requires.txt
+writing top-level names to xinput_gui.egg-info/top_level.txt
+reading manifest file 'xinput_gui.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'xinput_gui.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-i686/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/xinput_gui
+copying xinput_gui/settings.py -> build/lib/xinput_gui
+copying xinput_gui/__init__.py -> build/lib/xinput_gui
+copying xinput_gui/__main__.py -> build/lib/xinput_gui
+creating build/lib/xinput_gui/gui
+copying xinput_gui/gui/dialog_create_master.py -> build/lib/xinput_gui/gui
+copying xinput_gui/gui/dialog_edit.py -> build/lib/xinput_gui/gui
+copying xinput_gui/gui/dialog_device_info.py -> build/lib/xinput_gui/gui
+copying xinput_gui/gui/dialog_about.py -> build/lib/xinput_gui/gui
+copying xinput_gui/gui/__init__.py -> build/lib/xinput_gui/gui
+copying xinput_gui/gui/dialog_reattach.py -> build/lib/xinput_gui/gui
+copying xinput_gui/gui/win_main.py -> build/lib/xinput_gui/gui
+copying xinput_gui/gui/win_settings.py -> build/lib/xinput_gui/gui
+creating build/lib/xinput_gui/xinput
+copying xinput_gui/xinput/xinput.py -> build/lib/xinput_gui/xinput
+copying xinput_gui/xinput/devices.py -> build/lib/xinput_gui/xinput
+copying xinput_gui/xinput/__init__.py -> build/lib/xinput_gui/xinput
+creating build/lib/xinput_gui/res
+copying xinput_gui/res/xinput-gui.ui -> build/lib/xinput_gui/res
+copying xinput_gui/res/config.json -> build/lib/xinput_gui/res
+creating build/bdist.linux-i686
+creating build/bdist.linux-i686/egg
+creating build/bdist.linux-i686/egg/xinput_gui
+copying build/lib/xinput_gui/settings.py -> build/bdist.linux-i686/egg/xinput_gui
+creating build/bdist.linux-i686/egg/xinput_gui/res
+copying build/lib/xinput_gui/res/xinput-gui.ui -> build/bdist.linux-i686/egg/xinput_gui/res
+copying build/lib/xinput_gui/res/config.json -> build/bdist.linux-i686/egg/xinput_gui/res
+creating build/bdist.linux-i686/egg/xinput_gui/xinput
+copying build/lib/xinput_gui/xinput/xinput.py -> build/bdist.linux-i686/egg/xinput_gui/xinput
+copying build/lib/xinput_gui/xinput/devices.py -> build/bdist.linux-i686/egg/xinput_gui/xinput
+copying build/lib/xinput_gui/xinput/__init__.py -> build/bdist.linux-i686/egg/xinput_gui/xinput
+creating build/bdist.linux-i686/egg/xinput_gui/gui
+copying build/lib/xinput_gui/gui/dialog_create_master.py -> build/bdist.linux-i686/egg/xinput_gui/gui
+copying build/lib/xinput_gui/gui/dialog_edit.py -> build/bdist.linux-i686/egg/xinput_gui/gui
+copying build/lib/xinput_gui/gui/dialog_device_info.py -> build/bdist.linux-i686/egg/xinput_gui/gui
+copying build/lib/xinput_gui/gui/dialog_about.py -> build/bdist.linux-i686/egg/xinput_gui/gui
+copying build/lib/xinput_gui/gui/__init__.py -> build/bdist.linux-i686/egg/xinput_gui/gui
+copying build/lib/xinput_gui/gui/dialog_reattach.py -> build/bdist.linux-i686/egg/xinput_gui/gui
+copying build/lib/xinput_gui/gui/win_main.py -> build/bdist.linux-i686/egg/xinput_gui/gui
+copying build/lib/xinput_gui/gui/win_settings.py -> build/bdist.linux-i686/egg/xinput_gui/gui
+copying build/lib/xinput_gui/__init__.py -> build/bdist.linux-i686/egg/xinput_gui
+copying build/lib/xinput_gui/__main__.py -> build/bdist.linux-i686/egg/xinput_gui
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/settings.py to settings.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/xinput/xinput.py to xinput.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/xinput/devices.py to devices.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/xinput/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/gui/dialog_create_master.py to dialog_create_master.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/gui/dialog_edit.py to dialog_edit.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/gui/dialog_device_info.py to dialog_device_info.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/gui/dialog_about.py to dialog_about.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/gui/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/gui/dialog_reattach.py to dialog_reattach.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/gui/win_main.py to win_main.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/gui/win_settings.py to win_settings.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-i686/egg/xinput_gui/__main__.py to __main__.cpython-37.pyc
+creating build/bdist.linux-i686/egg/EGG-INFO
+copying xinput_gui.egg-info/PKG-INFO -> build/bdist.linux-i686/egg/EGG-INFO
+copying xinput_gui.egg-info/SOURCES.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying xinput_gui.egg-info/dependency_links.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying xinput_gui.egg-info/entry_points.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying xinput_gui.egg-info/requires.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying xinput_gui.egg-info/top_level.txt -> build/bdist.linux-i686/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/xinput_gui-0.3.1-py3.7.egg' and adding 'build/bdist.linux-i686/egg' to it
+removing 'build/bdist.linux-i686/egg' (and everything under it)
+Processing xinput_gui-0.3.1-py3.7.egg
+Copying xinput_gui-0.3.1-py3.7.egg to /usr/local/lib/python3.7/dist-packages
+Adding xinput-gui 0.3.1 to easy-install.pth file
+Installing xinput-gui script to /usr/local/bin
+
+Installed /usr/local/lib/python3.7/dist-packages/xinput_gui-0.3.1-py3.7.egg
+Processing dependencies for xinput-gui==0.3.1
+Searching for PyGObject==3.30.4
+Best match: PyGObject 3.30.4
+Adding PyGObject 3.30.4 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for pycairo==1.16.2
+Best match: pycairo 1.16.2
+Adding pycairo 1.16.2 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Finished processing dependencies for xinput-gui==0.3.1
+
