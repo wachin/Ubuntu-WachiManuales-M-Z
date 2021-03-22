@@ -1,0 +1,31 @@
+[Added Associations]
+application/x-shellscript=mousepad.desktop;userapp-bash-863XKY.desktop;
+text/plain=geany.desktop;gedit.desktop;
+application/x-theme=mousepad.desktop;
+image/png=geeqie.desktop;
+image/jpeg=geeqie.desktop;userapp-dolphin4-T0XKNY.desktop;
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
+inode/directory=exo-file-manager.desktop
+x-scheme-handler/trash=exo-file-manager.desktop
+x-scheme-handler/apt=gnome-software-local-file.desktop;
+video/mp4=vlc.desktop;
+application/wps-office.xls=wps-office-et.desktop;
+audio/mpeg=wine-Programs-MediaInfo.desktop;puddletag.desktop;audacious.desktop;
+image/svg+xml=inkscape.desktop;
+video/ogg=audacious.desktop;
+
+[Default Applications]
+image/jpeg=geeqie.desktop
+x-scheme-handler/apt=gnome-software-local-file.desktop
+x-scheme-handler/tg=telegramdesktop.desktop
+video/mp4=vlc.desktop
+application/wps-office.xls=wps-office-et.desktop
+image/png=geeqie.desktop
+text/plain=geany.desktop
+audio/mpeg=audacious.desktop
+image/svg+xml=inkscape.desktop
+video/ogg=audacious.desktop
+
+[Removed Associations]
+video/ogg=userapp-env-DJLNTY.desktop;

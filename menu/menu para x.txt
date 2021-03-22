@@ -1,0 +1,16 @@
+
+el paguete menu tiene este comando: update-menus
+
+al ponerlo da:
+
+wachin@wachin:~$ update-menus
+/etc/menu-methods/jwm-menu: 3: /etc/menu-methods/jwm-menu: [[: not found
+/etc/menu-methods/jwm-menu: 4: /etc/menu-methods/jwm-menu: [[: not found
+/etc/menu-methods/jwm-menu: 5: /etc/menu-methods/jwm-menu: [[: not found
+/etc/menu-methods/jwm-menu: 6: /etc/menu-methods/jwm-menu: [[: not found
+rm: no se puede borrar '/home/wachin/.config/menus/debian-menu.menu 
+
+
+esto me parece interesante, hay un menu debian que debería haberse generado
+
+.config/menus/debian-menu.menu 

@@ -1,0 +1,27 @@
+
+
+Cómo ver metadatos de archivos: docx, xlsx, PDF, png, jpg, etc en Linux con ExifTool
+
+INSTRUCCIONES:
+Para instalar ExifTool poner en la terminal:
+
+sudo apt-get install libimage-exiftool-perl
+
+MODO DE USO
+
+En una terminal ubíquese en la ruta donde el archivo que usted quiere verificar y ponga así, ejemplo:
+
+
+exiftool mi_archivo.pdf
+
+
+y en la salida le dará los resultados
+
+
+CONSULTAS:
+
+Linux: Command to View/Delete Metadata in Image Files
+http://xahlee.info/img/metadata_in_image_files.html
+
+ExifTool Command-Line Examples
+https://owl.phy.queensu.ca/~phil/exiftool/examples.html

@@ -1,0 +1,16 @@
+
+
+
+https://community-packages.deepin.com/deepin/pool/main/d/deepin-keyring/
+
+
+Para añadirlos, pero causan problemas:
+
+https://facilitarelsoftwarelibre.blogspot.com/2021/03/como-anadir-los-repositorios-de-deepin.html
+
+
+
+https://community-packages.deepin.com/deepin/archives/deepin-wallpapers_1.6.14.orig.tar.xz
+
+
+

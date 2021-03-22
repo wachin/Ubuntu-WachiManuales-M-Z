@@ -1,0 +1,16 @@
+
+
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-automake-1.13.patch
+
+
+
+
+
+
+
+
+HowTo Apply a Patch File To My Linux / UNIX Source Code - nixCraft
+https://www.cyberciti.biz/faq/appy-patch-file-using-patch-command/
+
+
+

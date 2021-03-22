@@ -1,0 +1,20 @@
+
+
+1.- Abrir Zotero
+
+2.- Sincronizar zotero
+
+3.- clic en 
+
+Editar/Preferencias
+
+en la sección: "Avanzadas" dar clic en la pestaña:"Archivos y Carpetas" y clic en: "Mostrar el directorio de datos" allí está:
+
+zotero.sqlite
+
+4.- Abrir mendeley, poner los datos de usuario y clic en "Tools/Options" allí en la pestaña:"Zotero" marcar "Zotero integration" y buscar esa base de datos
+
+
+
+Where Is Your Zotero Data Stored
+https://www.youtube.com/watch?v=ojGpFsRkqp
