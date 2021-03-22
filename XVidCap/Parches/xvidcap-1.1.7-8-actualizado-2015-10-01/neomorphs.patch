@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>neomorphs.patch - aur.git - AUR Package Repositories</title>
+<meta name='generator' content='cgit v1.2.3-2-g540e'/>
+<meta name='robots' content='index, nofollow'/>
+<link rel='stylesheet' type='text/css' href='/css/cgit.css'/>
+<link rel='shortcut icon' href='/images/favicon.ico'/>
+<link rel='alternate' title='Atom feed' href='https://aur.archlinux.org/cgit/aur.git/atom/neomorphs.patch?h=xvidcap' type='application/atom+xml'/>
+<link rel='vcs-git' href='https://aur.archlinux.org/xvidcap.git/' title='aur.git Git repository'/>
+</head>
+<body>
+		<div id="archnavbar" class="anb-aur">
+			<div id="archnavbarlogo"><h1><a href="/" title="Return to the main page">Arch Linux User Repository</a></h1></div>
+			<div id="archnavbarmenu">
+				<ul id="archnavbarlist">
+					<li id="anb-home"><a href="https://www.archlinux.org/" title="Arch news, packages, projects and more">Home</a></li>
+					<li id="anb-packages"><a href="https://www.archlinux.org/packages/" title="Arch Package Database">Packages</a></li>
+					<li id="anb-forums"><a href="https://bbs.archlinux.org/" title="Community forums">Forums</a></li>
+					<li id="anb-wiki"><a href="https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+					<li id="anb-bugs"><a href="https://bugs.archlinux.org/" title="Report and track bugs">Bugs</a></li>
+					<li id="anb-security"><a href="https://security.archlinux.org/" title="Arch Linux Security Tracker">Security</a></li>
+					<li id="anb-aur"><a href="/" title="Arch Linux User Repository">AUR</a></li>
+					<li id="anb-download"><a href="https://www.archlinux.org/download/" title="Get Arch Linux">Download</a></li>
+				</ul>
+			</div>
+		</div><!-- #archnavbar -->
+<div id='cgit'><table id='header'>
+<tr>
+<td class='main'>AUR : xvidcap.git</td></tr>
+<tr><td class='sub'>AUR Package Repositories | click <a href='/pkgbase/xvidcap/'>here</a> to return to the package base details page</td><td class='sub right'></td></tr></table>
+<table class='tabs'><tr><td>
+<a href='/cgit/aur.git/?h=xvidcap'>summary</a><a href='/cgit/aur.git/log/neomorphs.patch?h=xvidcap'>log</a><a class='active' href='/cgit/aur.git/tree/neomorphs.patch?h=xvidcap'>tree</a><a href='/cgit/aur.git/commit/neomorphs.patch?h=xvidcap'>commit</a><a href='/cgit/aur.git/diff/neomorphs.patch?h=xvidcap'>diff</a><a href='/cgit/aur.git/stats/neomorphs.patch?h=xvidcap'>stats</a></td><td class='form'><form class='right' method='get' action='/cgit/aur.git/log/neomorphs.patch'>
+<input type='hidden' name='h' value='xvidcap'/><select name='qt'>
+<option value='grep'>log msg</option>
+<option value='author'>author</option>
+<option value='committer'>committer</option>
+<option value='range'>range</option>
+</select>
+<input class='txt' type='search' size='10' name='q' value=''/>
+<input type='submit' value='search'/>
+</form>
+</td></tr></table>
+<div class='path'>path: <a href='/cgit/aur.git/tree/?h=xvidcap'>root</a>/<a href='/cgit/aur.git/tree/neomorphs.patch?h=xvidcap'>neomorphs.patch</a></div><div class='content'>blob: d885bd7b8c845b6d211f2c2a10cc29a2c23f8e49 (<a href='/cgit/aur.git/plain/neomorphs.patch?h=xvidcap'>plain</a>)
+<table summary='blob content' class='blob'>
+<tr><td class='linenumbers'><pre><a id='n1' href='#n1'>1</a>
+<a id='n2' href='#n2'>2</a>
+<a id='n3' href='#n3'>3</a>
+<a id='n4' href='#n4'>4</a>
+<a id='n5' href='#n5'>5</a>
+<a id='n6' href='#n6'>6</a>
+<a id='n7' href='#n7'>7</a>
+<a id='n8' href='#n8'>8</a>
+<a id='n9' href='#n9'>9</a>
+<a id='n10' href='#n10'>10</a>
+<a id='n11' href='#n11'>11</a>
+<a id='n12' href='#n12'>12</a>
+<a id='n13' href='#n13'>13</a>
+<a id='n14' href='#n14'>14</a>
+<a id='n15' href='#n15'>15</a>
+<a id='n16' href='#n16'>16</a>
+<a id='n17' href='#n17'>17</a>
+<a id='n18' href='#n18'>18</a>
+<a id='n19' href='#n19'>19</a>
+<a id='n20' href='#n20'>20</a>
+<a id='n21' href='#n21'>21</a>
+<a id='n22' href='#n22'>22</a>
+<a id='n23' href='#n23'>23</a>
+</pre></td>
+<td class='lines'><pre><code>diff -Naur xvidcap-1.1.7i-src/configure xvidcap-1.1.7/configure
+<span class="hl kwa">--- xvidcap-1.1.7-src/configure 2008-07-09 09:28:25.000000000 +0200</span>
+<span class="hl kwb">+++ xvidcap-1.1.7/configure 2012-07-08 13:19:46.702518044 +0200</span>
+<span class="hl kwd">&#64;&#64; -11,6 +11,8 &#64;&#64;</span>
+ ## M4sh Initialization. ##
+ ## --------------------- ##
+
+<span class="hl kwb">+LIBS=&quot;$LIBS -lX11 -lz -lXext&quot;</span>
+<span class="hl kwb">+</span>
+ # Be more Bourne compatible
+ DUALCASE=1; export DUALCASE # for MKS sh
+ if test -n &quot;${ZSH_VERSION+set}&quot; &amp;&amp; (emulate sh) &gt;/dev/null 2&gt;&amp;1; then
+diff -Naur xvidcap-1.1.7-src/src/xvidcap-client-bindings.h xvidcap-1.1.7/src/xvidcap-client-bindings.h
+<span class="hl kwa">--- xvidcap-1.1.7-src/src/xvidcap-client-bindings.h 2008-07-12 17:14:00.000000000 +0200</span>
+<span class="hl kwb">+++ xvidcap-1.1.7/src/xvidcap-client-bindings.h 2012-07-08 13:20:07.339183772 +0200</span>
+<span class="hl kwd">&#64;&#64; -1,7 +1,6 &#64;&#64;</span>
+ /* Generated by dbus-binding-tool; do not edit! */
+
+<span class="hl kwa">-#include &lt;glib/gtypes.h&gt;</span>
+<span class="hl kwa">-#include &lt;glib/gerror.h&gt;</span>
+<span class="hl kwb">+#include &lt;glib.h&gt;</span>
+ #include &lt;dbus/dbus-glib.h&gt;
+ 
+</code></pre></td></tr></table>
+</div> <!-- class=content -->
+<div id="footer">
+	<p>
+		Copyright &copy; 2004-2020 aurweb Development Team &ndash;
+		<strong>AUR packages are user produced content. Any use of the provided files is at your own risk.</strong>
+	</p>
+</div>
+</div> <!-- id=cgit -->
+</body>
+</html>
