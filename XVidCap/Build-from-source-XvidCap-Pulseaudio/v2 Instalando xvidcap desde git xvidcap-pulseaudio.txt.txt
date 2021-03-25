@@ -21,7 +21,8 @@ porque los originales apuntan a un sistema operativo anterior, y para que funcio
 
 DEPENDENCIAS:
 
-sudo apt install libglade2-dev libxmu-dev docbook-utils docbook-to-man docbook2x gnome-doc-utils libxml-perl
+sudo apt install libglade2-dev libxmu-dev docbook-utils docbook-to-man docbook2x gnome-doc-utils libxml-perl libavcodec-dev libflac-dev libdbus-glib-1-dev
+
 
 descargar:
 
@@ -53,19 +54,25 @@ Ahora si Compilarlo así:
 
 
 autoreconf --install
-LIBS="-lXext -lX11" ./configure --with-x --enable-libmp3lame --without-forced-embedded-ffmpeg
+LIBS="-lXext -lX11" ./configure --with-x --enable-libmp3lame --enable-libtheora --without-forced-embedded-ffmpeg
+
+LIBS="-lXext -lX11" ./configure --enable-libmp3lame --enable-libtheora --without-forced-embedded-ffmpeg
+
 make
 sudo make install
 
 
-sudo apt install libdbus-glib-1-dev
-
 
 ************************************************************
-
+<br> <br/>
 pero hay un problema, se crea sin audio, para reparar eso poner:
 
 
+padsp xvidcap --audio yes --cap_geometry 1280x720[+200+200] --fps 30 --quality 100 --file "Su video.mov"
+
+Soporte para audio no presente en este binario.
+
+xvidcap audio support is not present in this binary
 
 
 

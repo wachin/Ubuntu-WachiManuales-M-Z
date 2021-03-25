@@ -1,0 +1,71 @@
+/dev/dsp is OSS. 
+
+You can try starting XVidCap from command line like this: aoss xvidcap
+If I need to run OSS based apps, however, I load the oss modules like this (as root): 
+
+sudo modprobe snd-pcm-oss 
+
+
+Alsa-oss is, in my experience, a bit slow to respond and so you might get synch problems. 
+
+Tal vez si después de cargar el módulo cambio en xvidcap de
+
+/dev/dsp
+
+a:
+
+/dev/snd
+
+A ver qué pasaría 
+
+
+https://forums.opensuse.org/showthread.php/479366-Desktop-recording-(12-2-KDE)
+
+
+
+
+Un señor dice:
+
+This gives me sound in ALSA applications. Now I want to run an old program that needs OSS, so I installed
+
+alsa-oss
+ 
+and did 
+
+sudo modprobe snd-pcm-oss snd-mixer-oss
+
+When I run the old program, I get sound, but only from the analog line out, not from HDMI, so the OSS emulation uses the first card.
+
+How can I tell the OSS emulation to use the second card instead?
+
+https://superuser.com/questions/1003665/how-to-select-which-sound-output-device-to-use-for-dev-dsp-oss-emulation
+
+
+
+
+Hi guys !
+I recently updated my pi (around March 10th).
+I was using alsa-oss, loading modules snd-mixer-oss & snd-pcm-oss.
+It seems that since this upgrade I can't use/load these modules anymore :
+modprobe: FATAL: Module snd-mixer-oss not found.
+modprobe: FATAL: Module snd-pcm-oss not found.
+Does it make sense ? Can you help me ?
+
+Best Regards
+Pete
+
+
+
+
+Sun Apr 08, 2018 4:42 am
+I installed osspd-alsa and the performance is back to where it was before the upgrade.
+
+
+https://www.raspberrypi.org/forums/posting.php?mode=quote&f=29&p=1285039&sid=2dc1c7097d9ce18e56b15ec8a50b1dd1
+
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=207875
+
+
+
+

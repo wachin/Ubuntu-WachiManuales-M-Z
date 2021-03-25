@@ -1,0 +1,43 @@
+vidcap --help
+
+Usage: xvidcap, ver 1.1.4p1, (c) rasca, berlin 1997,98,99, khb (c) 2003 - 06
+[--fps #.#] frames per second (float)
+[--verbose #] verbose level, '-v' is --verbose 1
+[--time #.#] time to record in seconds (float)
+[--frames #] frames to record, don't use it with --time
+[--continue [yes|no]] autocontinue after maximum frames/time
+[--cap_geometry #x#[+#+#]] size of the capture window (WIDTHxHEIGHT+X+Y)
+[--rescale #] relative output size in percent compared to input (1-100)
+[--quality #] recording quality (1-100)
+[--start_no #] start number for the file names
+[--source ] select input source: x11, shm
+[--file ] file pattern, e.g. out%03d.xwd
+[--gui [yes|no]] turn on/off gui
+[--sf|--mf] request single-frame or multi-frame capture mode
+[--auto] cause auto-detection of output format, video-, and audio codec
+[--codec ] specify codec to use for multi-frame capture
+[--codec-help] list available codecs for multi-frame capture
+[--format ] specify file format to override the extension in the filename
+[--format-help] list available file formats
+[--aucodec ] specify audio codec to use for multi-frame capture
+[--aucodec-help] list available audio codecs for multi-frame capture
+[--audio [yes|no]] turn on/off audio capture
+[--audio_in ] specify audio input device or '-' for pipe input
+[--audio_rate #] sample rate for audio capture
+[--audio_bits #] bit rate for audio capture
+[--audio_channels #] number of audio channels
+Supported output formats:
+ X11 Window Dump                         (.xwd)
+ Portable Graymap File                   (.pgm)
+ Portable Anymap File                    (.ppm)
+ Portable Network Graphics File          (.png)
+ Joint Picture Expert Group              (.jpg, .jpeg)
+ Microsoft Audio Video Interleaved File  (.avi)
+ General AVI file (DIVX default)         (.mpeg, .mpg)
+ Microsoft Advanced Streaming Format     (.asf)
+ Macromedia Flash Video Stream           (.flv, .flv1)
+ Macromedia Shockwave Flash File         (.swf)
+ DV Video Format                         (.dv)
+ MPEG1 System Format                     (.m1v, .vcd)
+ MPEG2 PS Format                         (.m2v, .svcd)
+ Quicktime Format                        (.mov, .qt)

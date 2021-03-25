@@ -2,10 +2,24 @@
 
 patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-automake-1.13.patch
 
+patch xvidcap-1.1.7.tar.gz < 
 
 
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-build.patch
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-configure.patch
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-freedesktop.patch
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-headers.patch
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-libav.patch
 
 
+patch --verbose --dry-run --ignore-whitespace --fuzz 3 xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-build.patch
+
+patch -Np1 --ignore-whitespace -d xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-build.patch
+
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-configure.patch
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-freedesktop.patch
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-headers.patch
+patch xvidcap-1.1.7.tar.gz < xvidcap-1.1.7-alt-libav.patch
 
 
 

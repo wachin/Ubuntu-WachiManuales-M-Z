@@ -1,0 +1,14 @@
+
+
+
+
+
+You can use git am, for example
+
+$ git am *.patch
+
+For all available options, checkout the man page.
+
+
+repository - how to apply multiple git patches in one shot - Stack Overflow
+https://stackoverflow.com/a/20556774
