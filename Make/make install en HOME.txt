@@ -1,0 +1,102 @@
+
+I tried the above solutions. None worked.
+
+In the end I opened Makefile file and manually changed prefix path to desired installation path like below.
+
+PREFIX ?= "installation path"
+
+When I tried --prefix, "make" complained that there is not such command input. However, perhaps some packages accepts --prefix which is of course a cleaner solution.
+
+linux - Make install, but not to default directories? - Stack Overflow
+https://stackoverflow.com/a/50007281
+
+
+
+FUNCIONA:
+
+
+AÑADIR A:
+
+.bashrc
+
+lo siguiente:
+
+
+export PATH=$HOME/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/lib/:$LD_LIBRARY_PATH
+
+
+y guardar y reiniciar
+
+
+
+Abrír el Makefile
+
+ejemplo:
+
+/home/wachin/github-wachi_builds/screencast/Makefile
+
+
+de:
+
+https://github.com/dbermond/screencast
+
+
+por defecto tenía así:
+
+
+# install directories
+PREFIX   := /usr/local
+CONFDIR  := /etc
+BINDIR   := $(PREFIX)/bin
+DATADIR  := $(PREFIX)/share
+DOCDIR   := $(DATADIR)/doc
+MANDIR   := $(DATADIR)/man
+BCOMPDIR := $(DATADIR)/bash-completion/completions
+
+
+
+debo crear una carpeta con el nombre en este caso:
+
+/home/wachin/screencast/
+
+y lo dejé así:
+
+
+
+# install directories
+PREFIX   := /home/wachin/screencast/
+CONFDIR  := /etc
+BINDIR   := $(PREFIX)/bin
+DATADIR  := $(PREFIX)/share
+DOCDIR   := $(DATADIR)/doc
+MANDIR   := $(DATADIR)/man
+BCOMPDIR := $(DATADIR)/bash-completion/completions
+
+
+
+Luego si poner:
+
+make install
+
+Nota: No es necesario ponerle sudo al principio
+
+
+
+
+y para lanzarlo debo lanzarlo así desde una terminal:
+
+
+/home/wachin/screencast/bin/screencast
+
+
+y funciona
+
+
+
+
+
+
+
+
+

@@ -9,6 +9,21 @@ la versión para Jaunty
 
 Para que grabe sonido hay que poner en la terminal padsp antes de los comandos de trabajo en la terminal, así
 
+######################
+
+Instalar ALSA OSS
+
+sudo apt install alsa-oss 
+
+poner en la terminal:
+
+sudo modprobe snd-pcm-oss 
+
+y para lanzar ponga:
+
+
+#######################
+
 
 ***********                    
 720p 30 fps 
@@ -36,11 +51,37 @@ Con audio a 30 fps, calidad 100% y 480p en MOV
 
 padsp xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Suvideo.mov"
 
-/usr/bin/aoss xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Suvideo.mov"
+aoss xvidcap --audio yes --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Suvideo.mov"
+
+#################################################
 
 Con audio a 30 fps, calidad 100% y 480p en MPG
 
 padsp xvidcap --audio yes --audio_bits 128 --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file "Su video.mpg"
+
+aoss xvidcap --audio yes --audio_bits 128 --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file test-0000.mpeg
+
+aoss xvidcap --audio yes --audio_bits 128 --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file test-0000.avi
+
+aoss xvidcap --audio yes --audio_bits 128 --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file test-0000.mov
+
+
+aoss xvidcap --audio yes --source x11 --audio_bits 128 --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file test-0000.mov
+
+
+aoss xvidcap --audio yes --audio_bits 160 --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --codec mpeg4 --file "Su video.mpg"
+
+************************************************************
+Quitando que el video a veces al reproducirlo se distorciona
+************************************************************
+Quitando el comando:  --audio_bits 128 y dejando que el programa lo escoja automáticamente, se mejora, no se ha distorcionado:
+
+aoss xvidcap --audio yes --source x11 --cap_geometry 854x480[+200+200] --fps 30 --quality 100 --file test-0000.avi
+
+aoss xvidcap --audio yes --source x11 --cap_geometry 854x480[+200+200] --fps 30 --file test-0000.avi
+
+
+###############################################
 
 Con audio a 30 fps, calidad 100% y 480p en AVI
 
