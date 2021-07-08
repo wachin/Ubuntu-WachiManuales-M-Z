@@ -3,3 +3,8 @@ http://dannyman.toldme.com/2009/09/28/howto-ubuntu-xvidcap-audio-support/
 aquí dice que vayamos acá:
 
 https://sourceforge.net/projects/xvidcap/files/xvidcap/1.1.7/
+
+
+download 
+
+xvidcap 1.1.7jaunty i386.deb

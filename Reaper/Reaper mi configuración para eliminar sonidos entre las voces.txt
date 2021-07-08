@@ -1,0 +1,10 @@
+
+
+Reaper mi configuración para eliminar sonidos entre las voces
+
+Threshold  -21
+Hysteresis -17
+
+
+Cómo eliminar automáticamente los silencios de un vídeo - YouTube
+https://www.youtube.com/watch?v=GzMy0q6A-XE

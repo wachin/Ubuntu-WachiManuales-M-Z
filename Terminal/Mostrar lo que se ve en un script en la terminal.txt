@@ -1,0 +1,30 @@
+
+python - Is it possible to display the commands being executed when running a .sh script in the terminal - Stack Overflow
+https://stackoverflow.com/a/18179066/10648253
+
+
+Another option is to add set -x to the script where you would like execution to begin debugging. You can also use set +x to stop.
+
+Example:
+
+#!/bin/sh
+set -x
+echo "This will be debugged"
+set +x
+echo "This will not be debugged"
+
+
+
+******************************************************************+
+
+process - How can I see the exact command line being executed inside some bash instance? - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/a/159903/312968
+
+I know you found your own answer, but is there a reason you can't do something like this:
+
+(set -x; for f in 1 2 3 4 ; do  echo "$f"; sleep $f; done)
+
+Perhaps you can't co-mingle the output of the actual job and the output from bash showing the currently executing line.
+
+Also, FWIW, if you prefer verbosity, set -o xtrace.
+
